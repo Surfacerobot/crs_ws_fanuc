@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from region_detection_msgs/srv/ShowSelectableRegions.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseArray.idl"
+
+module region_detection_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " inputs")
+    struct ShowSelectableRegions_Request {
+      sequence<geometry_msgs::msg::PoseArray> selectable_regions;
+
+      boolean start_selected;
+    };
+    struct ShowSelectableRegions_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

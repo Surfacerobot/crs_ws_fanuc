@@ -1,0 +1,11 @@
+/root/crs_ws_fanuc/install/opw_kinematics/lib/cmake/opw_kinematics/opw_kinematics-targets.cmake
+/root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_io.h
+/root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_kinematics.h
+/root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_macros.h
+/root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_parameters.h
+/root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_parameters_examples.h
+/root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_kinematics_impl.h
+/root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_utilities.h
+/root/crs_ws_fanuc/install/opw_kinematics/share/opw_kinematics/package.xml
+/root/crs_ws_fanuc/install/opw_kinematics/lib/cmake/opw_kinematics/opw_kinematics-config.cmake
+/root/crs_ws_fanuc/install/opw_kinematics/lib/cmake/opw_kinematics/opw_kinematics-config-version.cmake

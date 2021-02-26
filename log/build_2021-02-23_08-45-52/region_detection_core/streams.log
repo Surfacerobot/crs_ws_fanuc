@@ -1,0 +1,142 @@
+[0.069s] Invoking command in '/root/crs_ws_fanuc/build/region_detection_core': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_tools:/root/crs_ws_fanuc/install/vhacd:/root/crs_ws_fanuc/install/crs_gui:/root/crs_ws_fanuc/install/crs_application:/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/crs_robot_comms:/root/crs_ws_fanuc/install/ur_dashboard_msgs:/root/crs_ws_fanuc/install/trajopt_sqp:/root/crs_ws_fanuc/install/trajopt_ifopt:/root/crs_ws_fanuc/install/tesseract_monitoring:/root/crs_ws_fanuc/install/tesseract_rosutils:/root/crs_ws_fanuc/install/tesseract_process_planners:/root/crs_ws_fanuc/install/tesseract_motion_planners:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/tesseract_visualization:/root/crs_ws_fanuc/install/tesseract:/root/crs_ws_fanuc/install/tesseract_urdf:/root/crs_ws_fanuc/install/tesseract_plugins:/root/crs_ws_fanuc/install/tesseract_environment:/root/crs_ws_fanuc/install/tesseract_collision:/root/crs_ws_fanuc/install/tesseract_support:/root/crs_ws_fanuc/install/tesseract_kinematics:/root/crs_ws_fanuc/install/tesseract_scene_graph:/root/crs_ws_fanuc/install/tesseract_msgs:/root/crs_ws_fanuc/install/tesseract_geometry:/root/crs_ws_fanuc/install/tesseract_common:/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:/root/crs_ws_fanuc/install/roscpp_scxml_demos:/root/crs_ws_fanuc/install/rclcpp_scxml_demos:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_rclcpp:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/region_detection_core:/root/crs_ws_fanuc/install/osqp_eigen:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/descartes_opw:/root/crs_ws_fanuc/install/opw_kinematics:/root/crs_ws_fanuc/install/octomap_msgs:/root/crs_ws_fanuc/install/fcl:/root/crs_ws_fanuc/install/libccd:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/ifopt:/root/crs_ws_fanuc/install/gtest:/root/crs_ws_fanuc/install/fanuc_resources:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/crs_toolpath_gen:/root/crs_ws_fanuc/install/crs_support:/root/crs_ws_fanuc/install/crs_process_data:/root/crs_ws_fanuc/install/crs_perception:/root/crs_ws_fanuc/install/crs_area_selection:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/crs_gazebo_plugins:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/root/crs_ws_fanuc/install/bullet3:/opt/qt513/lib/cmake: /usr/bin/cmake /root/crs_ws_fanuc/src/region_detection/region_detection_core -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/region_detection_core
+[0.207s] -- The CXX compiler identification is GNU 7.5.0
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++
+[0.388s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.389s] -- Detecting CXX compiler ABI info
+[0.542s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Detecting CXX compile features
+[1.226s] -- Detecting CXX compile features - done
+[1.418s] -- Boost version: 1.65.1
+[1.418s] -- Found the following Boost libraries:
+[1.419s] --   system
+[1.419s] --   filesystem
+[1.445s] -- Found OpenCV: /usr (found version "3.2.0") found components:  core imgproc imgcodecs highgui 
+[1.486s] -- Checking for module 'eigen3'
+[1.531s] --   Found eigen3, version 3.3.4
+[1.707s] -- Found eigen: /usr/include/eigen3  
+[1.906s] -- Looking for C++ include pthread.h
+[2.508s] -- Looking for C++ include pthread.h - found
+[2.508s] -- Looking for pthread_create
+[2.884s] -- Looking for pthread_create - not found
+[2.884s] -- Looking for pthread_create in pthreads
+[3.331s] -- Looking for pthread_create in pthreads - not found
+[3.332s] -- Looking for pthread_create in pthread
+[3.590s] -- Looking for pthread_create in pthread - found
+[3.591s] -- Found Threads: TRUE  
+[3.630s] -- Boost version: 1.65.1
+[3.631s] -- Found the following Boost libraries:
+[3.631s] --   system
+[3.631s] --   filesystem
+[3.631s] --   thread
+[3.631s] --   date_time
+[3.632s] --   iostreams
+[3.632s] --   serialization
+[3.632s] --   chrono
+[3.632s] --   atomic
+[3.632s] --   regex
+[3.635s] -- Checking for module 'flann'
+[3.690s] --   Found flann, version 1.9.1
+[3.877s] -- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+[3.900s] -- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+[3.901s] -- Checking for module 'libopenni'
+[3.953s] --   Found libopenni, version 1.5.4.0
+[4.154s] -- Found openni: /usr/lib/libOpenNI.so  
+[4.156s] -- Checking for module 'libopenni2'
+[4.224s] --   Found libopenni2, version 2.2.0.3
+[4.372s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[4.393s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[4.394s] ** WARNING ** io features related to ensenso will be disabled
+[4.411s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[4.411s] ** WARNING ** io features related to davidSDK will be disabled
+[4.413s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[4.413s] ** WARNING ** io features related to dssdk will be disabled
+[4.413s] ** WARNING ** io features related to pcap will be disabled
+[4.414s] ** WARNING ** io features related to png will be disabled
+[4.507s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[4.507s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[4.507s] but this file does not exist.  Possible reasons include:
+[4.508s] * The file was deleted, renamed, or moved to another location.
+[4.508s] * An install or uninstall procedure did not complete successfully.
+[4.508s] * The installation package was faulty and contained
+[4.508s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[4.508s] but not all the files it references.
+[4.508s] 
+[4.509s] -- The imported target "vtk" references the file
+[4.509s]    "/usr/bin/vtk"
+[4.509s] but this file does not exist.  Possible reasons include:
+[4.509s] * The file was deleted, renamed, or moved to another location.
+[4.509s] * An install or uninstall procedure did not complete successfully.
+[4.509s] * The installation package was faulty and contained
+[4.509s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[4.510s] but not all the files it references.
+[4.510s] 
+[4.685s] -- Found libusb-1.0: /usr/include  
+[4.685s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[4.787s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[4.797s] ** WARNING ** 2d features related to ensenso will be disabled
+[4.806s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[4.814s] ** WARNING ** 2d features related to davidSDK will be disabled
+[4.821s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[4.821s] ** WARNING ** 2d features related to dssdk will be disabled
+[4.821s] ** WARNING ** 2d features related to pcap will be disabled
+[4.821s] ** WARNING ** 2d features related to png will be disabled
+[4.885s] ** WARNING ** 2d features related to libusb-1.0 will be disabled
+[4.937s] -- looking for PCL_COMMON
+[4.939s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.939s] -- looking for PCL_KDTREE
+[4.941s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.941s] -- looking for PCL_OCTREE
+[4.943s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.943s] -- looking for PCL_SEARCH
+[4.945s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.945s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.947s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.947s] -- looking for PCL_FILTERS
+[4.949s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.949s] -- looking for PCL_SURFACE
+[4.951s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.951s] -- looking for PCL_GEOMETRY
+[4.952s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.8  
+[4.952s] -- looking for PCL_IO
+[4.955s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.956s] -- looking for PCL_2D
+[4.957s] -- Found PCL_2D: /usr/include/pcl-1.8  
+[4.957s] -- looking for PCL_FEATURES
+[4.959s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.959s] -- looking for PCL_ML
+[4.961s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.961s] -- looking for PCL_SEGMENTATION
+[4.963s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.009s] -- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_common.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_search.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_search.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/lib/x86_64-linux-gnu/libpcl_io.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_features.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_features.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava  
+[5.067s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[5.068s] -- Checking for module 'yaml-cpp'
+[5.190s] --   Found yaml-cpp, version 0.5.2
+[5.460s] -- Searching for log4cxx/logger.h
+[5.461s] -- Searching for libLog4cxx
+[5.465s] -- Found Log4cxx: /usr/lib/x86_64-linux-gnu/liblog4cxx.so  
+[5.475s] -- Configuring done
+[5.683s] -- Generating done
+[5.686s] -- Build files have been written to: /root/crs_ws_fanuc/build/region_detection_core
+[5.697s] Invoked command in '/root/crs_ws_fanuc/build/region_detection_core' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_tools:/root/crs_ws_fanuc/install/vhacd:/root/crs_ws_fanuc/install/crs_gui:/root/crs_ws_fanuc/install/crs_application:/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/crs_robot_comms:/root/crs_ws_fanuc/install/ur_dashboard_msgs:/root/crs_ws_fanuc/install/trajopt_sqp:/root/crs_ws_fanuc/install/trajopt_ifopt:/root/crs_ws_fanuc/install/tesseract_monitoring:/root/crs_ws_fanuc/install/tesseract_rosutils:/root/crs_ws_fanuc/install/tesseract_process_planners:/root/crs_ws_fanuc/install/tesseract_motion_planners:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/tesseract_visualization:/root/crs_ws_fanuc/install/tesseract:/root/crs_ws_fanuc/install/tesseract_urdf:/root/crs_ws_fanuc/install/tesseract_plugins:/root/crs_ws_fanuc/install/tesseract_environment:/root/crs_ws_fanuc/install/tesseract_collision:/root/crs_ws_fanuc/install/tesseract_support:/root/crs_ws_fanuc/install/tesseract_kinematics:/root/crs_ws_fanuc/install/tesseract_scene_graph:/root/crs_ws_fanuc/install/tesseract_msgs:/root/crs_ws_fanuc/install/tesseract_geometry:/root/crs_ws_fanuc/install/tesseract_common:/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:/root/crs_ws_fanuc/install/roscpp_scxml_demos:/root/crs_ws_fanuc/install/rclcpp_scxml_demos:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_rclcpp:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/region_detection_core:/root/crs_ws_fanuc/install/osqp_eigen:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/descartes_opw:/root/crs_ws_fanuc/install/opw_kinematics:/root/crs_ws_fanuc/install/octomap_msgs:/root/crs_ws_fanuc/install/fcl:/root/crs_ws_fanuc/install/libccd:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/ifopt:/root/crs_ws_fanuc/install/gtest:/root/crs_ws_fanuc/install/fanuc_resources:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/crs_toolpath_gen:/root/crs_ws_fanuc/install/crs_support:/root/crs_ws_fanuc/install/crs_process_data:/root/crs_ws_fanuc/install/crs_perception:/root/crs_ws_fanuc/install/crs_area_selection:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/crs_gazebo_plugins:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/root/crs_ws_fanuc/install/bullet3:/opt/qt513/lib/cmake: /usr/bin/cmake /root/crs_ws_fanuc/src/region_detection/region_detection_core -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/region_detection_core
+[5.703s] Invoking command in '/root/crs_ws_fanuc/build/region_detection_core': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_tools:/root/crs_ws_fanuc/install/vhacd:/root/crs_ws_fanuc/install/crs_gui:/root/crs_ws_fanuc/install/crs_application:/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/crs_robot_comms:/root/crs_ws_fanuc/install/ur_dashboard_msgs:/root/crs_ws_fanuc/install/trajopt_sqp:/root/crs_ws_fanuc/install/trajopt_ifopt:/root/crs_ws_fanuc/install/tesseract_monitoring:/root/crs_ws_fanuc/install/tesseract_rosutils:/root/crs_ws_fanuc/install/tesseract_process_planners:/root/crs_ws_fanuc/install/tesseract_motion_planners:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/tesseract_visualization:/root/crs_ws_fanuc/install/tesseract:/root/crs_ws_fanuc/install/tesseract_urdf:/root/crs_ws_fanuc/install/tesseract_plugins:/root/crs_ws_fanuc/install/tesseract_environment:/root/crs_ws_fanuc/install/tesseract_collision:/root/crs_ws_fanuc/install/tesseract_support:/root/crs_ws_fanuc/install/tesseract_kinematics:/root/crs_ws_fanuc/install/tesseract_scene_graph:/root/crs_ws_fanuc/install/tesseract_msgs:/root/crs_ws_fanuc/install/tesseract_geometry:/root/crs_ws_fanuc/install/tesseract_common:/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:/root/crs_ws_fanuc/install/roscpp_scxml_demos:/root/crs_ws_fanuc/install/rclcpp_scxml_demos:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_rclcpp:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/region_detection_core:/root/crs_ws_fanuc/install/osqp_eigen:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/descartes_opw:/root/crs_ws_fanuc/install/opw_kinematics:/root/crs_ws_fanuc/install/octomap_msgs:/root/crs_ws_fanuc/install/fcl:/root/crs_ws_fanuc/install/libccd:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/ifopt:/root/crs_ws_fanuc/install/gtest:/root/crs_ws_fanuc/install/fanuc_resources:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/crs_toolpath_gen:/root/crs_ws_fanuc/install/crs_support:/root/crs_ws_fanuc/install/crs_process_data:/root/crs_ws_fanuc/install/crs_perception:/root/crs_ws_fanuc/install/crs_area_selection:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/crs_gazebo_plugins:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/root/crs_ws_fanuc/install/bullet3:/opt/qt513/lib/cmake: /usr/bin/cmake --build /root/crs_ws_fanuc/build/region_detection_core -- -j8 -l8
+[6.003s] [35m[1mScanning dependencies of target adaptive_threshold_test[0m
+[6.006s] [35m[1mScanning dependencies of target threshold_grayscale_test[0m
+[6.037s] [35m[1mScanning dependencies of target region_detection_core[0m
+[6.039s] [35m[1mScanning dependencies of target threshold_in_range_test[0m
+[6.099s] [  9%] [32mBuilding CXX object CMakeFiles/threshold_grayscale_test.dir/src/tests/threshold_grayscale_test.cpp.o[0m
+[6.135s] [ 18%] [32mBuilding CXX object CMakeFiles/threshold_in_range_test.dir/src/tests/threshold_in_range_test.cpp.o[0m
+[6.151s] [ 27%] [32mBuilding CXX object CMakeFiles/adaptive_threshold_test.dir/src/tests/adaptive_threshold_test.cpp.o[0m
+[6.610s] [ 36%] [32mBuilding CXX object CMakeFiles/region_detection_core.dir/src/region_detector.cpp.o[0m
+[6.631s] [ 45%] [32mBuilding CXX object CMakeFiles/region_detection_core.dir/src/region_crop.cpp.o[0m
+[8.046s] [ 54%] [32m[1mLinking CXX executable adaptive_threshold_test[0m
+[8.054s] [ 63%] [32m[1mLinking CXX executable threshold_in_range_test[0m
+[8.964s] [ 63%] Built target adaptive_threshold_test
+[9.120s] [ 63%] Built target threshold_in_range_test
+[9.313s] [ 72%] [32m[1mLinking CXX executable threshold_grayscale_test[0m
+[10.182s] [ 72%] Built target threshold_grayscale_test
+[22.679s] [ 81%] [32m[1mLinking CXX shared library libregion_detection_core.so[0m
+[29.549s] [ 81%] Built target region_detection_core
+[29.566s] [35m[1mScanning dependencies of target region_detection_test[0m
+[29.638s] [ 90%] [32mBuilding CXX object CMakeFiles/region_detection_test.dir/src/tests/region_detection_test.cpp.o[0m
+[32.515s] [100%] [32m[1mLinking CXX executable region_detection_test[0m
+[33.851s] [100%] Built target region_detection_test

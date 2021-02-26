@@ -1,0 +1,1 @@
+/root/crs_ws_fanuc/build/crs_robot_comms/ament_cmake_environment_hooks/local_setup.bash

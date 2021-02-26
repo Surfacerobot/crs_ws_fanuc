@@ -1,0 +1,12 @@
+/root/crs_ws_fanuc/devel/lib/cmake/tesseract_common/tesseract_common-targets.cmake
+/root/crs_ws_fanuc/devel/share/tesseract_common/package.xml
+/root/crs_ws_fanuc/devel/lib/cmake/tesseract_common/tesseract_common-config.cmake
+/root/crs_ws_fanuc/devel/lib/cmake/tesseract_common/tesseract_common-config-version.cmake
+/root/crs_ws_fanuc/devel/include/tesseract_common/macros.h
+/root/crs_ws_fanuc/devel/include/tesseract_common/status_code.h
+/root/crs_ws_fanuc/devel/include/tesseract_common/types.h
+/root/crs_ws_fanuc/devel/include/tesseract_common/utils.h
+/root/crs_ws_fanuc/devel/include/tesseract_common/resource.h
+/root/crs_ws_fanuc/devel/lib/cmake/tesseract_common/tesseract_macros.cmake
+/root/crs_ws_fanuc/devel/lib/cmake/tesseract_common/tesseract_code_coverage.cmake
+/root/crs_ws_fanuc/devel/lib/cmake/tesseract_common/FindTinyXML2.cmake

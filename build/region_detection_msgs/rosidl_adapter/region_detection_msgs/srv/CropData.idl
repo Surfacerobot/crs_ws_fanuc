@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from region_detection_msgs/srv/CropData.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseArray.idl"
+#include "region_detection_msgs/msg/PoseSet.idl"
+
+module region_detection_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " inputs")
+    struct CropData_Request {
+      sequence<geometry_msgs::msg::PoseArray> crop_regions;
+
+      sequence<geometry_msgs::msg::PoseArray> input_data;
+    };
+    @verbatim (language="comment", text=
+      " outputs")
+    struct CropData_Response {
+      sequence<region_detection_msgs::msg::PoseSet> cropped_data;
+
+      boolean succeeded;
+
+      string err_msg;
+    };
+  };
+};

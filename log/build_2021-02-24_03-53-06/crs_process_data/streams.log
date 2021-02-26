@@ -1,0 +1,69 @@
+[0.017s] Invoking command in '/root/crs_ws_fanuc/build/crs_process_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_process_data -- -j8 -l8
+[0.073s] Invoked command in '/root/crs_ws_fanuc/build/crs_process_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_process_data -- -j8 -l8
+[0.312s] Invoking command in '/root/crs_ws_fanuc/build/crs_process_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_process_data --target install -- -j8 -l8
+[0.332s] [36mInstall the project...[0m
+[0.347s] -- Install configuration: "Debug"
+[0.348s] -- Execute custom install script
+[0.349s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_1/crs.yaml
+[0.349s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_1/job_toolpath_ls10cm_ps15cm_r0d.yaml
+[0.350s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_1/job_toolpath_ls10cm_ps20cm_r0d.yaml
+[0.350s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_1/job_toolpath_ls20cm_ps20cm_r90d.yaml
+[0.350s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_1/part_1.stl
+[0.352s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_2/configs/job_0_degrees_20200520T192241.997282_config.yaml
+[0.352s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_2/crs.yaml
+[0.352s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_2/job_0_degrees_20200520T192241.997282.yaml
+[0.353s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_2/job_45_degrees_20200520T192321.124980.yaml
+[0.354s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_2/job_90_degrees_20200520T192342.971284.yaml
+[0.354s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_2/job_neg_45_degrees_20200520T192431.034149.yaml
+[0.355s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_2/job_neg_90_degrees_20200520T192403.508846.yaml
+[0.356s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_2/part_2.stl
+[0.356s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_3/crs.yaml
+[0.356s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_3/job_0_degrees_20200520T192928.608964.yaml
+[0.357s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_3/job_45_degrees_20200520T193117.992144.yaml
+[0.359s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_3/job_90_degrees_20200520T193139.616155.yaml
+[0.359s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_3/job_neg_45_degrees_20200520T193244.746333.yaml
+[0.360s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_3/job_neg_90_degrees_20200520T193201.590978.yaml
+[0.361s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_3/part_3.stl
+[0.361s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_5/crs.yaml
+[0.361s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_5/job_toolpath_ls10cm_ps10cm_r0d.yaml
+[0.361s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_5/job_toolpath_ls20cm_ps10cm_r0d.yaml
+[0.362s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_5/job_toolpath_ls20cm_ps15cm_r-20d.yaml
+[0.362s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_5/job_toolpath_ls20cm_ps15cm_r0d.yaml
+[0.362s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_5/job_toolpath_ls20cm_ps15cm_r60d.yaml
+[0.363s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/main/toolpaths/part_5/part_5.stl
+[0.364s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/fake_part/configs/fake_toolpath_config.yaml
+[0.364s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/fake_part/crs.yaml
+[0.366s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/fake_part/fake_part.stl
+[0.366s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/fake_part/fake_toolpath.yaml
+[0.366s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/part_2/crs.yaml
+[0.367s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/part_2/job_0_degrees_20200520T192241.997282.yaml
+[0.367s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/part_2/job_45_degrees_20200520T192321.124980.yaml
+[0.367s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/part_2/job_90_degrees_20200520T192342.971284.yaml
+[0.367s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/part_2/job_90_mid.yaml
+[0.368s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/part_2/job_90_red.yaml
+[0.368s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/part_2/job_90_red_red.yaml
+[0.368s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/part_2/job_neg_45_degrees_20200520T192431.034149.yaml
+[0.369s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/part_2/job_neg_90_degrees_20200520T192403.508846.yaml
+[0.369s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/part_2/part_2.stl
+[0.370s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/part_2/part_2_original.stl
+[0.370s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/swri_part/crs.yaml
+[0.370s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/swri_part/job_job_ls10cm_ps10cm_r0d_20200804T170757.524898.yaml
+[0.370s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/swri_part/job_reduced.yaml
+[0.371s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/swri_part/job_toolpath_ls10cm_ps10cm_r90d_20200804T194320.202533.yaml
+[0.371s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data//data/surrogate1/toolpaths/swri_part/swri_part.stl
+[0.371s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/ament_index/resource_index/package_run_dependencies/crs_process_data
+[0.372s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/ament_index/resource_index/parent_prefix_path/crs_process_data
+[0.372s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/environment/ament_prefix_path.sh
+[0.372s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/environment/ament_prefix_path.dsv
+[0.372s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/environment/path.sh
+[0.373s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/environment/path.dsv
+[0.373s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/local_setup.bash
+[0.373s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/local_setup.sh
+[0.373s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/local_setup.zsh
+[0.374s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/local_setup.dsv
+[0.374s] -- Symlinking: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/package.dsv
+[0.378s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/ament_index/resource_index/packages/crs_process_data
+[0.378s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/cmake/crs_process_dataConfig.cmake
+[0.378s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/cmake/crs_process_dataConfig-version.cmake
+[0.378s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_process_data/share/crs_process_data/package.xml
+[0.381s] Invoked command in '/root/crs_ws_fanuc/build/crs_process_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_process_data --target install -- -j8 -l8

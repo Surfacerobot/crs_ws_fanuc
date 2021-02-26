@@ -1,0 +1,4 @@
+Invoking command in '/root/crs_ws_fanuc/build/cartesian_trajectory_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/cartesian_trajectory_msgs -- -j8 -l8
+Invoked command in '/root/crs_ws_fanuc/build/cartesian_trajectory_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/cartesian_trajectory_msgs -- -j8 -l8
+Invoking command in '/root/crs_ws_fanuc/build/cartesian_trajectory_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/cartesian_trajectory_msgs --target install -- -j8 -l8
+Invoked command in '/root/crs_ws_fanuc/build/cartesian_trajectory_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/cartesian_trajectory_msgs --target install -- -j8 -l8

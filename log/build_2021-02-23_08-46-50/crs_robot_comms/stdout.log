@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 0.7.2 (/opt/ros/eloquent/share/ament_index_cpp/cmake)
+-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+-- Found FastRTPS: /opt/ros/eloquent/include  
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found crs_msgs: 0.0.0 (/root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/cmake)
+-- Found std_srvs: 0.8.1 (/opt/ros/eloquent/share/std_srvs/cmake)
+-- Found ur_dashboard_msgs: 0.0.0 (/root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_robot_comms/include>
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/crs_robot_comms
+[35m[1mScanning dependencies of target crs_robot_comms_ur_comms[0m
+[35m[1mScanning dependencies of target crs_robot_comms_ur_comms_sim[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/crs_robot_comms_ur_comms.dir/src/ur_comms.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/crs_robot_comms_ur_comms_sim.dir/src/ur_comms_sim.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable crs_robot_comms_ur_comms_sim[0m
+[ 75%] Built target crs_robot_comms_ur_comms_sim
+[100%] [32m[1mLinking CXX executable crs_robot_comms_ur_comms[0m
+[100%] Built target crs_robot_comms_ur_comms
+[ 50%] Built target crs_robot_comms_ur_comms_sim
+[100%] Built target crs_robot_comms_ur_comms
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/ament_index/resource_index/package_run_dependencies/crs_robot_comms
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/ament_index/resource_index/parent_prefix_path/crs_robot_comms
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/ament_prefix_path.sh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/path.sh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/path.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.bash
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.sh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.zsh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/package.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/ament_index/resource_index/packages/crs_robot_comms
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/ament_cmake_export_interfaces-extras.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/crs_robot_commsConfig.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/crs_robot_commsConfig-version.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/package.xml
+-- Installing: /root/crs_ws_fanuc/install/crs_robot_comms/lib/crs_robot_comms/crs_robot_comms_ur_comms
+-- Set runtime path of "/root/crs_ws_fanuc/install/crs_robot_comms/lib/crs_robot_comms/crs_robot_comms_ur_comms" to ""
+-- Installing: /root/crs_ws_fanuc/install/crs_robot_comms/lib/crs_robot_comms/crs_robot_comms_ur_comms_sim
+-- Set runtime path of "/root/crs_ws_fanuc/install/crs_robot_comms/lib/crs_robot_comms/crs_robot_comms_ur_comms_sim" to ""
+-- Installing: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/-targetsExport.cmake
+-- Installing: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/-targetsExport-noconfig.cmake

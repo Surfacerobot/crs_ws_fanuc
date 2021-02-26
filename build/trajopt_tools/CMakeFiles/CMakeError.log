@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/crs_ws_fanuc/build/trajopt_tools/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ce3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ce3c.dir/build.make CMakeFiles/cmTC_4ce3c.dir/build
+make[1]: Entering directory '/root/crs_ws_fanuc/build/trajopt_tools/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4ce3c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_4ce3c.dir/CheckSymbolExists.cxx.o -c /root/crs_ws_fanuc/build/trajopt_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_4ce3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ce3c.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_4ce3c.dir/CheckSymbolExists.cxx.o  -o cmTC_4ce3c 
+CMakeFiles/cmTC_4ce3c.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4ce3c.dir/build.make:97: recipe for target 'cmTC_4ce3c' failed
+make[1]: *** [cmTC_4ce3c] Error 1
+make[1]: Leaving directory '/root/crs_ws_fanuc/build/trajopt_tools/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4ce3c/fast' failed
+make: *** [cmTC_4ce3c/fast] Error 2
+
+File /root/crs_ws_fanuc/build/trajopt_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/crs_ws_fanuc/build/trajopt_tools/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94280/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94280.dir/build.make CMakeFiles/cmTC_94280.dir/build
+make[1]: Entering directory '/root/crs_ws_fanuc/build/trajopt_tools/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_94280.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_94280.dir/CheckFunctionExists.cxx.o -c /root/crs_ws_fanuc/build/trajopt_tools/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_94280
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94280.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_94280.dir/CheckFunctionExists.cxx.o  -o cmTC_94280 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_94280.dir/build.make:97: recipe for target 'cmTC_94280' failed
+make[1]: *** [cmTC_94280] Error 1
+make[1]: Leaving directory '/root/crs_ws_fanuc/build/trajopt_tools/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_94280/fast' failed
+make: *** [cmTC_94280/fast] Error 2
+
+

@@ -1,0 +1,11 @@
+from crs_msgs.srv._call_freespace_motion import CallFreespaceMotion  # noqa: F401
+from crs_msgs.srv._crop_toolpaths import CropToolpaths  # noqa: F401
+from crs_msgs.srv._execute_action import ExecuteAction  # noqa: F401
+from crs_msgs.srv._get_available_actions import GetAvailableActions  # noqa: F401
+from crs_msgs.srv._get_configuration import GetConfiguration  # noqa: F401
+from crs_msgs.srv._get_roi_selection import GetROISelection  # noqa: F401
+from crs_msgs.srv._load_part import LoadPart  # noqa: F401
+from crs_msgs.srv._localize_to_part import LocalizeToPart  # noqa: F401
+from crs_msgs.srv._plan_process_motions import PlanProcessMotions  # noqa: F401
+from crs_msgs.srv._robot_positioner import RobotPositioner  # noqa: F401
+from crs_msgs.srv._run_robot_script import RunRobotScript  # noqa: F401

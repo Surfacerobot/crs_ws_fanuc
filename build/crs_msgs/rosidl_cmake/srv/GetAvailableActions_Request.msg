@@ -1,0 +1,3 @@
+string PATTERN_USER_ACTIONS="^user*"
+
+string search_pattern			# only actions matching this pattern will be returned, leave empty to get all actions

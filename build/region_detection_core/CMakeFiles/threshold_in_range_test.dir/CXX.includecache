@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/crs_ws_fanuc/src/region_detection/region_detection_core/src/tests/threshold_in_range_test.cpp
+opencv2/imgproc.hpp
+/root/crs_ws_fanuc/src/region_detection/region_detection_core/src/tests/opencv2/imgproc.hpp
+opencv2/highgui.hpp
+/root/crs_ws_fanuc/src/region_detection/region_detection_core/src/tests/opencv2/highgui.hpp
+boost/filesystem.hpp
+-
+iostream
+-
+

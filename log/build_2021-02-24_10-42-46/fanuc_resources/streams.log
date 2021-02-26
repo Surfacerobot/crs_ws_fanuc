@@ -1,0 +1,24 @@
+[0.072s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources -- -j8 -l8
+[0.250s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources -- -j8 -l8
+[0.457s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target install -- -j8 -l8
+[0.735s] [36mInstall the project...[0m
+[0.776s] -- Install configuration: "Debug"
+[0.777s] -- Execute custom install script
+[0.778s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources//urdf/common_colours.xacro
+[0.779s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources//urdf/common_materials.xacro
+[0.780s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/ament_index/resource_index/package_run_dependencies/fanuc_resources
+[0.781s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/ament_index/resource_index/parent_prefix_path/fanuc_resources
+[0.784s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/ament_prefix_path.sh
+[0.784s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/ament_prefix_path.dsv
+[0.784s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/path.sh
+[0.784s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/path.dsv
+[0.785s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.bash
+[0.785s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.sh
+[0.785s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.zsh
+[0.786s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.dsv
+[0.786s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/package.dsv
+[0.815s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/ament_index/resource_index/packages/fanuc_resources
+[0.815s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig.cmake
+[0.815s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig-version.cmake
+[0.816s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/package.xml
+[0.831s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target install -- -j8 -l8

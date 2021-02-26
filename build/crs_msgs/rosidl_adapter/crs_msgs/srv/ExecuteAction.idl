@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from crs_msgs/srv/ExecuteAction.srv
+// generated code does not contain a copyright notice
+
+
+module crs_msgs {
+  module srv {
+    struct ExecuteAction_Request {
+      string action_id;
+    };
+    struct ExecuteAction_Response {
+      boolean succeeded;
+
+      string err_msg;
+    };
+  };
+};

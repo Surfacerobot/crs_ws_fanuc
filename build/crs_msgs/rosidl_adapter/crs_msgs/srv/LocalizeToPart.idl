@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from crs_msgs/srv/LocalizeToPart.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/TransformStamped.idl"
+#include "sensor_msgs/msg/PointCloud2.idl"
+
+module crs_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " All point clouds should be in the same frame" "\n"
+      " The specified frame should be stationary (i.e. world, robot base, etc.)")
+    struct LocalizeToPart_Request {
+      string frame;
+
+      sequence<sensor_msgs::msg::PointCloud2> point_clouds;
+
+      sequence<geometry_msgs::msg::TransformStamped> transforms;
+    };
+    struct LocalizeToPart_Response {
+      boolean success;
+
+      string error;
+
+      geometry_msgs::msg::TransformStamped transform;
+    };
+  };
+};

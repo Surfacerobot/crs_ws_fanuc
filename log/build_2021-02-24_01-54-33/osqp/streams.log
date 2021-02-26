@@ -1,0 +1,7 @@
+[0.049s] Invoking command in '/root/crs_ws_fanuc/build/osqp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/osqp -- -j8 -l8
+[0.140s] Invoked command in '/root/crs_ws_fanuc/build/osqp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/osqp -- -j8 -l8
+[0.228s] Invoking command in '/root/crs_ws_fanuc/build/osqp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/osqp --target install -- -j8 -l8
+[0.315s] [36mInstall the project...[0m
+[0.336s] -- Install configuration: "Debug"
+[0.336s] -- Up-to-date: /root/crs_ws_fanuc/install/osqp/share/osqp/package.xml
+[0.339s] Invoked command in '/root/crs_ws_fanuc/build/osqp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/osqp --target install -- -j8 -l8

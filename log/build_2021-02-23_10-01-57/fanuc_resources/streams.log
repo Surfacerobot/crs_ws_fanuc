@@ -1,0 +1,17 @@
+[0.030s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources -- -j8 -l8
+[0.105s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources -- -j8 -l8
+[0.204s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target tests -- -j8 -l8
+[0.294s] Built target tests
+[0.311s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target tests -- -j8 -l8
+[0.367s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target install -- -j8 -l8
+[0.439s] [36mInstall the project...[0m
+[0.453s] -- Install configuration: "Debug"
+[0.453s] -- Execute custom install script
+[0.454s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/lib/pkgconfig/fanuc_resources.pc
+[0.454s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig.cmake
+[0.455s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig-version.cmake
+[0.455s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/package.xml
+[0.456s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/urdf/common_colours.xacro
+[0.456s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/urdf/common_materials.xacro
+[0.456s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/readme.md
+[0.460s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target install -- -j8 -l8

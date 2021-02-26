@@ -1,0 +1,5 @@
+collaborative-robotic-sanding/fanuc_resources
+/root/crs_ws_fanuc/devel/.private/fanuc_resources/cmake.lock /root/crs_ws_fanuc/devel/./cmake.lock
+/root/crs_ws_fanuc/devel/.private/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig.cmake /root/crs_ws_fanuc/devel/share/fanuc_resources/cmake/fanuc_resourcesConfig.cmake
+/root/crs_ws_fanuc/devel/.private/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig-version.cmake /root/crs_ws_fanuc/devel/share/fanuc_resources/cmake/fanuc_resourcesConfig-version.cmake
+/root/crs_ws_fanuc/devel/.private/fanuc_resources/lib/pkgconfig/fanuc_resources.pc /root/crs_ws_fanuc/devel/lib/pkgconfig/fanuc_resources.pc

@@ -1,0 +1,1 @@
+/root/crs_ws/build/tesseract_monitoring/ament_cmake_core/tesseract_monitoringConfig-version.cmake

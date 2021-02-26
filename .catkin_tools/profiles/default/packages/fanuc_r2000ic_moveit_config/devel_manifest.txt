@@ -1,0 +1,5 @@
+collaborative-robotic-sanding/fanuc_r2000ic_moveit_config
+/root/crs_ws_fanuc/devel/.private/fanuc_r2000ic_moveit_config/cmake.lock /root/crs_ws_fanuc/devel/./cmake.lock
+/root/crs_ws_fanuc/devel/.private/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/cmake/fanuc_r2000ic_moveit_configConfig-version.cmake /root/crs_ws_fanuc/devel/share/fanuc_r2000ic_moveit_config/cmake/fanuc_r2000ic_moveit_configConfig-version.cmake
+/root/crs_ws_fanuc/devel/.private/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/cmake/fanuc_r2000ic_moveit_configConfig.cmake /root/crs_ws_fanuc/devel/share/fanuc_r2000ic_moveit_config/cmake/fanuc_r2000ic_moveit_configConfig.cmake
+/root/crs_ws_fanuc/devel/.private/fanuc_r2000ic_moveit_config/lib/pkgconfig/fanuc_r2000ic_moveit_config.pc /root/crs_ws_fanuc/devel/lib/pkgconfig/fanuc_r2000ic_moveit_config.pc

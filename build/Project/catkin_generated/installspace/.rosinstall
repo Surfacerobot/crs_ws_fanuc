@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /root/crs_ws_fanuc/install/Project/setup.sh

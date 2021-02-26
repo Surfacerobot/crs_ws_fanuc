@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/crs_ws_fanuc/build/region_detection_msgs/libregion_detection_msgs__rosidl_typesupport_introspection_c.so" "TARGETS" "region_detection_msgs__rosidl_typesupport_introspection_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,1 @@
+/root/crs_ws_fanuc/build/region_detection_msgs/ament_cmake_core/region_detection_msgsConfig-version.cmake

@@ -1,0 +1,19 @@
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Searching for log4cxx/logger.h
+-- Searching for libLog4cxx
+-- Found Log4cxx: /usr/lib/x86_64-linux-gnu/liblog4cxx.so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/scxml_core
+[ 25%] [34m[1mGenerating include/scxml_core/moc_state_machine.cpp[0m
+[35m[1mScanning dependencies of target scxml_core[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/scxml_core.dir/src/state_machine.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/scxml_core.dir/include/scxml_core/moc_state_machine.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libscxml_core.so[0m
+[100%] Built target scxml_core

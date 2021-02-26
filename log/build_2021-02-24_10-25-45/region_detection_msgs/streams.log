@@ -1,0 +1,152 @@
+[0.027s] Invoking command in '/root/crs_ws_fanuc/build/region_detection_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/region_detection_msgs -- -j8 -l8
+[0.128s] [ 11%] Built target region_detection_msgs__rosidl_generator_c
+[0.136s] [ 13%] Built target region_detection_msgs__cpp
+[0.183s] [ 24%] Built target region_detection_msgs__rosidl_typesupport_introspection_cpp
+[0.188s] [ 36%] Built target region_detection_msgs__rosidl_typesupport_introspection_c
+[0.192s] [ 47%] Built target region_detection_msgs__rosidl_typesupport_fastrtps_cpp
+[0.246s] [ 59%] Built target region_detection_msgs__rosidl_typesupport_fastrtps_c
+[0.249s] [ 70%] Built target region_detection_msgs__rosidl_typesupport_cpp
+[0.303s] [ 81%] Built target region_detection_msgs__rosidl_typesupport_c
+[0.333s] [ 81%] Built target region_detection_msgs
+[0.365s] [ 83%] Built target region_detection_msgs__py
+[0.419s] [ 93%] Built target region_detection_msgs__python
+[0.486s] [ 96%] Built target region_detection_msgs__rosidl_typesupport_c__pyext
+[0.486s] [100%] Built target region_detection_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.513s] Invoked command in '/root/crs_ws_fanuc/build/region_detection_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/region_detection_msgs -- -j8 -l8
+[0.808s] Invoking command in '/root/crs_ws_fanuc/build/region_detection_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/region_detection_msgs --target install -- -j8 -l8
+[0.905s] [  1%] Built target region_detection_msgs__cpp
+[0.908s] [ 13%] Built target region_detection_msgs__rosidl_generator_c
+[0.957s] [ 24%] Built target region_detection_msgs__rosidl_typesupport_introspection_c
+[0.967s] [ 36%] Built target region_detection_msgs__rosidl_typesupport_introspection_cpp
+[0.982s] [ 47%] Built target region_detection_msgs__rosidl_typesupport_fastrtps_cpp
+[1.031s] [ 59%] Built target region_detection_msgs__rosidl_typesupport_cpp
+[1.031s] [ 70%] Built target region_detection_msgs__rosidl_typesupport_fastrtps_c
+[1.071s] [ 81%] Built target region_detection_msgs__rosidl_typesupport_c
+[1.098s] [ 81%] Built target region_detection_msgs
+[1.132s] [ 83%] Built target region_detection_msgs__py
+[1.177s] [ 93%] Built target region_detection_msgs__python
+[1.225s] [ 96%] Built target region_detection_msgs__rosidl_typesupport_c__pyext
+[1.233s] [100%] Built target region_detection_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.256s] [36mInstall the project...[0m
+[1.267s] -- Install configuration: "Debug"
+[1.268s] -- Execute custom install script
+[1.268s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/ament_index/resource_index/rosidl_interfaces/region_detection_msgs
+[1.268s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/libregion_detection_msgs__rosidl_typesupport_c.so
+[1.268s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/environment/library_path.sh
+[1.269s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/environment/library_path.dsv
+[1.269s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/libregion_detection_msgs__rosidl_typesupport_cpp.so
+[1.271s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/pose_set__rosidl_typesupport_fastrtps_c.h
+[1.271s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.272s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/crop_data__rosidl_typesupport_fastrtps_c.h
+[1.272s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/detect_regions__rosidl_typesupport_fastrtps_c.h
+[1.272s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/get_selected_regions__rosidl_typesupport_fastrtps_c.h
+[1.272s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/show_selectable_regions__rosidl_typesupport_fastrtps_c.h
+[1.272s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/libregion_detection_msgs__rosidl_typesupport_fastrtps_c.so
+[1.274s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/pose_set.h
+[1.274s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/pose_set__functions.h
+[1.274s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/pose_set__struct.h
+[1.274s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/pose_set__type_support.h
+[1.274s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.275s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/crop_data.h
+[1.275s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/crop_data__functions.h
+[1.275s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/crop_data__struct.h
+[1.275s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/crop_data__type_support.h
+[1.276s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/detect_regions.h
+[1.276s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/detect_regions__functions.h
+[1.276s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/detect_regions__struct.h
+[1.276s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/detect_regions__type_support.h
+[1.276s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/get_selected_regions.h
+[1.276s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/get_selected_regions__functions.h
+[1.277s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/get_selected_regions__struct.h
+[1.277s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/get_selected_regions__type_support.h
+[1.277s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/show_selectable_regions.h
+[1.277s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/show_selectable_regions__functions.h
+[1.278s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/show_selectable_regions__struct.h
+[1.278s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/show_selectable_regions__type_support.h
+[1.279s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/libregion_detection_msgs__rosidl_generator_c.so
+[1.280s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/pose_set__rosidl_typesupport_fastrtps_cpp.hpp
+[1.280s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.281s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/crop_data__rosidl_typesupport_fastrtps_cpp.hpp
+[1.281s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/detect_regions__rosidl_typesupport_fastrtps_cpp.hpp
+[1.281s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/get_selected_regions__rosidl_typesupport_fastrtps_cpp.hpp
+[1.281s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/show_selectable_regions__rosidl_typesupport_fastrtps_cpp.hpp
+[1.281s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/libregion_detection_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.283s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/pose_set.hpp
+[1.283s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/pose_set__struct.hpp
+[1.284s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/pose_set__traits.hpp
+[1.284s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/crop_data.hpp
+[1.285s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/crop_data__struct.hpp
+[1.285s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/crop_data__traits.hpp
+[1.285s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/detect_regions.hpp
+[1.286s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/detect_regions__struct.hpp
+[1.286s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/detect_regions__traits.hpp
+[1.286s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/get_selected_regions.hpp
+[1.287s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/get_selected_regions__struct.hpp
+[1.287s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/get_selected_regions__traits.hpp
+[1.287s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/show_selectable_regions.hpp
+[1.288s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/show_selectable_regions__struct.hpp
+[1.288s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/show_selectable_regions__traits.hpp
+[1.290s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/pose_set__rosidl_typesupport_introspection_c.h
+[1.290s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.290s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/crop_data__rosidl_typesupport_introspection_c.h
+[1.290s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/detect_regions__rosidl_typesupport_introspection_c.h
+[1.290s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/get_selected_regions__rosidl_typesupport_introspection_c.h
+[1.291s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/show_selectable_regions__rosidl_typesupport_introspection_c.h
+[1.291s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/libregion_detection_msgs__rosidl_typesupport_introspection_c.so
+[1.292s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/msg/pose_set__rosidl_typesupport_introspection_cpp.hpp
+[1.292s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/crop_data__rosidl_typesupport_introspection_cpp.hpp
+[1.292s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/detect_regions__rosidl_typesupport_introspection_cpp.hpp
+[1.292s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/get_selected_regions__rosidl_typesupport_introspection_cpp.hpp
+[1.292s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/include/region_detection_msgs/srv/show_selectable_regions__rosidl_typesupport_introspection_cpp.hpp
+[1.293s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/libregion_detection_msgs__rosidl_typesupport_introspection_cpp.so
+[1.293s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/environment/pythonpath.sh
+[1.293s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/environment/pythonpath.dsv
+[1.293s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages/region_detection_msgs/__init__.py
+[1.293s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages/region_detection_msgs/msg/__init__.py
+[1.293s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages/region_detection_msgs/msg/_pose_set.py
+[1.293s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages/region_detection_msgs/srv/__init__.py
+[1.294s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages/region_detection_msgs/srv/_crop_data.py
+[1.294s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages/region_detection_msgs/srv/_detect_regions.py
+[1.294s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages/region_detection_msgs/srv/_get_selected_regions.py
+[1.294s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages/region_detection_msgs/srv/_show_selectable_regions.py
+[1.294s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages/region_detection_msgs/region_detection_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[1.294s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages/region_detection_msgs/region_detection_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[1.294s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/lib/libregion_detection_msgs__python.so
+[1.296s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/msg/PoseSet.idl
+[1.296s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/CropData.idl
+[1.296s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/DetectRegions.idl
+[1.296s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/ShowSelectableRegions.idl
+[1.296s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/GetSelectedRegions.idl
+[1.313s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/msg/PoseSet.msg
+[1.316s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/CropData.srv
+[1.316s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/CropData_Request.msg
+[1.316s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/CropData_Response.msg
+[1.317s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/DetectRegions.srv
+[1.318s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/DetectRegions_Request.msg
+[1.325s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/DetectRegions_Response.msg
+[1.329s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/ShowSelectableRegions.srv
+[1.333s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/ShowSelectableRegions_Request.msg
+[1.333s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/ShowSelectableRegions_Response.msg
+[1.334s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/GetSelectedRegions.srv
+[1.345s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/GetSelectedRegions_Request.msg
+[1.347s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/srv/GetSelectedRegions_Response.msg
+[1.354s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/ament_index/resource_index/package_run_dependencies/region_detection_msgs
+[1.356s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/ament_index/resource_index/parent_prefix_path/region_detection_msgs
+[1.364s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/environment/ament_prefix_path.sh
+[1.366s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/environment/ament_prefix_path.dsv
+[1.368s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/environment/path.sh
+[1.375s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/environment/path.dsv
+[1.380s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/local_setup.bash
+[1.380s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/local_setup.sh
+[1.385s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/local_setup.zsh
+[1.386s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/local_setup.dsv
+[1.388s] -- Symlinking: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/package.dsv
+[1.493s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/ament_index/resource_index/packages/region_detection_msgs
+[1.493s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/cmake/rosidl_cmake-extras.cmake
+[1.493s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.493s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.493s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.494s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/cmake/region_detection_msgsConfig.cmake
+[1.494s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/cmake/region_detection_msgsConfig-version.cmake
+[1.494s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/package.xml
+[1.522s] Invoked command in '/root/crs_ws_fanuc/build/region_detection_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/region_detection_msgs --target install -- -j8 -l8

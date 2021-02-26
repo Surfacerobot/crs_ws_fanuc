@@ -1,0 +1,2 @@
+Invoking command in '/root/crs_ws_fanuc/build/Project': /usr/bin/cmake /root/crs_ws_fanuc/src -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/Project
+Invoked command in '/root/crs_ws_fanuc/build/Project' returned '1': /usr/bin/cmake /root/crs_ws_fanuc/src -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/Project

@@ -1,0 +1,25 @@
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/iterative_spline_parameterization
+[35m[1mScanning dependencies of target iterative_spline_parameterization[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/iterative_spline_parameterization.dir/src/iterative_spline_parameterization.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libiterative_spline_parameterization.a[0m
+[100%] Built target iterative_spline_parameterization
+[100%] Built target iterative_spline_parameterization
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/libiterative_spline_parameterization.a
+-- Installing: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-targets.cmake
+-- Installing: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-targets-noconfig.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/include/iterative_spline_parameterization
+-- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/include/iterative_spline_parameterization/iterative_spline_parameterization.h
+-- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/share/iterative_spline_parameterization/package.xml
+-- Installing: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-config.cmake
+-- Installing: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-config-version.cmake

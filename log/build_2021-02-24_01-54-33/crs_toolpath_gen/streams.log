@@ -1,0 +1,22 @@
+[0.105s] Invoking command in '/root/crs_ws_fanuc/build/crs_toolpath_gen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_toolpath_gen -- -j8 -l8
+[0.404s] Invoked command in '/root/crs_ws_fanuc/build/crs_toolpath_gen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_toolpath_gen -- -j8 -l8
+[0.496s] Invoking command in '/root/crs_ws_fanuc/build/crs_toolpath_gen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_toolpath_gen --target install -- -j8 -l8
+[0.584s] [36mInstall the project...[0m
+[0.596s] -- Install configuration: "Debug"
+[0.597s] -- Execute custom install script
+[0.598s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/ament_index/resource_index/package_run_dependencies/crs_toolpath_gen
+[0.598s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/ament_index/resource_index/parent_prefix_path/crs_toolpath_gen
+[0.598s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/environment/ament_prefix_path.sh
+[0.599s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/environment/ament_prefix_path.dsv
+[0.599s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/environment/path.sh
+[0.600s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/environment/path.dsv
+[0.600s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/local_setup.bash
+[0.601s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/local_setup.sh
+[0.601s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/local_setup.zsh
+[0.601s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/local_setup.dsv
+[0.602s] -- Symlinking: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/package.dsv
+[0.616s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/ament_index/resource_index/packages/crs_toolpath_gen
+[0.617s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/cmake/crs_toolpath_genConfig.cmake
+[0.617s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/cmake/crs_toolpath_genConfig-version.cmake
+[0.617s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/package.xml
+[0.623s] Invoked command in '/root/crs_ws_fanuc/build/crs_toolpath_gen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_toolpath_gen --target install -- -j8 -l8

@@ -1,0 +1,64 @@
+-- Found OpenMP_CXX: -fopenmp  
+-- Found OpenMP: TRUE   
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   python
+--   thread
+--   program_options
+--   chrono
+--   date_time
+--   atomic
+-- [VHACD] Generating vhacd...
+-- [VHACD] 	 INC_FILES: /root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/FloatMath.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btAlignedAllocator.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btAlignedObjectArray.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btConvexHullComputer.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btMinMax.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btScalar.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btVector3.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdCircularList.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdICHull.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdManifoldMesh.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdMesh.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdMutex.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdRaycastMesh.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdSArray.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdTimer.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdVHACD.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdVector.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdVolume.h;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/VHACD.h
+-- [VHACD] 	 INL_FILES: /root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdCircularList.inl;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdVector.inl
+-- [VHACD] 	 CPP_FILES: /root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/FloatMath.cpp;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/VHACD-ASYNC.cpp;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/VHACD.cpp;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/btAlignedAllocator.cpp;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/btConvexHullComputer.cpp;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/vhacdICHull.cpp;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/vhacdManifoldMesh.cpp;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/vhacdMesh.cpp;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/vhacdRaycastMesh.cpp;/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/vhacdVolume.cpp
+-- [VHACD] 	 C_FILES:   
+-- [VHACD] 	 CL_FILES:  /root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/cl/vhacdKernels.cl
+-- Could NOT find OpenCL (missing: OpenCL_LIBRARY OpenCL_INCLUDE_DIR) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/vhacd
+[  9%] Building CXX object CMakeFiles/vhacd.dir/src/FloatMath.cpp.o
+[ 18%] Building CXX object CMakeFiles/vhacd.dir/src/vhacdMesh.cpp.o
+[ 27%] Building CXX object CMakeFiles/vhacd.dir/src/vhacdRaycastMesh.cpp.o
+[ 36%] Building CXX object CMakeFiles/vhacd.dir/src/vhacdVolume.cpp.o
+[ 45%] Building CXX object CMakeFiles/vhacd.dir/src/vhacdManifoldMesh.cpp.o
+[ 54%] Building CXX object CMakeFiles/vhacd.dir/src/vhacdICHull.cpp.o
+[ 63%] Building CXX object CMakeFiles/vhacd.dir/src/btConvexHullComputer.cpp.o
+[ 72%] Building CXX object CMakeFiles/vhacd.dir/src/btAlignedAllocator.cpp.o
+[ 81%] Building CXX object CMakeFiles/vhacd.dir/src/VHACD.cpp.o
+[ 90%] Building CXX object CMakeFiles/vhacd.dir/src/VHACD-ASYNC.cpp.o
+[100%] Linking CXX shared library libvhacd.so
+[100%] Built target vhacd
+[100%] Built target vhacd
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /root/crs_ws_fanuc/install/vhacd/lib/libvhacd.so
+-- Set runtime path of "/root/crs_ws_fanuc/install/vhacd/lib/libvhacd.so" to ""
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/lib/cmake/vhacd/vhacd-targets.cmake
+-- Installing: /root/crs_ws_fanuc/install/vhacd/lib/cmake/vhacd/vhacd-targets-debug.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/share/vhacd/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/lib/cmake/vhacd/vhacd-config.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/lib/cmake/vhacd/vhacd-config-version.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/FloatMath.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btAlignedAllocator.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btAlignedObjectArray.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btConvexHullComputer.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btMinMax.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btScalar.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btVector3.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdCircularList.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdICHull.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdManifoldMesh.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdMesh.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdMutex.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdRaycastMesh.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdSArray.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdTimer.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdVHACD.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdVector.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdVolume.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/VHACD.h
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdCircularList.inl
+-- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdVector.inl

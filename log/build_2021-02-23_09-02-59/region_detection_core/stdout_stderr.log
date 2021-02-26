@@ -1,0 +1,112 @@
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+** WARNING ** io features related to ensenso will be disabled
+-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+** WARNING ** io features related to davidSDK will be disabled
+-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+** WARNING ** io features related to dssdk will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+** WARNING ** 2d features related to ensenso will be disabled
+-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+** WARNING ** 2d features related to davidSDK will be disabled
+-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+** WARNING ** 2d features related to dssdk will be disabled
+** WARNING ** 2d features related to pcap will be disabled
+** WARNING ** 2d features related to png will be disabled
+** WARNING ** 2d features related to libusb-1.0 will be disabled
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_SURFACE
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_2D
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- Searching for log4cxx/logger.h
+-- Searching for libLog4cxx
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/region_detection_core
+[  9%] Building CXX object CMakeFiles/threshold_in_range_test.dir/src/tests/threshold_in_range_test.cpp.o
+[ 18%] Building CXX object CMakeFiles/threshold_grayscale_test.dir/src/tests/threshold_grayscale_test.cpp.o
+[ 27%] Building CXX object CMakeFiles/adaptive_threshold_test.dir/src/tests/adaptive_threshold_test.cpp.o
+Scanning dependencies of target region_detection_core
+[ 36%] Building CXX object CMakeFiles/region_detection_core.dir/src/region_detector.cpp.o
+[ 45%] Building CXX object CMakeFiles/region_detection_core.dir/src/region_crop.cpp.o
+[ 54%] Linking CXX executable threshold_in_range_test
+[ 63%] Linking CXX executable adaptive_threshold_test
+[ 63%] Built target adaptive_threshold_test
+[ 63%] Built target threshold_in_range_test
+[ 72%] Linking CXX executable threshold_grayscale_test
+[ 72%] Built target threshold_grayscale_test
+[ 81%] Linking CXX shared library libregion_detection_core.so
+[ 81%] Built target region_detection_core
+Scanning dependencies of target region_detection_test
+[ 90%] Building CXX object CMakeFiles/region_detection_test.dir/src/tests/region_detection_test.cpp.o
+[100%] Linking CXX executable region_detection_test
+[100%] Built target region_detection_test
+[ 18%] Built target threshold_in_range_test
+[ 45%] Built target region_detection_core
+[ 63%] Built target adaptive_threshold_test
+[ 81%] Built target region_detection_test
+[100%] Built target threshold_grayscale_test
+Install the project...
+-- Install configuration: "Debug"
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/config_types.h
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/region_crop.h
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/region_detector.h
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/bin/threshold_grayscale_test
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/bin/threshold_in_range_test
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/bin/adaptive_threshold_test
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/bin/region_detection_test
+-- Set runtime path of "/root/crs_ws_fanuc/install/region_detection_core/bin/region_detection_test" to ""
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/lib/libregion_detection_core.so
+-- Set runtime path of "/root/crs_ws_fanuc/install/region_detection_core/lib/libregion_detection_core.so" to ""
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-targets.cmake
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-targets-debug.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core//config
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core//config/config.yaml
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-config.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-config-version.cmake

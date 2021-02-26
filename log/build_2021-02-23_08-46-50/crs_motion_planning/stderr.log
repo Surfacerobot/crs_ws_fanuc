@@ -1,0 +1,158 @@
+** WARNING ** io features related to ensenso will be disabled
+** WARNING ** io features related to davidSDK will be disabled
+** WARNING ** io features related to dssdk will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+** WARNING ** visualization features related to ensenso will be disabled
+** WARNING ** visualization features related to davidSDK will be disabled
+** WARNING ** visualization features related to dssdk will be disabled
+** WARNING ** visualization features related to rssdk will be disabled
+In file included from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:3:0[m[K:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:54:103:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+                                          const std::array<float, 4> color = { 1.0, 0.8, 1.0, 1.0 }[01;35m[K)[m[K;
+                                                                                                   [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+     const std::tuple<float, float, float, float>& point_rgba = std::make_tuple(0.1, .8, 0.2, 1.0)[01;35m[K)[m[K;
+                                                                                                  [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:[m[K In function ‘[01m[Kbool crs_motion_planning::parsePathFromFile(const string&, const string&, std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:124:35:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+         for (int i = [01;35m[Kstrip.size() - 1[m[K; i >= 0; --i)
+                      [01;35m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:60:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     size_t [01;35m[Kcount[m[K = 0;
+            [01;35m[K^~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:[m[K In function ‘[01m[Kvisualization_msgs::msg::MarkerArray crs_motion_planning::convertToAxisMarkers(const std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, const string&, const string&, const size_t&, const double&, const double&, const std::array<float, 6>&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:231:19:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   int marker_id = [01;35m[Kstart_id[m[K;
+                   [01;35m[K^~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:[m[K In function ‘[01m[Kvisualization_msgs::msg::MarkerArray crs_motion_planning::convertToDottedLineMarker(const std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, const string&, const string&, const size_t&, const std::array<float, 6>&, const float&, const float&, const std::tuple<float, float, float, float>&, const std::tuple<float, float, float, float>&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:293:20:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::_id_type {aka int}[m[K’ from ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   line_marker.id = [01;35m[Kstart_id[m[K;
+                    [01;35m[K^~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:307:20:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   int id_counter = [01;35m[Kstart_id[m[K;
+                    [01;35m[K^~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:[m[K In function ‘[01m[Kvoid crs_motion_planning::cleanRasterStrip(const PoseArray&, const std::vector<long unsigned int>&, std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, geometry_msgs::msg::PoseArray&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:437:49:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+       if (curr_raster_pose_array.poses.size() > [01;35m[Kmin_len_raster[m[K)
+                                                 [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:450:45:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   if (curr_raster_pose_array.poses.size() > [01;35m[Kmin_len_raster[m[K)
+                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:[m[K In function ‘[01m[Kbool crs_motion_planning::timeParameterizeFreespace(const JointTrajectory&, const double&, const double&, trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:715:43:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[K__gnu_cxx::__normal_iterator<iterative_spline_parameterization::TrajectoryState*, std::vector<iterative_spline_parameterization::TrajectoryState> >::difference_type {aka long int}[m[K’ from ‘[01m[Ksize_t {aka long unsigned int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+       waypoints.erase(waypoints.begin() + [01;35m[Ki[m[K);
+                                           [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:725:56:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K’ from ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index {aka long int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+     traj_point.positions.resize([01;35m[Kwaypoint.positions.size()[m[K);
+                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:728:58:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K’ from ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index {aka long int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+     traj_point.velocities.resize([01;35m[Kwaypoint.velocities.size()[m[K);
+                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:731:64:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K’ from ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index {aka long int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+     traj_point.accelerations.resize([01;35m[Kwaypoint.accelerations.size()[m[K);
+                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_planning_utils.h:31:0[m[K,
+                 from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1[m[K:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:54:103:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+                                          const std::array<float, 4> color = { 1.0, 0.8, 1.0, 1.0 }[01;35m[K)[m[K;
+                                                                                                   [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+     const std::tuple<float, float, float, float>& point_rgba = std::make_tuple(0.1, .8, 0.2, 1.0)[01;35m[K)[m[K;
+                                                                                                  [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In function ‘[01m[Kbool crs_motion_planning::loadPathPlanningConfig(const string&, crs_motion_planning::pathPlanningConfig&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:100:82:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[Kdouble[m[K’ may alter its value [[01;35m[K-Wfloat-conversion[m[K]
+     ompl_config.n_output_states = [01;35m[Kompl_yaml["default_n_output_states"].as<double>()[m[K;
+                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::generateDescartesSeed(const PoseArray&, std::vector<long unsigned int>&, std::vector<long unsigned int>&, trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:278:60:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   descartes_light::SolverD graph_builder([01;35m[Kkin_interface->dof()[m[K);
+                                          [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:296:71:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[KEigen::Index {aka long int}[m[K’ from ‘[01m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   Eigen::Map<Eigen::VectorXd> solution_vec(&solution[0], [01;35m[Ksolution.size()[m[K);
+                                                          [01;35m[K~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:300:33:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index {aka long int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   int n_rows = [01;35m[Kseed_traj.size() / kin_interface->dof()[m[K;
+                [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::generateOMPLSeed(const Ptr&, const Ptr&, tesseract_common::JointTrajectory&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:822:76:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<std::shared_ptr<const tesseract_motion_planners::OMPLPlannerConfigurator> >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   ompl_configurators.insert(ompl_configurators.end(), [01;35m[Kconfig_->ompl_config.num_threads[m[K, rrt_connect_configuration);
+                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::trajoptFreespaceFromOMPL(const Ptr&, const Ptr&, const tesseract_common::JointTrajectory&, trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:956:55:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[KEigen::Index {aka long int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   traj_pc->num_steps = [01;35m[Kseed_trajectory.trajectory.rows()[m[K;
+                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::generateFreespacePlans(crs_motion_planning::pathPlanningResults::Ptr&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1035:55:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+       for (int i = 0; i < curr_joint_traj.points.size([01;35m[K)[m[K; ++i)
+                                                       [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1098:55:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+       for (int i = 0; i < curr_joint_traj.points.size([01;35m[K)[m[K; ++i)
+                                                       [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1161:55:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+       for (int i = 0; i < curr_joint_traj.points.size([01;35m[K)[m[K; ++i)
+                                                       [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::generateFreespacePlan(const Ptr&, const Ptr&, trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1229:54:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+     for (int i = 0; i < joint_trajectory.points.size([01;35m[K)[m[K; ++i)
+                                                      [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::findClosestJointOrientation(const Ptr&, const Ptr&, tesseract_motion_planners::JointWaypoint::Ptr&, const double&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1320:60:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   descartes_light::SolverD graph_builder([01;35m[Kkin_interface->dof()[m[K);
+                                          [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1333:71:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[KEigen::Index {aka long int}[m[K’ from ‘[01m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   Eigen::Map<Eigen::VectorXd> solution_vec(&solution[0], [01;35m[Ksolution.size()[m[K);
+                                                          [01;35m[K~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1337:33:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index {aka long int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   int n_rows = [01;35m[Kseed_traj.size() / kin_interface->dof()[m[K;
+                [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_planning_utils.h:31:0[m[K,
+                 from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:7[m[K:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:54:103:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+                                              const std::array<float, 4> color = { 1.0, 0.8, 1.0, 1.0 }[01;35m[K)[m[K;
+                                                                                                       [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+     const std::tuple<float, float, float, float>& point_rgba = std::make_tuple(0.1, .8, 0.2, 1.0)[01;35m[K)[m[K;
+                                                                                                  [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+In file included from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_planning_utils.h:31:0[m[K,
+                 from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/motion_planning_server.cpp:8[m[K:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:54:103:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+                                          const std::array<float, 4> color = { 1.0, 0.8, 1.0, 1.0 }[01;35m[K)[m[K;
+                                                                                                   [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+     const std::tuple<float, float, float, float>& point_rgba = std::make_tuple(0.1, .8, 0.2, 1.0)[01;35m[K)[m[K;
+                                                                                                  [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:[m[K In constructor ‘[01m[KProcessPlannerTestServer::ProcessPlannerTestServer(std::shared_ptr<rclcpp::Node>)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:519:33:[m[K [01;35m[Kwarning: [m[K‘[01m[KProcessPlannerTestServer::pnode_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   std::shared_ptr<rclcpp::Node> [01;35m[Kpnode_[m[K;
+                                 [01;35m[K^~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:505:34:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Clock> ProcessPlannerTestServer::clock_[m[K’ [[01;35m[K-Wreorder[m[K]
+   std::shared_ptr<rclcpp::Clock> [01;35m[Kclock_[m[K;
+                                  [01;35m[K^~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:91:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   [01;35m[KProcessPlannerTestServer[m[K(std::shared_ptr<rclcpp::Node> node)
+   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:[m[K In member function ‘[01m[Kvoid ProcessPlannerTestServer::planService(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:261:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   void planService(std::shared_ptr<std_srvs::srv::Trigger::Request> [01;35m[Krequest[m[K,
+                                                                     [01;35m[K^~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:[m[K In member function ‘[01m[Kvoid ProcessPlannerTestServer::testPartLoader(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:470:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   void testPartLoader(std::shared_ptr<std_srvs::srv::Trigger::Request> [01;35m[Krequest[m[K,
+                                                                        [01;35m[K^~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:471:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+                       std::shared_ptr<std_srvs::srv::Trigger::Response> [01;35m[Kresponse[m[K)
+                                                                         [01;35m[K^~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/motion_planning_server.cpp:[m[K In member function ‘[01m[Kvoid MotionPlanningServer::planFreespace(std::shared_ptr<crs_msgs::srv::CallFreespaceMotion_Request_<std::allocator<void> > >, std::shared_ptr<crs_msgs::srv::CallFreespaceMotion_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/motion_planning_server.cpp:346:71:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[Kint64_t {aka long int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+           [01;35m[Kthis->get_parameter(param_names::NUM_FREEPSACE_STEPS).as_int()[m[K;
+           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/motion_planning_server.cpp:[m[K In member function ‘[01m[Kvoid MotionPlanningServer::removePartTesseract(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/motion_planning_server.cpp:501:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   void removePartTesseract(std::shared_ptr<std_srvs::srv::Trigger::Request> [01;35m[Krequest[m[K,
+                                                                             [01;35m[K^~~~~~~[m[K

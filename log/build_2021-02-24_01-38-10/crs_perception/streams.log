@@ -1,0 +1,37 @@
+[0.031s] Invoking command in '/root/crs_ws_fanuc/build/crs_perception': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/crs_msgs/lib:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_perception -- -j8 -l8
+[0.118s] [ 22%] Built target crs_perception
+[0.152s] [ 55%] Built target localize_to_part
+[0.179s] [ 77%] Built target test_localize_to_part
+[0.191s] [100%] Built target crs_perception_nodes
+[0.211s] Invoked command in '/root/crs_ws_fanuc/build/crs_perception' returned '0': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/crs_msgs/lib:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_perception -- -j8 -l8
+[0.255s] Invoking command in '/root/crs_ws_fanuc/build/crs_perception': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/crs_msgs/lib:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_perception --target install -- -j8 -l8
+[0.344s] [ 22%] Built target crs_perception
+[0.378s] [ 55%] Built target localize_to_part
+[0.399s] [ 77%] Built target test_localize_to_part
+[0.412s] [100%] Built target crs_perception_nodes
+[0.429s] [36mInstall the project...[0m
+[0.438s] -- Install configuration: "Debug"
+[0.438s] -- Execute custom install script
+[0.439s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/lib/crs_perception/localize_to_part
+[0.439s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/lib/crs_perception/test_localize_to_part
+[0.440s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/include/crs_perception/model_to_point_cloud.hpp
+[0.440s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/lib/libcrs_perception.so
+[0.441s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/lib/libcrs_perception_nodes.so
+[0.441s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/ament_index/resource_index/package_run_dependencies/crs_perception
+[0.442s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/ament_index/resource_index/parent_prefix_path/crs_perception
+[0.442s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/environment/ament_prefix_path.sh
+[0.442s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/environment/ament_prefix_path.dsv
+[0.443s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/environment/path.sh
+[0.443s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/environment/path.dsv
+[0.444s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/local_setup.bash
+[0.444s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/local_setup.sh
+[0.444s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/local_setup.zsh
+[0.445s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/local_setup.dsv
+[0.445s] -- Symlinking: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/package.dsv
+[0.455s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/ament_index/resource_index/packages/crs_perception
+[0.456s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/ament_index/resource_index/rclcpp_components/crs_perception
+[0.456s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.456s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/cmake/crs_perceptionConfig.cmake
+[0.457s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/cmake/crs_perceptionConfig-version.cmake
+[0.457s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_perception/share/crs_perception/package.xml
+[0.462s] Invoked command in '/root/crs_ws_fanuc/build/crs_perception' returned '0': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/crs_msgs/lib:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_perception --target install -- -j8 -l8

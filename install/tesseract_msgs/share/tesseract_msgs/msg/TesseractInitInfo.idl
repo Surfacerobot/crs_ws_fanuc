@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/TesseractInitInfo.msg
+// generated code does not contain a copyright notice
+
+#include "tesseract_msgs/msg/SceneGraph.idl"
+
+module tesseract_msgs {
+  module msg {
+    module TesseractInitInfo_Constants {
+      const uint8 SCENE_GRAPH = 0;
+      const uint8 SCENE_GRAPH_SRDF_MODEL = 1;
+      const uint8 URDF_STRING = 2;
+      const uint8 URDF_STRING_SRDF_STRING = 3;
+      const uint8 URDF_PATH = 4;
+      const uint8 URDF_PATH_SRDF_PATH = 5;
+    };
+    @verbatim (language="comment", text=
+      " TesseractInitType")
+    struct TesseractInitInfo {
+      @verbatim (language="comment", text=
+        " Specifies the type of constructor to use. Indicates which of the fields below have valid data")
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        " SCENE_GRAPH")
+      tesseract_msgs::msg::SceneGraph scene_graph;
+
+      @verbatim (language="comment", text=
+        " URDF_STRING or URDF_STRING_SRDF_STRING")
+      string urdf_string;
+
+      @verbatim (language="comment", text=
+        " URDF_STRING_SRDF_STRING")
+      string srdf_string;
+
+      @verbatim (language="comment", text=
+        " URDF_PATH or URDF_PATH_SRDF_PATH")
+      string urdf_path;
+
+      @verbatim (language="comment", text=
+        " URDF_PATH_SRDF_PATH")
+      string srdf_path;
+    };
+  };
+};

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from crs_msgs/msg/ProcessMotionPlan.msg
+// generated code does not contain a copyright notice
+
+#include "cartesian_trajectory_msgs/msg/CartesianTrajectory.idl"
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+
+module crs_msgs {
+  module msg {
+    struct ProcessMotionPlan {
+      @verbatim (language="comment", text=
+        " Move prior to starting the process (empty when it does not apply)")
+      trajectory_msgs::msg::JointTrajectory start;
+
+      @verbatim (language="comment", text=
+        " The process moves (shall include approach and retreat moves)")
+      sequence<trajectory_msgs::msg::JointTrajectory> process_motions;
+
+      @verbatim (language="comment", text=
+        " Process motions as a cartesian trajectory")
+      sequence<cartesian_trajectory_msgs::msg::CartesianTrajectory> force_controlled_process_motions;
+
+      sequence<trajectory_msgs::msg::JointTrajectory> free_motions;
+
+      @verbatim (language="comment", text=
+        " Move after completing the process  (empty when it does not apply)")
+      trajectory_msgs::msg::JointTrajectory end;
+    };
+  };
+};

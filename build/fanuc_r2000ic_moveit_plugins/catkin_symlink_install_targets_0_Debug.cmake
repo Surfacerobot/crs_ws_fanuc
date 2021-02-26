@@ -1,0 +1,1 @@
+catkin_symlink_install_targets("TARGET_FILES" "/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins/devel/lib/libfanuc_r2000ic_r2000ic_manipulator_moveit_ikfast_plugin.so" "TARGETS" "fanuc_r2000ic_r2000ic_manipulator_moveit_ikfast_plugin" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

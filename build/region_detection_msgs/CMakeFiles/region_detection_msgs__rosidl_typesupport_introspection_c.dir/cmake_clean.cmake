@@ -1,0 +1,24 @@
+file(REMOVE_RECURSE
+  "rosidl_typesupport_introspection_c/region_detection_msgs/msg/pose_set__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/region_detection_msgs/srv/crop_data__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/region_detection_msgs/srv/detect_regions__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/region_detection_msgs/srv/show_selectable_regions__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/region_detection_msgs/srv/get_selected_regions__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/region_detection_msgs/msg/pose_set__type_support.c"
+  "rosidl_typesupport_introspection_c/region_detection_msgs/srv/crop_data__type_support.c"
+  "rosidl_typesupport_introspection_c/region_detection_msgs/srv/detect_regions__type_support.c"
+  "rosidl_typesupport_introspection_c/region_detection_msgs/srv/show_selectable_regions__type_support.c"
+  "rosidl_typesupport_introspection_c/region_detection_msgs/srv/get_selected_regions__type_support.c"
+  "CMakeFiles/region_detection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/region_detection_msgs/msg/pose_set__type_support.c.o"
+  "CMakeFiles/region_detection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/region_detection_msgs/srv/crop_data__type_support.c.o"
+  "CMakeFiles/region_detection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/region_detection_msgs/srv/detect_regions__type_support.c.o"
+  "CMakeFiles/region_detection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/region_detection_msgs/srv/show_selectable_regions__type_support.c.o"
+  "CMakeFiles/region_detection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/region_detection_msgs/srv/get_selected_regions__type_support.c.o"
+  "libregion_detection_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libregion_detection_msgs__rosidl_typesupport_introspection_c.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/region_detection_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

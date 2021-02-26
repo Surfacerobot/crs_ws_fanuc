@@ -1,0 +1,141 @@
+[0.032s] Invoking command in '/root/crs_ws_fanuc/build/crs_application': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/opt/ros/eloquent:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/opt/qt513/lib/cmake LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/crs_motion_planning/lib:/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib:/root/crs_ws_fanuc/install/trajopt/lib:/root/crs_ws_fanuc/install/trajopt_sco/lib:/root/crs_ws_fanuc/install/descartes_samplers/lib:/root/crs_ws_fanuc/install/crs_msgs/lib:/root/crs_ws_fanuc/install/trajopt_utils/lib:/root/crs_ws_fanuc/install/scxml_core/lib:/root/crs_ws_fanuc/install/region_detection_msgs/lib:/root/crs_ws_fanuc/install/osqp/lib:/root/crs_ws_fanuc/install/descartes_light/lib:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/crs_ws_fanuc/install/trajopt_sco/bin:${PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sco/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sco/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_samplers/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_samplers/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_ikfast/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_ikfast/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/pkgconfig:/root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/pkgconfig PYTHONPATH=/root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/share /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_application -- -j8 -l8
+[0.113s] -- Boost version: 1.65.1
+[0.113s] -- Found the following Boost libraries:
+[0.113s] --   system
+[0.113s] --   filesystem
+[0.113s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.137s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.329s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.336s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[0.347s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[0.384s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[0.385s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.409s] -- Found rclcpp_components: 0.8.5 (/opt/ros/eloquent/share/rclcpp_components/cmake)
+[0.411s] -- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)
+[0.429s] -- Found crs_msgs: 0.0.0 (/root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/cmake)
+[0.540s] -- Found control_msgs: 2.2.0 (/opt/ros/eloquent/share/control_msgs/cmake)
+[0.568s] -- Found tf2_eigen: 0.12.6 (/opt/ros/eloquent/share/tf2_eigen/cmake)
+[0.615s] -- Found rclcpp_action: 0.8.5 (/opt/ros/eloquent/share/rclcpp_action/cmake)
+[0.666s] -- Found crs_motion_planning: 0.0.0 (/root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake)
+[0.973s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.973s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.973s] but this file does not exist.  Possible reasons include:
+[0.973s] * The file was deleted, renamed, or moved to another location.
+[0.974s] * An install or uninstall procedure did not complete successfully.
+[0.974s] * The installation package was faulty and contained
+[0.974s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[0.974s] but not all the files it references.
+[0.974s] 
+[0.974s] -- The imported target "vtk" references the file
+[0.974s]    "/usr/bin/vtk"
+[0.974s] but this file does not exist.  Possible reasons include:
+[0.974s] * The file was deleted, renamed, or moved to another location.
+[0.974s] * An install or uninstall procedure did not complete successfully.
+[0.974s] * The installation package was faulty and contained
+[0.974s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[0.974s] but not all the files it references.
+[0.975s] 
+[1.183s] -- A library with BLAS API found.
+[1.286s] -- Setting yaml-cpp_DIR to: '/opt/ros/eloquent/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[1.295s] -- Found gazebo_msgs: 3.4.4 (/opt/ros/eloquent/share/gazebo_msgs/cmake)
+[1.309s] -- Found region_detection_msgs: 0.0.0 (/root/crs_ws_fanuc/install/region_detection_msgs/share/region_detection_msgs/cmake)
+[2.630s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[2.695s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[2.701s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.701s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_application/include>
+[2.707s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.708s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.710s] -- Added test 'lint_cmake' to check CMake code style
+[2.711s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.716s] -- Added test 'uncrustify' to check C / C++ code style
+[2.717s] -- Added test 'xmllint' to check XML markup files
+[2.720s] -- Configuring done
+[2.825s] CMake Warning at CMakeLists.txt:39 (add_library):
+[2.825s]   Cannot generate a safe runtime search path for target crs_application
+[2.825s]   because files in some directories may conflict with libraries in implicit
+[2.825s]   directories:
+[2.825s] 
+[2.825s]     runtime library [libQt5OpenGL.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.825s]       /opt/qt513/lib
+[2.825s]     runtime library [libQt5Sql.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.825s]       /opt/qt513/lib
+[2.826s] 
+[2.826s]   Some of these libraries may not be found correctly.
+[2.826s] 
+[2.826s] 
+[2.918s] CMake Warning at CMakeLists.txt:69 (add_executable):
+[2.918s]   Cannot generate a safe runtime search path for target crs_application_node
+[2.918s]   because files in some directories may conflict with libraries in implicit
+[2.918s]   directories:
+[2.918s] 
+[2.918s]     runtime library [libQt5OpenGL.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.918s]       /opt/qt513/lib
+[2.918s]     runtime library [libQt5Sql.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.918s]       /opt/qt513/lib
+[2.918s] 
+[2.918s]   Some of these libraries may not be found correctly.
+[2.919s] 
+[2.919s] 
+[2.927s] -- Generating done
+[2.930s] -- Build files have been written to: /root/crs_ws_fanuc/build/crs_application
+[2.990s] [35m[1mScanning dependencies of target crs_application[0m
+[3.212s] [ 18%] [32mBuilding CXX object CMakeFiles/crs_application.dir/src/crs_executive.cpp.o[0m
+[3.212s] [ 18%] [32mBuilding CXX object CMakeFiles/crs_application.dir/src/common/config.cpp.o[0m
+[3.216s] [ 36%] [32mBuilding CXX object CMakeFiles/crs_application.dir/src/task_managers/motion_planning_manager.cpp.o[0m
+[3.216s] [ 36%] [32mBuilding CXX object CMakeFiles/crs_application.dir/src/task_managers/scan_acquisition_manager.cpp.o[0m
+[3.217s] [ 45%] [32mBuilding CXX object CMakeFiles/crs_application.dir/src/task_managers/part_registration_manager.cpp.o[0m
+[3.218s] [ 54%] [32mBuilding CXX object CMakeFiles/crs_application.dir/src/common/simulation_object_spawner.cpp.o[0m
+[3.220s] [ 63%] [32mBuilding CXX object CMakeFiles/crs_application.dir/src/task_managers/part_rework_manager.cpp.o[0m
+[3.225s] [ 72%] [32mBuilding CXX object CMakeFiles/crs_application.dir/src/task_managers/process_execution_manager.cpp.o[0m
+[32.816s] [ 81%] [32m[1mLinking CXX shared library libcrs_application.so[0m
+[43.213s] [ 81%] Built target crs_application
+[43.296s] [35m[1mScanning dependencies of target crs_application_node[0m
+[43.497s] [ 90%] [32mBuilding CXX object CMakeFiles/crs_application_node.dir/src/crs_application.cpp.o[0m
+[65.776s] [100%] [32m[1mLinking CXX executable crs_application_node[0m
+[72.384s] [100%] Built target crs_application_node
+[72.406s] Invoked command in '/root/crs_ws_fanuc/build/crs_application' returned '0': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/opt/ros/eloquent:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/opt/qt513/lib/cmake LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/crs_motion_planning/lib:/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib:/root/crs_ws_fanuc/install/trajopt/lib:/root/crs_ws_fanuc/install/trajopt_sco/lib:/root/crs_ws_fanuc/install/descartes_samplers/lib:/root/crs_ws_fanuc/install/crs_msgs/lib:/root/crs_ws_fanuc/install/trajopt_utils/lib:/root/crs_ws_fanuc/install/scxml_core/lib:/root/crs_ws_fanuc/install/region_detection_msgs/lib:/root/crs_ws_fanuc/install/osqp/lib:/root/crs_ws_fanuc/install/descartes_light/lib:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/crs_ws_fanuc/install/trajopt_sco/bin:${PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sco/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sco/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_samplers/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_samplers/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_ikfast/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_ikfast/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/pkgconfig:/root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/pkgconfig PYTHONPATH=/root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/share /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_application -- -j8 -l8
+[72.457s] Invoking command in '/root/crs_ws_fanuc/build/crs_application': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/opt/ros/eloquent:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/opt/qt513/lib/cmake LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/crs_motion_planning/lib:/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib:/root/crs_ws_fanuc/install/trajopt/lib:/root/crs_ws_fanuc/install/trajopt_sco/lib:/root/crs_ws_fanuc/install/descartes_samplers/lib:/root/crs_ws_fanuc/install/crs_msgs/lib:/root/crs_ws_fanuc/install/trajopt_utils/lib:/root/crs_ws_fanuc/install/scxml_core/lib:/root/crs_ws_fanuc/install/region_detection_msgs/lib:/root/crs_ws_fanuc/install/osqp/lib:/root/crs_ws_fanuc/install/descartes_light/lib:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/crs_ws_fanuc/install/trajopt_sco/bin:${PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sco/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sco/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_samplers/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_samplers/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_ikfast/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_ikfast/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/pkgconfig:/root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/pkgconfig PYTHONPATH=/root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/share /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_application --target install -- -j8 -l8
+[72.653s] [ 81%] Built target crs_application
+[72.717s] [100%] Built target crs_application_node
+[72.739s] [36mInstall the project...[0m
+[72.749s] -- Install configuration: "Debug"
+[72.775s] -- Execute custom install script
+[72.776s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/lib/crs_application/crs_application_node
+[72.776s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//resources/crs.rviz
+[72.776s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//resources/crs_process.scxml
+[72.777s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//launch/crs.launch.py
+[72.777s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//launch/crs.launch.xml
+[72.778s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//launch/fanuc.launch.xml
+[72.778s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//launch/load_fanuc_robot_model.launch.xml
+[72.778s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//launch/load_preview_robot_model.launch.xml
+[72.778s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//launch/load_robot_model.launch.xml
+[72.778s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//launch/registration_startup.launch.py
+[72.779s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//launch/rework_startup.launch.py
+[72.779s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//config/main/crs.yaml
+[72.780s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//config/main/motion_planning/MP_config.yaml
+[72.780s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//config/main/part_localization.yaml
+[72.780s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//config/main/rework/region_crop.yaml
+[72.780s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//config/main/rework/region_detection.yaml
+[72.780s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//config/swri/crs.yaml
+[72.781s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//config/swri/motion_planning/MP_config.yaml
+[72.781s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//config/swri/part_localization.yaml
+[72.781s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//config/swri/rework/region_crop.yaml
+[72.781s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application//config/swri/rework/region_detection.yaml
+[72.782s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/ament_index/resource_index/package_run_dependencies/crs_application
+[72.782s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/ament_index/resource_index/parent_prefix_path/crs_application
+[72.782s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application/environment/ament_prefix_path.sh
+[72.783s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application/environment/ament_prefix_path.dsv
+[72.783s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application/environment/path.sh
+[72.783s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application/environment/path.dsv
+[72.783s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application/local_setup.bash
+[72.784s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application/local_setup.sh
+[72.784s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application/local_setup.zsh
+[72.784s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application/local_setup.dsv
+[72.784s] -- Symlinking: /root/crs_ws_fanuc/install/crs_application/share/crs_application/package.dsv
+[72.795s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/ament_index/resource_index/packages/crs_application
+[72.795s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application/cmake/crs_applicationConfig.cmake
+[72.795s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application/cmake/crs_applicationConfig-version.cmake
+[72.796s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_application/share/crs_application/package.xml
+[72.796s] -- Installing: /root/crs_ws_fanuc/install/crs_application/lib/libcrs_application.so
+[72.844s] -- Set runtime path of "/root/crs_ws_fanuc/install/crs_application/lib/libcrs_application.so" to ""
+[72.848s] Invoked command in '/root/crs_ws_fanuc/build/crs_application' returned '0': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/opt/ros/eloquent:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/opt/qt513/lib/cmake LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/crs_motion_planning/lib:/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib:/root/crs_ws_fanuc/install/trajopt/lib:/root/crs_ws_fanuc/install/trajopt_sco/lib:/root/crs_ws_fanuc/install/descartes_samplers/lib:/root/crs_ws_fanuc/install/crs_msgs/lib:/root/crs_ws_fanuc/install/trajopt_utils/lib:/root/crs_ws_fanuc/install/scxml_core/lib:/root/crs_ws_fanuc/install/region_detection_msgs/lib:/root/crs_ws_fanuc/install/osqp/lib:/root/crs_ws_fanuc/install/descartes_light/lib:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/crs_ws_fanuc/install/trajopt_sco/bin:${PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sco/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_sco/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_samplers/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_samplers/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_ikfast/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_ikfast/lib/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/pkgconfig:/root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/pkgconfig PYTHONPATH=/root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/region_detection_msgs/lib/python3.6/site-packages:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share:/root/crs_ws_fanuc/install/fanuc_r2000ic_support/share /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_application --target install -- -j8 -l8

@@ -1,0 +1,48 @@
+[35m[1mScanning dependencies of target trajopt_sco[0m
+[35m[1mScanning dependencies of target bpmpd_caller[0m
+[  7%] [32mBuilding CXX object CMakeFiles/bpmpd_caller.dir/src/bpmpd_caller.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/trajopt_sco.dir/src/modeling.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/trajopt_sco.dir/src/expr_vec_ops.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/trajopt_sco.dir/src/solver_interface.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/trajopt_sco.dir/src/expr_ops.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/trajopt_sco.dir/src/solver_utils.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/trajopt_sco.dir/src/modeling_utils.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/trajopt_sco.dir/src/optimizers.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable bpmpd_caller[0m
+[ 69%] Built target bpmpd_caller
+[ 76%] [32mBuilding CXX object CMakeFiles/trajopt_sco.dir/src/num_diff.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/trajopt_sco.dir/src/bpmpd_interface.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/trajopt_sco.dir/src/osqp_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libtrajopt_sco.so[0m
+[100%] Built target trajopt_sco
+[ 15%] Built target bpmpd_caller
+[100%] Built target trajopt_sco
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /root/crs_ws_fanuc/install/trajopt_sco/bin/bpmpd_caller
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/bin/bpmpd.par
+-- Installing: /root/crs_ws_fanuc/install/trajopt_sco/lib/libtrajopt_sco.so
+-- Set runtime path of "/root/crs_ws_fanuc/install/trajopt_sco/lib/libtrajopt_sco.so" to ""
+-- Installing: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-targets.cmake
+-- Installing: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-targets-noconfig.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/share/trajopt_sco/package.xml
+-- Installing: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-config.cmake
+-- Installing: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-config-version.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/optimizers.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/num_diff.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/expr_ops.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/qpoases_interface.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/osqp_interface.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/gurobi_interface.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/modeling_utils.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/solver_utils.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/bpmpd_io.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/modeling.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/expr_op_overloads.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/solver_interface.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/bpmpd_interface.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/expr_vec_ops.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/sco_common.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/FindGUROBI.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/FindqpOASES.cmake

@@ -1,0 +1,130 @@
+[0.063s] Invoking command in '/root/crs_ws_fanuc/build/cartesian_trajectory_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/cartesian_trajectory_msgs -- -j8 -l8
+[0.265s] [  1%] Built target cartesian_trajectory_msgs__cpp
+[0.304s] [ 13%] Built target cartesian_trajectory_msgs__rosidl_generator_c
+[0.381s] [ 24%] Built target cartesian_trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[0.385s] [ 35%] Built target cartesian_trajectory_msgs__rosidl_typesupport_introspection_cpp
+[0.453s] [ 47%] Built target cartesian_trajectory_msgs__rosidl_typesupport_fastrtps_c
+[0.479s] [ 58%] Built target cartesian_trajectory_msgs__rosidl_typesupport_introspection_c
+[0.490s] [ 69%] Built target cartesian_trajectory_msgs__rosidl_typesupport_cpp
+[0.523s] [ 81%] Built target cartesian_trajectory_msgs__rosidl_typesupport_c
+[0.605s] [ 81%] Built target cartesian_trajectory_msgs
+[0.685s] [ 83%] Built target cartesian_trajectory_msgs__py
+[0.809s] [ 92%] Built target cartesian_trajectory_msgs__python
+[0.917s] [ 96%] Built target cartesian_trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.928s] [100%] Built target cartesian_trajectory_msgs__rosidl_typesupport_c__pyext
+[0.970s] Invoked command in '/root/crs_ws_fanuc/build/cartesian_trajectory_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/cartesian_trajectory_msgs -- -j8 -l8
+[2.148s] Invoking command in '/root/crs_ws_fanuc/build/cartesian_trajectory_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/cartesian_trajectory_msgs --target install -- -j8 -l8
+[2.349s] [ 11%] Built target cartesian_trajectory_msgs__rosidl_generator_c
+[2.351s] [ 13%] Built target cartesian_trajectory_msgs__cpp
+[2.469s] [ 24%] Built target cartesian_trajectory_msgs__rosidl_typesupport_introspection_c
+[2.469s] [ 35%] Built target cartesian_trajectory_msgs__rosidl_typesupport_introspection_cpp
+[2.485s] [ 47%] Built target cartesian_trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[2.589s] [ 58%] Built target cartesian_trajectory_msgs__rosidl_typesupport_cpp
+[2.606s] [ 69%] Built target cartesian_trajectory_msgs__rosidl_typesupport_fastrtps_c
+[2.676s] [ 81%] Built target cartesian_trajectory_msgs__rosidl_typesupport_c
+[2.767s] [ 81%] Built target cartesian_trajectory_msgs
+[2.878s] [ 83%] Built target cartesian_trajectory_msgs__py
+[2.988s] [ 92%] Built target cartesian_trajectory_msgs__python
+[3.066s] [ 96%] Built target cartesian_trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.093s] [100%] Built target cartesian_trajectory_msgs__rosidl_typesupport_c__pyext
+[3.177s] [36mInstall the project...[0m
+[3.198s] -- Install configuration: "Debug"
+[3.198s] -- Execute custom install script
+[3.201s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/cartesian_trajectory_msgs
+[3.201s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/libcartesian_trajectory_msgs__rosidl_typesupport_c.so
+[3.204s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/environment/library_path.sh
+[3.205s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/environment/library_path.dsv
+[3.206s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/libcartesian_trajectory_msgs__rosidl_typesupport_cpp.so
+[3.210s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory__rosidl_typesupport_fastrtps_c.h
+[3.210s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_tolerance__rosidl_typesupport_fastrtps_c.h
+[3.213s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory__rosidl_typesupport_fastrtps_c.h
+[3.214s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[3.214s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.214s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/libcartesian_trajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[3.214s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory.h
+[3.215s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory__functions.h
+[3.215s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory__struct.h
+[3.215s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory__type_support.h
+[3.215s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_tolerance.h
+[3.219s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_tolerance__functions.h
+[3.219s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_tolerance__struct.h
+[3.220s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_tolerance__type_support.h
+[3.220s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory.h
+[3.220s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory__functions.h
+[3.220s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory__struct.h
+[3.221s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory__type_support.h
+[3.221s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory_point.h
+[3.221s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory_point__functions.h
+[3.221s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory_point__struct.h
+[3.223s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory_point__type_support.h
+[3.223s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.223s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/libcartesian_trajectory_msgs__rosidl_generator_c.so
+[3.224s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[3.224s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_tolerance__rosidl_typesupport_fastrtps_cpp.hpp
+[3.224s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[3.224s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.227s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.227s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/libcartesian_trajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.229s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory.hpp
+[3.229s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory__struct.hpp
+[3.230s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory__traits.hpp
+[3.230s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_tolerance.hpp
+[3.230s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_tolerance__struct.hpp
+[3.230s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_tolerance__traits.hpp
+[3.231s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory.hpp
+[3.234s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory__struct.hpp
+[3.235s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory__traits.hpp
+[3.235s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory_point.hpp
+[3.237s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory_point__struct.hpp
+[3.237s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory_point__traits.hpp
+[3.239s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory__rosidl_typesupport_introspection_c.h
+[3.240s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_tolerance__rosidl_typesupport_introspection_c.h
+[3.242s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory__rosidl_typesupport_introspection_c.h
+[3.242s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory_point__rosidl_typesupport_introspection_c.h
+[3.245s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.248s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/libcartesian_trajectory_msgs__rosidl_typesupport_introspection_c.so
+[3.252s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/action/cartesian_compliance_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[3.252s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_tolerance__rosidl_typesupport_introspection_cpp.hpp
+[3.252s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[3.252s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/include/cartesian_trajectory_msgs/msg/cartesian_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[3.253s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/libcartesian_trajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[3.254s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/environment/pythonpath.sh
+[3.261s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/environment/pythonpath.dsv
+[3.262s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages/cartesian_trajectory_msgs/__init__.py
+[3.264s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages/cartesian_trajectory_msgs/msg/__init__.py
+[3.265s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages/cartesian_trajectory_msgs/msg/_cartesian_tolerance.py
+[3.265s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages/cartesian_trajectory_msgs/msg/_cartesian_trajectory.py
+[3.265s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages/cartesian_trajectory_msgs/msg/_cartesian_trajectory_point.py
+[3.266s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages/cartesian_trajectory_msgs/action/__init__.py
+[3.266s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages/cartesian_trajectory_msgs/action/_cartesian_compliance_trajectory.py
+[3.267s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages/cartesian_trajectory_msgs/cartesian_trajectory_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[3.268s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/python3.6/site-packages/cartesian_trajectory_msgs/cartesian_trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[3.269s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/lib/libcartesian_trajectory_msgs__python.so
+[3.269s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/msg/CartesianTrajectoryPoint.idl
+[3.270s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/msg/CartesianTolerance.idl
+[3.273s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/msg/CartesianTrajectory.idl
+[3.273s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/action/CartesianComplianceTrajectory.idl
+[3.279s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/msg/CartesianTrajectoryPoint.msg
+[3.279s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/msg/CartesianTolerance.msg
+[3.280s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/msg/CartesianTrajectory.msg
+[3.280s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/action/CartesianComplianceTrajectory.action
+[3.280s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/cartesian_trajectory_msgs
+[3.280s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/cartesian_trajectory_msgs
+[3.280s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/environment/ament_prefix_path.sh
+[3.281s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/environment/ament_prefix_path.dsv
+[3.287s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/environment/path.sh
+[3.288s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/environment/path.dsv
+[3.288s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/local_setup.bash
+[3.288s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/local_setup.sh
+[3.288s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/local_setup.zsh
+[3.288s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/local_setup.dsv
+[3.288s] -- Symlinking: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/package.dsv
+[3.312s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/ament_index/resource_index/packages/cartesian_trajectory_msgs
+[3.314s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[3.315s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.315s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.315s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.315s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/cmake/cartesian_trajectory_msgsConfig.cmake
+[3.315s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/cmake/cartesian_trajectory_msgsConfig-version.cmake
+[3.317s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/package.xml
+[3.434s] Invoked command in '/root/crs_ws_fanuc/build/cartesian_trajectory_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/cartesian_trajectory_msgs --target install -- -j8 -l8

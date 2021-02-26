@@ -1,0 +1,65 @@
+[0.048s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_r2000ic_support -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_r2000ic_support
+[0.087s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.351s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.360s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[0.562s] -- Added test 'lint_cmake' to check CMake code style
+[0.570s] -- Added test 'xmllint' to check XML markup files
+[0.572s] -- Configuring done
+[0.603s] -- Generating done
+[0.603s] -- Build files have been written to: /root/crs_ws_fanuc/build/fanuc_r2000ic_support
+[0.618s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_r2000ic_support -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_r2000ic_support
+[0.621s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support -- -j8 -l8
+[0.701s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support -- -j8 -l8
+[0.776s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target install -- -j8 -l8
+[0.861s] [36mInstall the project...[0m
+[0.874s] -- Install configuration: "Debug"
+[0.875s] -- Execute custom install script
+[0.876s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//config/joint_names_r2000ic125l.yaml
+[0.876s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//config/joint_names_r2000ic165f.yaml
+[0.876s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//launch/load_r2000ic125l.launch
+[0.877s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//launch/load_r2000ic165f.launch
+[0.877s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//launch/robot_interface_streaming_r2000ic125l.launch
+[0.877s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//launch/robot_interface_streaming_r2000ic165f.launch
+[0.878s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//launch/robot_state_visualize_r2000ic125l.launch
+[0.878s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//launch/robot_state_visualize_r2000ic165f.launch
+[0.878s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//launch/test_r2000ic125l.launch
+[0.879s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//launch/test_r2000ic165f.launch
+[0.880s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/collision/base_link.stl
+[0.883s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/collision/link_1.stl
+[0.884s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/collision/link_2.stl
+[0.884s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/collision/link_3.stl
+[0.884s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/collision/link_4.stl
+[0.884s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/collision/link_5.stl
+[0.885s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/collision/link_6.stl
+[0.885s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/visual/base_link.stl
+[0.886s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/visual/link_1.stl
+[0.887s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/visual/link_2.stl
+[0.887s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/visual/link_3.stl
+[0.888s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/visual/link_4.stl
+[0.888s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/visual/link_5.stl
+[0.889s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//meshes/r2000ic165f/visual/link_6.stl
+[0.891s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//urdf/frames.gv
+[0.892s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//urdf/frames.pdf
+[0.892s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//urdf/r2000ic125l.xacro
+[0.892s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//urdf/r2000ic125l_macro.xacro
+[0.892s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//urdf/r2000ic165f.dae
+[0.892s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//urdf/r2000ic165f.urdf
+[0.892s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//urdf/r2000ic165f.xacro
+[0.893s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support//urdf/r2000ic165f_macro.xacro
+[0.893s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/ament_index/resource_index/package_run_dependencies/fanuc_r2000ic_support
+[0.897s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/ament_index/resource_index/parent_prefix_path/fanuc_r2000ic_support
+[0.912s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/environment/ament_prefix_path.sh
+[0.926s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/environment/ament_prefix_path.dsv
+[0.940s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/environment/path.sh
+[0.960s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/environment/path.dsv
+[0.978s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/local_setup.bash
+[0.991s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/local_setup.sh
+[1.003s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/local_setup.zsh
+[1.016s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/local_setup.dsv
+[1.037s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/package.dsv
+[1.051s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/ament_index/resource_index/packages/fanuc_r2000ic_support
+[1.069s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/cmake/fanuc_r2000ic_supportConfig.cmake
+[1.082s] -- Symlinking: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/cmake/fanuc_r2000ic_supportConfig-version.cmake
+[1.091s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/package.xml
+[1.100s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target install -- -j8 -l8

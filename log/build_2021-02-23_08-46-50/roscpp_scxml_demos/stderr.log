@@ -1,0 +1,11 @@
+CMake Warning at CMakeLists.txt:5 (message):
+  ROS Version 2 found, skipping project roscpp_scxml_demos
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+    CATKIN_SYMLINK_INSTALL
+
+

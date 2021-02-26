@@ -1,0 +1,46 @@
+[0.074s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support -- -j8 -l8
+[0.189s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support -- -j8 -l8
+[0.355s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target tests -- -j8 -l8
+[0.531s] Built target tests
+[0.557s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target tests -- -j8 -l8
+[0.770s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target install -- -j8 -l8
+[0.881s] [36mInstall the project...[0m
+[0.900s] -- Install configuration: ""
+[0.900s] -- Execute custom install script
+[0.901s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig/fanuc_r2000ic_support.pc
+[0.901s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/cmake/fanuc_r2000ic_supportConfig.cmake
+[0.901s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/cmake/fanuc_r2000ic_supportConfig-version.cmake
+[0.902s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/package.xml
+[0.902s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/config/joint_names_r2000ic125l.yaml
+[0.903s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/config/joint_names_r2000ic165f.yaml
+[0.903s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/load_r2000ic125l.launch
+[0.903s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/load_r2000ic165f.launch
+[0.904s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/robot_interface_streaming_r2000ic125l.launch
+[0.904s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/robot_interface_streaming_r2000ic165f.launch
+[0.904s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/robot_state_visualize_r2000ic125l.launch
+[0.905s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/robot_state_visualize_r2000ic165f.launch
+[0.905s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/test_r2000ic125l.launch
+[0.905s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/test_r2000ic165f.launch
+[0.906s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/base_link.stl
+[0.906s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_1.stl
+[0.907s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_2.stl
+[0.907s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_3.stl
+[0.908s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_4.stl
+[0.908s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_5.stl
+[0.908s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_6.stl
+[0.909s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/base_link.stl
+[0.909s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_1.stl
+[0.909s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_2.stl
+[0.910s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_3.stl
+[0.910s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_4.stl
+[0.910s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_5.stl
+[0.911s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_6.stl
+[0.913s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/frames.gv
+[0.913s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/frames.pdf
+[0.913s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic125l.xacro
+[0.913s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic125l_macro.xacro
+[0.913s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic165f.dae
+[0.913s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic165f.urdf
+[0.914s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic165f.xacro
+[0.914s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic165f_macro.xacro
+[0.918s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target install -- -j8 -l8

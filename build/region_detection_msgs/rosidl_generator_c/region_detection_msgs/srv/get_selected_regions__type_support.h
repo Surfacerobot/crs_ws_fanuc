@@ -1,0 +1,58 @@
+// generated from rosidl_generator_c/resource/idl__type_support.h.em
+// with input from region_detection_msgs:srv/GetSelectedRegions.idl
+// generated code does not contain a copyright notice
+
+#ifndef REGION_DETECTION_MSGS__SRV__GET_SELECTED_REGIONS__TYPE_SUPPORT_H_
+#define REGION_DETECTION_MSGS__SRV__GET_SELECTED_REGIONS__TYPE_SUPPORT_H_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "region_detection_msgs/msg/rosidl_generator_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include "rosidl_generator_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_region_detection_msgs
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  region_detection_msgs,
+  srv,
+  GetSelectedRegions_Request
+)();
+
+// already included above
+// #include "rosidl_generator_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_region_detection_msgs
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  region_detection_msgs,
+  srv,
+  GetSelectedRegions_Response
+)();
+
+#include "rosidl_generator_c/service_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_region_detection_msgs
+const rosidl_service_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  region_detection_msgs,
+  srv,
+  GetSelectedRegions
+)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // REGION_DETECTION_MSGS__SRV__GET_SELECTED_REGIONS__TYPE_SUPPORT_H_

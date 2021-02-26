@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from crs_msgs/srv/CallFreespaceMotion.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Transform.idl"
+#include "sensor_msgs/msg/JointState.idl"
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+
+module crs_msgs {
+  module srv {
+    struct CallFreespaceMotion_Request {
+      string target_link;
+
+      @verbatim (language="comment", text=
+        " start joint position" "\n"
+        " leave empty to use current position")
+      sensor_msgs::msg::JointState start_position;
+
+      @verbatim (language="comment", text=
+        " looks into this one first")
+      sensor_msgs::msg::JointState goal_position;
+
+      @verbatim (language="comment", text=
+        " use this one when 'goal_position' is empty")
+      geometry_msgs::msg::Transform goal_pose;
+
+      @verbatim (language="comment", text=
+        " Set to 0 in order to use default")
+      int32 num_steps;
+
+      boolean execute;
+    };
+    struct CallFreespaceMotion_Response {
+      trajectory_msgs::msg::JointTrajectory output_trajectory;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

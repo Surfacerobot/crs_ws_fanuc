@@ -1,0 +1,13 @@
+[  0%] Built target ur_dashboard_msgs__cpp
+[ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[ 37%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[ 49%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[ 73%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[ 85%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[ 85%] Built target ur_dashboard_msgs
+[ 86%] Built target ur_dashboard_msgs__py
+[ 97%] Built target ur_dashboard_msgs__python
+[100%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext

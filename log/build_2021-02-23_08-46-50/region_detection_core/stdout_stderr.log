@@ -1,0 +1,30 @@
+[ 18%] Built target adaptive_threshold_test
+[ 36%] Built target threshold_in_range_test
+[ 54%] Built target threshold_grayscale_test
+[ 81%] Built target region_detection_core
+[100%] Built target region_detection_test
+[ 18%] Built target adaptive_threshold_test
+[ 36%] Built target threshold_grayscale_test
+[ 63%] Built target region_detection_core
+[ 81%] Built target threshold_in_range_test
+[100%] Built target region_detection_test
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/config_types.h
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/region_crop.h
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/region_detector.h
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/bin/threshold_grayscale_test
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/bin/threshold_in_range_test
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/bin/adaptive_threshold_test
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/bin/region_detection_test
+-- Set runtime path of "/root/crs_ws_fanuc/install/region_detection_core/bin/region_detection_test" to ""
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/lib/libregion_detection_core.so
+-- Set runtime path of "/root/crs_ws_fanuc/install/region_detection_core/lib/libregion_detection_core.so" to ""
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-targets.cmake
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-targets-noconfig.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core//config
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core//config/config.yaml
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-config.cmake
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-config-version.cmake

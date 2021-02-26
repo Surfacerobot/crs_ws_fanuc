@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/crs_ws_fanuc/build/crs_perception/localize_to_part" "/root/crs_ws_fanuc/build/crs_perception/test_localize_to_part" "TARGETS" "localize_to_part" "test_localize_to_part" "DESTINATION" "lib/crs_perception")

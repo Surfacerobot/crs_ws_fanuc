@@ -1,0 +1,485 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+-- Found FastRTPS: /opt/ros/eloquent/include  
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found builtin_interfaces: 0.8.0 (/opt/ros/eloquent/share/builtin_interfaces/cmake)
+-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+-- Found trajectory_msgs: 0.8.1 (/opt/ros/eloquent/share/trajectory_msgs/cmake)
+-- Found cartesian_trajectory_msgs: 0.0.0 (/root/crs_ws_fanuc/install/cartesian_trajectory_msgs/share/cartesian_trajectory_msgs/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/crs_msgs
+[35m[1mScanning dependencies of target crs_msgs__cpp[0m
+[  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  0%] Built target crs_msgs__cpp
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target crs_msgs__rosidl_generator_c[0m
+[  2%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/msg/process_configuration__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/srv/load_part__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/srv/localize_to_part__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/srv/execute_action__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/srv/get_available_actions__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/srv/plan_process_motions__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/srv/get_configuration__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/srv/robot_positioner__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/srv/crop_toolpaths__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/srv/run_robot_script__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/srv/get_roi_selection__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/srv/call_freespace_motion__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/msg/tool_process_path__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_generator_c.dir/rosidl_generator_c/crs_msgs/msg/process_motion_plan__functions.c.o[0m
+[ 12%] [32m[1mLinking C shared library libcrs_msgs__rosidl_generator_c.so[0m
+[ 12%] Built target crs_msgs__rosidl_generator_c
+[ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target crs_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/msg/process_configuration__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/srv/load_part__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/srv/localize_to_part__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/srv/execute_action__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/srv/get_available_actions__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/srv/plan_process_motions__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/srv/get_configuration__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/srv/robot_positioner__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/srv/crop_toolpaths__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/srv/run_robot_script__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/srv/get_roi_selection__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/srv/call_freespace_motion__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/msg/tool_process_path__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crs_msgs/msg/process_motion_plan__type_support.cpp.o[0m
+[ 25%] [32m[1mLinking CXX shared library libcrs_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 25%] Built target crs_msgs__rosidl_typesupport_introspection_cpp
+[ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target crs_msgs__rosidl_typesupport_introspection_c[0m
+[ 27%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/msg/process_configuration__type_support.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/srv/localize_to_part__type_support.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/srv/execute_action__type_support.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/srv/get_available_actions__type_support.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/srv/plan_process_motions__type_support.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/srv/get_configuration__type_support.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/srv/robot_positioner__type_support.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/srv/crop_toolpaths__type_support.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/srv/run_robot_script__type_support.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/srv/load_part__type_support.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/srv/get_roi_selection__type_support.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/srv/call_freespace_motion__type_support.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/msg/tool_process_path__type_support.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crs_msgs/msg/process_motion_plan__type_support.c.o[0m
+[ 37%] [32m[1mLinking C shared library libcrs_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 37%] Built target crs_msgs__rosidl_typesupport_introspection_c
+[ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target crs_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/msg/dds_fastrtps/process_configuration__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/srv/dds_fastrtps/execute_action__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/srv/dds_fastrtps/get_available_actions__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/srv/dds_fastrtps/plan_process_motions__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/srv/dds_fastrtps/get_configuration__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/srv/dds_fastrtps/robot_positioner__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/srv/dds_fastrtps/crop_toolpaths__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/srv/dds_fastrtps/run_robot_script__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/srv/dds_fastrtps/localize_to_part__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/srv/dds_fastrtps/load_part__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/srv/dds_fastrtps/get_roi_selection__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/srv/dds_fastrtps/call_freespace_motion__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/msg/dds_fastrtps/tool_process_path__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crs_msgs/msg/dds_fastrtps/process_motion_plan__type_support.cpp.o[0m
+[ 49%] [32m[1mLinking CXX shared library libcrs_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 49%] Built target crs_msgs__rosidl_typesupport_fastrtps_cpp
+[ 50%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target crs_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/msg/process_configuration__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/srv/localize_to_part__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/srv/execute_action__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/srv/get_available_actions__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/srv/plan_process_motions__type_support_c.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/srv/get_configuration__type_support_c.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/srv/robot_positioner__type_support_c.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/srv/crop_toolpaths__type_support_c.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/srv/run_robot_script__type_support_c.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/srv/load_part__type_support_c.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/srv/get_roi_selection__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/srv/call_freespace_motion__type_support_c.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/msg/tool_process_path__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crs_msgs/msg/process_motion_plan__type_support_c.cpp.o[0m
+[ 61%] [32m[1mLinking CXX shared library libcrs_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 61%] Built target crs_msgs__rosidl_typesupport_fastrtps_c
+[ 62%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target crs_msgs__rosidl_typesupport_cpp[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/msg/process_configuration__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/srv/localize_to_part__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/srv/execute_action__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/srv/get_available_actions__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/srv/plan_process_motions__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/srv/get_configuration__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/srv/robot_positioner__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/srv/crop_toolpaths__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/srv/run_robot_script__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/srv/load_part__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/srv/get_roi_selection__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/srv/call_freespace_motion__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/msg/tool_process_path__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crs_msgs/msg/process_motion_plan__type_support.cpp.o[0m
+[ 73%] [32m[1mLinking CXX shared library libcrs_msgs__rosidl_typesupport_cpp.so[0m
+[ 73%] Built target crs_msgs__rosidl_typesupport_cpp
+[ 74%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target crs_msgs__rosidl_typesupport_c[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/msg/process_configuration__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/srv/execute_action__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/srv/get_available_actions__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/srv/plan_process_motions__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/srv/get_configuration__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/srv/robot_positioner__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/srv/crop_toolpaths__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/srv/run_robot_script__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/srv/localize_to_part__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/srv/load_part__type_support.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/srv/get_roi_selection__type_support.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/srv/call_freespace_motion__type_support.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/msg/tool_process_path__type_support.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/crs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/crs_msgs/msg/process_motion_plan__type_support.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library libcrs_msgs__rosidl_typesupport_c.so[0m
+[ 85%] Built target crs_msgs__rosidl_typesupport_c
+[35m[1mScanning dependencies of target crs_msgs[0m
+[ 85%] Built target crs_msgs
+[35m[1mScanning dependencies of target crs_msgs__py[0m
+[ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 86%] Built target crs_msgs__py
+[35m[1mScanning dependencies of target crs_msgs__python[0m
+[ 87%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/msg/_process_configuration_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/srv/_execute_action_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/srv/_get_available_actions_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/srv/_plan_process_motions_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/srv/_get_configuration_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/srv/_robot_positioner_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/srv/_crop_toolpaths_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/srv/_run_robot_script_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/srv/_localize_to_part_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/srv/_load_part_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/srv/_get_roi_selection_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/srv/_call_freespace_motion_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/msg/_tool_process_path_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/crs_msgs__python.dir/rosidl_generator_py/crs_msgs/msg/_process_motion_plan_s.c.o[0m
+[ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/crs_msgs/libcrs_msgs__python.so[0m
+[ 97%] Built target crs_msgs__python
+[35m[1mScanning dependencies of target crs_msgs__rosidl_typesupport_c__pyext[0m
+[ 98%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/crs_msgs/_crs_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 99%] [32m[1mLinking CXX shared library rosidl_generator_py/crs_msgs/crs_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[ 99%] Built target crs_msgs__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target crs_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[100%] [32mBuilding C object CMakeFiles/crs_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/crs_msgs/_crs_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/crs_msgs/crs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[100%] Built target crs_msgs__rosidl_typesupport_fastrtps_c__pyext
+[  0%] Built target crs_msgs__cpp
+[ 12%] Built target crs_msgs__rosidl_generator_c
+[ 24%] Built target crs_msgs__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target crs_msgs__rosidl_typesupport_introspection_cpp
+[ 49%] Built target crs_msgs__rosidl_typesupport_introspection_c
+[ 61%] Built target crs_msgs__rosidl_typesupport_fastrtps_c
+[ 73%] Built target crs_msgs__rosidl_typesupport_cpp
+[ 85%] Built target crs_msgs__rosidl_typesupport_c
+[ 85%] Built target crs_msgs
+[ 86%] Built target crs_msgs__py
+[ 97%] Built target crs_msgs__python
+[ 99%] Built target crs_msgs__rosidl_typesupport_c__pyext
+[100%] Built target crs_msgs__rosidl_typesupport_fastrtps_c__pyext
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/ament_index/resource_index/rosidl_interfaces/crs_msgs
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/libcrs_msgs__rosidl_typesupport_c.so
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/environment/library_path.sh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/environment/library_path.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/libcrs_msgs__rosidl_typesupport_cpp.so
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_configuration__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_motion_plan__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/tool_process_path__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/call_freespace_motion__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/crop_toolpaths__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/execute_action__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_available_actions__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_configuration__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_roi_selection__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/load_part__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/localize_to_part__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/plan_process_motions__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/robot_positioner__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/run_robot_script__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/libcrs_msgs__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_configuration.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_configuration__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_configuration__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_configuration__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_motion_plan.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_motion_plan__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_motion_plan__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_motion_plan__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/tool_process_path.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/tool_process_path__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/tool_process_path__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/tool_process_path__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/call_freespace_motion.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/call_freespace_motion__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/call_freespace_motion__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/call_freespace_motion__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/crop_toolpaths.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/crop_toolpaths__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/crop_toolpaths__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/crop_toolpaths__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/execute_action.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/execute_action__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/execute_action__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/execute_action__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_available_actions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_available_actions__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_available_actions__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_available_actions__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_configuration.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_configuration__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_configuration__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_configuration__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_roi_selection.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_roi_selection__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_roi_selection__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_roi_selection__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/load_part.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/load_part__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/load_part__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/load_part__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/localize_to_part.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/localize_to_part__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/localize_to_part__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/localize_to_part__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/plan_process_motions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/plan_process_motions__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/plan_process_motions__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/plan_process_motions__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/robot_positioner.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/robot_positioner__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/robot_positioner__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/robot_positioner__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/run_robot_script.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/run_robot_script__functions.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/run_robot_script__struct.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/run_robot_script__type_support.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/libcrs_msgs__rosidl_generator_c.so
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_configuration__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_motion_plan__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/tool_process_path__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/call_freespace_motion__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/crop_toolpaths__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/execute_action__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_available_actions__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_configuration__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_roi_selection__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/load_part__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/localize_to_part__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/plan_process_motions__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/robot_positioner__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/run_robot_script__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/libcrs_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_configuration.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_configuration__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_configuration__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_motion_plan.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_motion_plan__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_motion_plan__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/tool_process_path.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/tool_process_path__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/tool_process_path__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/call_freespace_motion.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/call_freespace_motion__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/call_freespace_motion__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/crop_toolpaths.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/crop_toolpaths__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/crop_toolpaths__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/execute_action.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/execute_action__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/execute_action__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_available_actions.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_available_actions__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_available_actions__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_configuration.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_configuration__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_configuration__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_roi_selection.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_roi_selection__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_roi_selection__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/load_part.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/load_part__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/load_part__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/localize_to_part.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/localize_to_part__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/localize_to_part__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/plan_process_motions.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/plan_process_motions__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/plan_process_motions__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/robot_positioner.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/robot_positioner__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/robot_positioner__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/run_robot_script.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/run_robot_script__struct.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/run_robot_script__traits.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_configuration__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_motion_plan__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/tool_process_path__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/call_freespace_motion__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/crop_toolpaths__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/execute_action__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_available_actions__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_configuration__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_roi_selection__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/load_part__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/localize_to_part__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/plan_process_motions__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/robot_positioner__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/run_robot_script__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/libcrs_msgs__rosidl_typesupport_introspection_c.so
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_configuration__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/process_motion_plan__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/msg/tool_process_path__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/call_freespace_motion__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/crop_toolpaths__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/execute_action__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_available_actions__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_configuration__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/get_roi_selection__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/load_part__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/localize_to_part__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/plan_process_motions__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/robot_positioner__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/include/crs_msgs/srv/run_robot_script__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/libcrs_msgs__rosidl_typesupport_introspection_cpp.so
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/environment/pythonpath.sh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/environment/pythonpath.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/__init__.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/msg/__init__.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/msg/_process_configuration.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/msg/_process_motion_plan.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/msg/_tool_process_path.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/__init__.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/_call_freespace_motion.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/_crop_toolpaths.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/_execute_action.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/_get_available_actions.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/_get_configuration.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/_get_roi_selection.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/_load_part.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/_localize_to_part.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/_plan_process_motions.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/_robot_positioner.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/srv/_run_robot_script.py
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/crs_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/crs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/lib/libcrs_msgs__python.so
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/msg/ProcessConfiguration.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/msg/ProcessMotionPlan.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/msg/ToolProcessPath.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/CallFreespaceMotion.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetROISelection.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/LoadPart.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/LocalizeToPart.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/ExecuteAction.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetAvailableActions.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/PlanProcessMotions.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetConfiguration.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/RobotPositioner.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/CropToolpaths.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/RunRobotScript.idl
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/msg/ProcessConfiguration.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/msg/ProcessMotionPlan.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/msg/ToolProcessPath.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/CallFreespaceMotion.srv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/CallFreespaceMotion_Request.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/CallFreespaceMotion_Response.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetROISelection.srv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetROISelection_Request.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetROISelection_Response.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/LoadPart.srv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/LoadPart_Request.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/LoadPart_Response.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/LocalizeToPart.srv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/LocalizeToPart_Request.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/LocalizeToPart_Response.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/ExecuteAction.srv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/ExecuteAction_Request.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/ExecuteAction_Response.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetAvailableActions.srv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetAvailableActions_Request.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetAvailableActions_Response.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/PlanProcessMotions.srv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/PlanProcessMotions_Request.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/PlanProcessMotions_Response.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetConfiguration.srv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetConfiguration_Request.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/GetConfiguration_Response.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/RobotPositioner.srv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/RobotPositioner_Request.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/RobotPositioner_Response.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/CropToolpaths.srv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/CropToolpaths_Request.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/CropToolpaths_Response.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/RunRobotScript.srv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/RunRobotScript_Request.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/srv/RunRobotScript_Response.msg
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/ament_index/resource_index/package_run_dependencies/crs_msgs
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/ament_index/resource_index/parent_prefix_path/crs_msgs
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/environment/path.sh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/environment/path.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/local_setup.bash
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/local_setup.sh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/local_setup.zsh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/local_setup.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/package.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/ament_index/resource_index/packages/crs_msgs
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/cmake/crs_msgsConfig.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/cmake/crs_msgsConfig-version.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/package.xml
+Compiling '/root/crs_ws_fanuc/install/crs_msgs/lib/python3.6/site-packages/crs_msgs/__init__.py'...

@@ -1,0 +1,1 @@
+rclcpp;rclcpp_components;region_detection_core;region_detection_msgs;interactive_markers;pcl_conversions;sensor_msgs;tf2_ros;tf2_geometry_msgs;visualization_msgs;cv_bridge;tf2_eigen;launch_xml;ament_lint_auto;ament_lint_common

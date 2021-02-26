@@ -1,0 +1,11 @@
+/root/crs_ws_fanuc/build/region_detection_core/CMakeFiles/install/strip.dir
+/root/crs_ws_fanuc/build/region_detection_core/CMakeFiles/install.dir
+/root/crs_ws_fanuc/build/region_detection_core/CMakeFiles/list_install_components.dir
+/root/crs_ws_fanuc/build/region_detection_core/CMakeFiles/rebuild_cache.dir
+/root/crs_ws_fanuc/build/region_detection_core/CMakeFiles/threshold_in_range_test.dir
+/root/crs_ws_fanuc/build/region_detection_core/CMakeFiles/threshold_grayscale_test.dir
+/root/crs_ws_fanuc/build/region_detection_core/CMakeFiles/adaptive_threshold_test.dir
+/root/crs_ws_fanuc/build/region_detection_core/CMakeFiles/install/local.dir
+/root/crs_ws_fanuc/build/region_detection_core/CMakeFiles/region_detection_core.dir
+/root/crs_ws_fanuc/build/region_detection_core/CMakeFiles/region_detection_test.dir
+/root/crs_ws_fanuc/build/region_detection_core/CMakeFiles/edit_cache.dir

@@ -1,0 +1,28 @@
+[ 50%] Built target crs_robot_comms_ur_comms_sim
+[100%] Built target crs_robot_comms_ur_comms
+[ 50%] Built target crs_robot_comms_ur_comms
+[100%] Built target crs_robot_comms_ur_comms_sim
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/ament_index/resource_index/package_run_dependencies/crs_robot_comms
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/ament_index/resource_index/parent_prefix_path/crs_robot_comms
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/path.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/path.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.bash
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.zsh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/package.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/ament_index/resource_index/packages/crs_robot_comms
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/ament_cmake_export_interfaces-extras.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/crs_robot_commsConfig.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/crs_robot_commsConfig-version.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_robot_comms/lib/crs_robot_comms/crs_robot_comms_ur_comms
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_robot_comms/lib/crs_robot_comms/crs_robot_comms_ur_comms_sim
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/-targetsExport.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/-targetsExport-debug.cmake

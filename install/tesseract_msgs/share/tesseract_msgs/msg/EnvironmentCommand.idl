@@ -1,0 +1,100 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tesseract_msgs/msg/EnvironmentCommand.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "sensor_msgs/msg/JointState.idl"
+#include "tesseract_msgs/msg/AllowedCollisionEntry.idl"
+#include "tesseract_msgs/msg/Joint.idl"
+#include "tesseract_msgs/msg/Link.idl"
+
+module tesseract_msgs {
+  module msg {
+    module EnvironmentCommand_Constants {
+      const uint8 ADD = 0;
+      const uint8 MOVE_LINK = 1;
+      const uint8 MOVE_JOINT = 2;
+      const uint8 REMOVE_LINK = 3;
+      const uint8 REMOVE_JOINT = 4;
+      const uint8 CHANGE_LINK_ORIGIN = 5;
+      const uint8 CHANGE_JOINT_ORIGIN = 6;
+      const uint8 CHANGE_LINK_COLLISION_ENABLED = 7;
+      const uint8 CHANGE_LINK_VISIBILITY = 8;
+      const uint8 ADD_ALLOWED_COLLISION = 9;
+      const uint8 REMOVE_ALLOWED_COLLISION = 10;
+      const uint8 REMOVE_ALLOWED_COLLISION_LINK = 11;
+      const uint8 UPDATE_JOINT_STATE = 12;
+    };
+    @verbatim (language="comment", text=
+      " Possible Commands")
+    struct EnvironmentCommand {
+      @verbatim (language="comment", text=
+        " Specifies the type of command. Dictates which of the fields below are used")
+      uint8 command;
+
+      @verbatim (language="comment", text=
+        " ADD - Adds a link and the associated joint to the environment")
+      tesseract_msgs::msg::Link add_link;
+
+      tesseract_msgs::msg::Joint add_joint;
+
+      @verbatim (language="comment", text=
+        " MOVE_LINK - Changes the joint associated with the link")
+      tesseract_msgs::msg::Joint move_link_joint;
+
+      @verbatim (language="comment", text=
+        " MOVE_JOINT - Changes the parent link associated with the joint")
+      string move_joint_name;
+
+      string move_joint_parent_link;
+
+      @verbatim (language="comment", text=
+        " REMOVE_LINK - Removes the link from the environment")
+      string remove_link;
+
+      @verbatim (language="comment", text=
+        " REMOVE_JOINT - Removes the joint from the environment")
+      string remove_joint;
+
+      @verbatim (language="comment", text=
+        " CHANGE_LINK_ORIGIN - Changes the origin of the link")
+      string change_link_origin_name;
+
+      geometry_msgs::msg::Pose change_link_origin_pose;
+
+      @verbatim (language="comment", text=
+        " CHANGE_JOINT_ORIGIN - Changes the origin of the joint")
+      string change_joint_origin_name;
+
+      geometry_msgs::msg::Pose change_joint_origin_pose;
+
+      @verbatim (language="comment", text=
+        " CHANGE_LINK_COLLISION_ENABLED - Enables/Disables collisions for the link")
+      string change_link_collision_enabled_name;
+
+      boolean change_link_collision_enabled_value;
+
+      @verbatim (language="comment", text=
+        " CHANGE_LINK_VISIBILITY - Enables/Disables visibility for the link")
+      string change_link_visibility_name;
+
+      boolean change_link_visibility_value;
+
+      @verbatim (language="comment", text=
+        " ADD_ALLOWED_COLLISION - Adds an allowable collision to the allowable collision matrix")
+      tesseract_msgs::msg::AllowedCollisionEntry add_allowed_collision;
+
+      @verbatim (language="comment", text=
+        " REMOVE_ALLOWED_COLLISION - Removes an allowable collision from the allowable collision matrix")
+      tesseract_msgs::msg::AllowedCollisionEntry remove_allowed_collision;
+
+      @verbatim (language="comment", text=
+        " REMOVE_ALLOWED_COLLISION_LINK")
+      string remove_allowed_collision_link;
+
+      @verbatim (language="comment", text=
+        " UPDATE_JOINT_STATE")
+      sensor_msgs::msg::JointState joint_state;
+    };
+  };
+};

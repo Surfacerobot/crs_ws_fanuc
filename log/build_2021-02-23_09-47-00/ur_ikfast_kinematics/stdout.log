@@ -1,0 +1,16 @@
+-- A library with BLAS API found.
+-- A library with LAPACK API found.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/ur_ikfast_kinematics
+[100%] Built target ur10e_ikfast
+[100%] Built target ur10e_ikfast
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/libur10e_ikfast.so
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-targets.cmake
+-- Installing: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-targets-debug.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/include/ur_ikfast_kinematics
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/include/ur_ikfast_kinematics/descartes_ikfast_ur10e.h
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-config.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-config-version.cmake

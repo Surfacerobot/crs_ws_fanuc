@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/crs_ws_fanuc/build/trajopt_sco/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a069b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a069b.dir/build.make CMakeFiles/cmTC_a069b.dir/build
+make[1]: Entering directory '/root/crs_ws_fanuc/build/trajopt_sco/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a069b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a069b.dir/CheckSymbolExists.cxx.o -c /root/crs_ws_fanuc/build/trajopt_sco/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_a069b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a069b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_a069b.dir/CheckSymbolExists.cxx.o  -o cmTC_a069b 
+CMakeFiles/cmTC_a069b.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a069b.dir/build.make:97: recipe for target 'cmTC_a069b' failed
+make[1]: *** [cmTC_a069b] Error 1
+make[1]: Leaving directory '/root/crs_ws_fanuc/build/trajopt_sco/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a069b/fast' failed
+make: *** [cmTC_a069b/fast] Error 2
+
+File /root/crs_ws_fanuc/build/trajopt_sco/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/crs_ws_fanuc/build/trajopt_sco/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe2ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe2ed.dir/build.make CMakeFiles/cmTC_fe2ed.dir/build
+make[1]: Entering directory '/root/crs_ws_fanuc/build/trajopt_sco/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fe2ed.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fe2ed.dir/CheckFunctionExists.cxx.o -c /root/crs_ws_fanuc/build/trajopt_sco/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_fe2ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe2ed.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_fe2ed.dir/CheckFunctionExists.cxx.o  -o cmTC_fe2ed -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fe2ed.dir/build.make:97: recipe for target 'cmTC_fe2ed' failed
+make[1]: *** [cmTC_fe2ed] Error 1
+make[1]: Leaving directory '/root/crs_ws_fanuc/build/trajopt_sco/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fe2ed/fast' failed
+make: *** [cmTC_fe2ed/fast] Error 2
+
+

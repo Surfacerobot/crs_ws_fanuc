@@ -1,0 +1,392 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 0.7.2 (/opt/ros/eloquent/share/ament_index_cpp/cmake)
+-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+-- Found FastRTPS: /opt/ros/eloquent/include  
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 0.8.5 (/opt/ros/eloquent/share/rclcpp_action/cmake)
+-- Found crs_msgs: 0.0.0 (/root/crs_ws_fanuc/install/crs_msgs/share/crs_msgs/cmake)
+-- Found OMPL: /usr/lib/x86_64-linux-gnu/libompl.so  
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   python
+--   thread
+--   program_options
+--   chrono
+--   date_time
+--   atomic
+-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+-- Found Bullet: /root/crs_ws_fanuc/install/bullet3/lib/libBulletDynamics.so  
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.4
+-- Found eigen: /usr/include/eigen3  
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+-- Checking for module 'libopenni'
+--   Found libopenni, version 1.5.4.0
+-- Found openni: /usr/lib/libOpenNI.so  
+-- Checking for module 'libopenni2'
+--   Found libopenni2, version 2.2.0.3
+-- Found OpenNI2: /usr/lib/libOpenNI2.so  
+-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+** WARNING ** io features related to ensenso will be disabled
+-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+** WARNING ** io features related to davidSDK will be disabled
+-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+** WARNING ** io features related to dssdk will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- Found libusb-1.0: /usr/include  
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+** WARNING ** visualization features related to ensenso will be disabled
+-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+** WARNING ** visualization features related to davidSDK will be disabled
+-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+** WARNING ** visualization features related to dssdk will be disabled
+-- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+** WARNING ** visualization features related to rssdk will be disabled
+-- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- looking for PCL_2D
+-- Found PCL_2D: /usr/include/pcl-1.8  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.8  
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- looking for PCL_ML
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- looking for PCL_STEREO
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- looking for PCL_APPS
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- looking for PCL_IN_HAND_SCANNER
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.8  
+-- looking for PCL_MODELER
+-- Found PCL_MODELER: /usr/include/pcl-1.8  
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.8  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_common.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/lib/x86_64-linux-gnu/libpcl_io.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_search.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_search.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_features.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_features.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_people.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_people.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- A library with BLAS API found.
+-- Looking for cheev_
+-- Looking for cheev_ - found
+-- A library with LAPACK API found.
+-- Found std_srvs: 0.8.1 (/opt/ros/eloquent/share/std_srvs/cmake)
+-- Found visualization_msgs: 0.8.1 (/opt/ros/eloquent/share/visualization_msgs/cmake)
+-- Found control_msgs: 2.2.0 (/opt/ros/eloquent/share/control_msgs/cmake)
+-- Found tf2: 0.12.6 (/opt/ros/eloquent/share/tf2/cmake)
+-- Found tf2_ros: 0.12.6 (/opt/ros/eloquent/share/tf2_ros/cmake)
+-- Found tf2_eigen: 0.12.6 (/opt/ros/eloquent/share/tf2_eigen/cmake)
+-- Found tf2_geometry_msgs: 0.12.6 (/opt/ros/eloquent/share/tf2_geometry_msgs/cmake)
+-- Found yaml_cpp_vendor: 7.0.0 (/opt/ros/eloquent/share/yaml_cpp_vendor/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/eloquent/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include>
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/crs_motion_planning
+[35m[1mScanning dependencies of target crs_motion_planning_path_processing_utils[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/crs_motion_planning_path_processing_utils.dir/src/path_processing_utils.cpp.o[0m
+In file included from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:3:0[m[K:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:54:103:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+                                          const std::array<float, 4> color = { 1.0, 0.8, 1.0, 1.0 }[01;35m[K)[m[K;
+                                                                                                   [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+     const std::tuple<float, float, float, float>& point_rgba = std::make_tuple(0.1, .8, 0.2, 1.0)[01;35m[K)[m[K;
+                                                                                                  [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:[m[K In function ‘[01m[Kbool crs_motion_planning::parsePathFromFile(const string&, const string&, std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:124:35:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+         for (int i = [01;35m[Kstrip.size() - 1[m[K; i >= 0; --i)
+                      [01;35m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:60:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     size_t [01;35m[Kcount[m[K = 0;
+            [01;35m[K^~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:[m[K In function ‘[01m[Kvisualization_msgs::msg::MarkerArray crs_motion_planning::convertToAxisMarkers(const std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, const string&, const string&, const size_t&, const double&, const double&, const std::array<float, 6>&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:231:19:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   int marker_id = [01;35m[Kstart_id[m[K;
+                   [01;35m[K^~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:[m[K In function ‘[01m[Kvisualization_msgs::msg::MarkerArray crs_motion_planning::convertToDottedLineMarker(const std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, const string&, const string&, const size_t&, const std::array<float, 6>&, const float&, const float&, const std::tuple<float, float, float, float>&, const std::tuple<float, float, float, float>&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:293:20:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::_id_type {aka int}[m[K’ from ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   line_marker.id = [01;35m[Kstart_id[m[K;
+                    [01;35m[K^~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:307:20:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   int id_counter = [01;35m[Kstart_id[m[K;
+                    [01;35m[K^~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:[m[K In function ‘[01m[Kvoid crs_motion_planning::cleanRasterStrip(const PoseArray&, const std::vector<long unsigned int>&, std::vector<geometry_msgs::msg::PoseArray_<std::allocator<void> > >&, geometry_msgs::msg::PoseArray&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:437:49:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+       if (curr_raster_pose_array.poses.size() > [01;35m[Kmin_len_raster[m[K)
+                                                 [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:450:45:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   if (curr_raster_pose_array.poses.size() > [01;35m[Kmin_len_raster[m[K)
+                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:[m[K In function ‘[01m[Kbool crs_motion_planning::timeParameterizeFreespace(const JointTrajectory&, const double&, const double&, trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:715:43:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[K__gnu_cxx::__normal_iterator<iterative_spline_parameterization::TrajectoryState*, std::vector<iterative_spline_parameterization::TrajectoryState> >::difference_type {aka long int}[m[K’ from ‘[01m[Ksize_t {aka long unsigned int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+       waypoints.erase(waypoints.begin() + [01;35m[Ki[m[K);
+                                           [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:725:56:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K’ from ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index {aka long int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+     traj_point.positions.resize([01;35m[Kwaypoint.positions.size()[m[K);
+                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:728:58:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K’ from ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index {aka long int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+     traj_point.velocities.resize([01;35m[Kwaypoint.velocities.size()[m[K);
+                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_processing_utils.cpp:731:64:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K’ from ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index {aka long int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+     traj_point.accelerations.resize([01;35m[Kwaypoint.accelerations.size()[m[K);
+                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[ 25%] [32m[1mLinking CXX shared library libcrs_motion_planning_path_processing_utils.so[0m
+[ 25%] Built target crs_motion_planning_path_processing_utils
+[35m[1mScanning dependencies of target crs_motion_planning_path_planning_utils[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/crs_motion_planning_path_planning_utils.dir/src/path_planning_utils.cpp.o[0m
+In file included from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_planning_utils.h:31:0[m[K,
+                 from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1[m[K:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:54:103:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+                                          const std::array<float, 4> color = { 1.0, 0.8, 1.0, 1.0 }[01;35m[K)[m[K;
+                                                                                                   [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+     const std::tuple<float, float, float, float>& point_rgba = std::make_tuple(0.1, .8, 0.2, 1.0)[01;35m[K)[m[K;
+                                                                                                  [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In function ‘[01m[Kbool crs_motion_planning::loadPathPlanningConfig(const string&, crs_motion_planning::pathPlanningConfig&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:100:82:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[Kdouble[m[K’ may alter its value [[01;35m[K-Wfloat-conversion[m[K]
+     ompl_config.n_output_states = [01;35m[Kompl_yaml["default_n_output_states"].as<double>()[m[K;
+                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::generateDescartesSeed(const PoseArray&, std::vector<long unsigned int>&, std::vector<long unsigned int>&, trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:278:60:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   descartes_light::SolverD graph_builder([01;35m[Kkin_interface->dof()[m[K);
+                                          [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:296:71:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[KEigen::Index {aka long int}[m[K’ from ‘[01m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   Eigen::Map<Eigen::VectorXd> solution_vec(&solution[0], [01;35m[Ksolution.size()[m[K);
+                                                          [01;35m[K~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:300:33:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index {aka long int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   int n_rows = [01;35m[Kseed_traj.size() / kin_interface->dof()[m[K;
+                [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::generateOMPLSeed(const Ptr&, const Ptr&, tesseract_common::JointTrajectory&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:822:76:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<std::shared_ptr<const tesseract_motion_planners::OMPLPlannerConfigurator> >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   ompl_configurators.insert(ompl_configurators.end(), [01;35m[Kconfig_->ompl_config.num_threads[m[K, rrt_connect_configuration);
+                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::trajoptFreespaceFromOMPL(const Ptr&, const Ptr&, const tesseract_common::JointTrajectory&, trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:956:55:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[KEigen::Index {aka long int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   traj_pc->num_steps = [01;35m[Kseed_trajectory.trajectory.rows()[m[K;
+                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::generateFreespacePlans(crs_motion_planning::pathPlanningResults::Ptr&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1035:55:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+       for (int i = 0; i < curr_joint_traj.points.size([01;35m[K)[m[K; ++i)
+                                                       [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1098:55:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+       for (int i = 0; i < curr_joint_traj.points.size([01;35m[K)[m[K; ++i)
+                                                       [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1161:55:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+       for (int i = 0; i < curr_joint_traj.points.size([01;35m[K)[m[K; ++i)
+                                                       [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::generateFreespacePlan(const Ptr&, const Ptr&, trajectory_msgs::msg::JointTrajectory&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1229:54:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+     for (int i = 0; i < joint_trajectory.points.size([01;35m[K)[m[K; ++i)
+                                                      [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:[m[K In member function ‘[01m[Kbool crs_motion_planning::crsMotionPlanner::findClosestJointOrientation(const Ptr&, const Ptr&, tesseract_motion_planners::JointWaypoint::Ptr&, const double&)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1320:60:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kstd::size_t {aka long unsigned int}[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   descartes_light::SolverD graph_builder([01;35m[Kkin_interface->dof()[m[K);
+                                          [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1333:71:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[KEigen::Index {aka long int}[m[K’ from ‘[01m[Kstd::vector<double>::size_type {aka long unsigned int}[m[K’ may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+   Eigen::Map<Eigen::VectorXd> solution_vec(&solution[0], [01;35m[Ksolution.size()[m[K);
+                                                          [01;35m[K~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/path_planning_utils.cpp:1337:33:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, -1, 1> >::Index {aka long int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+   int n_rows = [01;35m[Kseed_traj.size() / kin_interface->dof()[m[K;
+                [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX shared library libcrs_motion_planning_path_planning_utils.so[0m
+[ 50%] Built target crs_motion_planning_path_planning_utils
+[35m[1mScanning dependencies of target crs_motion_planning_motion_planning_server[0m
+[35m[1mScanning dependencies of target crs_motion_planning_process_planner_test[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/crs_motion_planning_motion_planning_server.dir/src/motion_planning_server.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/crs_motion_planning_process_planner_test.dir/src/process_planner_test.cpp.o[0m
+In file included from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_planning_utils.h:31:0[m[K,
+                 from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:7[m[K:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:54:103:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+                                              const std::array<float, 4> color = { 1.0, 0.8, 1.0, 1.0 }[01;35m[K)[m[K;
+                                                                                                       [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+     const std::tuple<float, float, float, float>& point_rgba = std::make_tuple(0.1, .8, 0.2, 1.0)[01;35m[K)[m[K;
+                                                                                                  [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+In file included from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_planning_utils.h:31:0[m[K,
+                 from [01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/motion_planning_server.cpp:8[m[K:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:54:103:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+                                          const std::array<float, 4> color = { 1.0, 0.8, 1.0, 1.0 }[01;35m[K)[m[K;
+                                                                                                   [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+     const std::tuple<float, float, float, float>& point_rgba = std::make_tuple(0.1, .8, 0.2, 1.0)[01;35m[K)[m[K;
+                                                                                                  [01;35m[K^[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/include/crs_motion_planning/path_processing_utils.h:96:98:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kfloat[m[K’ alters ‘[01m[Kdouble[m[K’ constant value [[01;35m[K-Wfloat-conversion[m[K]
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:[m[K In constructor ‘[01m[KProcessPlannerTestServer::ProcessPlannerTestServer(std::shared_ptr<rclcpp::Node>)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:519:33:[m[K [01;35m[Kwarning: [m[K‘[01m[KProcessPlannerTestServer::pnode_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   std::shared_ptr<rclcpp::Node> [01;35m[Kpnode_[m[K;
+                                 [01;35m[K^~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:505:34:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Clock> ProcessPlannerTestServer::clock_[m[K’ [[01;35m[K-Wreorder[m[K]
+   std::shared_ptr<rclcpp::Clock> [01;35m[Kclock_[m[K;
+                                  [01;35m[K^~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:91:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   [01;35m[KProcessPlannerTestServer[m[K(std::shared_ptr<rclcpp::Node> node)
+   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:[m[K In member function ‘[01m[Kvoid ProcessPlannerTestServer::planService(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:261:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   void planService(std::shared_ptr<std_srvs::srv::Trigger::Request> [01;35m[Krequest[m[K,
+                                                                     [01;35m[K^~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:[m[K In member function ‘[01m[Kvoid ProcessPlannerTestServer::testPartLoader(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:470:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   void testPartLoader(std::shared_ptr<std_srvs::srv::Trigger::Request> [01;35m[Krequest[m[K,
+                                                                        [01;35m[K^~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/process_planner_test.cpp:471:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+                       std::shared_ptr<std_srvs::srv::Trigger::Response> [01;35m[Kresponse[m[K)
+                                                                         [01;35m[K^~~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/motion_planning_server.cpp:[m[K In member function ‘[01m[Kvoid MotionPlanningServer::planFreespace(std::shared_ptr<crs_msgs::srv::CallFreespaceMotion_Request_<std::allocator<void> > >, std::shared_ptr<crs_msgs::srv::CallFreespaceMotion_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/motion_planning_server.cpp:346:71:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Kint[m[K’ from ‘[01m[Kint64_t {aka long int}[m[K’ may alter its value [[01;35m[K-Wconversion[m[K]
+           [01;35m[Kthis->get_parameter(param_names::NUM_FREEPSACE_STEPS).as_int()[m[K;
+           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/motion_planning_server.cpp:[m[K In member function ‘[01m[Kvoid MotionPlanningServer::removePartTesseract(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_motion_planning/src/motion_planning_server.cpp:501:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   void removePartTesseract(std::shared_ptr<std_srvs::srv::Trigger::Request> [01;35m[Krequest[m[K,
+                                                                             [01;35m[K^~~~~~~[m[K
+[ 87%] [32m[1mLinking CXX executable crs_motion_planning_process_planner_test[0m
+[100%] [32m[1mLinking CXX executable crs_motion_planning_motion_planning_server[0m
+[100%] Built target crs_motion_planning_process_planner_test
+[100%] Built target crs_motion_planning_motion_planning_server
+[ 25%] Built target crs_motion_planning_path_processing_utils
+[ 50%] Built target crs_motion_planning_path_planning_utils
+[100%] Built target crs_motion_planning_process_planner_test
+[100%] Built target crs_motion_planning_motion_planning_server
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/ament_index/resource_index/package_run_dependencies/crs_motion_planning
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/ament_index/resource_index/parent_prefix_path/crs_motion_planning
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/environment/ament_prefix_path.sh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/environment/path.sh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/environment/path.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/local_setup.bash
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/local_setup.sh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/local_setup.zsh
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/local_setup.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/package.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/ament_index/resource_index/packages/crs_motion_planning
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/ament_cmake_export_interfaces-extras.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/crs_motion_planningConfig.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/crs_motion_planningConfig-version.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_motion_planning/include/crs_motion_planning/
+-- Installing: /root/crs_ws_fanuc/install/crs_motion_planning/include/crs_motion_planning//path_processing_utils.h
+-- Installing: /root/crs_ws_fanuc/install/crs_motion_planning/include/crs_motion_planning//path_planning_utils.h
+-- Installing: /root/crs_ws_fanuc/install/crs_motion_planning/lib/libcrs_motion_planning_path_processing_utils.so
+-- Set runtime path of "/root/crs_ws_fanuc/install/crs_motion_planning/lib/libcrs_motion_planning_path_processing_utils.so" to ""
+-- Installing: /root/crs_ws_fanuc/install/crs_motion_planning/lib/libcrs_motion_planning_path_planning_utils.so
+-- Set runtime path of "/root/crs_ws_fanuc/install/crs_motion_planning/lib/libcrs_motion_planning_path_planning_utils.so" to ""
+-- Installing: /root/crs_ws_fanuc/install/crs_motion_planning/lib/crs_motion_planning/crs_motion_planning_motion_planning_server
+-- Set runtime path of "/root/crs_ws_fanuc/install/crs_motion_planning/lib/crs_motion_planning/crs_motion_planning_motion_planning_server" to ""
+-- Installing: /root/crs_ws_fanuc/install/crs_motion_planning/lib/crs_motion_planning/crs_motion_planning_process_planner_test
+-- Set runtime path of "/root/crs_ws_fanuc/install/crs_motion_planning/lib/crs_motion_planning/crs_motion_planning_process_planner_test" to ""
+-- Old export file "/root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/-targetsExport.cmake" will be replaced.  Removing files [/root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/-targetsExport-debug.cmake;/root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/-targetsExport-noconfig.cmake].
+-- Installing: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/-targetsExport.cmake
+-- Installing: /root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake/-targetsExport-noconfig.cmake

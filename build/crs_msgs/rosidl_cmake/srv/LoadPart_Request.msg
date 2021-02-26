@@ -1,0 +1,2 @@
+string path_to_part
+geometry_msgs/Pose part_origin

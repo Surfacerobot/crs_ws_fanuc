@@ -1,0 +1,28 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/fanuc_resources
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources//urdf/common_colours.xacro
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources//urdf/common_materials.xacro
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/ament_index/resource_index/package_run_dependencies/fanuc_resources
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/ament_index/resource_index/parent_prefix_path/fanuc_resources
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/ament_prefix_path.sh
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/ament_prefix_path.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/path.sh
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/path.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.bash
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.sh
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.zsh
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/package.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/ament_index/resource_index/packages/fanuc_resources
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig.cmake
+-- Symlinking: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig-version.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/package.xml

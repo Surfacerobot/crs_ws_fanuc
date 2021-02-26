@@ -1,0 +1,44 @@
+-- Found OpenMP_CXX: -fopenmp  
+-- Found OpenMP: TRUE   
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/descartes_light
+[ 16%] Building CXX object CMakeFiles/descartes_light.dir/src/descartes_light.cpp.o
+[ 33%] Building CXX object CMakeFiles/descartes_light.dir/src/ladder_graph_dag_search.cpp.o
+[ 50%] Building CXX object CMakeFiles/descartes_light.dir/src/ladder_graph.cpp.o
+[ 66%] Building CXX object CMakeFiles/descartes_light_gantry.dir/src/gantry_kinematics.cpp.o
+[ 83%] Linking CXX shared library libdescartes_light.so
+[ 83%] Built target descartes_light
+[100%] Linking CXX shared library libdescartes_light_gantry.so
+[100%] Built target descartes_light_gantry
+[ 33%] Built target descartes_light_gantry
+[100%] Built target descartes_light
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /root/crs_ws_fanuc/install/descartes_light/lib/libdescartes_light.so
+-- Set runtime path of "/root/crs_ws_fanuc/install/descartes_light/lib/libdescartes_light.so" to ""
+-- Installing: /root/crs_ws_fanuc/install/descartes_light/lib/libdescartes_light_gantry.so
+-- Set runtime path of "/root/crs_ws_fanuc/install/descartes_light/lib/libdescartes_light_gantry.so" to ""
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/lib/cmake/descartes_light/descartes_light-targets.cmake
+-- Installing: /root/crs_ws_fanuc/install/descartes_light/lib/cmake/descartes_light/descartes_light-targets-debug.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/share/descartes_light/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/lib/cmake/descartes_light/descartes_light-config.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/lib/cmake/descartes_light/descartes_light-config-version.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl/gantry_kinematics.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl/gantry_kinematics.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl/ladder_graph_dag_search.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl/descartes_light.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl/ladder_graph.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/ladder_graph_dag_search.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/utils.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/visibility_control.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/ladder_graph.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/interface
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/interface/collision_interface.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/interface/kinematics_interface.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/interface/edge_evaluator.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/interface/position_sampler.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/descartes_light.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/lib/cmake/descartes_light/descartes_light_macros.cmake

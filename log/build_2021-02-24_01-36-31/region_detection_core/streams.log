@@ -1,0 +1,6 @@
+[0.057s] Invoking command in '/root/crs_ws_fanuc/build/region_detection_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/region_detection_core -- -j8 -l8
+[0.123s] [ 18%] Built target threshold_grayscale_test
+[0.125s] [ 54%] Built target threshold_in_range_test
+[0.125s] [ 54%] Built target adaptive_threshold_test
+[0.144s] [ 81%] Built target region_detection_core
+[0.178s] [100%] Built target region_detection_test

@@ -1,0 +1,6 @@
+source;share/roscpp_scxml_demos/hook/cmake_prefix_path.ps1
+source;share/roscpp_scxml_demos/hook/cmake_prefix_path.dsv
+source;share/roscpp_scxml_demos/hook/cmake_prefix_path.sh
+source;share/roscpp_scxml_demos/hook/pkg_config.ps1
+source;share/roscpp_scxml_demos/hook/pkg_config.dsv
+source;share/roscpp_scxml_demos/hook/pkg_config.sh

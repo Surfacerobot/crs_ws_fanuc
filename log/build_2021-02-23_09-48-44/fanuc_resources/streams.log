@@ -1,0 +1,40 @@
+[0.051s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_resources -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_resources
+[0.091s] -- Using CATKIN_DEVEL_PREFIX: /root/crs_ws_fanuc/build/fanuc_resources/devel
+[0.092s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic;/root/crs_ws_fanuc/install/trajopt_tools;/root/crs_ws_fanuc/install/vhacd;/root/crs_ws_fanuc/install/crs_gui;/root/crs_ws_fanuc/install/crs_application;/root/crs_ws_fanuc/install/crs_motion_planning;/root/crs_ws_fanuc/install/ur_ikfast_kinematics;/root/crs_ws_fanuc/install/crs_robot_comms;/root/crs_ws_fanuc/install/ur_dashboard_msgs;/root/crs_ws_fanuc/install/trajopt_sqp;/root/crs_ws_fanuc/install/trajopt_ifopt;/root/crs_ws_fanuc/install/tesseract_monitoring;/root/crs_ws_fanuc/install/tesseract_rosutils;/root/crs_ws_fanuc/install/tesseract_process_planners;/root/crs_ws_fanuc/install/tesseract_motion_planners;/root/crs_ws_fanuc/install/trajopt;/root/crs_ws_fanuc/install/trajopt_sco;/root/crs_ws_fanuc/install/trajopt_utils;/root/crs_ws_fanuc/install/tesseract_visualization;/root/crs_ws_fanuc/install/tesseract;/root/crs_ws_fanuc/install/tesseract_urdf;/root/crs_ws_fanuc/install/tesseract_plugins;/root/crs_ws_fanuc/install/tesseract_environment;/root/crs_ws_fanuc/install/tesseract_collision;/root/crs_ws_fanuc/install/tesseract_support;/root/crs_ws_fanuc/install/tesseract_kinematics;/root/crs_ws_fanuc/install/tesseract_scene_graph;/root/crs_ws_fanuc/install/tesseract_msgs;/root/crs_ws_fanuc/install/tesseract_geometry;/root/crs_ws_fanuc/install/tesseract_common;/root/crs_ws_fanuc/install/rclcpp_scxml_demos;/root/crs_ws_fanuc/install/scxml_core;/root/crs_ws_fanuc/install/region_detection_rclcpp;/root/crs_ws_fanuc/install/region_detection_msgs;/root/crs_ws_fanuc/install/region_detection_core;/root/crs_ws_fanuc/install/osqp_eigen;/root/crs_ws_fanuc/install/osqp;/root/crs_ws_fanuc/install/descartes_opw;/root/crs_ws_fanuc/install/opw_kinematics;/root/crs_ws_fanuc/install/octomap_msgs;/root/crs_ws_fanuc/install/fcl;/root/crs_ws_fanuc/install/libccd;/root/crs_ws_fanuc/install/iterative_spline_parameterization;/root/crs_ws_fanuc/install/ifopt;/root/crs_ws_fanuc/install/gtest;/root/crs_ws_fanuc/install/descartes_samplers;/root/crs_ws_fanuc/install/descartes_ikfast;/root/crs_ws_fanuc/install/descartes_light;/root/crs_ws_fanuc/install/crs_toolpath_gen;/root/crs_ws_fanuc/install/crs_support;/root/crs_ws_fanuc/install/crs_process_data;/root/crs_ws_fanuc/install/crs_perception;/root/crs_ws_fanuc/install/crs_area_selection;/root/crs_ws_fanuc/install/crs_msgs;/root/crs_ws_fanuc/install/crs_gazebo_plugins;/root/crs_ws_fanuc/install/cartesian_trajectory_msgs;/root/crs_ws_fanuc/install/bullet3;/opt/qt513/lib/cmake
+[0.093s] -- This workspace overlays: /opt/ros/melodic
+[0.096s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.157s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.158s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.158s] -- Using Debian Python package layout
+[0.158s] -- Using empy: /usr/bin/empy
+[0.390s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.391s] -- Call enable_testing()
+[0.392s] -- Using CATKIN_TEST_RESULTS_DIR: /root/crs_ws_fanuc/build/fanuc_resources/test_results
+[0.435s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[0.436s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.436s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.497s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[0.506s] -- Using Python nosetests: /usr/bin/nosetests
+[0.608s] -- catkin 0.7.29
+[0.608s] -- BUILD_SHARED_LIBS is on
+[1.181s] -- Configuring done
+[1.194s] -- Generating done
+[1.475s] -- Build files have been written to: /root/crs_ws_fanuc/build/fanuc_resources
+[1.526s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_resources -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_resources
+[1.527s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources -- -j8 -l8
+[1.610s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources -- -j8 -l8
+[1.706s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target tests -- -j8 -l8
+[1.849s] Built target tests
+[1.873s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target tests -- -j8 -l8
+[1.966s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target install -- -j8 -l8
+[2.073s] [36mInstall the project...[0m
+[2.092s] -- Install configuration: "Debug"
+[2.092s] -- Execute custom install script
+[2.093s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/lib/pkgconfig/fanuc_resources.pc
+[2.093s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig.cmake
+[2.093s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig-version.cmake
+[2.094s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/package.xml
+[2.095s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/urdf/common_colours.xacro
+[2.095s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/urdf/common_materials.xacro
+[2.095s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/readme.md
+[2.100s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target install -- -j8 -l8

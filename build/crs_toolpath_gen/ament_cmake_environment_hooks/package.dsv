@@ -1,0 +1,4 @@
+source;share/crs_toolpath_gen/local_setup.bash
+source;share/crs_toolpath_gen/local_setup.dsv
+source;share/crs_toolpath_gen/local_setup.sh
+source;share/crs_toolpath_gen/local_setup.zsh

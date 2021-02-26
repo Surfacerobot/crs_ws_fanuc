@@ -1,0 +1,36 @@
+[0.104s] Invoking command in '/root/crs_ws_fanuc/build/trajopt_sco': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/osqp:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib:/root/crs_ws_fanuc/install/osqp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/trajopt_sco -- -j8 -l8
+[0.196s] [ 15%] Built target bpmpd_caller
+[0.214s] [100%] Built target trajopt_sco
+[0.230s] Invoked command in '/root/crs_ws_fanuc/build/trajopt_sco' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/osqp:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib:/root/crs_ws_fanuc/install/osqp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/trajopt_sco -- -j8 -l8
+[0.380s] Invoking command in '/root/crs_ws_fanuc/build/trajopt_sco': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/osqp:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib:/root/crs_ws_fanuc/install/osqp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/trajopt_sco --target install -- -j8 -l8
+[0.477s] [ 15%] Built target bpmpd_caller
+[0.499s] [100%] Built target trajopt_sco
+[0.543s] [36mInstall the project...[0m
+[0.553s] -- Install configuration: "Debug"
+[0.553s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/bin/bpmpd_caller
+[0.553s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/bin/bpmpd.par
+[0.554s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/lib/libtrajopt_sco.so
+[0.554s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-targets.cmake
+[0.554s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-targets-debug.cmake
+[0.555s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/share/trajopt_sco/package.xml
+[0.555s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-config.cmake
+[0.555s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/trajopt_sco-config-version.cmake
+[0.555s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco
+[0.556s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/optimizers.hpp
+[0.556s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/num_diff.hpp
+[0.556s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/expr_ops.hpp
+[0.556s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/qpoases_interface.hpp
+[0.557s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/osqp_interface.hpp
+[0.557s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/gurobi_interface.hpp
+[0.557s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/modeling_utils.hpp
+[0.557s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/solver_utils.hpp
+[0.557s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/bpmpd_io.hpp
+[0.557s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/modeling.hpp
+[0.558s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/expr_op_overloads.hpp
+[0.558s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/solver_interface.hpp
+[0.558s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/bpmpd_interface.hpp
+[0.559s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/expr_vec_ops.hpp
+[0.559s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/include/trajopt_sco/sco_common.hpp
+[0.560s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/FindGUROBI.cmake
+[0.561s] -- Up-to-date: /root/crs_ws_fanuc/install/trajopt_sco/lib/cmake/trajopt_sco/FindqpOASES.cmake
+[0.583s] Invoked command in '/root/crs_ws_fanuc/build/trajopt_sco' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/osqp:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib:/root/crs_ws_fanuc/install/osqp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/osqp/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/trajopt_sco --target install -- -j8 -l8

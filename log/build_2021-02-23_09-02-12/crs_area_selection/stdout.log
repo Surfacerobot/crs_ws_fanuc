@@ -1,0 +1,35 @@
+[ 60%] Built target crs_area_selection_area_selection
+[100%] Built target crs_area_selection_area_selection_node
+[ 60%] Built target crs_area_selection_area_selection
+[100%] Built target crs_area_selection_area_selection_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/ament_index/resource_index/package_run_dependencies/crs_area_selection
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/ament_index/resource_index/parent_prefix_path/crs_area_selection
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/environment/path.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/environment/path.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/local_setup.bash
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/local_setup.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/local_setup.zsh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/local_setup.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/package.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/ament_index/resource_index/packages/crs_area_selection
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_interfaces-extras.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/crs_area_selectionConfig-version.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_area_selection/lib/libcrs_area_selection_area_selection.so
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_area_selection/lib/crs_area_selection/crs_area_selection_area_selection_node
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_area_selection/include
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_area_selection/include/crs_area_selection
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_area_selection/include/crs_area_selection/area_selector_parameters.h
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_area_selection/include/crs_area_selection/area_selector.h
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_area_selection/include/crs_area_selection/selection_artist.h
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_area_selection/include/crs_area_selection/filter_impl.h
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_area_selection/include/crs_area_selection/filter.h
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/-targetsExport.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/-targetsExport-noconfig.cmake

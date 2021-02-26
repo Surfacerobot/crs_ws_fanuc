@@ -1,0 +1,42 @@
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- A library with BLAS API found.
+-- Looking for cheev_
+-- Looking for cheev_ - found
+-- A library with LAPACK API found.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/ur_ikfast_kinematics
+[35m[1mScanning dependencies of target ur10e_ikfast[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ur10e_ikfast.dir/src/descartes_ikfast_ur10e.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libur10e_ikfast.so[0m
+[100%] Built target ur10e_ikfast
+[100%] Built target ur10e_ikfast
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/libur10e_ikfast.so
+-- Set runtime path of "/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/libur10e_ikfast.so" to ""
+-- Installing: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-targets.cmake
+-- Installing: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-targets-noconfig.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/include/ur_ikfast_kinematics
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/include/ur_ikfast_kinematics/descartes_ikfast_ur10e.h
+-- Installing: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-config.cmake
+-- Installing: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-config-version.cmake

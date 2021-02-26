@@ -1,0 +1,20 @@
+[0.107s] Invoking command in '/root/crs_ws_fanuc/build/opw_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/opw_kinematics -- -j8 -l8
+[0.292s] [100%] Built target opw_kinematics_node
+[0.315s] Invoked command in '/root/crs_ws_fanuc/build/opw_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/opw_kinematics -- -j8 -l8
+[0.456s] Invoking command in '/root/crs_ws_fanuc/build/opw_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/opw_kinematics --target install -- -j8 -l8
+[0.711s] [100%] Built target opw_kinematics_node
+[0.843s] [36mInstall the project...[0m
+[0.855s] -- Install configuration: "Debug"
+[0.855s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/lib/cmake/opw_kinematics/opw_kinematics-targets.cmake
+[0.855s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics
+[0.856s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_io.h
+[0.856s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_kinematics.h
+[0.856s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_macros.h
+[0.856s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_parameters.h
+[0.856s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_parameters_examples.h
+[0.856s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_kinematics_impl.h
+[0.857s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/include/opw_kinematics/opw_utilities.h
+[0.857s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/share/opw_kinematics/package.xml
+[0.857s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/lib/cmake/opw_kinematics/opw_kinematics-config.cmake
+[0.857s] -- Up-to-date: /root/crs_ws_fanuc/install/opw_kinematics/lib/cmake/opw_kinematics/opw_kinematics-config-version.cmake
+[0.870s] Invoked command in '/root/crs_ws_fanuc/build/opw_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/opw_kinematics --target install -- -j8 -l8

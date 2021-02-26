@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from crs_msgs/srv/GetConfiguration.srv
+// generated code does not contain a copyright notice
+
+#include "crs_msgs/msg/ProcessConfiguration.idl"
+
+module crs_msgs {
+  module srv {
+    struct GetConfiguration_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetConfiguration_Response {
+      crs_msgs::msg::ProcessConfiguration config;
+
+      boolean success;
+
+      string err_msg;
+    };
+  };
+};

@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/root/crs_ws_fanuc/build/region_detection_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/region_detection_core -- -j8 -l8
+[0.085s] [ 54%] Built target threshold_in_range_test
+[0.085s] [ 54%] Built target adaptive_threshold_test
+[0.085s] [ 54%] Built target threshold_grayscale_test
+[0.107s] [ 81%] Built target region_detection_core
+[0.142s] [100%] Built target region_detection_test
+[0.155s] Invoked command in '/root/crs_ws_fanuc/build/region_detection_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/region_detection_core -- -j8 -l8
+[0.199s] Invoking command in '/root/crs_ws_fanuc/build/region_detection_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/region_detection_core --target install -- -j8 -l8
+[0.261s] [ 18%] Built target adaptive_threshold_test
+[0.263s] [ 36%] Built target threshold_in_range_test
+[0.267s] [ 54%] Built target threshold_grayscale_test
+[0.277s] [ 81%] Built target region_detection_core
+[0.313s] [100%] Built target region_detection_test
+[0.332s] [36mInstall the project...[0m
+[0.341s] -- Install configuration: "Debug"
+[0.341s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core
+[0.341s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/config_types.h
+[0.547s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/region_crop.h
+[0.798s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/region_detector.h
+[1.024s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/bin/threshold_grayscale_test
+[1.325s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/bin/threshold_in_range_test
+[1.499s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/bin/adaptive_threshold_test
+[1.741s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/bin/region_detection_test
+[1.965s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/libregion_detection_core.so
+[2.506s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-targets.cmake
+[2.730s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-targets-debug.cmake
+[2.905s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core/package.xml
+[3.329s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core//config
+[3.331s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core//config/config.yaml
+[3.632s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-config.cmake
+[3.850s] -- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-config-version.cmake
+[4.442s] Invoked command in '/root/crs_ws_fanuc/build/region_detection_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/region_detection_core --target install -- -j8 -l8

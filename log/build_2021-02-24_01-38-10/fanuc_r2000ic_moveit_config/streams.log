@@ -1,0 +1,47 @@
+[0.071s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/opt/qt513/lib/cmake PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config -- -j8 -l8
+[0.140s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/opt/qt513/lib/cmake PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config -- -j8 -l8
+[0.270s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/opt/qt513/lib/cmake PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config --target tests -- -j8 -l8
+[0.360s] Built target tests
+[0.376s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/opt/qt513/lib/cmake PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config --target tests -- -j8 -l8
+[0.433s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/opt/qt513/lib/cmake PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config --target install -- -j8 -l8
+[0.523s] [36mInstall the project...[0m
+[0.537s] -- Install configuration: "Debug"
+[0.537s] -- Execute custom install script
+[0.538s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/lib/pkgconfig/fanuc_r2000ic_moveit_config.pc
+[0.539s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/cmake/fanuc_r2000ic_moveit_configConfig.cmake
+[0.539s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/cmake/fanuc_r2000ic_moveit_configConfig-version.cmake
+[0.542s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/package.xml
+[0.543s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/chomp_planning_pipeline.launch.xml
+[0.543s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/default_warehouse_db.launch
+[0.543s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/demo.launch
+[0.543s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/demo_gazebo.launch
+[0.543s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/fake_moveit_controller_manager.launch.xml
+[0.543s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/fanuc_r2000ic165f_moveit_controller_manager.launch
+[0.543s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/fanuc_r2000ic165f_moveit_controller_manager.launch.xml
+[0.543s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/fanuc_r2000ic165f_moveit_sensor_manager.launch.xml
+[0.544s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/gazebo.launch
+[0.544s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/joystick_control.launch
+[0.544s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/move_group.launch
+[0.544s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/moveit.rviz
+[0.544s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/moveit_planning_execution.launch
+[0.544s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/moveit_rviz.launch
+[0.544s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/ompl_planning_pipeline.launch.xml
+[0.544s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/planning_context.launch
+[0.546s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/planning_pipeline.launch.xml
+[0.546s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/ros_controllers.launch
+[0.546s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/run_benchmark_ompl.launch
+[0.546s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/sensor_manager.launch.xml
+[0.546s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/sim_moveit_planning_execution.launch
+[0.546s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/trajectory_execution.launch.xml
+[0.546s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/warehouse.launch
+[0.546s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/launch/warehouse_settings.launch.xml
+[0.547s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/config/chomp_planning.yaml
+[0.547s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/config/controllers.yaml
+[0.548s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/config/fake_controllers.yaml
+[0.548s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/config/fanuc_r2000ic165f.srdf
+[0.548s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/config/joint_limits.yaml
+[0.549s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/config/kinematics.yaml
+[0.549s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/config/ompl_planning.yaml
+[0.549s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/config/ros_controllers.yaml
+[0.549s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config/share/fanuc_r2000ic_moveit_config/config/sensors_3d.yaml
+[0.553s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/opt/qt513/lib/cmake PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_config --target install -- -j8 -l8

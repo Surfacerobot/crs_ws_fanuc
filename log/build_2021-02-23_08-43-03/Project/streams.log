@@ -1,0 +1,10 @@
+[0.015s] Invoking command in '/root/crs_ws_fanuc/build/Project': /usr/bin/cmake /root/crs_ws_fanuc/src -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/Project
+[0.259s] CMake Error at CMakeLists.txt:65 (message):
+[0.259s]   find_package(catkin) failed.  catkin was neither found in the workspace nor
+[0.259s]   in the CMAKE_PREFIX_PATH.  One reason may be that no ROS setup.sh was
+[0.259s]   sourced before.
+[0.259s] 
+[0.260s] 
+[0.260s] -- Configuring incomplete, errors occurred!
+[0.260s] See also "/root/crs_ws_fanuc/build/Project/CMakeFiles/CMakeOutput.log".
+[0.261s] Invoked command in '/root/crs_ws_fanuc/build/Project' returned '1': /usr/bin/cmake /root/crs_ws_fanuc/src -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/Project

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vhacd"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\install\;CMake Files\..\..\..\..\install\trajopt_utils\;CMake Files\..\..\..\..\install\trajopt_utils\lib\;CMake Files\..\..\..\..\install\trajopt_utils\lib\cmake\;CMake Files\..\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\;CMake Files\scripts\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/crs_ws_fanuc/build/vhacd"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/root/crs_ws_fanuc/build/vhacd"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/root/crs_ws_fanuc/build/vhacd"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vhacd">
+				<Option output="/root/crs_ws_fanuc/build/vhacd/libvhacd.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/crs_ws_fanuc/build/vhacd"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/root/crs_ws_fanuc/install/bullet3/include/bullet"/>
+					<Add directory="/root/crs_ws_fanuc/install/trajopt_utils/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 vhacd"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vhacd/fast">
+				<Option output="/root/crs_ws_fanuc/build/vhacd/libvhacd.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/crs_ws_fanuc/build/vhacd"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/root/crs_ws_fanuc/install/bullet3/include/bullet"/>
+					<Add directory="/root/crs_ws_fanuc/install/trajopt_utils/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 vhacd/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/crs_ws_fanuc/build/vhacd"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/root/crs_ws_fanuc/build/vhacd"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/root/crs_ws_fanuc/build/vhacd"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/root/crs_ws_fanuc/build/vhacd"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/vhacd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/VHACD.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/cl/vhacdKernels.cl">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/FloatMath.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btAlignedAllocator.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btAlignedObjectArray.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btConvexHullComputer.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btMinMax.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btScalar.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/btVector3.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdCircularList.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdCircularList.inl">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdICHull.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdManifoldMesh.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdMesh.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdMutex.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdRaycastMesh.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdSArray.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdTimer.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdVHACD.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdVector.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdVector.inl">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/include/vhacd/inc/vhacdVolume.h">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/FloatMath.cpp">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/VHACD-ASYNC.cpp">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/VHACD.cpp">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/btAlignedAllocator.cpp">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/btConvexHullComputer.cpp">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/vhacdICHull.cpp">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/vhacdManifoldMesh.cpp">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/vhacdMesh.cpp">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/vhacdRaycastMesh.cpp">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/src/vhacdVolume.cpp">
+			<Option target="vhacd"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/../../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/../../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/../../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/../../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/../../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/../../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/../../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/../../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/../../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/scripts/cmake_common.cmake">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_ext/vhacd/cmake/vhacd-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

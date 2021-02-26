@@ -1,0 +1,69 @@
+[0.103s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_r2000ic_support -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_r2000ic_support
+[0.208s] -- Using CATKIN_DEVEL_PREFIX: /root/crs_ws_fanuc/build/fanuc_r2000ic_support/devel
+[0.226s] -- Using CMAKE_PREFIX_PATH: /root/crs_ws_fanuc/install/trajopt_tools;/root/crs_ws_fanuc/install/vhacd;/root/crs_ws_fanuc/install/crs_gui;/root/crs_ws_fanuc/install/crs_application;/root/crs_ws_fanuc/install/crs_motion_planning;/root/crs_ws_fanuc/install/ur_ikfast_kinematics;/root/crs_ws_fanuc/install/crs_robot_comms;/root/crs_ws_fanuc/install/trajopt_sqp;/root/crs_ws_fanuc/install/trajopt_ifopt;/root/crs_ws_fanuc/install/tesseract_monitoring;/root/crs_ws_fanuc/install/tesseract_rosutils;/root/crs_ws_fanuc/install/tesseract_process_planners;/root/crs_ws_fanuc/install/tesseract_motion_planners;/root/crs_ws_fanuc/install/trajopt;/root/crs_ws_fanuc/install/trajopt_sco;/root/crs_ws_fanuc/install/tesseract_visualization;/root/crs_ws_fanuc/install/tesseract;/root/crs_ws_fanuc/install/tesseract_urdf;/root/crs_ws_fanuc/install/tesseract_plugins;/root/crs_ws_fanuc/install/tesseract_environment;/root/crs_ws_fanuc/install/tesseract_collision;/root/crs_ws_fanuc/install/tesseract_support;/root/crs_ws_fanuc/install/tesseract_kinematics;/root/crs_ws_fanuc/install/tesseract_scene_graph;/root/crs_ws_fanuc/install/tesseract_geometry;/root/crs_ws_fanuc/install/roscpp_scxml_demos;/root/crs_ws_fanuc/install/rclcpp_scxml_demos;/root/crs_ws_fanuc/install/region_detection_rclcpp;/root/crs_ws_fanuc/install/osqp_eigen;/root/crs_ws_fanuc/install/osqp;/root/crs_ws_fanuc/install/descartes_opw;/root/crs_ws_fanuc/install/fcl;/root/crs_ws_fanuc/install/fanuc_resources;/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config;/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins;/root/crs_ws_fanuc/install/descartes_ikfast;/root/crs_ws_fanuc/install/crs_perception;/root/crs_ws_fanuc/install/crs_gazebo_plugins;/root/crs_ws_fanuc/install/bullet3;/root/crs_ws_fanuc/install/ur_dashboard_msgs;/root/crs_ws_fanuc/install/tesseract_msgs;/root/crs_ws_fanuc/install/region_detection_msgs;/root/crs_ws_fanuc/install/libccd;/root/crs_ws_fanuc/install/ifopt;/root/crs_ws_fanuc/install/fanuc_r2000ic_support;/root/crs_ws_fanuc/install/fanuc_driver;/root/crs_ws_fanuc/install/crs_toolpath_gen;/root/crs_ws_fanuc/install/crs_support;/root/crs_ws_fanuc/install/crs_process_data;/root/crs_ws_fanuc/install/crs_area_selection;/root/crs_ws_fanuc/install/crs_msgs;/root/crs_ws_fanuc/install/trajopt_utils;/root/crs_ws_fanuc/install/tesseract_common;/root/crs_ws_fanuc/install/scxml_core;/root/crs_ws_fanuc/install/region_detection_core;/root/crs_ws_fanuc/install/opw_kinematics;/root/crs_ws_fanuc/install/octomap_msgs;/root/crs_ws_fanuc/install/iterative_spline_parameterization;/root/crs_ws_fanuc/install/industrial_msgs;/root/crs_ws_fanuc/install/gtest;/root/crs_ws_fanuc/install/descartes_samplers;/root/crs_ws_fanuc/install/descartes_light;/root/crs_ws_fanuc/install/cartesian_trajectory_msgs;/opt/ros/melodic;/root/crs_ws/install/trajopt_tools;/root/crs_ws/install/vhacd;/root/crs_ws/install/crs_gui;/root/crs_ws/install/crs_application;/root/crs_ws/install/crs_motion_planning;/root/crs_ws/install/ur_ikfast_kinematics;/root/crs_ws/install/crs_robot_comms;/root/crs_ws/install/ur_dashboard_msgs;/root/crs_ws/install/trajopt_sqp;/root/crs_ws/install/trajopt_ifopt;/root/crs_ws/install/tesseract_monitoring;/root/crs_ws/install/tesseract_rosutils;/root/crs_ws/install/tesseract_process_planners;/root/crs_ws/install/tesseract_motion_planners;/root/crs_ws/install/trajopt;/root/crs_ws/install/trajopt_sco;/root/crs_ws/install/trajopt_utils;/root/crs_ws/install/tesseract_visualization;/root/crs_ws/install/tesseract;/root/crs_ws/install/tesseract_urdf;/root/crs_ws/install/tesseract_plugins;/root/crs_ws/install/tesseract_environment;/root/crs_ws/install/tesseract_collision;/root/crs_ws/install/tesseract_support;/root/crs_ws/install/tesseract_kinematics;/root/crs_ws/install/tesseract_scene_graph;/root/crs_ws/install/tesseract_msgs;/root/crs_ws/install/tesseract_geometry;/root/crs_ws/install/tesseract_common;/root/crs_ws/install/rclcpp_scxml_demos;/root/crs_ws/install/scxml_core;/root/crs_ws/install/region_detection_rclcpp;/root/crs_ws/install/region_detection_msgs;/root/crs_ws/install/region_detection_core;/root/crs_ws/install/osqp_eigen;/root/crs_ws/install/osqp;/root/crs_ws/install/descartes_opw;/root/crs_ws/install/opw_kinematics;/root/crs_ws/install/octomap_msgs;/root/crs_ws/install/fcl;/root/crs_ws/install/libccd;/root/crs_ws/install/iterative_spline_parameterization;/root/crs_ws/install/ifopt;/root/crs_ws/install/gtest;/root/crs_ws/install/descartes_samplers;/root/crs_ws/install/descartes_ikfast;/root/crs_ws/install/descartes_light;/root/crs_ws/install/crs_toolpath_gen;/root/crs_ws/install/crs_support;/root/crs_ws/install/crs_process_data;/root/crs_ws/install/crs_perception;/root/crs_ws/install/crs_area_selection;/root/crs_ws/install/crs_msgs;/root/crs_ws/install/crs_gazebo_plugins;/root/crs_ws/install/cartesian_trajectory_msgs;/root/crs_ws/install/bullet3;/opt/qt513/lib/cmake;
+[0.228s] -- This workspace overlays: /root/crs_ws_fanuc/install/roscpp_scxml_demos;/root/crs_ws_fanuc/install/fanuc_resources;/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config;/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins;/root/crs_ws_fanuc/install/fanuc_r2000ic_support;/root/crs_ws_fanuc/install/fanuc_driver;/opt/ros/melodic
+[0.234s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.477s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.477s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.477s] -- Using Debian Python package layout
+[0.477s] -- Using empy: /usr/bin/empy
+[1.336s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.337s] -- Call enable_testing()
+[1.337s] -- Using CATKIN_TEST_RESULTS_DIR: /root/crs_ws_fanuc/build/fanuc_r2000ic_support/test_results
+[1.532s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.532s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.532s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.745s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[1.754s] -- Using Python nosetests: /usr/bin/nosetests
+[2.102s] -- catkin 0.7.29
+[2.102s] -- BUILD_SHARED_LIBS is on
+[4.266s] -- Configuring done
+[4.429s] -- Generating done
+[4.469s] -- Build files have been written to: /root/crs_ws_fanuc/build/fanuc_r2000ic_support
+[4.475s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_r2000ic_support -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_r2000ic_support
+[4.476s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support -- -j8 -l8
+[5.136s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support -- -j8 -l8
+[6.311s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target tests -- -j8 -l8
+[7.277s] Built target tests
+[7.410s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target tests -- -j8 -l8
+[8.466s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target install -- -j8 -l8
+[9.049s] Install the project...
+[9.140s] -- Install configuration: "Debug"
+[9.147s] -- Execute custom install script
+[9.148s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/lib/pkgconfig/fanuc_r2000ic_support.pc
+[9.149s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/cmake/fanuc_r2000ic_supportConfig.cmake
+[9.149s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/cmake/fanuc_r2000ic_supportConfig-version.cmake
+[9.150s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/package.xml
+[9.163s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/config/joint_names_r2000ic125l.yaml
+[9.163s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/config/joint_names_r2000ic165f.yaml
+[9.164s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/load_r2000ic125l.launch
+[9.164s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/load_r2000ic165f.launch
+[9.165s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/robot_interface_streaming_r2000ic125l.launch
+[9.165s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/robot_interface_streaming_r2000ic165f.launch
+[9.166s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/robot_state_visualize_r2000ic125l.launch
+[9.166s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/robot_state_visualize_r2000ic165f.launch
+[9.167s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/test_r2000ic125l.launch
+[9.167s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/launch/test_r2000ic165f.launch
+[9.168s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/base_link.stl
+[9.169s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_1.stl
+[9.169s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_2.stl
+[9.169s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_3.stl
+[9.170s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_4.stl
+[9.170s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_5.stl
+[9.171s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_6.stl
+[9.171s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/base_link.stl
+[9.172s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_1.stl
+[9.172s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_2.stl
+[9.173s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_3.stl
+[9.173s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_4.stl
+[9.174s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_5.stl
+[9.174s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/meshes/r2000ic165f/visual/link_6.stl
+[9.175s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/frames.gv
+[9.175s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/frames.pdf
+[9.176s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic125l.xacro
+[9.176s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic125l_macro.xacro
+[9.177s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic165f.dae
+[9.177s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic165f.urdf
+[9.180s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic165f.xacro
+[9.181s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_support/share/fanuc_r2000ic_support/urdf/r2000ic165f_macro.xacro
+[9.187s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target install -- -j8 -l8

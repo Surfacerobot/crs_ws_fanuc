@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libdescartes_light_gantry.so -o libdescartes_light_gantry.so CMakeFiles/descartes_light_gantry.dir/src/gantry_kinematics.cpp.o -Wl,-rpath,/opt/ros/eloquent/lib: /opt/ros/eloquent/lib/libconsole_bridge.so.0.4 

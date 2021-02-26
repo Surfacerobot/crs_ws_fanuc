@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/crs_ws_fanuc/build/cartesian_trajectory_msgs/rosidl_generator_py/cartesian_trajectory_msgs/cartesian_trajectory_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" "TARGETS" "cartesian_trajectory_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.6/site-packages/cartesian_trajectory_msgs")

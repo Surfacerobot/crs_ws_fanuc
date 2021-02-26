@@ -1,0 +1,16 @@
+[0.048s] Invoking command in '/root/crs_ws_fanuc/build/iterative_spline_parameterization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/iterative_spline_parameterization -- -j8 -l8
+[0.156s] [100%] Built target iterative_spline_parameterization
+[0.174s] Invoked command in '/root/crs_ws_fanuc/build/iterative_spline_parameterization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/iterative_spline_parameterization -- -j8 -l8
+[0.222s] Invoking command in '/root/crs_ws_fanuc/build/iterative_spline_parameterization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/iterative_spline_parameterization --target install -- -j8 -l8
+[0.322s] [100%] Built target iterative_spline_parameterization
+[0.354s] [36mInstall the project...[0m
+[0.368s] -- Install configuration: "Debug"
+[0.368s] -- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/libiterative_spline_parameterization.a
+[0.372s] -- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-targets.cmake
+[0.372s] -- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-targets-debug.cmake
+[0.373s] -- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/include/iterative_spline_parameterization
+[0.373s] -- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/include/iterative_spline_parameterization/iterative_spline_parameterization.h
+[0.373s] -- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/share/iterative_spline_parameterization/package.xml
+[0.373s] -- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-config.cmake
+[0.375s] -- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-config-version.cmake
+[0.403s] Invoked command in '/root/crs_ws_fanuc/build/iterative_spline_parameterization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/iterative_spline_parameterization --target install -- -j8 -l8

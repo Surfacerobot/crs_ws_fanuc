@@ -1,0 +1,1 @@
+/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_support/launch/environment_launch.launch.py

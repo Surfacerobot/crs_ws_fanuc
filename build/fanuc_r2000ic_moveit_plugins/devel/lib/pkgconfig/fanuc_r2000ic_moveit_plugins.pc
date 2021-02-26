@@ -1,0 +1,8 @@
+prefix=/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins/devel
+
+Name: fanuc_r2000ic_moveit_plugins
+Description: Description of fanuc_r2000ic_moveit_plugins
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

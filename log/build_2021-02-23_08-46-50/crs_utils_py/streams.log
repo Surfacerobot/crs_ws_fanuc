@@ -1,0 +1,19 @@
+[0.804s] Invoking command in '/root/crs_ws_fanuc/build/crs_utils_py': PYTHONPATH=/root/crs_ws_fanuc/install/crs_utils_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /root/crs_ws_fanuc/install/crs_utils_py --editable --build-directory /root/crs_ws_fanuc/build/crs_utils_py/build --no-deps install_data --install-dir /root/crs_ws_fanuc/install/crs_utils_py
+[1.522s] running develop
+[1.754s] running egg_info
+[1.755s] creating crs_utils_py.egg-info
+[1.755s] writing crs_utils_py.egg-info/PKG-INFO
+[1.756s] writing dependency_links to crs_utils_py.egg-info/dependency_links.txt
+[1.757s] writing entry points to crs_utils_py.egg-info/entry_points.txt
+[1.757s] writing requirements to crs_utils_py.egg-info/requires.txt
+[1.758s] writing top-level names to crs_utils_py.egg-info/top_level.txt
+[1.759s] writing manifest file 'crs_utils_py.egg-info/SOURCES.txt'
+[1.827s] reading manifest file 'crs_utils_py.egg-info/SOURCES.txt'
+[1.830s] writing manifest file 'crs_utils_py.egg-info/SOURCES.txt'
+[1.833s] running build_ext
+[1.844s] Creating /root/crs_ws_fanuc/install/crs_utils_py/lib/python3.6/site-packages/crs-utils-py.egg-link (link to .)
+[1.846s] Installing joint_state_publisher script to /root/crs_ws_fanuc/install/crs_utils_py/lib/crs_utils_py
+[1.847s] 
+[1.847s] Installed /root/crs_ws_fanuc/build/crs_utils_py
+[1.848s] running install_data
+[1.977s] Invoked command in '/root/crs_ws_fanuc/build/crs_utils_py' returned '0': PYTHONPATH=/root/crs_ws_fanuc/install/crs_utils_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /root/crs_ws_fanuc/install/crs_utils_py --editable --build-directory /root/crs_ws_fanuc/build/crs_utils_py/build --no-deps install_data --install-dir /root/crs_ws_fanuc/install/crs_utils_py

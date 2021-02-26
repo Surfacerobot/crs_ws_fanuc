@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from crs_msgs/msg/ProcessConfiguration.msg
+// generated code does not contain a copyright notice
+
+
+module crs_msgs {
+  module msg {
+    struct ProcessConfiguration {
+      @verbatim (language="comment", text=
+        " Configuration for the various managers in a yaml formatter string")
+      string yaml_config;
+    };
+  };
+};

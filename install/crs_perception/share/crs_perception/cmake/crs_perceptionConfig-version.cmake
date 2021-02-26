@@ -1,0 +1,1 @@
+/root/crs_ws_fanuc/build/crs_perception/ament_cmake_core/crs_perceptionConfig-version.cmake

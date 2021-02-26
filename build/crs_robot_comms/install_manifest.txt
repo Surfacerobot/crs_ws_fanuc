@@ -1,0 +1,4 @@
+/root/crs_ws_fanuc/install/crs_robot_comms/lib/crs_robot_comms/crs_robot_comms_ur_comms
+/root/crs_ws_fanuc/install/crs_robot_comms/lib/crs_robot_comms/crs_robot_comms_ur_comms_sim
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/-targetsExport.cmake
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/-targetsExport-debug.cmake

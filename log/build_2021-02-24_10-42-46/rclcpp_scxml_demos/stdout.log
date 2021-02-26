@@ -1,0 +1,24 @@
+[100%] Built target demo_scxml_state_machine
+[100%] Built target demo_scxml_state_machine
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/lib/rclcpp_scxml_demos/demo_scxml_state_machine
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos//resource/demo_sm.scxml
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos//resource/params.yaml
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/ament_index/resource_index/package_run_dependencies/rclcpp_scxml_demos
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/ament_index/resource_index/parent_prefix_path/rclcpp_scxml_demos
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/environment/path.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/environment/path.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/local_setup.bash
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/local_setup.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/local_setup.zsh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/local_setup.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/package.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/ament_index/resource_index/packages/rclcpp_scxml_demos
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/cmake/rclcpp_scxml_demosConfig.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/cmake/rclcpp_scxml_demosConfig-version.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/package.xml

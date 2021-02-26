@@ -1,0 +1,6 @@
+Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins -- -j8 -l8
+Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins -- -j8 -l8
+Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target tests -- -j8 -l8
+Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target tests -- -j8 -l8
+Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target install -- -j8 -l8
+Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target install -- -j8 -l8

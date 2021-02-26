@@ -1,0 +1,23 @@
+[100%] Built target trajopt_utils
+[100%] Built target trajopt_utils
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/lib/libtrajopt_utils.so
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-targets.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-targets-noconfig.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/share/trajopt_utils/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-config.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-config-version.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils/interpolation.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils/macros.h
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils/eigen_conversions.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils/stl_to_string.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils/vector_ops.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils/clock.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils/eigen_slicing.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils/math.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils/logging.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils/config.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/include/trajopt_utils/basic_array.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_macros.cmake

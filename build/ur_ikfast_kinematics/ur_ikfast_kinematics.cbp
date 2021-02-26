@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ur_ikfast_kinematics"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\install\;CMake Files\..\..\install\descartes_ikfast\;CMake Files\..\..\install\descartes_ikfast\lib\;CMake Files\..\..\install\descartes_ikfast\lib\cmake\;CMake Files\..\..\install\descartes_ikfast\lib\cmake\descartes_ikfast\;CMake Files\..\..\install\descartes_light\;CMake Files\..\..\install\descartes_light\lib\;CMake Files\..\..\install\descartes_light\lib\cmake\;CMake Files\..\..\install\descartes_light\lib\cmake\descartes_light\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\eloquent\;CMake Files\..\..\..\..\opt\ros\eloquent\lib\;CMake Files\..\..\..\..\opt\ros\eloquent\lib\console_bridge\;CMake Files\..\..\..\..\opt\ros\eloquent\lib\console_bridge\cmake\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/crs_ws_fanuc/build/ur_ikfast_kinematics"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/root/crs_ws_fanuc/build/ur_ikfast_kinematics"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/root/crs_ws_fanuc/build/ur_ikfast_kinematics"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ur10e_ikfast">
+				<Option output="/root/crs_ws_fanuc/build/ur_ikfast_kinematics/libur10e_ikfast.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/crs_ws_fanuc/build/ur_ikfast_kinematics"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDESCARTES_BUILDING_LIBRARY=ON"/>
+					<Add directory="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/include"/>
+					<Add directory="/root/crs_ws_fanuc/install/descartes_ikfast/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/eloquent/include"/>
+					<Add directory="/root/crs_ws_fanuc/install/descartes_light/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 ur10e_ikfast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ur10e_ikfast/fast">
+				<Option output="/root/crs_ws_fanuc/build/ur_ikfast_kinematics/libur10e_ikfast.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/crs_ws_fanuc/build/ur_ikfast_kinematics"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDESCARTES_BUILDING_LIBRARY=ON"/>
+					<Add directory="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/include"/>
+					<Add directory="/root/crs_ws_fanuc/install/descartes_ikfast/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/eloquent/include"/>
+					<Add directory="/root/crs_ws_fanuc/install/descartes_light/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 ur10e_ikfast/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/crs_ws_fanuc/build/ur_ikfast_kinematics"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/root/crs_ws_fanuc/build/ur_ikfast_kinematics"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/root/crs_ws_fanuc/build/ur_ikfast_kinematics"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/root/crs_ws_fanuc/build/ur_ikfast_kinematics"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/ur_ikfast_kinematics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/src/descartes_ikfast_ur10e.cpp">
+			<Option target="ur10e_ikfast"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../install/descartes_ikfast/lib/cmake/descartes_ikfast/descartes_ikfast-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\descartes_ikfast\lib\cmake\descartes_ikfast\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../install/descartes_ikfast/lib/cmake/descartes_ikfast/descartes_ikfast-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\descartes_ikfast\lib\cmake\descartes_ikfast\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../install/descartes_ikfast/lib/cmake/descartes_ikfast/descartes_ikfast-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\descartes_ikfast\lib\cmake\descartes_ikfast\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../install/descartes_light/lib/cmake/descartes_light/descartes_light-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\descartes_light\lib\cmake\descartes_light\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../install/descartes_light/lib/cmake/descartes_light/descartes_light-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\descartes_light\lib\cmake\descartes_light\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../install/descartes_light/lib/cmake/descartes_light/descartes_light-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\descartes_light\lib\cmake\descartes_light\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../install/descartes_light/lib/cmake/descartes_light/descartes_light-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\descartes_light\lib\cmake\descartes_light\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../install/descartes_light/lib/cmake/descartes_light/descartes_light-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\descartes_light\lib\cmake\descartes_light\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../install/descartes_light/lib/cmake/descartes_light/descartes_light_macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\descartes_light\lib\cmake\descartes_light\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../../../opt/ros/eloquent/lib/console_bridge/cmake/console_bridge-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\eloquent\lib\console_bridge\cmake\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../../../opt/ros/eloquent/lib/console_bridge/cmake/console_bridge-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\eloquent\lib\console_bridge\cmake\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../../../opt/ros/eloquent/lib/console_bridge/cmake/console_bridge-targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\eloquent\lib\console_bridge\cmake\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/../../../../opt/ros/eloquent/lib/console_bridge/cmake/console_bridge-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\eloquent\lib\console_bridge\cmake\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/ur_ikfast_kinematics/cmake/ur_ikfast_kinematics-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

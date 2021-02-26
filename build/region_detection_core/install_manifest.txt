@@ -1,0 +1,14 @@
+/root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/config_types.h
+/root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/region_crop.h
+/root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/region_detector.h
+/root/crs_ws_fanuc/install/region_detection_core/bin/threshold_grayscale_test
+/root/crs_ws_fanuc/install/region_detection_core/bin/threshold_in_range_test
+/root/crs_ws_fanuc/install/region_detection_core/bin/adaptive_threshold_test
+/root/crs_ws_fanuc/install/region_detection_core/bin/region_detection_test
+/root/crs_ws_fanuc/install/region_detection_core/lib/libregion_detection_core.so
+/root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-targets.cmake
+/root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-targets-debug.cmake
+/root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core/package.xml
+/root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core//config/config.yaml
+/root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-config.cmake
+/root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-config-version.cmake

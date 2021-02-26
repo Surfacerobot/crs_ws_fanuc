@@ -1,0 +1,4 @@
+source;share/crs_robot_comms/local_setup.bash
+source;share/crs_robot_comms/local_setup.dsv
+source;share/crs_robot_comms/local_setup.sh
+source;share/crs_robot_comms/local_setup.zsh

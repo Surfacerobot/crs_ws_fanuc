@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="trajopt_tools"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\install\;CMake Files\..\..\..\install\vhacd\;CMake Files\..\..\..\install\vhacd\lib\;CMake Files\..\..\..\install\vhacd\lib\cmake\;CMake Files\..\..\..\install\vhacd\lib\cmake\vhacd\;CMake Files\..\..\..\install\trajopt_utils\;CMake Files\..\..\..\install\trajopt_utils\lib\;CMake Files\..\..\..\install\trajopt_utils\lib\cmake\;CMake Files\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\eloquent\;CMake Files\..\..\..\..\..\opt\ros\eloquent\lib\;CMake Files\..\..\..\..\..\opt\ros\eloquent\lib\console_bridge\;CMake Files\..\..\..\..\..\opt\ros\eloquent\lib\console_bridge\cmake\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/crs_ws_fanuc/build/trajopt_tools"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/root/crs_ws_fanuc/build/trajopt_tools"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/root/crs_ws_fanuc/build/trajopt_tools"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convex_decomposition_hacd_node">
+				<Option output="/root/crs_ws_fanuc/build/trajopt_tools/convex_decomposition_hacd_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/crs_ws_fanuc/build/trajopt_tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/root/crs_ws_fanuc/install/bullet3/include/bullet"/>
+					<Add directory="/root/crs_ws_fanuc/install/trajopt_utils/include"/>
+					<Add directory="/root/crs_ws_fanuc/install/vhacd/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 convex_decomposition_hacd_node"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convex_decomposition_hacd_node/fast">
+				<Option output="/root/crs_ws_fanuc/build/trajopt_tools/convex_decomposition_hacd_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/crs_ws_fanuc/build/trajopt_tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/root/crs_ws_fanuc/install/bullet3/include/bullet"/>
+					<Add directory="/root/crs_ws_fanuc/install/trajopt_utils/include"/>
+					<Add directory="/root/crs_ws_fanuc/install/vhacd/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 convex_decomposition_hacd_node/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/root/crs_ws_fanuc/build/trajopt_tools"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convex_decomposition_vhacd_node">
+				<Option output="/root/crs_ws_fanuc/build/trajopt_tools/convex_decomposition_vhacd_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/crs_ws_fanuc/build/trajopt_tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/root/crs_ws_fanuc/install/bullet3/include/bullet"/>
+					<Add directory="/root/crs_ws_fanuc/install/trajopt_utils/include"/>
+					<Add directory="/root/crs_ws_fanuc/install/vhacd/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 convex_decomposition_vhacd_node"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convex_decomposition_vhacd_node/fast">
+				<Option output="/root/crs_ws_fanuc/build/trajopt_tools/convex_decomposition_vhacd_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/crs_ws_fanuc/build/trajopt_tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/root/crs_ws_fanuc/install/bullet3/include/bullet"/>
+					<Add directory="/root/crs_ws_fanuc/install/trajopt_utils/include"/>
+					<Add directory="/root/crs_ws_fanuc/install/vhacd/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 convex_decomposition_vhacd_node/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/crs_ws_fanuc/build/trajopt_tools"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/root/crs_ws_fanuc/build/trajopt_tools"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/root/crs_ws_fanuc/build/trajopt_tools"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/root/crs_ws_fanuc/build/trajopt_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/src/convex_decomposition_hacd.cpp">
+			<Option target="convex_decomposition_hacd_node"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/src/convex_decomposition_vhacd.cpp">
+			<Option target="convex_decomposition_vhacd_node"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../install/vhacd/lib/cmake/vhacd/vhacd-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\install\vhacd\lib\cmake\vhacd\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../install/vhacd/lib/cmake/vhacd/vhacd-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\install\vhacd\lib\cmake\vhacd\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../install/vhacd/lib/cmake/vhacd/vhacd-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\install\vhacd\lib\cmake\vhacd\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../install/vhacd/lib/cmake/vhacd/vhacd-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\install\vhacd\lib\cmake\vhacd\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../install/vhacd/lib/cmake/vhacd/vhacd-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\install\vhacd\lib\cmake\vhacd\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../install/trajopt_utils/lib/cmake/trajopt_utils/trajopt_utils-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\install\trajopt_utils\lib\cmake\trajopt_utils\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../../../opt/ros/eloquent/lib/console_bridge/cmake/console_bridge-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\eloquent\lib\console_bridge\cmake\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../../../opt/ros/eloquent/lib/console_bridge/cmake/console_bridge-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\eloquent\lib\console_bridge\cmake\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../../../opt/ros/eloquent/lib/console_bridge/cmake/console_bridge-targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\eloquent\lib\console_bridge\cmake\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/../../../../../opt/ros/eloquent/lib/console_bridge/cmake/console_bridge-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\eloquent\lib\console_bridge\cmake\"/>
+		</Unit>
+		<Unit filename="/root/crs_ws_fanuc/src/trajopt_ros/trajopt_tools/cmake/trajopt_tools-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,110 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found pluginlib: 2.4.2 (/opt/ros/eloquent/share/pluginlib/cmake)
+-- Found tinyxml2_vendor:  (/opt/ros/eloquent/share/tinyxml2_vendor/cmake)
+-- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)
+-- Found shape_msgs: 0.8.1 (/opt/ros/eloquent/share/shape_msgs/cmake)
+-- Found std_srvs: 0.8.1 (/opt/ros/eloquent/share/std_srvs/cmake)
+-- Found rviz2: 7.0.7 (/opt/ros/eloquent/share/rviz2/cmake)
+-- Found crs_area_selection: 0.1.0 (/root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake)
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- Found crs_motion_planning: 0.0.0 (/root/crs_ws_fanuc/install/crs_motion_planning/share/crs_motion_planning/cmake)
+-- A library with BLAS API found.
+-- Setting yaml-cpp_DIR to: '/opt/ros/eloquent/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Configuring done
+WARNING: Target "crs_gui_state_machine_interface_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_crs_application_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_panels" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_widgets" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_area_selection_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_part_selection_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_panels" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_widgets" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_area_selection_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_part_selection_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_crs_application_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_state_machine_interface_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/crs_gui
+[ 58%] Built target crs_gui_widgets
+[ 65%] Built target crs_gui_state_machine_interface_demo
+[ 72%] Built target crs_gui_crs_application_demo
+[ 79%] Built target crs_gui_area_selection_demo
+[ 86%] Built target crs_gui_part_selection_demo
+[100%] Built target crs_gui_panels
+[ 58%] Built target crs_gui_widgets
+[ 65%] Built target crs_gui_area_selection_demo
+[ 72%] Built target crs_gui_crs_application_demo
+[ 79%] Built target crs_gui_state_machine_interface_demo
+[ 86%] Built target crs_gui_part_selection_demo
+[100%] Built target crs_gui_panels
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui//launch/area_selection_demo.launch.xml
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui//launch/crs_application_demo.launch.xml
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui//launch/state_machine_interface_demo.launch.xml
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui//config/crs_application_demo.rviz
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/ui/crs_application.ui
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/ui/part_selection.ui
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/ui/polygon_area_selection_widget.ui
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/ui/state_machine_interface.ui
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/plugin_description.xml
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui//plugin_description.xml
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/ament_index/resource_index/package_run_dependencies/crs_gui
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/ament_index/resource_index/parent_prefix_path/crs_gui
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/environment/path.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/environment/path.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/local_setup.bash
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/local_setup.sh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/local_setup.zsh
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/local_setup.dsv
+-- Symlinking: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/package.dsv
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/ament_index/resource_index/packages/crs_gui
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/ament_index/resource_index/rviz_common__pluginlib__plugin/crs_gui
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/cmake/ament_cmake_export_interfaces-extras.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/cmake/crs_guiConfig.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/cmake/crs_guiConfig-version.cmake
+-- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/lib/libcrs_gui_panels.so
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/lib/libcrs_gui_widgets.so
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/lib/crs_gui/crs_gui_area_selection_demo
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/lib/crs_gui/crs_gui_part_selection_demo
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/lib/crs_gui/crs_gui_crs_application_demo
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/lib/crs_gui/crs_gui_state_machine_interface_demo
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/include
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/include/crs_gui
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/include/crs_gui/widgets
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/include/crs_gui/widgets/polygon_area_selection_widget.h
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/include/crs_gui/widgets/part_selection_widget.h
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/include/crs_gui/widgets/crs_application_widget.h
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/include/crs_gui/widgets/state_machine_interface_widget.h
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/include/crs_gui/register_ros_msgs_for_qt.h
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/include/crs_gui/application_panel.h
+-- Up-to-date: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/cmake/-targetsExport.cmake
+-- Installing: /root/crs_ws_fanuc/install/crs_gui/share/crs_gui/cmake/-targetsExport-debug.cmake

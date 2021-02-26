@@ -1,0 +1,44 @@
+[0.056s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_r2000ic_moveit_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins
+[0.086s] -- Using CATKIN_DEVEL_PREFIX: /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins/devel
+[0.086s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic;/root/crs_ws_fanuc/install/trajopt_tools;/root/crs_ws_fanuc/install/vhacd;/root/crs_ws_fanuc/install/crs_gui;/root/crs_ws_fanuc/install/crs_application;/root/crs_ws_fanuc/install/crs_motion_planning;/root/crs_ws_fanuc/install/ur_ikfast_kinematics;/root/crs_ws_fanuc/install/crs_robot_comms;/root/crs_ws_fanuc/install/ur_dashboard_msgs;/root/crs_ws_fanuc/install/trajopt_sqp;/root/crs_ws_fanuc/install/trajopt_ifopt;/root/crs_ws_fanuc/install/tesseract_monitoring;/root/crs_ws_fanuc/install/tesseract_rosutils;/root/crs_ws_fanuc/install/tesseract_process_planners;/root/crs_ws_fanuc/install/tesseract_motion_planners;/root/crs_ws_fanuc/install/trajopt;/root/crs_ws_fanuc/install/trajopt_sco;/root/crs_ws_fanuc/install/trajopt_utils;/root/crs_ws_fanuc/install/tesseract_visualization;/root/crs_ws_fanuc/install/tesseract;/root/crs_ws_fanuc/install/tesseract_urdf;/root/crs_ws_fanuc/install/tesseract_plugins;/root/crs_ws_fanuc/install/tesseract_environment;/root/crs_ws_fanuc/install/tesseract_collision;/root/crs_ws_fanuc/install/tesseract_support;/root/crs_ws_fanuc/install/tesseract_kinematics;/root/crs_ws_fanuc/install/tesseract_scene_graph;/root/crs_ws_fanuc/install/tesseract_msgs;/root/crs_ws_fanuc/install/tesseract_geometry;/root/crs_ws_fanuc/install/tesseract_common;/root/crs_ws_fanuc/install/rclcpp_scxml_demos;/root/crs_ws_fanuc/install/scxml_core;/root/crs_ws_fanuc/install/region_detection_rclcpp;/root/crs_ws_fanuc/install/region_detection_msgs;/root/crs_ws_fanuc/install/region_detection_core;/root/crs_ws_fanuc/install/osqp_eigen;/root/crs_ws_fanuc/install/osqp;/root/crs_ws_fanuc/install/descartes_opw;/root/crs_ws_fanuc/install/opw_kinematics;/root/crs_ws_fanuc/install/octomap_msgs;/root/crs_ws_fanuc/install/fcl;/root/crs_ws_fanuc/install/libccd;/root/crs_ws_fanuc/install/iterative_spline_parameterization;/root/crs_ws_fanuc/install/ifopt;/root/crs_ws_fanuc/install/gtest;/root/crs_ws_fanuc/install/descartes_samplers;/root/crs_ws_fanuc/install/descartes_ikfast;/root/crs_ws_fanuc/install/descartes_light;/root/crs_ws_fanuc/install/crs_toolpath_gen;/root/crs_ws_fanuc/install/crs_support;/root/crs_ws_fanuc/install/crs_process_data;/root/crs_ws_fanuc/install/crs_perception;/root/crs_ws_fanuc/install/crs_area_selection;/root/crs_ws_fanuc/install/crs_msgs;/root/crs_ws_fanuc/install/crs_gazebo_plugins;/root/crs_ws_fanuc/install/cartesian_trajectory_msgs;/root/crs_ws_fanuc/install/bullet3;/opt/qt513/lib/cmake
+[0.086s] -- This workspace overlays: /opt/ros/melodic
+[0.090s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.145s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.145s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.145s] -- Using Debian Python package layout
+[0.145s] -- Using empy: /usr/bin/empy
+[0.396s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.396s] -- Call enable_testing()
+[0.397s] -- Using CATKIN_TEST_RESULTS_DIR: /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins/test_results
+[0.439s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[0.439s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.440s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.492s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[0.500s] -- Using Python nosetests: /usr/bin/nosetests
+[0.607s] -- catkin 0.7.29
+[0.607s] -- BUILD_SHARED_LIBS is on
+[2.665s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.365s] -- A library with BLAS API found.
+[3.377s] -- A library with LAPACK API found.
+[3.650s] -- Configuring done
+[4.057s] -- Generating done
+[4.075s] -- Build files have been written to: /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins
+[4.081s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins' returned '0': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_r2000ic_moveit_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins
+[4.085s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins -- -j8 -l8
+[4.455s] [100%] Built target fanuc_r2000ic_r2000ic_manipulator_moveit_ikfast_plugin
+[4.477s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins -- -j8 -l8
+[4.653s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target tests -- -j8 -l8
+[4.770s] Built target tests
+[4.789s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target tests -- -j8 -l8
+[4.953s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target install -- -j8 -l8
+[5.050s] [100%] Built target fanuc_r2000ic_r2000ic_manipulator_moveit_ikfast_plugin
+[5.085s] [36mInstall the project...[0m
+[5.098s] -- Install configuration: "Debug"
+[5.098s] -- Execute custom install script
+[5.098s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/lib/pkgconfig/fanuc_r2000ic_moveit_plugins.pc
+[5.099s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/share/fanuc_r2000ic_moveit_plugins/cmake/fanuc_r2000ic_moveit_pluginsConfig.cmake
+[5.099s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/share/fanuc_r2000ic_moveit_plugins/cmake/fanuc_r2000ic_moveit_pluginsConfig-version.cmake
+[5.099s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/share/fanuc_r2000ic_moveit_plugins/package.xml
+[5.100s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/lib/libfanuc_r2000ic_r2000ic_manipulator_moveit_ikfast_plugin.so
+[5.100s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/share/fanuc_r2000ic_moveit_plugins/fanuc_r2000ic_r2000ic_manipulator_moveit_ikfast_plugin_description.xml
+[5.104s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target install -- -j8 -l8

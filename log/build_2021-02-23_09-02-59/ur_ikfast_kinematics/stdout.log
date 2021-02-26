@@ -1,0 +1,21 @@
+-- Found OpenMP_CXX: -fopenmp  
+-- Found OpenMP: TRUE   
+-- A library with BLAS API found.
+-- A library with LAPACK API found.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/ur_ikfast_kinematics
+[ 50%] Building CXX object CMakeFiles/ur10e_ikfast.dir/src/descartes_ikfast_ur10e.cpp.o
+[100%] Linking CXX shared library libur10e_ikfast.so
+[100%] Built target ur10e_ikfast
+[100%] Built target ur10e_ikfast
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/libur10e_ikfast.so
+-- Set runtime path of "/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/libur10e_ikfast.so" to ""
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-targets.cmake
+-- Installing: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-targets-debug.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/include/ur_ikfast_kinematics
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/include/ur_ikfast_kinematics/descartes_ikfast_ur10e.h
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-config.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-config-version.cmake

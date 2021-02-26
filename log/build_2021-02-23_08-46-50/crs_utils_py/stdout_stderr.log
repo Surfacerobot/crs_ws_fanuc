@@ -1,0 +1,17 @@
+running develop
+running egg_info
+creating crs_utils_py.egg-info
+writing crs_utils_py.egg-info/PKG-INFO
+writing dependency_links to crs_utils_py.egg-info/dependency_links.txt
+writing entry points to crs_utils_py.egg-info/entry_points.txt
+writing requirements to crs_utils_py.egg-info/requires.txt
+writing top-level names to crs_utils_py.egg-info/top_level.txt
+writing manifest file 'crs_utils_py.egg-info/SOURCES.txt'
+reading manifest file 'crs_utils_py.egg-info/SOURCES.txt'
+writing manifest file 'crs_utils_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/crs_ws_fanuc/install/crs_utils_py/lib/python3.6/site-packages/crs-utils-py.egg-link (link to .)
+Installing joint_state_publisher script to /root/crs_ws_fanuc/install/crs_utils_py/lib/crs_utils_py
+
+Installed /root/crs_ws_fanuc/build/crs_utils_py
+running install_data

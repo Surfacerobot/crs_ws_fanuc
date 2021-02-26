@@ -1,0 +1,14 @@
+[0.048s] Invoking command in '/root/crs_ws_fanuc/build/cartesian_trajectory_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/cartesian_trajectory_msgs -- -j8 -l8
+[0.136s] [  1%] Built target cartesian_trajectory_msgs__cpp
+[0.159s] [ 13%] Built target cartesian_trajectory_msgs__rosidl_generator_c
+[0.199s] [ 24%] Built target cartesian_trajectory_msgs__rosidl_typesupport_introspection_cpp
+[0.202s] [ 35%] Built target cartesian_trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[0.215s] [ 47%] Built target cartesian_trajectory_msgs__rosidl_typesupport_introspection_c
+[0.258s] [ 58%] Built target cartesian_trajectory_msgs__rosidl_typesupport_cpp
+[0.259s] [ 69%] Built target cartesian_trajectory_msgs__rosidl_typesupport_fastrtps_c
+[0.319s] [ 81%] Built target cartesian_trajectory_msgs__rosidl_typesupport_c
+[0.361s] [ 81%] Built target cartesian_trajectory_msgs
+[0.397s] [ 83%] Built target cartesian_trajectory_msgs__py
+[0.444s] [ 92%] Built target cartesian_trajectory_msgs__python
+[0.497s] [ 96%] Built target cartesian_trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.501s] [100%] Built target cartesian_trajectory_msgs__rosidl_typesupport_c__pyext

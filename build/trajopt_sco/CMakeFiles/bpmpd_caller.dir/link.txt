@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/bpmpd_caller.dir/src/bpmpd_caller.cpp.o  -o bpmpd_caller /root/crs_ws_fanuc/src/trajopt_ros/trajopt_sco/3rdpartylib/bpmpd_linux64.a -static 

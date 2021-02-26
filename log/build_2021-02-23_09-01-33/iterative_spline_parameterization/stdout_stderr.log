@@ -1,0 +1,12 @@
+[100%] Built target iterative_spline_parameterization
+[100%] Built target iterative_spline_parameterization
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/libiterative_spline_parameterization.a
+-- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-targets.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-targets-noconfig.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/include/iterative_spline_parameterization
+-- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/include/iterative_spline_parameterization/iterative_spline_parameterization.h
+-- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/share/iterative_spline_parameterization/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-config.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/iterative_spline_parameterization/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-config-version.cmake

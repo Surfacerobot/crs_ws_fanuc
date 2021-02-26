@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from crs_msgs/srv/RunRobotScript.srv
+// generated code does not contain a copyright notice
+
+
+module crs_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Service to load programs or installations")
+    struct RunRobotScript_Request {
+      string filename;
+    };
+    struct RunRobotScript_Response {
+      string answer;
+
+      boolean success;
+    };
+  };
+};

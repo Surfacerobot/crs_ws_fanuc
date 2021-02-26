@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from crs_msgs/srv/RobotPositioner.srv
+// generated code does not contain a copyright notice
+
+
+module crs_msgs {
+  module srv {
+    module RobotPositioner_Request_Constants {
+      const uint8 POSITION1 = 0;
+      const uint8 POSITION2 = 1;
+      const uint8 POSITION3 = 2;
+      const uint8 RAIL1 = 0;
+      const uint8 RAIL2 = 1;
+    };
+    struct RobotPositioner_Request {
+      uint8 robot_position;
+
+      uint8 robot_rail;
+    };
+    struct RobotPositioner_Response {
+      boolean success;
+
+      string error;
+    };
+  };
+};

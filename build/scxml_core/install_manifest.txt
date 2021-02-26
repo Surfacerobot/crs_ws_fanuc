@@ -1,0 +1,7 @@
+/root/crs_ws_fanuc/install/scxml_core/lib/libscxml_core.so
+/root/crs_ws_fanuc/install/scxml_core/lib/cmake/scxml_core/scxml_core-targets.cmake
+/root/crs_ws_fanuc/install/scxml_core/lib/cmake/scxml_core/scxml_core-targets-debug.cmake
+/root/crs_ws_fanuc/install/scxml_core/include/scxml_core/state_machine.h
+/root/crs_ws_fanuc/install/scxml_core/share/scxml_core/package.xml
+/root/crs_ws_fanuc/install/scxml_core/lib/cmake/scxml_core/scxml_core-config.cmake
+/root/crs_ws_fanuc/install/scxml_core/lib/cmake/scxml_core/scxml_core-config-version.cmake

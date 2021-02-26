@@ -1,0 +1,12 @@
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_robot_comms/src/ur_comms_sim.cpp:[m[K In member function ‘[01m[Kvoid URRobotCommsSim::simControllerChangeCB(std::shared_ptr<std_srvs::srv::SetBool_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::SetBool_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_robot_comms/src/ur_comms_sim.cpp:23:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   void simControllerChangeCB(std::shared_ptr<std_srvs::srv::SetBool::Request> [01;35m[Krequest[m[K,
+                                                                               [01;35m[K^~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_robot_comms/src/ur_comms_sim.cpp:[m[K In member function ‘[01m[Kvoid URRobotCommsSim::simUrIoCB(std::shared_ptr<std_srvs::srv::SetBool_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::SetBool_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_robot_comms/src/ur_comms_sim.cpp:28:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   void simUrIoCB(std::shared_ptr<std_srvs::srv::SetBool::Request> [01;35m[Krequest[m[K,
+                                                                   [01;35m[K^~~~~~~[m[K
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_robot_comms/src/ur_comms.cpp:[m[K In member function ‘[01m[Kvoid URRobotComms::reclaimRemoteControlCB(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_robot_comms/src/ur_comms.cpp:157:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   void reclaimRemoteControlCB(std::shared_ptr<std_srvs::srv::Trigger::Request> [01;35m[Krequest[m[K,
+                                                                                [01;35m[K^~~~~~~[m[K

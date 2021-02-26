@@ -1,0 +1,85 @@
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+but not all the files it references.
+
+-- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+-- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+-- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_SURFACE
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_2D
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- Searching for log4cxx/logger.h
+-- Searching for libLog4cxx
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/region_detection_core
+[ 18%] Built target adaptive_threshold_test
+[ 36%] Built target threshold_in_range_test
+[ 54%] Built target threshold_grayscale_test
+[ 81%] Built target region_detection_core
+[100%] Built target region_detection_test
+[ 18%] Built target adaptive_threshold_test
+[ 36%] Built target threshold_grayscale_test
+[ 54%] Built target threshold_in_range_test
+[ 81%] Built target region_detection_core
+[100%] Built target region_detection_test
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/config_types.h
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/region_crop.h
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/include/region_detection_core/region_detector.h
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/bin/threshold_grayscale_test
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/bin/threshold_in_range_test
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/bin/adaptive_threshold_test
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/bin/region_detection_test
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/libregion_detection_core.so
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-targets.cmake
+-- Installing: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-targets-debug.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core//config
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/share/region_detection_core//config/config.yaml
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-config.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/region_detection_core/lib/cmake/region_detection_core/region_detection_core-config-version.cmake

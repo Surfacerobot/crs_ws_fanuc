@@ -1,0 +1,37 @@
+[0.045s] Invoking command in '/root/crs_ws_fanuc/build/ifopt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/ifopt -- -j8 -l8
+[0.146s] [ 33%] Built target ifopt_core
+[0.197s] [ 58%] Built target ifopt_core-test
+[0.198s] [ 83%] Built target ifopt_ipopt
+[0.239s] [100%] Built target ifopt_ipopt-example
+[0.260s] Invoked command in '/root/crs_ws_fanuc/build/ifopt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/ifopt -- -j8 -l8
+[0.323s] Invoking command in '/root/crs_ws_fanuc/build/ifopt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/ifopt --target install -- -j8 -l8
+[0.425s] [ 33%] Built target ifopt_core
+[0.475s] [ 58%] Built target ifopt_core-test
+[0.480s] [ 83%] Built target ifopt_ipopt
+[0.517s] [100%] Built target ifopt_ipopt-example
+[0.539s] [36mInstall the project...[0m
+[0.550s] -- Install configuration: "Debug"
+[0.550s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/share/ifopt/cmake/ifopt-config.cmake
+[0.550s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/share/ifopt/cmake/ifopt-config-version.cmake
+[0.551s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/share/ifopt/package.xml
+[0.551s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/lib/libifopt_core.so
+[0.551s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt
+[0.553s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt/bounds.h
+[0.553s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt/variable_set.h
+[0.554s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt/constraint_set.h
+[0.554s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt/cost_term.h
+[0.555s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt/problem.h
+[0.555s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt/solver.h
+[0.556s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt/composite.h
+[0.556s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt/test_vars_constr_cost.h
+[0.557s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/share/ifopt/cmake/ifopt_core-targets.cmake
+[0.557s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/share/ifopt/cmake/ifopt_core-targets-debug.cmake
+[0.557s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/lib/ifopt/ifopt_core-test
+[0.557s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/lib/libifopt_ipopt.so
+[0.558s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/lib/ifopt/ifopt_ipopt-example
+[0.558s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt
+[0.558s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt/ipopt_adapter.h
+[0.558s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/include/ifopt/ipopt_solver.h
+[0.559s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/share/ifopt/cmake/ifopt_ipopt-targets.cmake
+[0.559s] -- Up-to-date: /root/crs_ws_fanuc/install/ifopt/share/ifopt/cmake/ifopt_ipopt-targets-debug.cmake
+[0.587s] Invoked command in '/root/crs_ws_fanuc/build/ifopt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/ifopt --target install -- -j8 -l8

@@ -1,0 +1,17 @@
+[0.063s] Invoking command in '/root/crs_ws_fanuc/build/scxml_core': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/scxml_core -- -j8 -l8
+[0.210s] [100%] Built target scxml_core
+[0.238s] Invoked command in '/root/crs_ws_fanuc/build/scxml_core' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/scxml_core -- -j8 -l8
+[0.375s] Invoking command in '/root/crs_ws_fanuc/build/scxml_core': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/scxml_core --target install -- -j8 -l8
+[0.515s] [100%] Built target scxml_core
+[0.568s] [36mInstall the project...[0m
+[0.597s] -- Install configuration: "Debug"
+[0.598s] -- Up-to-date: /root/crs_ws_fanuc/install/scxml_core/lib/libscxml_core.so
+[0.598s] -- Up-to-date: /root/crs_ws_fanuc/install/scxml_core/lib/cmake/scxml_core/scxml_core-targets.cmake
+[0.599s] -- Up-to-date: /root/crs_ws_fanuc/install/scxml_core/lib/cmake/scxml_core/scxml_core-targets-debug.cmake
+[0.599s] -- Up-to-date: /root/crs_ws_fanuc/install/scxml_core/include
+[0.599s] -- Up-to-date: /root/crs_ws_fanuc/install/scxml_core/include/scxml_core
+[0.599s] -- Up-to-date: /root/crs_ws_fanuc/install/scxml_core/include/scxml_core/state_machine.h
+[0.600s] -- Up-to-date: /root/crs_ws_fanuc/install/scxml_core/share/scxml_core/package.xml
+[0.600s] -- Up-to-date: /root/crs_ws_fanuc/install/scxml_core/lib/cmake/scxml_core/scxml_core-config.cmake
+[0.600s] -- Up-to-date: /root/crs_ws_fanuc/install/scxml_core/lib/cmake/scxml_core/scxml_core-config-version.cmake
+[0.603s] Invoked command in '/root/crs_ws_fanuc/build/scxml_core' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/scxml_core --target install -- -j8 -l8

@@ -1,0 +1,1 @@
+/root/crs_ws_fanuc/src/region_detection/region_detection_msgs/msg/PoseSet.msg

@@ -1,0 +1,24 @@
+[0.015s] Invoking command in '/root/crs_ws_fanuc/build/Project': /usr/bin/cmake /root/crs_ws_fanuc/src -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/Project
+[0.088s] -- The C compiler identification is GNU 7.5.0
+[0.157s] -- The CXX compiler identification is GNU 7.5.0
+[0.163s] -- Check for working C compiler: /usr/bin/cc
+[0.246s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.246s] -- Detecting C compiler ABI info
+[0.329s] -- Detecting C compiler ABI info - done
+[0.338s] -- Detecting C compile features
+[0.583s] -- Detecting C compile features - done
+[0.586s] -- Check for working CXX compiler: /usr/bin/c++
+[0.677s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.678s] -- Detecting CXX compiler ABI info
+[0.773s] -- Detecting CXX compiler ABI info - done
+[0.781s] -- Detecting CXX compile features
+[1.179s] -- Detecting CXX compile features - done
+[1.404s] CMake Error at CMakeLists.txt:65 (message):
+[1.404s]   find_package(catkin) failed.  catkin was neither found in the workspace nor
+[1.404s]   in the CMAKE_PREFIX_PATH.  One reason may be that no ROS setup.sh was
+[1.404s]   sourced before.
+[1.404s] 
+[1.404s] 
+[1.404s] -- Configuring incomplete, errors occurred!
+[1.404s] See also "/root/crs_ws_fanuc/build/Project/CMakeFiles/CMakeOutput.log".
+[1.406s] Invoked command in '/root/crs_ws_fanuc/build/Project' returned '1': /usr/bin/cmake /root/crs_ws_fanuc/src -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/Project

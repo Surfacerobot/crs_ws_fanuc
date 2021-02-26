@@ -1,0 +1,9 @@
+uint8 POSITION1=0
+uint8 POSITION2=1
+uint8 POSITION3=2
+uint8 robot_position
+
+uint8 RAIL1=0
+uint8 RAIL2=1
+uint8 robot_rail
+

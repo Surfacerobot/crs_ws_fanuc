@@ -1,0 +1,8 @@
+Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_resources -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_resources
+Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_resources -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_resources
+Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources -- -j8 -l8
+Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources -- -j8 -l8
+Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target tests -- -j8 -l8
+Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target tests -- -j8 -l8
+Invoking command in '/root/crs_ws_fanuc/build/fanuc_resources': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target install -- -j8 -l8
+Invoked command in '/root/crs_ws_fanuc/build/fanuc_resources' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_resources --target install -- -j8 -l8

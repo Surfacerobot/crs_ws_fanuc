@@ -1,0 +1,37 @@
+[0.074s] Invoking command in '/root/crs_ws_fanuc/build/descartes_light': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/descartes_light -- -j8 -l8
+[0.222s] [ 66%] Built target descartes_light
+[0.233s] [100%] Built target descartes_light_gantry
+[0.295s] Invoked command in '/root/crs_ws_fanuc/build/descartes_light' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/descartes_light -- -j8 -l8
+[0.450s] Invoking command in '/root/crs_ws_fanuc/build/descartes_light': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/descartes_light --target install -- -j8 -l8
+[0.586s] [ 33%] Built target descartes_light_gantry
+[0.594s] [100%] Built target descartes_light
+[0.639s] [36mInstall the project...[0m
+[0.665s] -- Install configuration: ""
+[0.665s] -- Installing: /root/crs_ws_fanuc/install/descartes_light/lib/libdescartes_light.so
+[0.665s] -- Set runtime path of "/root/crs_ws_fanuc/install/descartes_light/lib/libdescartes_light.so" to ""
+[0.665s] -- Installing: /root/crs_ws_fanuc/install/descartes_light/lib/libdescartes_light_gantry.so
+[0.669s] -- Set runtime path of "/root/crs_ws_fanuc/install/descartes_light/lib/libdescartes_light_gantry.so" to ""
+[0.669s] -- Installing: /root/crs_ws_fanuc/install/descartes_light/lib/cmake/descartes_light/descartes_light-targets.cmake
+[0.669s] -- Installing: /root/crs_ws_fanuc/install/descartes_light/lib/cmake/descartes_light/descartes_light-targets-noconfig.cmake
+[0.669s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/share/descartes_light/package.xml
+[0.670s] -- Installing: /root/crs_ws_fanuc/install/descartes_light/lib/cmake/descartes_light/descartes_light-config.cmake
+[0.671s] -- Installing: /root/crs_ws_fanuc/install/descartes_light/lib/cmake/descartes_light/descartes_light-config-version.cmake
+[0.671s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light
+[0.671s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl
+[0.671s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl/gantry_kinematics.h
+[0.671s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl/gantry_kinematics.hpp
+[0.671s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl/ladder_graph_dag_search.hpp
+[0.671s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl/descartes_light.hpp
+[0.674s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/impl/ladder_graph.hpp
+[0.674s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/ladder_graph_dag_search.h
+[0.674s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/utils.h
+[0.674s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/visibility_control.h
+[0.674s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/ladder_graph.h
+[0.675s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/interface
+[0.675s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/interface/collision_interface.h
+[0.675s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/interface/kinematics_interface.h
+[0.675s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/interface/edge_evaluator.h
+[0.675s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/interface/position_sampler.h
+[0.675s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/include/descartes_light/descartes_light.h
+[0.675s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_light/lib/cmake/descartes_light/descartes_light_macros.cmake
+[0.679s] Invoked command in '/root/crs_ws_fanuc/build/descartes_light' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /root/crs_ws_fanuc/build/descartes_light --target install -- -j8 -l8

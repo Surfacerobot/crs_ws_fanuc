@@ -1,0 +1,1 @@
+/root/crs_ws_fanuc/devel/share/osqp_eigen/package.xml

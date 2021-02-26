@@ -1,0 +1,49 @@
+-- Found OpenMP_CXX: -fopenmp  
+-- Found OpenMP: TRUE   
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/descartes_samplers
+[ 10%] Building CXX object CMakeFiles/descartes_samplers.dir/src/evaluators/euclidean_distance_edge_evaluator.cpp.o
+[ 20%] Building CXX object CMakeFiles/descartes_samplers.dir/src/evaluators/distance_edge_evaluator.cpp.o
+[ 30%] Building CXX object CMakeFiles/descartes_samplers.dir/src/evaluators/gantry_euclidean_distance_edge_evaluator.cpp.o
+[ 50%] Building CXX object CMakeFiles/descartes_samplers.dir/src/samplers/axial_symmetric_sampler.cpp.o
+[ 50%] Building CXX object CMakeFiles/descartes_samplers.dir/src/samplers/cartesian_point_sampler.cpp.o
+[ 60%] Building CXX object CMakeFiles/descartes_samplers.dir/src/samplers/external_axis_sampler.cpp.o
+[ 70%] Building CXX object CMakeFiles/descartes_samplers.dir/src/samplers/fixed_joint_pose_sampler.cpp.o
+[ 80%] Building CXX object CMakeFiles/descartes_samplers.dir/src/samplers/railed_axial_symmetric_sampler.cpp.o
+[ 90%] Building CXX object CMakeFiles/descartes_samplers.dir/src/samplers/railed_cartesian_point_sampler.cpp.o
+[100%] Linking CXX shared library libdescartes_samplers.so
+[100%] Built target descartes_samplers
+[100%] Built target descartes_samplers
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /root/crs_ws_fanuc/install/descartes_samplers/lib/libdescartes_samplers.so
+-- Set runtime path of "/root/crs_ws_fanuc/install/descartes_samplers/lib/libdescartes_samplers.so" to ""
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/lib/cmake/descartes_samplers/descartes_samplers-targets.cmake
+-- Installing: /root/crs_ws_fanuc/install/descartes_samplers/lib/cmake/descartes_samplers/descartes_samplers-targets-debug.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/share/descartes_samplers/package.xml
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/lib/cmake/descartes_samplers/descartes_samplers-config.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/lib/cmake/descartes_samplers/descartes_samplers-config-version.cmake
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/external_axis_sampler.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/impl
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/impl/railed_axial_symmetric_sampler.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/impl/axial_symmetric_sampler.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/impl/external_axis_sampler.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/impl/railed_cartesian_point_sampler.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/impl/fixed_joint_pose_sampler.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/impl/cartesian_point_sampler.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/cartesian_point_sampler.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/railed_cartesian_point_sampler.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/fixed_joint_pose_sampler.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/axial_symmetric_sampler.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/samplers/railed_axial_symmetric_sampler.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/evaluators
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/evaluators/impl
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/evaluators/impl/distance_edge_evaluator.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/evaluators/impl/euclidean_distance_edge_evaluator.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/evaluators/impl/gantry_euclidean_distance_edge_evaluator.hpp
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/evaluators/gantry_euclidean_distance_edge_evaluator.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/evaluators/distance_edge_evaluator.h
+-- Up-to-date: /root/crs_ws_fanuc/install/descartes_samplers/include/descartes_samplers/evaluators/euclidean_distance_edge_evaluator.h

@@ -1,0 +1,8 @@
+source;share/crs_robot_comms/hook/cmake_prefix_path.ps1
+source;share/crs_robot_comms/hook/cmake_prefix_path.dsv
+source;share/crs_robot_comms/hook/cmake_prefix_path.sh
+source;share/crs_robot_comms/local_setup.bash
+source;share/crs_robot_comms/local_setup.dsv
+source;share/crs_robot_comms/local_setup.ps1
+source;share/crs_robot_comms/local_setup.sh
+source;share/crs_robot_comms/local_setup.zsh

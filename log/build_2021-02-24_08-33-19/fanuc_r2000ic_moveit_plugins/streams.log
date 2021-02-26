@@ -1,0 +1,18 @@
+[0.009s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins -- -j8 -l8
+[0.087s] [100%] Built target fanuc_r2000ic_r2000ic_manipulator_moveit_ikfast_plugin
+[0.098s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins -- -j8 -l8
+[0.217s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target tests -- -j8 -l8
+[0.293s] Built target tests
+[0.312s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target tests -- -j8 -l8
+[0.438s] Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target install -- -j8 -l8
+[0.526s] [100%] Built target fanuc_r2000ic_r2000ic_manipulator_moveit_ikfast_plugin
+[0.554s] [36mInstall the project...[0m
+[0.563s] -- Install configuration: "Debug"
+[0.834s] -- Execute custom install script
+[0.834s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/lib/pkgconfig/fanuc_r2000ic_moveit_plugins.pc
+[0.834s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/share/fanuc_r2000ic_moveit_plugins/cmake/fanuc_r2000ic_moveit_pluginsConfig.cmake
+[0.834s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/share/fanuc_r2000ic_moveit_plugins/cmake/fanuc_r2000ic_moveit_pluginsConfig-version.cmake
+[0.835s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/share/fanuc_r2000ic_moveit_plugins/package.xml
+[0.835s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/lib/libfanuc_r2000ic_r2000ic_manipulator_moveit_ikfast_plugin.so
+[0.835s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins/share/fanuc_r2000ic_moveit_plugins/fanuc_r2000ic_r2000ic_manipulator_moveit_ikfast_plugin_description.xml
+[0.839s] Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_moveit_plugins --target install -- -j8 -l8

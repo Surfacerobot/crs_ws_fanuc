@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+
+<node name="joint_state_publisher" exec="joint_state_publisher" pkg="joint_state_publisher"/>
+<!--    <node pkg="crs_utils_py" exec="joint_state_publisher" name="/joint_state_publisher" />-->
+<!--<node name="robot_state_publisher" exec="robot_state_publisher" pkg="robot_state_publisher" />-->
+
+<node pkg="robot_state_publisher" exec="robot_state_publisher" name="/robot_state_publisher" namespace=""
+  args="$(find-pkg-share fanuc_r2000ic_support)/urdf/r2000ic165f.urdf"/>
+
+<let name="rviz_config" value="$(find-pkg-share crs_application)/resources/crs.rviz"/>
+<node pkg="rviz2" exec="rviz2"  launch-prefix="xterm -e" args=""
+        output="screen">
+        <param name="default_config_file" value="$(find-pkg-share crs_application)/config/crs.yaml"/>
+<!--        <param name="database_dir" value="$(var database_dir)"/>-->
+
+<!--        <param name="robot_description" value="$(find-pkg-share fanuc_r2000ic_support)/urdf/r2000ic165f.urdf" />-->
+        <!--<param name="use_gui" value="$(arg gui)"/>-->
+
+ </node>
+
+</launch>

@@ -1,0 +1,29 @@
+[0.042s] Invoking command in '/root/crs_ws_fanuc/build/crs_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_gazebo_plugins -- -j8 -l8
+[0.182s] [100%] Built target crs_gazebo_plugins_joint_pose_trajectory
+[0.196s] Invoked command in '/root/crs_ws_fanuc/build/crs_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_gazebo_plugins -- -j8 -l8
+[0.281s] Invoking command in '/root/crs_ws_fanuc/build/crs_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_gazebo_plugins --target install -- -j8 -l8
+[0.462s] [100%] Built target crs_gazebo_plugins_joint_pose_trajectory
+[0.463s] [36mInstall the project...[0m
+[0.463s] -- Install configuration: "Debug"
+[0.464s] -- Execute custom install script
+[0.464s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/environment/library_path.sh
+[0.464s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/environment/library_path.dsv
+[0.464s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/crs_gazebo_plugins
+[0.465s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/crs_gazebo_plugins
+[0.465s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/environment/ament_prefix_path.sh
+[0.465s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/environment/ament_prefix_path.dsv
+[0.465s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/environment/path.sh
+[0.466s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/environment/path.dsv
+[0.466s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/local_setup.bash
+[0.467s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/local_setup.sh
+[0.468s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/local_setup.zsh
+[0.468s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/local_setup.dsv
+[0.468s] -- Symlinking: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/package.dsv
+[0.469s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/ament_index/resource_index/packages/crs_gazebo_plugins
+[0.469s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[0.470s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/cmake/crs_gazebo_pluginsConfig.cmake
+[0.470s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/cmake/crs_gazebo_pluginsConfig-version.cmake
+[0.470s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/share/crs_gazebo_plugins/package.xml
+[0.470s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/include/crs_gazebo_plugins/joint_pose_trajectory.hpp
+[0.470s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_gazebo_plugins/lib/libcrs_gazebo_plugins_joint_pose_trajectory.so
+[0.531s] Invoked command in '/root/crs_ws_fanuc/build/crs_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_gazebo_plugins --target install -- -j8 -l8

@@ -1,0 +1,291 @@
+[0.039s] Invoking command in '/root/crs_ws_fanuc/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_tools:/root/crs_ws_fanuc/install/vhacd:/root/crs_ws_fanuc/install/crs_gui:/root/crs_ws_fanuc/install/crs_application:/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/crs_robot_comms:/root/crs_ws_fanuc/install/ur_dashboard_msgs:/root/crs_ws_fanuc/install/trajopt_sqp:/root/crs_ws_fanuc/install/trajopt_ifopt:/root/crs_ws_fanuc/install/tesseract_monitoring:/root/crs_ws_fanuc/install/tesseract_rosutils:/root/crs_ws_fanuc/install/tesseract_process_planners:/root/crs_ws_fanuc/install/tesseract_motion_planners:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/tesseract_visualization:/root/crs_ws_fanuc/install/tesseract:/root/crs_ws_fanuc/install/tesseract_urdf:/root/crs_ws_fanuc/install/tesseract_plugins:/root/crs_ws_fanuc/install/tesseract_environment:/root/crs_ws_fanuc/install/tesseract_collision:/root/crs_ws_fanuc/install/tesseract_support:/root/crs_ws_fanuc/install/tesseract_kinematics:/root/crs_ws_fanuc/install/tesseract_scene_graph:/root/crs_ws_fanuc/install/tesseract_msgs:/root/crs_ws_fanuc/install/tesseract_geometry:/root/crs_ws_fanuc/install/tesseract_common:/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:/root/crs_ws_fanuc/install/roscpp_scxml_demos:/root/crs_ws_fanuc/install/rclcpp_scxml_demos:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_rclcpp:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/region_detection_core:/root/crs_ws_fanuc/install/osqp_eigen:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/descartes_opw:/root/crs_ws_fanuc/install/opw_kinematics:/root/crs_ws_fanuc/install/octomap_msgs:/root/crs_ws_fanuc/install/fcl:/root/crs_ws_fanuc/install/libccd:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/ifopt:/root/crs_ws_fanuc/install/gtest:/root/crs_ws_fanuc/install/fanuc_resources:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/crs_toolpath_gen:/root/crs_ws_fanuc/install/crs_support:/root/crs_ws_fanuc/install/crs_process_data:/root/crs_ws_fanuc/install/crs_perception:/root/crs_ws_fanuc/install/crs_area_selection:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/crs_gazebo_plugins:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/root/crs_ws_fanuc/install/bullet3:/opt/qt513/lib/cmake: /usr/bin/cmake --build /root/crs_ws_fanuc/build/ur_dashboard_msgs -- -j8 -l8
+[0.188s] [  0%] Built target ur_dashboard_msgs__cpp
+[0.194s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[0.277s] [ 24%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[0.279s] [ 37%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[0.301s] [ 49%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[0.408s] [ 61%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[0.410s] [ 73%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[0.480s] [ 85%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[0.525s] [ 85%] Built target ur_dashboard_msgs
+[0.583s] [ 86%] Built target ur_dashboard_msgs__py
+[0.667s] [ 97%] Built target ur_dashboard_msgs__python
+[0.733s] [ 98%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.742s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[0.781s] Invoked command in '/root/crs_ws_fanuc/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_tools:/root/crs_ws_fanuc/install/vhacd:/root/crs_ws_fanuc/install/crs_gui:/root/crs_ws_fanuc/install/crs_application:/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/crs_robot_comms:/root/crs_ws_fanuc/install/ur_dashboard_msgs:/root/crs_ws_fanuc/install/trajopt_sqp:/root/crs_ws_fanuc/install/trajopt_ifopt:/root/crs_ws_fanuc/install/tesseract_monitoring:/root/crs_ws_fanuc/install/tesseract_rosutils:/root/crs_ws_fanuc/install/tesseract_process_planners:/root/crs_ws_fanuc/install/tesseract_motion_planners:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/tesseract_visualization:/root/crs_ws_fanuc/install/tesseract:/root/crs_ws_fanuc/install/tesseract_urdf:/root/crs_ws_fanuc/install/tesseract_plugins:/root/crs_ws_fanuc/install/tesseract_environment:/root/crs_ws_fanuc/install/tesseract_collision:/root/crs_ws_fanuc/install/tesseract_support:/root/crs_ws_fanuc/install/tesseract_kinematics:/root/crs_ws_fanuc/install/tesseract_scene_graph:/root/crs_ws_fanuc/install/tesseract_msgs:/root/crs_ws_fanuc/install/tesseract_geometry:/root/crs_ws_fanuc/install/tesseract_common:/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:/root/crs_ws_fanuc/install/roscpp_scxml_demos:/root/crs_ws_fanuc/install/rclcpp_scxml_demos:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_rclcpp:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/region_detection_core:/root/crs_ws_fanuc/install/osqp_eigen:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/descartes_opw:/root/crs_ws_fanuc/install/opw_kinematics:/root/crs_ws_fanuc/install/octomap_msgs:/root/crs_ws_fanuc/install/fcl:/root/crs_ws_fanuc/install/libccd:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/ifopt:/root/crs_ws_fanuc/install/gtest:/root/crs_ws_fanuc/install/fanuc_resources:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/crs_toolpath_gen:/root/crs_ws_fanuc/install/crs_support:/root/crs_ws_fanuc/install/crs_process_data:/root/crs_ws_fanuc/install/crs_perception:/root/crs_ws_fanuc/install/crs_area_selection:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/crs_gazebo_plugins:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/root/crs_ws_fanuc/install/bullet3:/opt/qt513/lib/cmake: /usr/bin/cmake --build /root/crs_ws_fanuc/build/ur_dashboard_msgs -- -j8 -l8
+[2.063s] Invoking command in '/root/crs_ws_fanuc/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_tools:/root/crs_ws_fanuc/install/vhacd:/root/crs_ws_fanuc/install/crs_gui:/root/crs_ws_fanuc/install/crs_application:/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/crs_robot_comms:/root/crs_ws_fanuc/install/ur_dashboard_msgs:/root/crs_ws_fanuc/install/trajopt_sqp:/root/crs_ws_fanuc/install/trajopt_ifopt:/root/crs_ws_fanuc/install/tesseract_monitoring:/root/crs_ws_fanuc/install/tesseract_rosutils:/root/crs_ws_fanuc/install/tesseract_process_planners:/root/crs_ws_fanuc/install/tesseract_motion_planners:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/tesseract_visualization:/root/crs_ws_fanuc/install/tesseract:/root/crs_ws_fanuc/install/tesseract_urdf:/root/crs_ws_fanuc/install/tesseract_plugins:/root/crs_ws_fanuc/install/tesseract_environment:/root/crs_ws_fanuc/install/tesseract_collision:/root/crs_ws_fanuc/install/tesseract_support:/root/crs_ws_fanuc/install/tesseract_kinematics:/root/crs_ws_fanuc/install/tesseract_scene_graph:/root/crs_ws_fanuc/install/tesseract_msgs:/root/crs_ws_fanuc/install/tesseract_geometry:/root/crs_ws_fanuc/install/tesseract_common:/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:/root/crs_ws_fanuc/install/roscpp_scxml_demos:/root/crs_ws_fanuc/install/rclcpp_scxml_demos:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_rclcpp:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/region_detection_core:/root/crs_ws_fanuc/install/osqp_eigen:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/descartes_opw:/root/crs_ws_fanuc/install/opw_kinematics:/root/crs_ws_fanuc/install/octomap_msgs:/root/crs_ws_fanuc/install/fcl:/root/crs_ws_fanuc/install/libccd:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/ifopt:/root/crs_ws_fanuc/install/gtest:/root/crs_ws_fanuc/install/fanuc_resources:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/crs_toolpath_gen:/root/crs_ws_fanuc/install/crs_support:/root/crs_ws_fanuc/install/crs_process_data:/root/crs_ws_fanuc/install/crs_perception:/root/crs_ws_fanuc/install/crs_area_selection:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/crs_gazebo_plugins:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/root/crs_ws_fanuc/install/bullet3:/opt/qt513/lib/cmake: /usr/bin/cmake --build /root/crs_ws_fanuc/build/ur_dashboard_msgs --target install -- -j8 -l8
+[2.222s] [  0%] Built target ur_dashboard_msgs__cpp
+[2.243s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[2.326s] [ 25%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[2.332s] [ 37%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[2.338s] [ 49%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[2.427s] [ 61%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[2.440s] [ 73%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[2.517s] [ 85%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[2.569s] [ 85%] Built target ur_dashboard_msgs
+[2.628s] [ 86%] Built target ur_dashboard_msgs__py
+[2.715s] [ 97%] Built target ur_dashboard_msgs__python
+[2.791s] [ 99%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[2.793s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.840s] [36mInstall the project...[0m
+[2.861s] -- Install configuration: ""
+[2.862s] -- Execute custom install script
+[2.862s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[2.863s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[2.864s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[2.864s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[2.864s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[2.871s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode__rosidl_typesupport_fastrtps_c.h
+[2.871s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state__rosidl_typesupport_fastrtps_c.h
+[2.871s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode__rosidl_typesupport_fastrtps_c.h
+[2.871s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.871s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode__rosidl_typesupport_fastrtps_c.h
+[2.871s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log__rosidl_typesupport_fastrtps_c.h
+[2.871s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[2.872s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state__rosidl_typesupport_fastrtps_c.h
+[2.872s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[2.872s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[2.872s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running__rosidl_typesupport_fastrtps_c.h
+[2.872s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[2.872s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load__rosidl_typesupport_fastrtps_c.h
+[2.872s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup__rosidl_typesupport_fastrtps_c.h
+[2.873s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request__rosidl_typesupport_fastrtps_c.h
+[2.873s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[2.873s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode.h
+[2.873s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode__functions.h
+[2.873s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode__struct.h
+[2.874s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode__type_support.h
+[2.874s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state.h
+[2.874s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state__functions.h
+[2.874s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state__struct.h
+[2.875s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state__type_support.h
+[2.875s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode.h
+[2.875s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode__functions.h
+[2.875s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode__struct.h
+[2.876s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode__type_support.h
+[2.876s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.877s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode.h
+[2.878s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode__functions.h
+[2.878s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode__struct.h
+[2.878s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode__type_support.h
+[2.878s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log.h
+[2.878s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log__functions.h
+[2.879s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log__struct.h
+[2.879s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log__type_support.h
+[2.879s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program.h
+[2.879s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program__functions.h
+[2.880s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program__struct.h
+[2.880s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program__type_support.h
+[2.880s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state.h
+[2.880s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state__functions.h
+[2.880s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state__struct.h
+[2.881s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state__type_support.h
+[2.881s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode.h
+[2.881s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode__functions.h
+[2.882s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode__struct.h
+[2.882s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode__type_support.h
+[2.882s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode.h
+[2.882s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode__functions.h
+[2.883s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode__struct.h
+[2.883s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode__type_support.h
+[2.883s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running.h
+[2.884s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running__functions.h
+[2.884s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running__struct.h
+[2.884s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running__type_support.h
+[2.884s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved.h
+[2.884s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved__functions.h
+[2.885s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved__struct.h
+[2.885s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved__type_support.h
+[2.885s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load.h
+[2.886s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load__functions.h
+[2.886s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load__struct.h
+[2.886s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load__type_support.h
+[2.886s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup.h
+[2.886s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup__functions.h
+[2.887s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup__struct.h
+[2.887s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup__type_support.h
+[2.887s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request.h
+[2.887s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request__functions.h
+[2.888s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request__struct.h
+[2.888s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request__type_support.h
+[2.888s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[2.891s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[2.891s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.892s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[2.892s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.892s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[2.893s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[2.893s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[2.894s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.894s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[2.894s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[2.896s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[2.896s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[2.896s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load__rosidl_typesupport_fastrtps_cpp.hpp
+[2.897s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[2.897s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[2.898s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.898s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode.hpp
+[2.898s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode__struct.hpp
+[2.898s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode__traits.hpp
+[2.899s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state.hpp
+[2.900s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state__struct.hpp
+[2.900s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state__traits.hpp
+[2.900s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode.hpp
+[2.900s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode__struct.hpp
+[2.903s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode__traits.hpp
+[2.904s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode.hpp
+[2.905s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode__struct.hpp
+[2.906s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode__traits.hpp
+[2.906s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log.hpp
+[2.906s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log__struct.hpp
+[2.906s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log__traits.hpp
+[2.907s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[2.907s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program__struct.hpp
+[2.907s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program__traits.hpp
+[2.907s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state.hpp
+[2.908s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state__struct.hpp
+[2.908s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state__traits.hpp
+[2.908s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[2.908s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode__struct.hpp
+[2.908s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode__traits.hpp
+[2.909s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[2.909s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode__struct.hpp
+[2.909s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode__traits.hpp
+[2.909s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running.hpp
+[2.910s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running__struct.hpp
+[2.910s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running__traits.hpp
+[2.911s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved.hpp
+[2.911s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved__struct.hpp
+[2.912s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved__traits.hpp
+[2.912s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load.hpp
+[2.913s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load__struct.hpp
+[2.913s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load__traits.hpp
+[2.913s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup.hpp
+[2.914s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup__struct.hpp
+[2.914s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup__traits.hpp
+[2.914s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request.hpp
+[2.915s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request__struct.hpp
+[2.916s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request__traits.hpp
+[2.916s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode__rosidl_typesupport_introspection_c.h
+[2.916s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state__rosidl_typesupport_introspection_c.h
+[2.918s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode__rosidl_typesupport_introspection_c.h
+[2.918s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.918s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode__rosidl_typesupport_introspection_c.h
+[2.919s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log__rosidl_typesupport_introspection_c.h
+[2.919s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program__rosidl_typesupport_introspection_c.h
+[2.920s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state__rosidl_typesupport_introspection_c.h
+[2.920s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode__rosidl_typesupport_introspection_c.h
+[2.920s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode__rosidl_typesupport_introspection_c.h
+[2.921s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running__rosidl_typesupport_introspection_c.h
+[2.921s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved__rosidl_typesupport_introspection_c.h
+[2.921s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load__rosidl_typesupport_introspection_c.h
+[2.923s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup__rosidl_typesupport_introspection_c.h
+[2.923s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request__rosidl_typesupport_introspection_c.h
+[2.924s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[2.924s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/action/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[2.925s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/program_state__rosidl_typesupport_introspection_cpp.hpp
+[2.925s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[2.925s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/msg/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[2.926s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[2.926s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[2.926s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[2.926s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[2.927s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[2.927s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[2.928s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[2.928s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/load__rosidl_typesupport_introspection_cpp.hpp
+[2.928s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/popup__rosidl_typesupport_introspection_cpp.hpp
+[2.928s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/include/ur_dashboard_msgs/srv/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[2.928s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[2.929s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[2.929s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[2.930s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/__init__.py
+[2.930s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/msg/__init__.py
+[2.930s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/msg/_program_state.py
+[2.930s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[2.931s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[2.931s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/srv/__init__.py
+[2.931s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[2.931s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[2.931s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[2.932s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[2.933s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[2.935s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[2.935s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[2.935s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/srv/_load.py
+[2.935s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/srv/_popup.py
+[2.935s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/srv/_raw_request.py
+[2.936s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/action/__init__.py
+[2.936s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/action/_set_mode.py
+[2.936s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[2.936s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/python3.6/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[2.936s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__python.so
+[2.936s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[2.936s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[2.937s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[2.937s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[2.937s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[2.937s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[2.937s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[2.938s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[2.938s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[2.938s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[2.938s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[2.938s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[2.938s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[2.939s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[2.939s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[2.939s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[2.939s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[2.940s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[2.940s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+[2.940s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+[2.940s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[2.941s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+[2.941s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+[2.941s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[2.942s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+[2.942s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+[2.942s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[2.942s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+[2.943s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+[2.943s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[2.943s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+[2.943s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+[2.943s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[2.943s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+[2.944s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+[2.944s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[2.944s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+[2.944s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+[2.945s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[2.945s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+[2.945s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+[2.945s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[2.945s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+[2.945s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+[2.945s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[2.946s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+[2.946s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+[2.946s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[2.946s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[2.946s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[2.946s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[2.946s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[2.947s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[2.947s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[2.947s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[2.947s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[2.947s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[2.947s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[2.947s] -- Symlinking: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[2.964s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[2.966s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[2.966s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.966s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.967s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.967s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[2.967s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[2.967s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[3.037s] Invoked command in '/root/crs_ws_fanuc/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_tools:/root/crs_ws_fanuc/install/vhacd:/root/crs_ws_fanuc/install/crs_gui:/root/crs_ws_fanuc/install/crs_application:/root/crs_ws_fanuc/install/crs_motion_planning:/root/crs_ws_fanuc/install/ur_ikfast_kinematics:/root/crs_ws_fanuc/install/crs_robot_comms:/root/crs_ws_fanuc/install/ur_dashboard_msgs:/root/crs_ws_fanuc/install/trajopt_sqp:/root/crs_ws_fanuc/install/trajopt_ifopt:/root/crs_ws_fanuc/install/tesseract_monitoring:/root/crs_ws_fanuc/install/tesseract_rosutils:/root/crs_ws_fanuc/install/tesseract_process_planners:/root/crs_ws_fanuc/install/tesseract_motion_planners:/root/crs_ws_fanuc/install/trajopt:/root/crs_ws_fanuc/install/trajopt_sco:/root/crs_ws_fanuc/install/trajopt_utils:/root/crs_ws_fanuc/install/tesseract_visualization:/root/crs_ws_fanuc/install/tesseract:/root/crs_ws_fanuc/install/tesseract_urdf:/root/crs_ws_fanuc/install/tesseract_plugins:/root/crs_ws_fanuc/install/tesseract_environment:/root/crs_ws_fanuc/install/tesseract_collision:/root/crs_ws_fanuc/install/tesseract_support:/root/crs_ws_fanuc/install/tesseract_kinematics:/root/crs_ws_fanuc/install/tesseract_scene_graph:/root/crs_ws_fanuc/install/tesseract_msgs:/root/crs_ws_fanuc/install/tesseract_geometry:/root/crs_ws_fanuc/install/tesseract_common:/root/crs_ws_fanuc/install/crs_utils_py:/opt/ros/eloquent:/root/crs_ws_fanuc/install/roscpp_scxml_demos:/root/crs_ws_fanuc/install/rclcpp_scxml_demos:/root/crs_ws_fanuc/install/scxml_core:/root/crs_ws_fanuc/install/region_detection_rclcpp:/root/crs_ws_fanuc/install/region_detection_msgs:/root/crs_ws_fanuc/install/region_detection_core:/root/crs_ws_fanuc/install/osqp_eigen:/root/crs_ws_fanuc/install/osqp:/root/crs_ws_fanuc/install/descartes_opw:/root/crs_ws_fanuc/install/opw_kinematics:/root/crs_ws_fanuc/install/octomap_msgs:/root/crs_ws_fanuc/install/fcl:/root/crs_ws_fanuc/install/libccd:/root/crs_ws_fanuc/install/iterative_spline_parameterization:/root/crs_ws_fanuc/install/ifopt:/root/crs_ws_fanuc/install/gtest:/root/crs_ws_fanuc/install/fanuc_resources:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_config:/root/crs_ws_fanuc/install/fanuc_r2000ic_support:/root/crs_ws_fanuc/install/fanuc_r2000ic_moveit_plugins:/root/crs_ws_fanuc/install/descartes_samplers:/root/crs_ws_fanuc/install/descartes_ikfast:/root/crs_ws_fanuc/install/descartes_light:/root/crs_ws_fanuc/install/crs_toolpath_gen:/root/crs_ws_fanuc/install/crs_support:/root/crs_ws_fanuc/install/crs_process_data:/root/crs_ws_fanuc/install/crs_perception:/root/crs_ws_fanuc/install/crs_area_selection:/root/crs_ws_fanuc/install/crs_msgs:/root/crs_ws_fanuc/install/crs_gazebo_plugins:/root/crs_ws_fanuc/install/cartesian_trajectory_msgs:/root/crs_ws_fanuc/install/bullet3:/opt/qt513/lib/cmake: /usr/bin/cmake --build /root/crs_ws_fanuc/build/ur_dashboard_msgs --target install -- -j8 -l8

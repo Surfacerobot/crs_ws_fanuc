@@ -1,0 +1,20 @@
+WARNING: Target "crs_gui_state_machine_interface_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_crs_application_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_panels" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_widgets" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_area_selection_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_part_selection_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_panels" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_widgets" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_area_selection_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_part_selection_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_crs_application_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "crs_gui_state_machine_interface_demo" requests linking to directory "/root/crs_ws_fanuc/build/crs_gui".  Targets may link only to libraries.  CMake is dropping the item.
+/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gui/src/widgets/crs_application_widget.cpp: In member function 'void crs_gui::CRSApplicationWidget::getConfigurationCb(crs_msgs::srv::GetConfiguration_Request_<std::allocator<void> >::SharedPtr, crs_msgs::srv::GetConfiguration_Response_<std::allocator<void> >::SharedPtr)':
+/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gui/src/widgets/crs_application_widget.cpp:268:99: warning: unused parameter 'req' [-Wunused-parameter]
+ void CRSApplicationWidget::getConfigurationCb(crs_msgs::srv::GetConfiguration::Request::SharedPtr req,
+                                                                                                   ^~~
+In file included from /root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gui/src/application_panel.cpp:47:0:
+/opt/ros/eloquent/include/pluginlib/class_list_macros.h:36:2: warning: #warning Including header <pluginlib/class_list_macros.h> is deprecated, include <pluginlib/class_list_macros.hpp> instead. [-Wcpp]
+ #warning Including header <pluginlib/class_list_macros.h> is deprecated, \
+  ^~~~~~~

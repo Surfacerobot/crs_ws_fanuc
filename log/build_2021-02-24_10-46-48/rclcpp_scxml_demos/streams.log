@@ -1,0 +1,28 @@
+[0.089s] Invoking command in '/root/crs_ws_fanuc/build/rclcpp_scxml_demos': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/scxml_core:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/scxml_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/scxml_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/rclcpp_scxml_demos -- -j8 -l8
+[0.325s] [100%] Built target demo_scxml_state_machine
+[0.360s] Invoked command in '/root/crs_ws_fanuc/build/rclcpp_scxml_demos' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/scxml_core:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/scxml_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/scxml_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/rclcpp_scxml_demos -- -j8 -l8
+[0.593s] Invoking command in '/root/crs_ws_fanuc/build/rclcpp_scxml_demos': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/scxml_core:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/scxml_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/scxml_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/rclcpp_scxml_demos --target install -- -j8 -l8
+[0.803s] [100%] Built target demo_scxml_state_machine
+[0.887s] [36mInstall the project...[0m
+[0.905s] -- Install configuration: "Debug"
+[0.906s] -- Execute custom install script
+[0.909s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/lib/rclcpp_scxml_demos/demo_scxml_state_machine
+[0.909s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos//resource/demo_sm.scxml
+[0.909s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos//resource/params.yaml
+[0.909s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/ament_index/resource_index/package_run_dependencies/rclcpp_scxml_demos
+[0.910s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/ament_index/resource_index/parent_prefix_path/rclcpp_scxml_demos
+[0.910s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/environment/ament_prefix_path.sh
+[0.911s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/environment/ament_prefix_path.dsv
+[0.912s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/environment/path.sh
+[0.912s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/environment/path.dsv
+[0.913s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/local_setup.bash
+[0.913s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/local_setup.sh
+[0.914s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/local_setup.zsh
+[0.915s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/local_setup.dsv
+[0.915s] -- Symlinking: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/package.dsv
+[0.948s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/ament_index/resource_index/packages/rclcpp_scxml_demos
+[0.949s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.949s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/cmake/rclcpp_scxml_demosConfig.cmake
+[0.949s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/cmake/rclcpp_scxml_demosConfig-version.cmake
+[0.949s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/rclcpp_scxml_demos/share/rclcpp_scxml_demos/package.xml
+[1.001s] Invoked command in '/root/crs_ws_fanuc/build/rclcpp_scxml_demos' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/scxml_core:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/scxml_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/scxml_core/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/scxml_core/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/rclcpp_scxml_demos --target install -- -j8 -l8

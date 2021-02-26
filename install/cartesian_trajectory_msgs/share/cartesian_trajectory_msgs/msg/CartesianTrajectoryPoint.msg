@@ -1,0 +1,1 @@
+/root/crs_ws_fanuc/src/cartesian_trajectory_msgs/msg/CartesianTrajectoryPoint.msg

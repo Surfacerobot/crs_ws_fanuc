@@ -1,0 +1,8 @@
+Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_r2000ic_support -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_r2000ic_support
+Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_r2000ic_support -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_r2000ic_support
+Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support -- -j8 -l8
+Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support -- -j8 -l8
+Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target tests -- -j8 -l8
+Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target tests -- -j8 -l8
+Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target install -- -j8 -l8
+Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '0': /usr/bin/cmake --build /root/crs_ws_fanuc/build/fanuc_r2000ic_support --target install -- -j8 -l8

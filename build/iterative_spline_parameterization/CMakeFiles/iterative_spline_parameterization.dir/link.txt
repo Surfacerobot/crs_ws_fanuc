@@ -1,0 +1,2 @@
+/usr/bin/ar qc libiterative_spline_parameterization.a  CMakeFiles/iterative_spline_parameterization.dir/src/iterative_spline_parameterization.cpp.o
+/usr/bin/ranlib libiterative_spline_parameterization.a

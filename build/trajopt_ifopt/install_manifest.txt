@@ -1,0 +1,16 @@
+/root/crs_ws_fanuc/install/trajopt_ifopt/lib/libtrajopt_ifopt.so
+/root/crs_ws_fanuc/install/trajopt_ifopt/lib/cmake/trajopt_ifopt/trajopt_ifopt-targets.cmake
+/root/crs_ws_fanuc/install/trajopt_ifopt/lib/cmake/trajopt_ifopt/trajopt_ifopt-targets-debug.cmake
+/root/crs_ws_fanuc/install/trajopt_ifopt/share/trajopt_ifopt/package.xml
+/root/crs_ws_fanuc/install/trajopt_ifopt/lib/cmake/trajopt_ifopt/trajopt_ifopt-config.cmake
+/root/crs_ws_fanuc/install/trajopt_ifopt/lib/cmake/trajopt_ifopt/trajopt_ifopt-config-version.cmake
+/root/crs_ws_fanuc/install/trajopt_ifopt/include/trajopt_ifopt/costs/squared_cost.h
+/root/crs_ws_fanuc/install/trajopt_ifopt/include/trajopt_ifopt/constraints/collision_constraint.h
+/root/crs_ws_fanuc/install/trajopt_ifopt/include/trajopt_ifopt/constraints/joint_velocity_constraint.h
+/root/crs_ws_fanuc/install/trajopt_ifopt/include/trajopt_ifopt/constraints/joint_position_constraint.h
+/root/crs_ws_fanuc/install/trajopt_ifopt/include/trajopt_ifopt/constraints/inverse_kinematics_constraint.h
+/root/crs_ws_fanuc/install/trajopt_ifopt/include/trajopt_ifopt/constraints/cartesian_position_constraint.h
+/root/crs_ws_fanuc/install/trajopt_ifopt/include/trajopt_ifopt/variable_sets/joint_position_variable.h
+/root/crs_ws_fanuc/install/trajopt_ifopt/include/trajopt_ifopt/utils/ifopt_utils.h
+/root/crs_ws_fanuc/install/trajopt_ifopt/include/trajopt_ifopt/utils/numeric_differentiation.h
+/root/crs_ws_fanuc/install/trajopt_ifopt/include/trajopt_ifopt/utils/trajopt_utils.h

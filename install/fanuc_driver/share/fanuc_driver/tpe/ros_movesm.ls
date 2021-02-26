@@ -1,0 +1,1 @@
+/root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_driver/tpe/ros_movesm.ls

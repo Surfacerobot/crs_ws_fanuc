@@ -1,0 +1,16 @@
+[0.053s] Invoking command in '/root/crs_ws_fanuc/build/descartes_ikfast': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/descartes_light:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/descartes_light/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/descartes_ikfast -- -j8 -l8
+[0.123s] Invoked command in '/root/crs_ws_fanuc/build/descartes_ikfast' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/descartes_light:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/descartes_light/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/descartes_ikfast -- -j8 -l8
+[0.152s] Invoking command in '/root/crs_ws_fanuc/build/descartes_ikfast': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/descartes_light:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/descartes_light/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/descartes_ikfast --target install -- -j8 -l8
+[0.208s] [36mInstall the project...[0m
+[0.222s] -- Install configuration: "Debug"
+[0.222s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_ikfast/lib/cmake/descartes_ikfast/descartes_ikfast-targets.cmake
+[0.628s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_ikfast/share/descartes_ikfast/package.xml
+[0.920s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_ikfast/lib/cmake/descartes_ikfast/descartes_ikfast-config.cmake
+[1.234s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_ikfast/lib/cmake/descartes_ikfast/descartes_ikfast-config-version.cmake
+[1.470s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_ikfast/include/descartes_ikfast
+[1.471s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_ikfast/include/descartes_ikfast/impl
+[1.471s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_ikfast/include/descartes_ikfast/impl/ikfast_kinematics.hpp
+[1.642s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_ikfast/include/descartes_ikfast/ikfast_kinematics.h
+[1.817s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_ikfast/include/descartes_ikfast/external
+[1.819s] -- Up-to-date: /root/crs_ws_fanuc/install/descartes_ikfast/include/descartes_ikfast/external/ikfast.h
+[2.277s] Invoked command in '/root/crs_ws_fanuc/build/descartes_ikfast' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/descartes_light:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/descartes_light/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/descartes_light/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/descartes_light/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/descartes_ikfast --target install -- -j8 -l8

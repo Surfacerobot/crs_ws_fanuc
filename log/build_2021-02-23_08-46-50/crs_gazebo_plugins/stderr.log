@@ -1,0 +1,4 @@
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gazebo_plugins/src/joint_pose_trajectory.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse crs_gazebo_plugins::JointPoseTrajectoryPrivate::goalCallback(const GoalUUID&, std::shared_ptr<const control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gazebo_plugins/src/joint_pose_trajectory.cpp:183:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+                       std::shared_ptr<const control_msgs::action::FollowJointTrajectory::Goal> [01;35m[Kgoal[m[K)
+                                                                                                [01;35m[K^~~~[m[K

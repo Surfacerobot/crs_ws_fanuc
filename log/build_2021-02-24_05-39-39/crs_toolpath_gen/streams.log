@@ -1,0 +1,22 @@
+[0.090s] Invoking command in '/root/crs_ws_fanuc/build/crs_toolpath_gen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2-urdf-tutorial/install/urdf_tutorial:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_toolpath_gen -- -j8 -l8
+[0.378s] Invoked command in '/root/crs_ws_fanuc/build/crs_toolpath_gen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2-urdf-tutorial/install/urdf_tutorial:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_toolpath_gen -- -j8 -l8
+[0.441s] Invoking command in '/root/crs_ws_fanuc/build/crs_toolpath_gen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2-urdf-tutorial/install/urdf_tutorial:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_toolpath_gen --target install -- -j8 -l8
+[0.520s] [36mInstall the project...[0m
+[0.534s] -- Install configuration: "Debug"
+[0.535s] -- Execute custom install script
+[0.535s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/ament_index/resource_index/package_run_dependencies/crs_toolpath_gen
+[0.536s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/ament_index/resource_index/parent_prefix_path/crs_toolpath_gen
+[0.536s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/environment/ament_prefix_path.sh
+[0.537s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/environment/ament_prefix_path.dsv
+[0.537s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/environment/path.sh
+[0.537s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/environment/path.dsv
+[0.538s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/local_setup.bash
+[0.538s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/local_setup.sh
+[0.539s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/local_setup.zsh
+[0.539s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/local_setup.dsv
+[0.540s] -- Symlinking: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/package.dsv
+[0.560s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/ament_index/resource_index/packages/crs_toolpath_gen
+[0.560s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/cmake/crs_toolpath_genConfig.cmake
+[0.561s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/cmake/crs_toolpath_genConfig-version.cmake
+[0.561s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_toolpath_gen/share/crs_toolpath_gen/package.xml
+[0.566s] Invoked command in '/root/crs_ws_fanuc/build/crs_toolpath_gen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2-urdf-tutorial/install/urdf_tutorial:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_toolpath_gen --target install -- -j8 -l8

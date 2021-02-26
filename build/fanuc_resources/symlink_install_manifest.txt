@@ -1,0 +1,17 @@
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources//urdf/common_colours.xacro
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources//urdf/common_materials.xacro
+/root/crs_ws_fanuc/install/fanuc_resources/share/ament_index/resource_index/package_run_dependencies/fanuc_resources
+/root/crs_ws_fanuc/install/fanuc_resources/share/ament_index/resource_index/parent_prefix_path/fanuc_resources
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/ament_prefix_path.sh
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/ament_prefix_path.dsv
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/path.sh
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/environment/path.dsv
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.bash
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.sh
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.zsh
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/local_setup.dsv
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/package.dsv
+/root/crs_ws_fanuc/install/fanuc_resources/share/ament_index/resource_index/packages/fanuc_resources
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig.cmake
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/cmake/fanuc_resourcesConfig-version.cmake
+/root/crs_ws_fanuc/install/fanuc_resources/share/fanuc_resources/package.xml

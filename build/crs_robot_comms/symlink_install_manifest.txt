@@ -1,0 +1,17 @@
+/root/crs_ws_fanuc/install/crs_robot_comms/share/ament_index/resource_index/package_run_dependencies/crs_robot_comms
+/root/crs_ws_fanuc/install/crs_robot_comms/share/ament_index/resource_index/parent_prefix_path/crs_robot_comms
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/ament_prefix_path.sh
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/ament_prefix_path.dsv
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/path.sh
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/environment/path.dsv
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.bash
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.sh
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.zsh
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/local_setup.dsv
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/package.dsv
+/root/crs_ws_fanuc/install/crs_robot_comms/share/ament_index/resource_index/packages/crs_robot_comms
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/ament_cmake_export_interfaces-extras.cmake
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/ament_cmake_export_dependencies-extras.cmake
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/crs_robot_commsConfig.cmake
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/cmake/crs_robot_commsConfig-version.cmake
+/root/crs_ws_fanuc/install/crs_robot_comms/share/crs_robot_comms/package.xml

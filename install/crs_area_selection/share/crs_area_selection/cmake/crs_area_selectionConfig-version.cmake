@@ -1,0 +1,1 @@
+/root/crs_ws_fanuc/build/crs_area_selection/ament_cmake_core/crs_area_selectionConfig-version.cmake

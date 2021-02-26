@@ -1,0 +1,7 @@
+/root/crs_ws_fanuc/devel/lib/cmake/descartes_ikfast/descartes_ikfast-targets.cmake
+/root/crs_ws_fanuc/devel/share/descartes_ikfast/package.xml
+/root/crs_ws_fanuc/devel/lib/cmake/descartes_ikfast/descartes_ikfast-config.cmake
+/root/crs_ws_fanuc/devel/lib/cmake/descartes_ikfast/descartes_ikfast-config-version.cmake
+/root/crs_ws_fanuc/devel/include/descartes_ikfast/impl/ikfast_kinematics.hpp
+/root/crs_ws_fanuc/devel/include/descartes_ikfast/ikfast_kinematics.h
+/root/crs_ws_fanuc/devel/include/descartes_ikfast/external/ikfast.h

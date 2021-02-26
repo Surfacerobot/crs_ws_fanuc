@@ -1,0 +1,22 @@
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/crs_ws_fanuc/build/descartes_light
+[35m[1mScanning dependencies of target descartes_light_gantry[0m
+[35m[1mScanning dependencies of target descartes_light[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/descartes_light.dir/src/descartes_light.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/descartes_light.dir/src/ladder_graph.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/descartes_light.dir/src/ladder_graph_dag_search.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/descartes_light_gantry.dir/src/gantry_kinematics.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libdescartes_light.so[0m
+[ 83%] Built target descartes_light
+[100%] [32m[1mLinking CXX shared library libdescartes_light_gantry.so[0m
+[100%] Built target descartes_light_gantry

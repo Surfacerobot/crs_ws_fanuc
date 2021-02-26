@@ -1,0 +1,6 @@
+# Request
+
+# The set of points from which the ROI
+# will be selected
+sensor_msgs/PointCloud2 input_cloud
+

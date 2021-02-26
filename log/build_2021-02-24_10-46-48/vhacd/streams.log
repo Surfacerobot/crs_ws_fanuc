@@ -1,0 +1,35 @@
+[0.034s] Invoking command in '/root/crs_ws_fanuc/build/vhacd': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_utils:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/vhacd -- -j8 -l8
+[0.243s] [100%] Built target vhacd
+[0.326s] Invoked command in '/root/crs_ws_fanuc/build/vhacd' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_utils:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/vhacd -- -j8 -l8
+[0.687s] Invoking command in '/root/crs_ws_fanuc/build/vhacd': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_utils:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/vhacd --target install -- -j8 -l8
+[0.928s] [100%] Built target vhacd
+[0.932s] [36mInstall the project...[0m
+[0.941s] -- Install configuration: "Debug"
+[0.941s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/lib/libvhacd.so
+[0.942s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/lib/cmake/vhacd/vhacd-targets.cmake
+[0.942s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/lib/cmake/vhacd/vhacd-targets-debug.cmake
+[0.943s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/share/vhacd/package.xml
+[0.943s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/lib/cmake/vhacd/vhacd-config.cmake
+[0.944s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/lib/cmake/vhacd/vhacd-config-version.cmake
+[0.945s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/FloatMath.h
+[0.945s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btAlignedAllocator.h
+[0.945s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btAlignedObjectArray.h
+[0.945s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btConvexHullComputer.h
+[0.946s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btMinMax.h
+[0.946s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btScalar.h
+[0.946s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/btVector3.h
+[0.946s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdCircularList.h
+[0.947s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdICHull.h
+[0.947s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdManifoldMesh.h
+[0.947s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdMesh.h
+[0.948s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdMutex.h
+[0.949s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdRaycastMesh.h
+[0.949s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdSArray.h
+[0.949s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdTimer.h
+[0.950s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdVHACD.h
+[0.950s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdVector.h
+[0.953s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdVolume.h
+[0.954s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/VHACD.h
+[0.954s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdCircularList.inl
+[0.954s] -- Up-to-date: /root/crs_ws_fanuc/install/vhacd/include/vhacd/vhacdVector.inl
+[0.955s] Invoked command in '/root/crs_ws_fanuc/build/vhacd' returned '0': CMAKE_PREFIX_PATH=/root/crs_ws_fanuc/install/trajopt_utils:/opt/qt513/lib/cmake:/opt/ros/eloquent LD_LIBRARY_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/crs_ws_fanuc/install/trajopt_utils/lib/x86_64-linux-gnu/pkgconfig:/root/crs_ws_fanuc/install/trajopt_utils/lib/pkgconfig /usr/bin/cmake --build /root/crs_ws_fanuc/build/vhacd --target install -- -j8 -l8

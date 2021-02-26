@@ -1,0 +1,75 @@
+[0.009s] Invoking command in '/root/crs_ws_fanuc/build/crs_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_support -- -j8 -l8
+[0.072s] Invoked command in '/root/crs_ws_fanuc/build/crs_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_support -- -j8 -l8
+[0.377s] Invoking command in '/root/crs_ws_fanuc/build/crs_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_support --target install -- -j8 -l8
+[0.470s] [36mInstall the project...[0m
+[0.481s] -- Install configuration: "Debug"
+[0.482s] -- Execute custom install script
+[0.483s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//launch/environment_launch.launch.py
+[0.483s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//launch/environment_launch_swri.launch.py
+[0.483s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//launch/gazebo_swri_demo.launch.py
+[0.484s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//launch/gazebo_test.launch.py
+[0.484s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//launch/spawn_cart.launch.py
+[0.484s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//launch/spawn_part.launch.py
+[0.485s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Mockup/collision/Mockup3_6_Cart_collision.stl
+[0.486s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Mockup/collision/empty_cart_collision.stl
+[0.487s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Mockup/collision/mockup_cart_collision_v3.stl
+[0.487s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Mockup/visual/Mockup3_6_Frame_noTools_small.stl
+[0.488s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Mockup/visual/empty_cart.stl
+[0.488s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Mockup/visual/mock_up_frame.ply
+[0.488s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Mockup/visual/mock_up_frame.stl
+[0.488s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Mockup/visual/mockup_cart_v3.stl
+[0.489s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Mockup/visual/mockup_cart_v4.stl
+[0.489s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Mockup/visual/mockup_frame_v3.stl
+[0.490s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Parts/collision/part1_ch.stl
+[0.491s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Parts/visual/part1_ch.stl
+[0.492s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Parts/visual/part_from_mockup.stl
+[0.493s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/Swri_demo/mold_transformed.stl
+[0.494s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/end_effector/collision/sander_collision.stl
+[0.495s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/end_effector/collision/tool_collision.stl
+[0.495s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/end_effector/visual/ee1.stl
+[0.500s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/end_effector/visual/ee2.stl
+[0.501s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/end_effector/visual/ee3.stl
+[0.507s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/end_effector/visual/sander.stl
+[0.507s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/end_effector/visual/tool.stl
+[0.507s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/collision/base.stl
+[0.508s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/collision/forearm.stl
+[0.513s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/collision/forearm_multibody.dae
+[0.513s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/collision/shoulder.stl
+[0.514s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/collision/upper_arm_multibody.dae
+[0.514s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/collision/upperarm.stl
+[0.515s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/collision/wrist1.stl
+[0.515s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/collision/wrist2.stl
+[0.515s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/collision/wrist3.stl
+[0.515s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/visual/base.dae
+[0.518s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/visual/forearm.dae
+[0.518s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/visual/shoulder.dae
+[0.521s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/visual/upperarm.dae
+[0.522s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/visual/wrist1.dae
+[0.522s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/visual/wrist2.dae
+[0.523s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//meshes/ur10e/visual/wrist3.dae
+[0.523s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//urdf/crs.urdf.xacro
+[0.529s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//urdf/swri_demo.urdf.xacro
+[0.529s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//urdf/swri_demo_sander.urdf.xacro
+[0.530s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//urdf/ur10e_robot.srdf
+[0.531s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//sdf/cart.sdf
+[0.532s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//sdf/part1.sdf
+[0.534s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//worlds/crs.world
+[0.535s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//toolpaths/scanned_part1/job_45degrees.yaml
+[0.537s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//toolpaths/scanned_part1/job_90degrees.yaml
+[0.538s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support//toolpaths/scanned_part1/job_long_strips.yaml
+[0.539s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/ament_index/resource_index/package_run_dependencies/crs_support
+[0.540s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/ament_index/resource_index/parent_prefix_path/crs_support
+[0.541s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support/environment/ament_prefix_path.sh
+[0.541s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support/environment/ament_prefix_path.dsv
+[0.541s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support/environment/path.sh
+[0.545s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support/environment/path.dsv
+[0.545s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support/local_setup.bash
+[0.546s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support/local_setup.sh
+[0.548s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support/local_setup.zsh
+[0.554s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support/local_setup.dsv
+[0.555s] -- Symlinking: /root/crs_ws_fanuc/install/crs_support/share/crs_support/package.dsv
+[0.569s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/ament_index/resource_index/packages/crs_support
+[0.570s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support/cmake/crs_supportConfig.cmake
+[0.570s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support/cmake/crs_supportConfig-version.cmake
+[0.571s] -- Up-to-date symlink: /root/crs_ws_fanuc/install/crs_support/share/crs_support/package.xml
+[0.601s] Invoked command in '/root/crs_ws_fanuc/build/crs_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /root/crs_ws_fanuc/build/crs_support --target install -- -j8 -l8

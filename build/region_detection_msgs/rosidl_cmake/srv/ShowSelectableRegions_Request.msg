@@ -1,0 +1,4 @@
+# inputs
+geometry_msgs/PoseArray[] selectable_regions 
+bool start_selected
+

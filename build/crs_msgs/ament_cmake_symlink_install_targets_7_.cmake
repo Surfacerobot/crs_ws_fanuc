@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/crs_ws_fanuc/build/crs_msgs/rosidl_generator_py/crs_msgs/crs_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" "TARGETS" "crs_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.6/site-packages/crs_msgs")

@@ -37,7 +37,7 @@
     <include file="$(find-pkg-share crs_application)/launch/load_fanuc_robot_model.launch.xml">
     </include>
 
-    <include file="$(find-pkg-share crs_support)/launch/environment_launch.launch.py">
+    <include file="$(find-pkg-share crs_support)/launch/fanuc_environment_launch.launch.py">
       <arg name="sim_robot" value="$(var sim_robot)"/>
       <arg name="xacro" value="$(var xacro)"/>
       <arg name="srdf" value="$(var srdf)"/>
@@ -50,7 +50,7 @@
                         <param name="state_machine_file" value="$(var state_machine_file)"/>
                 </node>
 <!--     xiaopeng modify for fanuc_r2000ic165f           -->
-    <node name="/joint_state_publisher" exec="joint_state_publisher" pkg="joint_state_publisher"/>
+<!--    <node name="/joint_state_publisher" exec="joint_state_publisher" pkg="joint_state_publisher"/>-->
 <!--    <node pkg="crs_utils_py" exec="joint_state_publisher" name="/joint_state_publisher" />-->
     <node name="/robot_state_publisher" exec="robot_state_publisher" pkg="robot_state_publisher"
     args="$(find-pkg-share fanuc_r2000ic_support)/urdf/r2000ic165f.urdf" />
@@ -75,11 +75,11 @@
     </include>
 
                 <!-- rviz -->
-                <let name="rviz_config" value="$(find-pkg-share crs_application)/resources/crs.rviz"/>
+                <let name="rviz_config" value="$(find-pkg-share crs_application)/resources/urdftorviz.rviz"/>
                 <node pkg="rviz2" exec="rviz2"  launch-prefix="xterm -e" args="-d $(var rviz_config) --ros-args --log-level INFO"
                         output="screen">
 <!--                        <param name="default_config_file" value="$(find-pkg-share crs_application)/config/crs.yaml"/>-->
-                        <param name="database_dir" value="$(var database_dir)"/>
+<!--                        <param name="database_dir" value="$(var database_dir)"/>-->
                  </node>
 
 

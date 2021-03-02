@@ -31,8 +31,8 @@
 	<group>		
 		<push-ros-namespace namespace="$(var group_ns)"/>
 		
-		<include file="$(find-pkg-share crs_application)/launch/load_preview_robot_model.launch.xml">
-		</include>		
+                <include file="$(find-pkg-share crs_application)/launch/load_preview_robot_model.launch.xml">
+                </include>
 
     <include file="$(find-pkg-share crs_application)/launch/load_robot_model.launch.xml">
     </include>
@@ -70,7 +70,7 @@
     </include>   
 	    	
 		<!-- rviz -->
-		<let name="rviz_config" value="$(find-pkg-share crs_application)/resources/crs.rviz"/>
+                <let name="rviz_config" value="$(find-pkg-share crs_application)/resources/crs.rviz"/>
 		<node pkg="rviz2" exec="rviz2"  launch-prefix="xterm -e" args="-d $(var rviz_config) --ros-args --log-level INFO"
 		 	output="screen">
 		 	<param name="default_config_file" value="$(find-pkg-share crs_application)/config/crs.yaml"/>

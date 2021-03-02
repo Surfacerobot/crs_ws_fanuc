@@ -8,4 +8,6 @@
   <node pkg="robot_state_publisher" exec="robot_state_publisher" name="$(var ns)/robot_state_publisher" namespace="$(var ns)"
     args="$(var robot_description_file)"/>
 	
+   <node name="/joint_state_publisher" exec="joint_state_publisher" pkg="joint_state_publisher"/>
+
 </launch>

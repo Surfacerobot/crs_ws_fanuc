@@ -6,7 +6,7 @@
 <!--<node name="robot_state_publisher" exec="robot_state_publisher" pkg="robot_state_publisher" />-->
 
 <node pkg="robot_state_publisher" exec="robot_state_publisher" name="/robot_state_publisher" namespace=""
-  args="$(find-pkg-share fanuc_r2000ic_support)/urdf/r2000ic165f.urdf.xml"/>
+  args="$(find-pkg-share fanuc_r2000ic_support)/urdf/r2000ic165f.urdf"/>
 
 <!--<node pkg="crs_utils_py" exec="joint_state_publisher" name="/joint_state_publisher" namespace=""
         output="screen">

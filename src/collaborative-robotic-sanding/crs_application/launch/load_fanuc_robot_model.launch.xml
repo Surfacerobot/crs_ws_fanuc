@@ -1,13 +1,22 @@
 <?xml version="1.0"?>
 <launch>
 
-  <let name="ns" value="live"/>
+<node name="/joint_state_publisher" exec="joint_state_publisher" pkg="joint_state_publisher"/>
+  <let name="ns" value=""/>
 <!--  <let name="robot_description_file" value="$(find-pkg-share crs_support)/urdf/crs.urdf"/>-->
   <let name="robot_description_file" value="$(find-pkg-share fanuc_r2000ic_support)/urdf/r2000ic165f.urdf"/>
-  <node pkg="robot_state_publisher" exec="robot_state_publisher" name="$(var ns)/robot_state_publisher" namespace="$(var ns)"
-    args="$(var robot_description_file)"/>
 
-<node name="joint_state_publisher" exec="joint_state_publisher" pkg="joint_state_publisher"/>
+<node pkg="robot_state_publisher" exec="robot_state_publisher" name="$(var ns)/robot_state_publisher" namespace="$(var ns)"
+  args="$(var robot_description_file)"/>
+
+<!--<node pkg="crs_utils_py" exec="joint_state_publisher" name="$(var ns)/joint_state_publisher" namespace="$(var ns)"
+        output="screen">
+        <param name="joint_names"
+                value="live/joint_1, live/joint_2,live/joint_3,live/joint_4,live/joint_5,live/joint_6"
+                value-sep=", "/>
+        <param name="joint_init_vals" value="'0.0', '0.0', '0.0', '0.0', '0.0', '0.0'" value-sep=", " />
+        <param name="src_topics" value="input_joints" value-sep=", "/>
+</node>-->
 
 
 </launch>

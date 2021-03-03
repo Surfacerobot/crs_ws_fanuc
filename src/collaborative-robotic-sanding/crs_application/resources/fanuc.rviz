@@ -26,6 +26,8 @@ Panels:
       - /Current View1
     Name: Views
     Splitter Ratio: 0.5
+  - Class: crs_gui::ApplicationPanel
+    Name: ApplicationPanel
 Visualization Manager:
   Class: ""
   Displays:
@@ -452,7 +454,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_link
+    Fixed Frame: world
     Frame Rate: 30
   Name: root
   Tools:
@@ -513,6 +515,8 @@ Visualization Manager:
       Yaw: 4.331316947937012
     Saved: ~
 Window Geometry:
+  ApplicationPanel:
+    collapsed: false
   Displays:
     collapsed: false
   Height: 1025

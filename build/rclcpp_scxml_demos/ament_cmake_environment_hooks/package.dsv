@@ -1,4 +1,0 @@
-source;share/rclcpp_scxml_demos/local_setup.bash
-source;share/rclcpp_scxml_demos/local_setup.dsv
-source;share/rclcpp_scxml_demos/local_setup.sh
-source;share/rclcpp_scxml_demos/local_setup.zsh

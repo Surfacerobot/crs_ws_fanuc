@@ -1,7 +1,0 @@
-/root/crs_ws_fanuc/devel/lib/libiterative_spline_parameterization.a
-/root/crs_ws_fanuc/devel/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-targets.cmake
-/root/crs_ws_fanuc/devel/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-targets-noconfig.cmake
-/root/crs_ws_fanuc/devel/include/iterative_spline_parameterization/iterative_spline_parameterization.h
-/root/crs_ws_fanuc/devel/share/iterative_spline_parameterization/package.xml
-/root/crs_ws_fanuc/devel/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-config.cmake
-/root/crs_ws_fanuc/devel/lib/cmake/iterative_spline_parameterization/iterative_spline_parameterization-config-version.cmake

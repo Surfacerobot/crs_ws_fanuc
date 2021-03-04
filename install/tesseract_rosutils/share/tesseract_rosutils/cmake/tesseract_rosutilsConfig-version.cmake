@@ -1,1 +1,0 @@
-/root/crs_ws/build/tesseract_rosutils/ament_cmake_core/tesseract_rosutilsConfig-version.cmake

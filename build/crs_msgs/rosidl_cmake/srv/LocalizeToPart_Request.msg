@@ -1,5 +1,0 @@
-# All point clouds should be in the same frame
-# The specified frame should be stationary (i.e. world, robot base, etc.)
-string frame
-sensor_msgs/PointCloud2[] point_clouds
-geometry_msgs/TransformStamped[] transforms

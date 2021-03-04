@@ -1,4 +1,0 @@
-string action_id
----
-bool succeeded
-string err_msg

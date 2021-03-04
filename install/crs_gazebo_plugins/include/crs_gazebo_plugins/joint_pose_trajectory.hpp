@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gazebo_plugins/include/crs_gazebo_plugins/joint_pose_trajectory.hpp

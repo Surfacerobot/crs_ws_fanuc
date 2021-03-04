@@ -1,7 +1,0 @@
-/root/crs_ws_fanuc/devel/lib/libscxml_core.so
-/root/crs_ws_fanuc/devel/lib/cmake/scxml_core/scxml_core-targets.cmake
-/root/crs_ws_fanuc/devel/lib/cmake/scxml_core/scxml_core-targets-noconfig.cmake
-/root/crs_ws_fanuc/devel/include/scxml_core/state_machine.h
-/root/crs_ws_fanuc/devel/share/scxml_core/package.xml
-/root/crs_ws_fanuc/devel/lib/cmake/scxml_core/scxml_core-config.cmake
-/root/crs_ws_fanuc/devel/lib/cmake/scxml_core/scxml_core-config-version.cmake

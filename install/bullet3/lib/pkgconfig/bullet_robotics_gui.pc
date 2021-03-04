@@ -1,6 +1,0 @@
-Name: bullet_robotics_gui
-Description: Bullet GUI extras for robotics
-Requires: bullet
-Version: 3.08
-Libs: -L/root/crs_ws/install/bullet3/lib -lBulletRoboticsGUI
-Cflags: -DBT_USE_DOUBLE_PRECISION -I/root/crs_ws/install/bullet3/include/bullet -I/root/crs_ws/install/bullet3/include/bullet_robotics_gui

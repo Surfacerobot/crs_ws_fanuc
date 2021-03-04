@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/build/crs_msgs/rosidl_generator_c/crs_msgs/srv/get_available_actions__functions.h

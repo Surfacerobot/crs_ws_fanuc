@@ -1,6 +1,0 @@
-/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/libur10e_ikfast.so
-/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-targets.cmake
-/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-targets-debug.cmake
-/root/crs_ws_fanuc/install/ur_ikfast_kinematics/include/ur_ikfast_kinematics/descartes_ikfast_ur10e.h
-/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-config.cmake
-/root/crs_ws_fanuc/install/ur_ikfast_kinematics/lib/cmake/ur_ikfast_kinematics/ur_ikfast_kinematics-config-version.cmake

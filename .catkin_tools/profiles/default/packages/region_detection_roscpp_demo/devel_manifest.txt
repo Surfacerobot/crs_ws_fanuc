@@ -1,1 +1,0 @@
-region_detection/region_detection_roscpp_demo

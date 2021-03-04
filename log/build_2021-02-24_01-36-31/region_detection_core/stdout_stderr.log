@@ -1,5 +1,0 @@
-[ 18%] Built target threshold_grayscale_test
-[ 54%] Built target threshold_in_range_test
-[ 54%] Built target adaptive_threshold_test
-[ 81%] Built target region_detection_core
-[100%] Built target region_detection_test

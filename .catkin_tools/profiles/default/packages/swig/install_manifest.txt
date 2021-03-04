@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/devel/share/dummy/swig.xml

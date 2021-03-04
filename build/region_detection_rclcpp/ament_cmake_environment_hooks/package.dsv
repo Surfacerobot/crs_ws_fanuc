@@ -1,4 +1,0 @@
-source;share/region_detection_rclcpp/local_setup.bash
-source;share/region_detection_rclcpp/local_setup.dsv
-source;share/region_detection_rclcpp/local_setup.sh
-source;share/region_detection_rclcpp/local_setup.zsh

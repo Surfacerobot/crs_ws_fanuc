@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/install/crs_application/lib/libcrs_application.so

@@ -1,8 +1,0 @@
-/root/crs_ws_fanuc/install/descartes_opw/lib/libdescartes_opw.so
-/root/crs_ws_fanuc/install/descartes_opw/lib/cmake/descartes_opw/descartes_opw-targets.cmake
-/root/crs_ws_fanuc/install/descartes_opw/lib/cmake/descartes_opw/descartes_opw-targets-debug.cmake
-/root/crs_ws_fanuc/install/descartes_opw/share/descartes_opw/package.xml
-/root/crs_ws_fanuc/install/descartes_opw/lib/cmake/descartes_opw/descartes_opw-config.cmake
-/root/crs_ws_fanuc/install/descartes_opw/lib/cmake/descartes_opw/descartes_opw-config-version.cmake
-/root/crs_ws_fanuc/install/descartes_opw/include/descartes_opw/descartes_opw_kinematics.h
-/root/crs_ws_fanuc/install/descartes_opw/include/descartes_opw/impl/descartes_opw_kinematics.hpp

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/crs_ws_fanuc/build/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_typesupport_cpp.so" "TARGETS" "ur_dashboard_msgs__rosidl_typesupport_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

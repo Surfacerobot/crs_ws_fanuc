@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/build/ur_dashboard_msgs/rosidl_cmake/srv/GetRobotMode_Request.msg

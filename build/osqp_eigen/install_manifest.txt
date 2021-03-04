@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/install/osqp_eigen/share/osqp_eigen/package.xml

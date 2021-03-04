@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/build/crs_motion_planning/ament_cmake_environment_hooks/local_setup.zsh

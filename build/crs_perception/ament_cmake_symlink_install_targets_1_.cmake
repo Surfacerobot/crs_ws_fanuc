@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/crs_ws_fanuc/build/crs_perception/libcrs_perception.so" "/root/crs_ws_fanuc/build/crs_perception/libcrs_perception_nodes.so" "TARGETS" "crs_perception" "crs_perception_nodes" "RUNTIME_DESTINATION" "bin" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")

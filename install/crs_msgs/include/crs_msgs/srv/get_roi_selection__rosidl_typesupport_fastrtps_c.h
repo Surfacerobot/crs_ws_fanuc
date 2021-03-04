@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/build/crs_msgs/rosidl_typesupport_fastrtps_c/crs_msgs/srv/get_roi_selection__rosidl_typesupport_fastrtps_c.h

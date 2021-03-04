@@ -1,1 +1,0 @@
-xacro;gazebo;gazebo_ros;gazebo_plugins;gazebo_dev;fanuc_driver;joint_state_publisher;robot_state_publisher;ament_lint_auto;ament_lint_common

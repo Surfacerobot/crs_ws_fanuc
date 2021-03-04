@@ -1,2 +1,0 @@
-Invoking command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_r2000ic_support -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_r2000ic_support
-Invoked command in '/root/crs_ws_fanuc/build/fanuc_r2000ic_support' returned '1': /usr/bin/cmake /root/crs_ws_fanuc/src/collaborative-robotic-sanding/fanuc_r2000ic_support -DCMAKE_INSTALL_PREFIX=/root/crs_ws_fanuc/install/fanuc_r2000ic_support

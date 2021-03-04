@@ -1,2 +1,0 @@
-/root/crs_ws_fanuc/build/region_detection_roscpp_demo/CMakeFiles/rebuild_cache.dir
-/root/crs_ws_fanuc/build/region_detection_roscpp_demo/CMakeFiles/edit_cache.dir

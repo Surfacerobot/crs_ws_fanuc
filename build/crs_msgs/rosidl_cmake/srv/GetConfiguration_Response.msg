@@ -1,4 +1,0 @@
-
-ProcessConfiguration config
-bool success
-string err_msg

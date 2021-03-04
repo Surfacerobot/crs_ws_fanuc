@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/build/crs_msgs/rosidl_typesupport_introspection_cpp/crs_msgs/srv/run_robot_script__rosidl_typesupport_introspection_cpp.hpp

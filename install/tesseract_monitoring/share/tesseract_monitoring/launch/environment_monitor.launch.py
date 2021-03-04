@@ -1,1 +1,0 @@
-/root/crs_ws/src/tesseract_ros2/tesseract_ros/tesseract_monitoring/launch/environment_monitor.launch.py

@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/root/crs_ws_fanuc/build/fanuc_r2000ic_support/gtest/googlemock/gtest/src -Wl,-rpath,/root/crs_ws_fanuc/build/fanuc_r2000ic_support/gtest/googlemock/gtest/src -lpthread 

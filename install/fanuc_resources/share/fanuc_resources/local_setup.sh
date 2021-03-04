@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/build/fanuc_resources/ament_cmake_environment_hooks/local_setup.sh

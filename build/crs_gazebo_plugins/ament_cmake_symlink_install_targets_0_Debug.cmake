@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/crs_ws_fanuc/build/crs_gazebo_plugins/libcrs_gazebo_plugins_joint_pose_trajectory.so" "TARGETS" "crs_gazebo_plugins_joint_pose_trajectory" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,5 +1,0 @@
-collaborative-robotic-sanding/fanuc_r2000ic_support
-/root/crs_ws_fanuc/devel/.private/fanuc_r2000ic_support/cmake.lock /root/crs_ws_fanuc/devel/./cmake.lock
-/root/crs_ws_fanuc/devel/.private/fanuc_r2000ic_support/share/fanuc_r2000ic_support/cmake/fanuc_r2000ic_supportConfig-version.cmake /root/crs_ws_fanuc/devel/share/fanuc_r2000ic_support/cmake/fanuc_r2000ic_supportConfig-version.cmake
-/root/crs_ws_fanuc/devel/.private/fanuc_r2000ic_support/share/fanuc_r2000ic_support/cmake/fanuc_r2000ic_supportConfig.cmake /root/crs_ws_fanuc/devel/share/fanuc_r2000ic_support/cmake/fanuc_r2000ic_supportConfig.cmake
-/root/crs_ws_fanuc/devel/.private/fanuc_r2000ic_support/lib/pkgconfig/fanuc_r2000ic_support.pc /root/crs_ws_fanuc/devel/lib/pkgconfig/fanuc_r2000ic_support.pc

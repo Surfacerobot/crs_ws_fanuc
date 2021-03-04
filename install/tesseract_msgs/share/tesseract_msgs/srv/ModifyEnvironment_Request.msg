@@ -1,3 +1,0 @@
-string id # Name/Id of the environment
-uint64 revision # The revision number from which these commands should be applied
-tesseract_msgs/EnvironmentCommand[] commands

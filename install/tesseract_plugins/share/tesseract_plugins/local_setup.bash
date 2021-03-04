@@ -1,1 +1,0 @@
-/root/crs_ws/build/tesseract_plugins/ament_cmake_environment_hooks/local_setup.bash

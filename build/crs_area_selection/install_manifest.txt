@@ -1,9 +1,0 @@
-/root/crs_ws_fanuc/install/crs_area_selection/lib/libcrs_area_selection_area_selection.so
-/root/crs_ws_fanuc/install/crs_area_selection/lib/crs_area_selection/crs_area_selection_area_selection_node
-/root/crs_ws_fanuc/install/crs_area_selection/include/crs_area_selection/area_selector_parameters.h
-/root/crs_ws_fanuc/install/crs_area_selection/include/crs_area_selection/area_selector.h
-/root/crs_ws_fanuc/install/crs_area_selection/include/crs_area_selection/selection_artist.h
-/root/crs_ws_fanuc/install/crs_area_selection/include/crs_area_selection/filter_impl.h
-/root/crs_ws_fanuc/install/crs_area_selection/include/crs_area_selection/filter.h
-/root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/-targetsExport.cmake
-/root/crs_ws_fanuc/install/crs_area_selection/share/crs_area_selection/cmake/-targetsExport-debug.cmake

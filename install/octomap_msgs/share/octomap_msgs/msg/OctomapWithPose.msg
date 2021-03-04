@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/src/octomap_msgs/msg/OctomapWithPose.msg

@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/build/crs_msgs/rosidl_typesupport_fastrtps_cpp/crs_msgs/msg/tool_process_path__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,2 +1,0 @@
-/root/crs_ws_fanuc/build/roscpp_scxml_demos/CMakeFiles/rebuild_cache.dir
-/root/crs_ws_fanuc/build/roscpp_scxml_demos/CMakeFiles/edit_cache.dir

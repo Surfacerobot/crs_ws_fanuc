@@ -1,1 +1,0 @@
-/root/crs_ws_fanuc/build/region_detection_msgs/rosidl_typesupport_fastrtps_c/region_detection_msgs/srv/crop_data__rosidl_typesupport_fastrtps_c.h

@@ -26,10 +26,16 @@
 #include <boost/format.hpp>
 
 #include <std_srvs/srv/set_bool.hpp>
+//xiaopeng 2021-3-5
+//static const std::string RESOURCES_PACKAGE_NAME = "crs_support";
+//static const std::string DEFAULT_URDF_PATH = "urdf/crs.urdf";
+//static const std::string DEFAULT_SRDF_PATH = "urdf/ur10e_robot.srdf";
 
-static const std::string RESOURCES_PACKAGE_NAME = "crs_support";
-static const std::string DEFAULT_URDF_PATH = "urdf/crs.urdf";
-static const std::string DEFAULT_SRDF_PATH = "urdf/ur10e_robot.srdf";
+static const std::string RESOURCES_PACKAGE_NAME = "fanuc_r2000ic_support";
+static const std::string DEFAULT_URDF_PATH = "urdf/r2000ic165f.urdf";
+static const std::string DEFAULT_SRDF_PATH = "urdf/fanuc_r2000ic165f.srdf";
+
+
 static const std::string ENVIRONMENT_UPDATE_TOPIC_NAME = "monitored_tesseract";
 static const std::string ENVIRONMENT_ID = "crs";
 

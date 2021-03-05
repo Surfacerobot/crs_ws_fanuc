@@ -255,7 +255,7 @@ bool crsMotionPlanner::generateDescartesSeed(const geometry_msgs::msg::PoseArray
   };
 
   descartes_light::KinematicsInterfaceD::Ptr kin_interface =
-      std::make_shared<ur_ikfast_kinematics::UR10eKinematicsD>(world_to_base_link, tool0_to_sander, isValidFn, nullptr);
+      std::make_shared<ur_ikfast_kinematics::Fanucr2000icKinematicsD>(world_to_base_link, tool0_to_sander, isValidFn, nullptr);
 
   for (size_t i = 0; i < waypoints_pose_array.poses.size(); ++i)
   {
@@ -1288,7 +1288,7 @@ bool crsMotionPlanner::findClosestJointOrientation(const tesseract_motion_planne
   tool0_to_sander = world_to_tool0.inverse() * world_to_sander;
   tool0_to_sander = tool0_to_sander * config_->descartes_config.tool_offset;
   descartes_light::KinematicsInterfaceD::Ptr kin_interface =
-      std::make_shared<ur_ikfast_kinematics::UR10eKinematicsD>(world_to_base_link, tool0_to_sander, nullptr, nullptr);
+      std::make_shared<ur_ikfast_kinematics::Fanucr2000icKinematicsD>(world_to_base_link, tool0_to_sander, nullptr, nullptr);
 
   Eigen::Isometry3d goal_pose = end_pose->getTransform();
   std::vector<descartes_light::PositionSamplerD::Ptr> sampler_result;

@@ -26,10 +26,15 @@
 #include <ament_index_cpp/get_package_share_directory.hpp>
 
 #include <geometry_msgs/msg/pose.hpp>
+//xiaopeng 2021-3-5
+//static const std::string RESOURCES_PACKAGE_NAME = "crs_support";
+//static const std::string DEFAULT_URDF_PATH = "urdf/crs.urdf";
+//static const std::string DEFAULT_SRDF_PATH = "urdf/ur10e_robot.srdf";
 
-static const std::string RESOURCES_PACKAGE_NAME = "crs_support";
-static const std::string DEFAULT_URDF_PATH = "urdf/crs.urdf";
-static const std::string DEFAULT_SRDF_PATH = "urdf/ur10e_robot.srdf";
+static const std::string RESOURCES_PACKAGE_NAME = "fanuc_r2000ic_support";
+static const std::string DEFAULT_URDF_PATH = "urdf/r2000ic165f.urdf";
+static const std::string DEFAULT_SRDF_PATH = "urdf/fanuc_r2000ic165f.srdf";
+
 
 static const std::string DEFAULT_PROCESS_MOTION_PLANNING_SERVICE = "plan_process_motion";
 static const std::string DEFAULT_FREESPACE_MOTION_PLANNING_SERVICE = "plan_freespace_motion";

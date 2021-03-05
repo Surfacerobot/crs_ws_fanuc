@@ -8,7 +8,9 @@ endif()
 
 find_package(descartes_ikfast REQUIRED)
 
-add_library(ur10e_ikfast SHARED src/descartes_ikfast_ur10e.cpp)
+add_library(ur10e_ikfast SHARED
+#    src/descartes_ikfast_ur10e.cpp
+    src/fanuc_ikfast_r2000ic.cpp)
 target_link_libraries(ur10e_ikfast PUBLIC
     descartes::descartes_ikfast
     )

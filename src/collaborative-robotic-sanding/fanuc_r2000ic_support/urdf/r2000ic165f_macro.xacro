@@ -161,6 +161,27 @@
       <limit lower="${radians(-360)}" upper="${radians(360)}" effort="0" velocity="${radians(260)}"/>
     </joint>
 
+
+
+<link name="part_link">
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/visual/sandpart.stl"/>
+    </geometry>
+    <material name="">
+      <color rgba="0.9 0.7 0.4 1.0"/>
+    </material>
+  </visual>
+
+</link>
+
+  <joint name="world_part_link" type="fixed">
+      <parent link="base_link" />
+      <child link="part_link" />
+      <origin rpy="0 0 0" xyz="1.4 -0.4 0.6" />
+  </joint>
+
     <!-- ROS-Industrial 'base' frame: base_link to Fanuc World Coordinates transform -->
     <link name="${prefix}base" />
     <joint name="${prefix}base_link-base" type="fixed">
@@ -176,6 +197,8 @@
       <parent link="${prefix}link_6" />
       <child link="${prefix}flange" />
     </joint>
+
+
 
     <!-- ROS-Industrial 'tool0' frame: all-zeros tool frame -->
     <link name="${prefix}tool0" />

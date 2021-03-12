@@ -132,7 +132,7 @@
       <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/visual/sandpart.stl"/>
     </geometry>
     <material name="">
-      <color rgba="0.9 0.4 0.4 1.0"/>
+      <color rgba="0.9 0.7 0.4 1.0"/>
     </material>
   </visual>
 

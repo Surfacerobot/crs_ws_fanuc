@@ -329,6 +329,9 @@ private:
   void planFreespace(std::shared_ptr<crs_msgs::srv::CallFreespaceMotion::Request> request,
                      std::shared_ptr<crs_msgs::srv::CallFreespaceMotion::Response> response)
   {
+//xiao peng 2021-3-11
+    RCLCPP_INFO(this->get_logger(), "#######################################################");
+
     using namespace crs_motion_planning;
     namespace fs = boost::filesystem;
 
@@ -632,6 +635,7 @@ int main(int argc, char** argv)
   node_options.automatically_declare_parameters_from_overrides(true);
   rclcpp::Node::SharedPtr node = std::make_shared<MotionPlanningServer>(node_options);
   executor.add_node(node);
+  RCLCPP_INFO(node->get_logger(),"=========================xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
   executor.spin();
   return 0;
 }

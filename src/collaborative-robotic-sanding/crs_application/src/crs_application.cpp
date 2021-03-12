@@ -84,6 +84,8 @@ int main(int argc, char** argv)
       [&exec, &node](std::shared_ptr<srv::ExecuteAction::Request> req,
                      std::shared_ptr<srv::ExecuteAction::Response> res) -> void {
         res->succeeded = true;
+
+
         if (exec.getSM()->isBusy())
         {
           res->succeeded = false;
@@ -91,7 +93,7 @@ int main(int argc, char** argv)
           RCLCPP_ERROR(node->get_logger(), res->err_msg.c_str());
           return;
         }
-
+        RCLCPP_INFO(node->get_logger(), "#######################################################");
         TransitionResult sm_res = exec.getSM()->execute(Action{ id : req->action_id, data : boost::any() });
         RCLCPP_INFO(node->get_logger(), "Executed requested action %s", req->action_id.c_str());
         if (!sm_res)

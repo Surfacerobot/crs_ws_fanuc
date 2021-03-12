@@ -418,6 +418,7 @@ void StateMachine::processQueuedActions()
 
 TransitionResult StateMachine::executeAction(const Action& action)
 {
+
   std::lock_guard<std::mutex> lock(consuming_action_mutex_);
 
   ScopeExit scope_exit(&this->busy_executing_action_);  // sets the flag to busy
@@ -569,7 +570,6 @@ TransitionResult StateMachine::executeAction(const Action& action)
   {
     return TransitionResult(true, {});
   }
-
   LOG4CXX_DEBUG(logger_, "Retrieved response structure from future");
   return TransitionResult(true, responses_vec);
 }

@@ -26,6 +26,8 @@
 #include <ament_index_cpp/get_package_share_directory.hpp>
 
 #include <geometry_msgs/msg/pose.hpp>
+
+#include <QString>
 //xiaopeng 2021-3-5
 //static const std::string RESOURCES_PACKAGE_NAME = "crs_support";
 //static const std::string DEFAULT_URDF_PATH = "urdf/crs.urdf";
@@ -329,8 +331,6 @@ private:
   void planFreespace(std::shared_ptr<crs_msgs::srv::CallFreespaceMotion::Request> request,
                      std::shared_ptr<crs_msgs::srv::CallFreespaceMotion::Response> response)
   {
-//xiao peng 2021-3-11
-    RCLCPP_INFO(this->get_logger(), "#######################################################");
 
     using namespace crs_motion_planning;
     namespace fs = boost::filesystem;
@@ -383,10 +383,12 @@ private:
     }
     std::cout << "DEFINED START" << std::endl;
 
+
     // Define goal waypoint
     bool success;
     if (request->goal_position.position.empty())
     {
+
       Eigen::Vector3d goal_pose(
           request->goal_pose.translation.x, request->goal_pose.translation.y, request->goal_pose.translation.z);
       Eigen::Quaterniond goal_ori(request->goal_pose.rotation.w,
@@ -395,6 +397,8 @@ private:
                                   request->goal_pose.rotation.z);
       tesseract_motion_planners::CartesianWaypoint::Ptr goal_waypoint =
           std::make_shared<tesseract_motion_planners::CartesianWaypoint>(goal_pose, goal_ori);
+      //xiao peng 2021-3-11
+          RCLCPP_INFO(this->get_logger(), "#######################################################");
 
       success =
           crs_motion_planner.generateFreespacePlan(joint_start_waypoint, goal_waypoint, response->output_trajectory);

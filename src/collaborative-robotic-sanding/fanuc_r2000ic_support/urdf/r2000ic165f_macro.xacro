@@ -161,7 +161,7 @@
       <limit lower="${radians(-360)}" upper="${radians(360)}" effort="0" velocity="${radians(260)}"/>
     </joint>
 
-
+<!--
 
 <link name="part_link">
   <visual>
@@ -180,7 +180,7 @@
       <parent link="base_link" />
       <child link="part_link" />
       <origin rpy="0 0 0" xyz="1.4 -0.4 0.6" />
-  </joint>
+  </joint>-->
 
     <!-- ROS-Industrial 'base' frame: base_link to Fanuc World Coordinates transform -->
     <link name="${prefix}base" />
@@ -198,8 +198,6 @@
       <child link="${prefix}flange" />
     </joint>
 
-
-
     <!-- ROS-Industrial 'tool0' frame: all-zeros tool frame -->
     <link name="${prefix}tool0" />
     <joint name="${prefix}flange-tool0" type="fixed">
@@ -209,9 +207,10 @@
     </joint>
 
 
+
 <transmission name="joint_1">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="${prefix}joint_1">
+    <joint name="joint_1">
         <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="joint_1_motor">
@@ -220,48 +219,48 @@
     </actuator>
 </transmission>
 
-<gazebo reference="${prefix}base_link">
+<gazebo reference="base_link">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}link_1">
+<gazebo reference="link_1">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}link_2">
+<gazebo reference="link_2">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}link_3">
+<gazebo reference="link_3">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}link_4">
+<gazebo reference="link_4">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}link_5">
+<gazebo reference="link_5">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}link_6">
+<gazebo reference="link_6">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}joint_1">
+<gazebo reference="joint_1">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}joint_2">
+<gazebo reference="joint_2">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}joint_3">
+<gazebo reference="joint_3">
     <selfCollide>true</selfCollide>
 </gazebo>
 
 
-<gazebo reference="${prefix}base">
+<gazebo reference="base">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}flange">
+<gazebo reference="flange">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}tool0">
+<gazebo reference="tool0">
     <selfCollide>true</selfCollide>
 </gazebo>
-<gazebo reference="${prefix}gazebo_camera_link">
+<gazebo reference="gazebo_camera_link">
     <sensor type="depth" name="sensor_name">
       <!-- Set always_on only sensor, not on plugin -->
       <always_on>1</always_on>
@@ -314,22 +313,21 @@
           <argument>joint_states:=joint_states</argument>
       </ros>
       <update_rate>50</update_rate>
-      <joint_name>${prefix}joint_1</joint_name>
-      <joint_name>${prefix}joint_2</joint_name>
-      <joint_name>${prefix}joint_3</joint_name>
-      <joint_name>${prefix}joint_4</joint_name>
-      <joint_name>${prefix}joint_5</joint_name>
-      <joint_name>${prefix}joint_6</joint_name>
+      <joint_name>joint_1</joint_name>
+      <joint_name>joint_2</joint_name>
+      <joint_name>joint_3</joint_name>
+      <joint_name>joint_4</joint_name>
+      <joint_name>joint_5</joint_name>
+      <joint_name>joint_6</joint_name>
     </plugin>
     <plugin name='crs_gazebo_plugins_joint_pose_trajectory' filename='libcrs_gazebo_plugins_joint_pose_trajectory.so'>
         <ros>
           <namespace>sim</namespace>
-          <argument>follow_joint_trajectory:=${prefix}follow_joint_trajectory</argument>
+          <argument>follow_joint_trajectory:=follow_joint_trajectory</argument>
         </ros>
         <update_rate>20</update_rate>
     </plugin>
 </gazebo>
-
 
 
   </xacro:macro>

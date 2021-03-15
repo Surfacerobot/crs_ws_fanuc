@@ -162,6 +162,7 @@ def launch_setup(context, *args, **kwargs):
         # planning
         motion_planning_server,
 
+#        xiao peng 2021-3-15 not start ur robot
         # robot nodes
         ur_comms_node,
         ur_comms_node_sim,
@@ -180,7 +181,7 @@ def generate_launch_description():
         launch.actions.DeclareLaunchArgument('srdf',
             default_value = [os.path.join(get_package_share_directory('fanuc_r2000ic_support'), 'urdf', 'fanuc_r2000ic165f.srdf')]),
         launch.actions.DeclareLaunchArgument('motion_planning_cfg',
-            default_value = [os.path.join(get_package_share_directory('crs_application'), 'config/motion_planning','MP_config.yaml')]),
+            default_value = [os.path.join(get_package_share_directory('crs_application'), 'config/motion_planning','fanuc_MP_config.yaml')]),
         launch.actions.DeclareLaunchArgument('gazebo_world',
             default_value = [os.path.join(get_package_share_directory('crs_support'), 'worlds', 'crs.world')]),
         launch.actions.DeclareLaunchArgument('urdf_preview_path', 

@@ -70,8 +70,9 @@ common::ActionResult ScanAcquisitionManager::init()
 {
   using namespace std::chrono_literals;
 
+  //xiaopeng 2021-3-15 modify link
   // parameters
-  tool_frame_ = node_->declare_parameter("camera_frame_id", "eoat_link");
+  tool_frame_ = node_->declare_parameter("camera_frame_id", "link_6");
   max_time_since_last_point_cloud_ = node_->declare_parameter("max_time_since_last_point_cloud", 0.1);
   pre_acquisition_pause_ = node_->declare_parameter("pre_acquisition_pause", 1.0);
 
@@ -286,6 +287,8 @@ common::ActionResult ScanAcquisitionManager::checkPreReqs()
 
 bool ScanAcquisitionManager::changeActiveController(const bool turn_on_cart)
 {
+  //xiaopeng 2021-3-15 modify controller
+  RCLCPP_INFO(node_->get_logger(), "xiao peng fanuc Changing controller");
   RCLCPP_INFO(node_->get_logger(), "Changing controller");
   using namespace std_srvs::srv;
   SetBool::Request::SharedPtr req = std::make_shared<std_srvs::srv::SetBool::Request>();

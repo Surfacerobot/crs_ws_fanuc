@@ -3,7 +3,7 @@
         <arg name="ns_arg" default="crs"/>
   <arg name="sim" default="true"/>
   <arg name="swri" default="false"/>
-  <arg name="camera" default="false"/>
+  <arg name="camera" default="true"/>
 
   <let name="state_machine_file" value="$(find-pkg-share crs_application)/resources/crs_process.scxml"/>
   <let name="group_ns" value="$(var ns_arg)"/>
@@ -24,7 +24,7 @@
   <!-- Defining workcell general variables -->
 <!--  <let name="srdf" value="$(find-pkg-share crs_support)/urdf/ur10e_robot.srdf"/>-->
   <let name="srdf" value="$(find-pkg-share fanuc_r2000ic_support)/urdf/fanuc_r2000ic165f.srdf"/>
-  <let name="motion_planning_cfg" value="$(var config_dir)/motion_planning/MP_config.yaml"/>
+  <let name="motion_planning_cfg" value="$(var config_dir)/motion_planning/fanuc_MP_config.yaml"/>
   <let name="gazebo_world" value="$(find-pkg-share crs_support)/worlds/crs.world"/>
   <let name="urdf_preview_path" value="$(find-pkg-share crs_support)/urdf/crs_preview.temp.urdf"/>
 

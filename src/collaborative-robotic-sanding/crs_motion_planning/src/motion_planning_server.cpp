@@ -343,7 +343,7 @@ private:
 
     std::cout << "GOT REQUEST" << std::endl;
     motion_planner_config->tcp_frame = request->target_link;
-    std::cout << "SET TARGET LINK" << std::endl;
+    std::cout << "SET TARGET LINK" +request->target_link << std::endl;
     if (request->num_steps != 0)
     {
       motion_planner_config->ompl_config.n_output_states = request->num_steps;
@@ -398,7 +398,7 @@ private:
       tesseract_motion_planners::CartesianWaypoint::Ptr goal_waypoint =
           std::make_shared<tesseract_motion_planners::CartesianWaypoint>(goal_pose, goal_ori);
       //xiao peng 2021-3-11
-          RCLCPP_INFO(this->get_logger(), "#######################################################");
+      //   RCLCPP_INFO(this->get_logger(), "#######################################################");
 
       success =
           crs_motion_planner.generateFreespacePlan(joint_start_waypoint, goal_waypoint, response->output_trajectory);

@@ -1248,11 +1248,16 @@ bool crsMotionPlanner::generateFreespacePlan(const tesseract_motion_planners::Jo
                                              trajectory_msgs::msg::JointTrajectory& joint_trajectory)
 {
   tesseract_motion_planners::JointWaypoint::Ptr goal_waypoint;
-  if (!findClosestJointOrientation(start_pose, end_pose, goal_waypoint))
+  //xiaopeng 20121-3-16 chang to fanuc
+  //if (!findClosestJointOrientation(start_pose, end_pose, goal_waypoint))
+  if (!findClosestJointOrientationbyfanuc(start_pose, end_pose, goal_waypoint))
   {
     RCLCPP_ERROR(logger_, "FAILED TO FIND A FEASIBLE IK SOLUTION");
     return false;
   }
+  //xiao peng 2021-3-11
+      RCLCPP_INFO(logger_, "#######################################################");
+
   RCLCPP_INFO(logger_, "PLANNING OMPL VIA JOINT WAYPOINTS");
   if (!generateFreespacePlan(start_pose, goal_waypoint, joint_trajectory))
   {
@@ -1260,6 +1265,91 @@ bool crsMotionPlanner::generateFreespacePlan(const tesseract_motion_planners::Jo
   }
   return true;
 }
+
+bool crsMotionPlanner::findClosestJointOrientationbyfanuc(const tesseract_motion_planners::JointWaypoint::Ptr& start_pose,
+                                                   const tesseract_motion_planners::CartesianWaypoint::Ptr& end_pose,
+                                                   tesseract_motion_planners::JointWaypoint::Ptr& returned_pose,
+                                                   const double& axial_step)
+{
+  const bool allow_collisions = false;
+  const double collision_safety_margin = config_->ompl_config.collision_safety_margin;
+  tesseract::Tesseract::Ptr tesseract_local = config_->tesseract_local;
+  const std::shared_ptr<const tesseract_environment::Environment> env = tesseract_local->getEnvironmentConst();
+  tesseract_common::TransformMap curr_transforms = env->getCurrentState()->link_transforms;
+
+  tesseract_kinematics::ForwardKinematics::ConstPtr kin =
+      tesseract_local->getFwdKinematicsManagerConst()->getFwdKinematicSolver(config_->manipulator);
+
+  tesseract_environment::AdjacencyMap::Ptr adjacency_map = std::make_shared<tesseract_environment::AdjacencyMap>(
+      env->getSceneGraph(), kin->getActiveLinkNames(), curr_transforms);
+
+  auto collision_checker = std::make_shared<tesseract_motion_planners::DescartesCollisionD>(
+      env, adjacency_map->getActiveLinkNames(), kin->getJointNames(), collision_safety_margin);
+
+  Eigen::Isometry3d world_to_base_link, world_to_sander, world_to_tool0, tool0_to_sander;
+  world_to_base_link = curr_transforms.find(config_->robot_base_frame)->second;
+  world_to_sander = curr_transforms.find(config_->tcp_frame)->second;
+  world_to_tool0 = curr_transforms.find(config_->tool0_frame)->second;
+  tool0_to_sander = world_to_tool0.inverse() * world_to_sander;
+  tool0_to_sander = tool0_to_sander * config_->descartes_config.tool_offset;
+
+
+  descartes_light::KinematicsInterfaceD::Ptr kin_interface =
+      std::make_shared<ur_ikfast_kinematics::Fanucr2000icKinematicsD>(world_to_base_link, tool0_to_sander, nullptr, nullptr);
+
+  Eigen::Isometry3d goal_pose = end_pose->getTransform();
+  std::vector<descartes_light::PositionSamplerD::Ptr> sampler_result;
+  Eigen::VectorXd start_pose_eig = start_pose->getPositions(kin->getJointNames());
+  std::vector<double> start_pose_vec(start_pose_eig.data(), start_pose_eig.data() + start_pose_eig.size());
+  sampler_result.emplace_back(std::make_shared<descartes_light::FixedJointPoseSampler<double>>(start_pose_vec));
+
+  if (axial_step < 0)
+  {
+    sampler_result.emplace_back(std::make_shared<descartes_light::CartesianPointSamplerD>(
+        goal_pose,
+        kin_interface,
+        std::shared_ptr<descartes_light::CollisionInterface<double>>(collision_checker->clone()),
+        allow_collisions));
+  }
+  else
+  {
+    sampler_result.emplace_back(std::make_shared<descartes_light::AxialSymmetricSamplerD>(
+        goal_pose,
+        kin_interface,
+        axial_step,
+        std::shared_ptr<descartes_light::CollisionInterface<double>>(collision_checker->clone()),
+        allow_collisions));
+  }
+  auto edge_eval = std::make_shared<descartes_light::EuclideanDistanceEdgeEvaluatorD>(kin_interface->dof());
+  auto timing_constraint =
+      std::vector<descartes_core::TimingConstraintD>(sampler_result.size(), std::numeric_limits<double>::max());
+
+  descartes_light::SolverD graph_builder(kin_interface->dof());
+
+  if (!graph_builder.build(std::move(sampler_result), std::move(timing_constraint), std::move(edge_eval)))
+  {
+    return false;
+  }
+
+  std::vector<double> solution;
+  if (!graph_builder.search(solution))
+  {
+    return false;
+  }
+
+  Eigen::Map<Eigen::VectorXd> solution_vec(&solution[0], solution.size());
+  Eigen::VectorXd seed_traj(solution_vec.size());
+  seed_traj << solution_vec;
+
+  int n_rows = seed_traj.size() / kin_interface->dof();
+  Eigen::MatrixXd joint_traj_eigen_out =
+      Eigen::Map<Eigen::MatrixXd>(seed_traj.data(), kin_interface->dof(), n_rows).transpose();
+
+  Eigen::VectorXd end_eig = joint_traj_eigen_out.row(1);
+  returned_pose = std::make_shared<tesseract_motion_planners::JointWaypoint>(end_eig, kin->getJointNames());
+  return true;
+}
+
 
 bool crsMotionPlanner::findClosestJointOrientation(const tesseract_motion_planners::JointWaypoint::Ptr& start_pose,
                                                    const tesseract_motion_planners::CartesianWaypoint::Ptr& end_pose,

@@ -275,11 +275,18 @@ public:
                              const tesseract_motion_planners::CartesianWaypoint::Ptr& end_pose,
                              trajectory_msgs::msg::JointTrajectory& joint_trajectory);
 
+
+
   ///
   /// \brief findClosestJointOrientation Finds the closest joint state given start pose at the end cartesian pose
   /// \return success
   ///
   bool findClosestJointOrientation(const tesseract_motion_planners::JointWaypoint::Ptr& start_pose,
+                                   const tesseract_motion_planners::CartesianWaypoint::Ptr& end_pose,
+                                   tesseract_motion_planners::JointWaypoint::Ptr& returned_pose,
+                                   const double& axial_step = -1);
+
+  bool findClosestJointOrientationbyfanuc(const tesseract_motion_planners::JointWaypoint::Ptr& start_pose,
                                    const tesseract_motion_planners::CartesianWaypoint::Ptr& end_pose,
                                    tesseract_motion_planners::JointWaypoint::Ptr& returned_pose,
                                    const double& axial_step = -1);

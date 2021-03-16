@@ -116,6 +116,25 @@
         </geometry>
       </collision>
     </link>
+    <link name="${prefix}ef">
+          <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+              <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/visual/ef.stl"/>
+            </geometry>
+            <xacro:material_fanuc_yellow />
+          </visual>
+          <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+              <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/ef.stl"/>
+            </geometry>
+          </collision>
+        </link>
+
+
+
+
 
     <!-- joints: main serial chain -->
     <joint name="${prefix}joint_1" type="revolute">
@@ -176,6 +195,8 @@
 
 </link>
 
+
+
   <joint name="world_part_link" type="fixed">
       <parent link="base_link" />
       <child link="part_link" />
@@ -205,6 +226,11 @@
       <parent link="${prefix}flange" />
       <child link="${prefix}tool0" />
     </joint>
+    <joint name="${prefix}flange-ef" type="fixed">
+          <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-90)} 0" />
+          <parent link="${prefix}flange" />
+          <child link="${prefix}ef" />
+        </joint>
 
 
 

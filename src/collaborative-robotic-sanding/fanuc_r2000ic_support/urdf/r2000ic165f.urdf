@@ -124,6 +124,24 @@
       </geometry>
     </collision>
   </link>
+  <link name="ef">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/visual/ef.stl"/>
+        </geometry>
+        <material name="">
+          <color rgba="0.96 0.76 0.13 1.0"/>
+        </material>
+      </visual>
+      <collision>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/ef.stl"/>
+        </geometry>
+      </collision>
+    </link>
+
 <!--
 <link name="part_link">
   <visual>
@@ -227,6 +245,11 @@
     <parent link="flange"/>
     <child link="tool0"/>
   </joint>
+  <joint name="flange-ef" type="fixed">
+      <origin rpy="3.14159265359 -1.57079632679 0" xyz="0 0 0"/>
+      <parent link="flange"/>
+      <child link="ef"/>
+    </joint>
 
 
 
@@ -260,6 +283,9 @@
     <selfCollide>true</selfCollide>
 </gazebo>
 <gazebo reference="link_6">
+    <selfCollide>true</selfCollide>
+</gazebo>
+<gazebo reference="ef">
     <selfCollide>true</selfCollide>
 </gazebo>
 <gazebo reference="joint_1">

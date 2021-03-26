@@ -41,7 +41,7 @@ crs:
     execute_tool_change: false
   part_registration:
     simulation_pose: [-0.7, 0.0, 1.1, 0.0, 0.0, 0.0]  # used for simulator only
-    seed_pose: [0.0, 0.0, 0.5, 0.0, 0.0, 0.0]
+    seed_pose: [0, 0.0, 0.5, 0.0, 0.0, 0.0]
     target_frame_id: "world"
     part_file: ""      # relative to known data directory
     toolpath_file: ""  # relative to known data directory

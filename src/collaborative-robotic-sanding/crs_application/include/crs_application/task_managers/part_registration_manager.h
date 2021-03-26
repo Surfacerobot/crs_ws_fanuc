@@ -80,6 +80,9 @@ public:
   // Results
   const datatypes::ProcessToolpathData& getResult() { return result_; }
 
+  //xiaopeng 2021-3-24
+  void generatepath_baselink(std::vector<geometry_msgs::msg::PoseArray> original_rasters, std::vector<geometry_msgs::msg::PoseArray>& baselink);
+
 protected:
   std::shared_ptr<rclcpp::Node> node_;
   std::shared_ptr<datatypes::ScanAcquisitionResult> input_ = nullptr;

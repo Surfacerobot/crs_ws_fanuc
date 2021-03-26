@@ -253,7 +253,7 @@
 
     <transmission name="joint_1">
         <type>transmission_interface/SimpleTransmission</type>
-        <joint name="joint_1">
+        <joint name="${prefix}joint_1">
             <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
         </joint>
         <actuator name="joint_1_motor">
@@ -261,6 +261,63 @@
             <mechanicalReduction>1</mechanicalReduction>
         </actuator>
     </transmission>
+
+<transmission name="joint_2">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="${prefix}joint_2">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="joint_2_motor">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+</transmission>
+
+<transmission name="joint_3">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="${prefix}joint_3">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="joint_3_motor">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+</transmission>
+
+<transmission name="joint_4">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="${prefix}joint_4">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="joint_4_motor">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+</transmission>
+
+<transmission name="joint_5">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="${prefix}joint_5">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="joint_5_motor">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+</transmission>
+
+<transmission name="joint_6">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="${prefix}joint_6">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="joint_6_motor">
+        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+</transmission>
+
+
 
     <gazebo reference="${prefix}base_link">
         <selfCollide>true</selfCollide>

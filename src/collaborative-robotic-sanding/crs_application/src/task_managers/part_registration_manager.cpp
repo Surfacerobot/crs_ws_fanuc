@@ -199,6 +199,8 @@ common::ActionResult PartRegistrationManager::showPreview()
   msg::MarkerArray markers =
       crs_motion_planning::convertToDottedLineMarker(result_.rasters, config_->target_frame_id, MARKER_NS_TOOLPATH);
   markers.markers.push_back(part_marker);
+//  msg::MarkerArray markers ;
+//  markers.markers.push_back(part_marker);
 
   // publishing now
   preview_markers_pub_->publish(markers);
@@ -266,6 +268,46 @@ common::ActionResult PartRegistrationManager::computeTransform()
   return true;
 }
 
+ void PartRegistrationManager::generatepath_baselink(std::vector<geometry_msgs::msg::PoseArray> original_rasters, std::vector<geometry_msgs::msg::PoseArray>& baselink_points)
+{
+   //xiaopeng 2021-3-24 generate path point based on base_link
+//   std::vector<geometry_msgs::msg::PoseArray> baselink_points;
+   geometry_msgs::msg::TransformStamped transformbaselink;
+   try
+   {
+     baselink_points.reserve(original_rasters.size());
+     transformbaselink = tf_buffer_.lookupTransform(
+         original_rasters[0].header.frame_id, "base_link", tf2::TimePointZero, tf2::Duration(5));
+
+     for (auto& poses : original_rasters)
+         {
+       baselink_points.push_back(poses);
+     }
+     for (auto& poses : baselink_points)
+     {
+       for (auto& pose : poses.poses)
+       {
+       geometry_msgs::msg::PoseStamped target_pose_from_cam;
+            target_pose_from_cam.header = original_rasters[0].header;
+            target_pose_from_cam.pose = pose;
+       geometry_msgs::msg::PoseStamped target_pose_from_req = tf_buffer_.transform(
+                 target_pose_from_cam, "base_link");
+       pose = target_pose_from_req.pose;
+       }
+
+     }
+   }
+   catch (tf2::TransformException ex)
+   {
+     std::string error_msg =
+         "Failed to get transform from '" + original_rasters[0].header.frame_id + "' to '" + "base_link" + "' frame";
+
+     RCLCPP_ERROR(node_->get_logger(), "Raster Frame error: %s: ", ex.what(), error_msg.c_str());
+
+   }
+
+}
+
 common::ActionResult PartRegistrationManager::applyTransform()
 {
   std::vector<geometry_msgs::msg::PoseArray> original_rasters, cropped_raster_strips;
@@ -279,6 +321,11 @@ common::ActionResult PartRegistrationManager::applyTransform()
     tf2::fromMsg(p, p_eig);
     return tf2::toMsg(t_eig * p_eig);
   };
+//  std::vector<geometry_msgs::msg::PoseArray> baselink_points;
+//  for (auto& poses : original_rasters)
+//      {
+//    baselink_points.push_back(poses);
+//  }
   for (auto& poses : original_rasters)
   {
     for (std::size_t i = 0; i < poses.poses.size(); i++)
@@ -287,6 +334,39 @@ common::ActionResult PartRegistrationManager::applyTransform()
     }
   }
 
+  //xiaopeng 2021-3-24 generate path point based on base_link
+//   std::vector<geometry_msgs::msg::PoseArray> baselink_points;
+//   generatepath_baselink(original_rasters,baselink_points);
+//------------------------------------------------------------------------
+//     std::vector<geometry_msgs::msg::PoseArray> baselink_points;
+//     geometry_msgs::msg::TransformStamped transformbaselink;
+//     try
+//     {
+//       baselink_points.reserve(original_rasters.size());
+//       transformbaselink = tf_buffer_.lookupTransform(
+//           original_rasters[0].header.frame_id, "base_link", tf2::TimePointZero, tf2::Duration(5));
+
+
+//       for (auto& poses : baselink_points)
+//       {
+//         for (auto& pose : poses.poses)
+//         {
+
+//         pose = apply_transform(pose, transformbaselink.transform);
+//         }
+
+//       }
+//     }
+//     catch (tf2::TransformException ex)
+//     {
+//       std::string error_msg =
+//           "Failed to get transform from '" + original_rasters[0].header.frame_id + "' to '" + "base_link" + "' frame";
+
+//       RCLCPP_ERROR(node_->get_logger(), "Raster Frame error: %s: ", ex.what(), error_msg.c_str());
+
+//     }
+
+//--------------------------------------------------------------------------
   geometry_msgs::msg::TransformStamped transform;
   try
   {
@@ -315,8 +395,8 @@ common::ActionResult PartRegistrationManager::applyTransform()
   std::vector<geometry_msgs::msg::PoseArray> reachable_waypoints =
       crs_motion_planning::transformWaypoints(reachable_transformed_waypoints, transform, true);
 
-  result_.rasters = reachable_waypoints;
-  RCLCPP_INFO_STREAM(node_->get_logger(), MANAGER_NAME << " Transformed raster strips and saved them");
+  result_.rasters =  reachable_waypoints;
+  RCLCPP_INFO_STREAM(node_->get_logger(), MANAGER_NAME << " ==Transformed raster strips and saved them");
 
   auto load_part_request = std::make_shared<crs_msgs::srv::LoadPart::Request>();
   load_part_request->path_to_part = config_->part_file;

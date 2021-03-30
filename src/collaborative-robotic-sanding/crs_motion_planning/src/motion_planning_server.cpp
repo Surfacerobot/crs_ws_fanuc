@@ -22,7 +22,7 @@
 #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 #include <tf2_ros/transform_listener.h>
 #include <tf2_ros/buffer.h>
-
+#include <iostream>
 #include <ament_index_cpp/get_package_share_directory.hpp>
 
 #include <geometry_msgs/msg/pose.hpp>
@@ -629,8 +629,12 @@ private:
 
 int main(int argc, char** argv)
 {
+  std::cout << "=========================1111111111111111111111111111111111xxxxxxxxxxxx" << std::endl;
+
+
   rclcpp::init(argc, argv);
   rclcpp::executors::MultiThreadedExecutor executor;
+  std::cout << "=========================222222222222222222222222222222222xxxxxxxxxxxxxxxxx" << std::endl;
 
   // This enables loading undeclared parameters
   // best practice would be to declare parameters in the corresponding classes

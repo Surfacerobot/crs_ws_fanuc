@@ -25,6 +25,8 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/base_link.stl"/>
         </geometry>
       </collision>
+
+
     </link>
     <link name="${prefix}link_1">
       <visual>
@@ -40,6 +42,8 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_1.stl"/>
         </geometry>
       </collision>
+
+
     </link>
     <link name="${prefix}link_2">
       <visual>
@@ -55,6 +59,7 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_2.stl"/>
         </geometry>
       </collision>
+
     </link>
     <link name="${prefix}link_3">
       <visual>
@@ -70,6 +75,8 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_3.stl"/>
         </geometry>
       </collision>
+
+
     </link>
     <link name="${prefix}link_4">
       <visual>
@@ -85,6 +92,9 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_4.stl"/>
         </geometry>
       </collision>
+
+
+
     </link>
     <link name="${prefix}link_5">
       <visual>
@@ -100,6 +110,9 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_5.stl"/>
         </geometry>
       </collision>
+
+
+
     </link>
     <link name="${prefix}link_6">
       <visual>
@@ -115,6 +128,8 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_6.stl"/>
         </geometry>
       </collision>
+
+
     </link>
     <link name="${prefix}ef">
           <visual>
@@ -130,6 +145,9 @@
               <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/ef.stl"/>
             </geometry>
           </collision>
+
+
+
         </link>
 
 
@@ -436,7 +454,7 @@
           <joint_name>${prefix}joint_4</joint_name>
           <joint_name>${prefix}joint_5</joint_name>
           <joint_name>${prefix}joint_6</joint_name>
-          <joint_name>${prefix}flange-ef</joint_name>
+
         </plugin>
         <plugin name='crs_gazebo_plugins_joint_pose_trajectory' filename='libcrs_gazebo_plugins_joint_pose_trajectory.so'>
             <ros>

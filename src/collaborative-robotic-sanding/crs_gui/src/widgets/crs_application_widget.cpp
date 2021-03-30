@@ -80,7 +80,7 @@ CRSApplicationWidget::CRSApplicationWidget(rclcpp::Node::SharedPtr node, QWidget
   namespace fs = boost::filesystem;
   ui_->setupUi(this);
 //  QImage *image= new QImage("../../ui/SURFACE_LOGO-01.png");:/new/prefix1/collaborative-robotic-sanding/crs_gui/ui/SURFACE_LOGO-01.png
-  ui_->label->setPixmap(QPixmap("/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gui/ui/SURFACE_LOGO-01.png"));
+//  ui_->label->setPixmap(QPixmap("/root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gui/ui/SURFACE_LOGO-01.png"));
 
 
   // Set up ROS Interfaces to crs_application

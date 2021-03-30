@@ -27,7 +27,7 @@
 
 #include <geometry_msgs/msg/pose.hpp>
 
-#include <QString>
+//#include <QString>
 //xiaopeng 2021-3-5
 //static const std::string RESOURCES_PACKAGE_NAME = "crs_support";
 //static const std::string DEFAULT_URDF_PATH = "urdf/crs.urdf";

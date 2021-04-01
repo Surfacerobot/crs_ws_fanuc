@@ -42,6 +42,8 @@
 #include <tf2_eigen/tf2_eigen.h>
 #include <crs_motion_planning/path_processing_utils.h>
 
+#include "crs_application/task_managers/generatels.h"
+
 static const double WAIT_SERVICE_DURATION = 50.0;           // secs
 static const double WAIT_SERVICE_COMPLETION_TIMEOUT = 5.0;  // secs
 
@@ -268,6 +270,9 @@ common::ActionResult PartRegistrationManager::computeTransform()
   return true;
 }
 
+
+
+
  void PartRegistrationManager::generatepath_baselink(std::vector<geometry_msgs::msg::PoseArray> original_rasters, std::vector<geometry_msgs::msg::PoseArray>& baselink_points)
 {
    //xiaopeng 2021-3-24 generate path point based on base_link
@@ -293,9 +298,30 @@ common::ActionResult PartRegistrationManager::computeTransform()
        geometry_msgs::msg::PoseStamped target_pose_from_req = tf_buffer_.transform(
                  target_pose_from_cam, "base_link");
        pose = target_pose_from_req.pose;
+
+
        }
 
      }
+     //2021-4-1 generate ls file.
+     fanuc_post_processor::generate_LS program;
+     program.program_name_ = "HUAB";
+     program.comment_ = "\"\"";
+     program.prog_size_ = "4757";
+     program.file_name_ = "HUAB";
+     program.version_ = "0";
+     program.memory_size_ = "5089";
+     program.pathpoints = baselink_points;
+     program.velocity_ = "200";
+     program.cnt_ = "CNT60";
+     program.Path_ = "/root/a.ls";
+
+
+
+     program.save();
+
+
+
    }
    catch (tf2::TransformException ex)
    {
@@ -335,8 +361,8 @@ common::ActionResult PartRegistrationManager::applyTransform()
   }
 
   //xiaopeng 2021-3-24 generate path point based on base_link
-//   std::vector<geometry_msgs::msg::PoseArray> baselink_points;
-//   generatepath_baselink(original_rasters,baselink_points);
+   std::vector<geometry_msgs::msg::PoseArray> baselink_points;
+   generatepath_baselink(original_rasters,baselink_points);
 //------------------------------------------------------------------------
 //     std::vector<geometry_msgs::msg::PoseArray> baselink_points;
 //     geometry_msgs::msg::TransformStamped transformbaselink;

@@ -584,7 +584,9 @@
     <gazebo reference="${prefix}tool0">
         <selfCollide>true</selfCollide>
     </gazebo>
-    <gazebo reference="${prefix}gazebo_camera_link">
+
+<gazebo reference="${prefix}gazebo_camera_link">
+
         <sensor type="depth" name="sensor_name">
           <!-- Set always_on only sensor, not on plugin -->
           <always_on>1</always_on>

@@ -272,7 +272,7 @@
     </joint>
     <joint name="${prefix}flange-ef" type="fixed">
           <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-90)} 0" />
-          <parent link="${prefix}flange" />
+          <parent link="${prefix}tool0" />
           <child link="${prefix}ef" />
         </joint>
 
@@ -421,6 +421,7 @@
     <gazebo reference="tool0">
         <selfCollide>true</selfCollide>
     </gazebo>
+
     <gazebo reference="gazebo_camera_link">
         <sensor type="depth" name="sensor_name">
           <!-- Set always_on only sensor, not on plugin -->
@@ -467,6 +468,7 @@
           </plugin>
         </sensor>
     </gazebo>
+
     <gazebo>
         <plugin name='gazebo_ros_joint_state_publisher' filename='libgazebo_ros_joint_state_publisher.so'>
           <ros>

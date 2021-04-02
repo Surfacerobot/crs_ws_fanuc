@@ -34,7 +34,7 @@
 //static const std::string DEFAULT_SRDF_PATH = "urdf/ur10e_robot.srdf";
 
 static const std::string RESOURCES_PACKAGE_NAME = "fanuc_r2000ic_support";
-static const std::string DEFAULT_URDF_PATH = "urdf/r2000ic165f.urdf";
+static const std::string DEFAULT_URDF_PATH = "urdf/r2000ic165f";
 static const std::string DEFAULT_SRDF_PATH = "urdf/fanuc_r2000ic165f.srdf";
 
 

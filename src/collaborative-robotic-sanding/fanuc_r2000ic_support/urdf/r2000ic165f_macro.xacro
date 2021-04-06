@@ -25,12 +25,12 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/base_link.stl"/>
         </geometry>
       </collision>
-      <!--
-      <inertial>
-               <mass value="0.0" />
 
-                <inertia ixx="0.002695" ixy="0.000023" ixz="0.000157" iyy="0.004043" iyz="0.000023" izz="0.006096" />
-            </inertial>-->
+      <inertial>
+               <mass value="10.0" />
+               <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
+               <inertia ixx="0.002695" ixy="0.000023" ixz="0.000157" iyy="0.004043" iyz="0.000023" izz="0.006096" />
+      </inertial>
 
 
     </link>
@@ -48,11 +48,11 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_1.stl"/>
         </geometry>
       </collision>
-     <!-- <inertial>
+      <inertial>
                 <mass value="0.0" />
-
+                <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
                 <inertia ixx="0.012932" ixy="0.003309" ixz=" -0.000331" iyy="0.018366" iyz="-0.000071" izz="0.019767" />
-            </inertial>-->
+      </inertial>
     </link>
     <link name="${prefix}link_2">
       <visual>
@@ -68,11 +68,11 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_2.stl"/>
         </geometry>
       </collision>
-      <!--<inertial>
+      <inertial>
                 <mass value="0.0" />
-
+                <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
                 <inertia ixx="0.014390" ixy="0.000091" ixz="-0.000323" iyy="0.015120" iyz="-0.001213" izz="0.002053" />
-            </inertial>-->
+      </inertial>
     </link>
     <link name="${prefix}link_3">
       <visual>
@@ -88,11 +88,11 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_3.stl"/>
         </geometry>
       </collision>
-      <!--<inertial>
+      <inertial>
                <mass value="0.0" />
-
+               <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
                <inertia ixx="0.001451" ixy="0.000017" ixz="-0.000177" iyy="0.001441" iyz="0.000072" izz="0.001041" />
-           </inertial>-->
+      </inertial>
 
     </link>
     <link name="${prefix}link_4">
@@ -109,11 +109,11 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_4.stl"/>
         </geometry>
       </collision>
-      <!--<inertial>
+      <inertial>
                <mass value="0.0" />
-
+               <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
                <inertia ixx="0.000333" ixy="0.000044" ixz="0.000006" iyy="0.004287" iyz="-0.000000" izz="0.004282" />
-           </inertial>-->
+      </inertial>
 
     </link>
     <link name="${prefix}link_5">
@@ -130,11 +130,11 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_5.stl"/>
         </geometry>
       </collision>
-      <!--<inertial>
+      <inertial>
                 <mass value="0.0" />
-
+                <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
                 <inertia ixx="0.000088" ixy="-0.000012" ixz="0.000000" iyy="0.000094" iyz="0.000000" izz="0.000118" />
-            </inertial>-->
+      </inertial>
 
     </link>
     <link name="${prefix}link_6">
@@ -151,11 +151,11 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_6.stl"/>
         </geometry>
       </collision>
-      <!--<inertial>
+      <inertial>
                 <mass value="0.0" />
-
+                <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
                 <inertia ixx="0.000002" ixy="0.000000" ixz="-0.000000" iyy="0.000001" iyz="0.000000" izz="0.000001" />
-            </inertial>-->
+      </inertial>
 
     </link>
     <link name="${prefix}ef">
@@ -172,11 +172,11 @@
               <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/ef.stl"/>
             </geometry>
           </collision>
-          <!--<inertial>
+          <inertial>
                        <mass value="3.0" />
-
+                       <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
                        <inertia ixx="0.000127" ixy="0.000000" ixz="0.000052" iyy="0.000194" iyz="0.000003" izz="0.000141" />
-                   </inertial>-->
+           </inertial>
         </link>
 
 
@@ -422,7 +422,7 @@
         <selfCollide>true</selfCollide>
     </gazebo>
 
-    <gazebo reference="gazebo_camera_link">
+<gazebo reference="gazebo_camera_link">
         <sensor type="depth" name="sensor_name">
           <!-- Set always_on only sensor, not on plugin -->
           <always_on>1</always_on>

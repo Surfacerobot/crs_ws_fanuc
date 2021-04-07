@@ -296,7 +296,7 @@ common::ActionResult PartRegistrationManager::computeTransform()
             target_pose_from_cam.header = original_rasters[0].header;
             target_pose_from_cam.pose = pose;
        geometry_msgs::msg::PoseStamped target_pose_from_req = tf_buffer_.transform(
-                 target_pose_from_cam, "base_link");
+                 target_pose_from_cam, "base");
        pose = target_pose_from_req.pose;
 
 
@@ -345,6 +345,7 @@ common::ActionResult PartRegistrationManager::applyTransform()
     Isometry3d t_eig = tf2::transformToEigen(t);
     Isometry3d p_eig;
     tf2::fromMsg(p, p_eig);
+
     return tf2::toMsg(t_eig * p_eig);
   };
 //  std::vector<geometry_msgs::msg::PoseArray> baselink_points;

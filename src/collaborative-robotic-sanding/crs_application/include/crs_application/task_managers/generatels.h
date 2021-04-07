@@ -7,8 +7,6 @@
 #include <fstream>
 #include <Eigen/Core>
 #include <Eigen/Geometry>
-
-
 #include <boost/format.hpp>
 
 //#include "crs_application/task_managers/part_registration_manager.h"
@@ -46,11 +44,17 @@ namespace fanuc_post_processor
 
         std::vector<geometry_msgs::msg::PoseArray> pathpoints;
 
+        std::vector<int> index;
+        std::vector<std::array<double,3>> WPR;
+
+        bool in_the_index(int i);
+        void find_change();
         void First_Part();
 
         void motion_add(std::string command);
         void get_pos_size();
         void read_pos();
+        void write_pos();
 
         void left_command();
         void POS_Part();
@@ -76,12 +80,17 @@ namespace fanuc_post_processor
     void generate_LS::read_pos() {
         for(int i = 0; i < pos_.size(); i++){
             Eigen::Quaterniond quaternion4(pos_[i][6],pos_[i][3],pos_[i][4],pos_[i][5]);
-//            Eigen::Quaterniond quaternion4(pathpoints[i].,pathpoints[i].pose[3],pathpoints[i].pose[4],pathpoints[i].pose[5]);
-
-          Eigen::Vector3d eulerAngle = quaternion4.matrix().eulerAngles(2,1,0); // zyx
-            double angle_W = eulerAngle[0]/M_PI*180;
+            Eigen::Vector3d eulerAngle = quaternion4.matrix().eulerAngles(2,1,0); // zyx
+            double angle_W = eulerAngle[2]/M_PI*180;
             double angle_P = eulerAngle[1]/M_PI*180;
-            double angle_R = eulerAngle[2]/M_PI*180;
+            double angle_R = eulerAngle[0]/M_PI*180;
+
+            WPR.push_back({angle_W,angle_P,angle_R});
+        }
+    }
+
+    void generate_LS::write_pos(){
+        for(int i = 0; i < pos_.size(); i++){
             program.append("P[");
             program.append(std::to_string(i+1));
             program.append("]{");
@@ -92,26 +101,27 @@ namespace fanuc_post_processor
             program.append("\n");
             program.append("\tX =\t");
             program.append(std::to_string(pos_[i][0]));
-//            program.append(pathpoints[i][0]);
+
             program.append("\tmm,\tY =\t");
             program.append(std::to_string(pos_[i][1]));
-//            program.append(pathpoints[i][1]);
+
             program.append("\tmm,\tZ =\t");
             program.append(std::to_string(pos_[i][2]));
-//            program.append(pathpoints[i][2]);
+
             program.append("\tmm,");
             program.append("\n");
-            // *********************** wpr = zyx？ *******************
+
             program.append("\tW =\t");
-            program.append(std::to_string(angle_W));
+            program.append(std::to_string(WPR[i][0]));
             program.append("\tdeg,\tP =\t");
-            program.append(std::to_string(angle_P));
+            program.append(std::to_string(WPR[i][1]));
             program.append("\tdeg,\tR =\t");
-            program.append(std::to_string(angle_R));
+            program.append(std::to_string(WPR[i][2]));
             program.append("\tdeg");
             program.append("\n");
+            program.append("};");
+            program.append("\n");
         }
-
     }
 
     void generate_LS::First_Part() {
@@ -127,10 +137,6 @@ namespace fanuc_post_processor
         program.append("COMMENT\t\t\t= " + comment_ +";");
         program.append("\n");
         program.append("PROG_SIZE\t\t= " + prog_size_ + ";");
-        program.append("\n");
-        program.append("CREATE\t\t\t= DATE 21-03-18  TIME 13:17:58;");
-        program.append("\n");
-        program.append("MODIFIED\t\t= DATE 21-03-18  TIME 14:10:54;");
         program.append("\n");
         program.append("FILE_NAME\t\t= " + file_name_ + ";");
         program.append("\n");
@@ -154,18 +160,6 @@ namespace fanuc_post_processor
         program.append("CONTROL_CODE\t= 00000000 00000000;");
         program.append("\n");
 
-        //APPL
-        program.append("/APPL\n");
-        program.append("  SPOT : TRUE ;");
-        program.append("\n");
-        program.append("\n");
-        program.append("AUTO_SINGULARITY_HEADER;");
-        program.append("\n");
-        program.append("  ENABLE_SINGULARITY_AVOIDANCE   : FALSE;");
-        program.append("\n");
-        program.append("  SPOT Welding Equipment Number : 1 ;");
-        program.append("\n");
-
         //MN
         program.append("/MN");
         program.append("\n");
@@ -175,11 +169,22 @@ namespace fanuc_post_processor
         program.append("\n");
     }
 
+    bool generate_LS::in_the_index(int i) {
+        for(int j = 0; j < index.size(); j++){
+            if(index[j] == i) return true;
+        }
+        return false;
+    }
+
     void generate_LS::left_command() {
         line_cnt = line_cnt - pos_.size() + 2;
         for(int i = 0; i < pos_.size(); i++){
-            program.append("\t"+std::to_string(i+line_cnt+1)+":L"+" P["+std::to_string(i)+"] "+velocity_+"mm/sec "+cnt_+" Tool_Offset,PR[1]\t;\n");
 
+            if(in_the_index(i)){
+                program.append("\t"+std::to_string(i+line_cnt+1)+":J"+" P["+std::to_string(i+1)+"] "+"100% "+cnt_+" \t;\n");
+            } else{
+                program.append("\t"+std::to_string(i+line_cnt+1)+":L"+" P["+std::to_string(i+1)+"] "+velocity_+"mm/sec "+cnt_+" \t;\n");
+            }
         }
         line_cnt += pos_.size();
     }
@@ -187,8 +192,7 @@ namespace fanuc_post_processor
     void generate_LS::POS_Part() {
         program.append("/POS");
         program.append("\n");
-        read_pos();
-        program.append("};");
+        write_pos();
         program.append("\n");
         program.append("/END");
     }
@@ -207,35 +211,47 @@ namespace fanuc_post_processor
     }
 
     bool generate_LS::save() {
-      std::vector<std::array<double,7>> pos;
+        std::vector<std::array<double,7>> pos;
 
-      for (geometry_msgs::msg::PoseArray poses : pathpoints)
-      {
-        for (geometry_msgs::msg::Pose pose : poses.poses)
+        for (geometry_msgs::msg::PoseArray poses : pathpoints)
         {
+            for (geometry_msgs::msg::Pose pose : poses.poses)
+            {
 
-          pos_.push_back({pose.position.x,pose.position.y,pose.position.z,pose.orientation.x,pose.orientation.y,pose.orientation.z,pose.orientation.w});
+                pos_.push_back({pose.position.x * 1000,pose.position.y * 1000 ,pose.position.z * 1000  ,pose.orientation.x,pose.orientation.y,pose.orientation.z,pose.orientation.w});
 
+
+            }
 
         }
 
-      }
-
-
-
         get_pos_size();
+        read_pos();
+        find_change();
 
         First_Part();
         //DIY Part
         motion_add("\t3:\t;");
-        motion_add("\t4:  DO[22:MOJI]=ON\t;");
+        motion_add("\t4:\t;");
+        //motion_add("\t4:J P[1] 100% CNT60;");
         left_command();
         POS_Part();
-        //std::cout<<program.line_cnt<<std::endl;
         write();
         display();
 
         return true;
+    }
+
+    void generate_LS::find_change(){
+        int past_negative_cnt = 0;
+        for(int i = 0; i < WPR.size(); i++){
+            int negative_cnt = 0;
+            for(int j = 0; j < 3; j++){
+                if(WPR[i][j] < 0) negative_cnt++;
+            }
+            if(negative_cnt != past_negative_cnt) index.push_back(i);
+            past_negative_cnt = negative_cnt;
+        }
     }
 
 }

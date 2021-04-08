@@ -34,14 +34,14 @@
    <item>
     <widget class="QPushButton" name="push_button_load_selected_part">
      <property name="text">
-      <string>Load Selected Part</string>
+      <string>加载</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QPushButton" name="push_button_refresh_parts_list">
      <property name="text">
-      <string>Refresh Parts List</string>
+      <string>刷新</string>
      </property>
     </widget>
    </item>

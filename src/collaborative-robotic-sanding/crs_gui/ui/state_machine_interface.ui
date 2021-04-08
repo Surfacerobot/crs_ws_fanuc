@@ -22,28 +22,28 @@
      <item row="4" column="3">
       <widget class="QPushButton" name="push_button_sm_cancel">
        <property name="text">
-        <string>Cancel</string>
+        <string>取消</string>
        </property>
       </widget>
      </item>
      <item row="4" column="2">
       <widget class="QPushButton" name="push_button_sm_approve">
        <property name="text">
-        <string>Approve</string>
+        <string>验证</string>
        </property>
       </widget>
      </item>
      <item row="2" column="0">
       <widget class="QLabel" name="label_sm_actions">
        <property name="text">
-        <string>State Machine Actions</string>
+        <string>状态项</string>
        </property>
       </widget>
      </item>
      <item row="4" column="0">
       <widget class="QLabel" name="label_sm_current_state">
        <property name="text">
-        <string>Current State</string>
+        <string>当前状态</string>
        </property>
       </widget>
      </item>
@@ -57,7 +57,7 @@
      <item row="2" column="2" colspan="2">
       <widget class="QPushButton" name="push_button_sm_apply">
        <property name="text">
-        <string>Apply</string>
+        <string>应用</string>
        </property>
       </widget>
      </item>

@@ -186,6 +186,7 @@ install(DIRECTORY ui/
 
 install(
   FILES plugin_description.xml
+  crsres.qrc
   DESTINATION share/${PROJECT_NAME}
 )
 

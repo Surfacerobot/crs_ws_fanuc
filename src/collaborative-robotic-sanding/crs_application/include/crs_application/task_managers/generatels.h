@@ -237,7 +237,7 @@ namespace fanuc_post_processor
         left_command();
         POS_Part();
         write();
-        display();
+//        display();
 
         return true;
     }

@@ -36,8 +36,7 @@ crs:
     execute_tool_change: false
   part_registration:
     simulation_pose: [-0.55, 0.0, 0.98, 0.0, 0.0, -2.8]
-    seed_pose: [-0.55, 0.0, 0.98, 0.0, 0.0, -2.8]
-    #seed_pose: [-0.75, 0.0, 1.1, 0.0, 0.0, -2.8]
+    seed_pose: [-0.55, 0, 0.98, 0, 0, -2.800007777777778]
     target_frame_id: world
     part_file: ""
     toolpath_file: ""

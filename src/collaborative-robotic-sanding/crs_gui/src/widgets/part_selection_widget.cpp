@@ -36,6 +36,16 @@ static const std::vector<std::string> MESH_EXTENSIONS = { "stl", "obj", "dae" };
 
 namespace crs_gui
 {
+static const std::string TOP_LEVEL = "part_registration";
+static const std::string SIMULATION_POSE = "simulation_pose";
+static const std::string SEED_POSE = "seed_pose";
+static const std::string TARGET_FRAME_ID = "target_frame_id";
+static const std::string PART_FILE = "part_file";
+static const std::string TOOLPATH_FILE = "toolpath_file";
+static const std::string TOOLPATH_EDGE_BUFFER = "toolpath_edge_buffer";
+static const std::string REACHABLE_RADIUS = "reachable_radius";
+static const std::string SINGULARITY_RADIUS = "singularity_radius";
+
 PartSelectionWidget::PartSelectionWidget(QWidget* parent, std::string database_directory)
   : QWidget(parent), ui_(new Ui::PartSelection), database_directory_(database_directory)
 {
@@ -46,6 +56,8 @@ PartSelectionWidget::PartSelectionWidget(QWidget* parent, std::string database_d
   refreshPartsList();
   connect(ui_->list_widget_parts, &QListWidget::currentItemChanged, this, &PartSelectionWidget::onPartSelectionChanged);
   connect(ui_->push_button_load_selected_part, &QPushButton::clicked, this, &PartSelectionWidget::onPartSelected);
+  connect(ui_->  partupdatebutton, &QPushButton::clicked, this, &PartSelectionWidget::saveConfig);
+
 }
 
 PartSelectionWidget::~PartSelectionWidget() = default;
@@ -133,8 +145,72 @@ void PartSelectionWidget::onPartSelectionChanged(QListWidgetItem* current, QList
   }
 }
 
+
+//2021-4-12 xiaopeng add set configuration
+void PartSelectionWidget::loadconfig(std::string current_part)
+{
+  try {
+     namespace fs = boost::filesystem;
+    fs::path config_file =
+        fs::path(database_directory_) / fs::path(current_part) / fs::path("crs.yaml");
+
+   std::string filename= config_file.string();
+     config = YAML::LoadFile(filename);
+    config_file_=filename;
+    YAML::Node crs = config["crs"];
+    YAML::Node root_node = crs[TOP_LEVEL];
+
+
+      // seed pose
+      std::vector<double> pose_vals = root_node[SEED_POSE].as<std::vector<double>>();
+     ui_->l_x->setText(QString::number( pose_vals[0]));
+     ui_->l_y->setText(QString::number( pose_vals[1]));
+     ui_->l_z->setText(QString::number( pose_vals[2]));
+     ui_->l_w->setText(QString::number( (pose_vals[3] / 3.14) * 180 ));
+     ui_->l_p->setText(QString::number( (pose_vals[4] / 3.14) * 180));
+     ui_->l_r->setText(QString::number( (pose_vals[5] / 3.14) * 180));
+
+  } catch (std::exception& e) {
+
+  }
+
+}
+
+void PartSelectionWidget::saveConfig()
+{
+
+  try {
+
+    namespace fs = boost::filesystem;
+      config = YAML::LoadFile(config_file_);
+
+   YAML::Node crs = config["crs"];
+   YAML::Node root_node = crs[TOP_LEVEL];
+
+    root_node[SEED_POSE][0] = ui_->l_x->text().toDouble();
+    root_node[SEED_POSE][1] = ui_->l_y->text().toDouble();
+    root_node[SEED_POSE][2] = ui_->l_z->text().toDouble();
+    root_node[SEED_POSE][3] = (ui_->l_w->text().toDouble()) / 180 * 3.14;
+    root_node[SEED_POSE][4] = (ui_->l_p->text().toDouble()) / 180 * 3.14;
+    root_node[SEED_POSE][5] = (ui_->l_r->text().toDouble()) / 180 * 3.14;
+
+    std::ofstream config_out(config_file_);
+    config_out << config;
+    config_out.close();
+
+    onPartSelected();
+
+  } catch (std::exception& e) {
+
+  }
+
+
+}
+
+
 void PartSelectionWidget::onPartSelected()
 {
+
   namespace fs = boost::filesystem;
   if (ui_->list_widget_parts && ui_->list_widget_parts->currentItem() && ui_->list_widget_part_paths &&
       ui_->list_widget_part_paths->currentItem())
@@ -152,6 +228,9 @@ void PartSelectionWidget::onPartSelected()
     });
     std::string current_path =
         ui_->list_widget_part_paths->currentItem()->data(Qt::ItemDataRole::UserRole).toString().toUtf8().constData();
+
+    //2021-4-12 xiaopeng
+    loadconfig(current_part);
 
     emit partSelected(QString::fromStdString(current_part), QString::fromStdString(part_mesh));
     emit partPathSelected(QString::fromStdString(current_part), QString::fromStdString(current_path));

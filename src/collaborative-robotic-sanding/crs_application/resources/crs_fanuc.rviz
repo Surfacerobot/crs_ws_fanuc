@@ -1,7 +1,7 @@
 Panels:
   - Class: rviz_common/Displays
     Help Height: 70
-    Name: Displays
+    Name: 显示
     Property Tree Widget:
       Expanded:
         - /Global Options1
@@ -27,7 +27,7 @@ Panels:
     Name: Views
     Splitter Ratio: 0.5
   - Class: crs_gui::ApplicationPanel
-    Name: ApplicationPanel
+    Name: 主界面
 Visualization Manager:
   Class: ""
   Displays:
@@ -102,8 +102,7 @@ Visualization Manager:
       Enabled: true
       Name: Part Registration Preview
       Namespaces:
-        part: true
-        toolpath: true
+        {}
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -203,7 +202,24 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_link_optical:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        ef:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         flange:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        gazebo_camera_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -238,6 +254,10 @@ Visualization Manager:
           Show Trail: false
           Value: true
         tool0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        world:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -516,14 +536,10 @@ Visualization Manager:
       Yaw: 4.061316013336182
     Saved: ~
 Window Geometry:
-  ApplicationPanel:
-    collapsed: false
-  Displays:
-    collapsed: false
   Height: 1025
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000001ec000003abfc0200000004fc0000003b000003ab000001db0100001afa000000010100000002fb00000020004100700070006c00690063006100740069006f006e00500061006e0065006c0100000000ffffffff000001ec00fffffffb000000100044006900730070006c0061007900730100000000000001d30000015600fffffffb0000001200530065006c0065006300740069006f006e00000001930000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007300000001da000000bd0000005c00fffffffb0000000a005600690065007700730000000246000001a0000000a000ffffff0000054b000003ab00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000001ec000003abfc0200000005fc0000003b000002870000000000fffffffa000000000100000002fb00000020004100700070006c00690063006100740069006f006e00500061006e0065006c0100000000ffffffff0000000000000000fb000000100044006900730070006c0061007900730100000000000001d30000000000000000fb0000001200530065006c0065006300740069006f006e00000001930000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007300000001da000000bd0000005c00fffffffb0000000a005600690065007700730000000246000001a0000000a000fffffffc0000003b000003ab000002a20100001afa000000000100000002fb000000064e3b754c97620100000000ffffffff0000019600fffffffb00000004663e793a0100000000000001ec0000015600ffffff0000054b000003ab00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Tool Properties:
@@ -532,4 +548,8 @@ Window Geometry:
     collapsed: false
   Width: 1853
   X: 67
-  Y: 1107
+  Y: 27
+  主界面:
+    collapsed: false
+  显示:
+    collapsed: false

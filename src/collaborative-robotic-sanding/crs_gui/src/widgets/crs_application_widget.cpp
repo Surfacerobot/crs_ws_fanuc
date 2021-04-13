@@ -44,6 +44,7 @@
 
 #include <boost/format.hpp>
 #include <boost/filesystem.hpp>
+#include <QtCore>
 
 // general
 const static std::string GET_CONFIGURATION_SERVICE = "get_configuration";
@@ -80,7 +81,8 @@ CRSApplicationWidget::CRSApplicationWidget(rclcpp::Node::SharedPtr node, QWidget
   namespace fs = boost::filesystem;
   ui_->setupUi(this);
 //  QImage *image= new QImage("../../ui/SURFACE_LOGO-01.png");:/new/prefix1/collaborative-robotic-sanding/crs_gui/ui/SURFACE_LOGO-01.png /root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gui/ui/SURFACE_LOGO-01.png
-  ui_->label->setPixmap(QPixmap(":/new/prefix1/ui/SURFACE_LOGO-01.png"));
+  std::string ls = QDir::homePath().toStdString() + "/crs_data/SURFACE_LOGO-01.png";
+  ui_->label->setPixmap(QPixmap(QString::fromStdString( ls)));
 
 
   // Set up ROS Interfaces to crs_application

@@ -44,6 +44,8 @@
 
 #include "crs_application/task_managers/generatels.h"
 
+#include <QtCore>
+
 static const double WAIT_SERVICE_DURATION = 50.0;           // secs
 static const double WAIT_SERVICE_COMPLETION_TIMEOUT = 5.0;  // secs
 
@@ -305,16 +307,17 @@ common::ActionResult PartRegistrationManager::computeTransform()
      }
      //2021-4-1 generate ls file.
      fanuc_post_processor::generate_LS program;
-     program.program_name_ = "HUAB";
+     program.program_name_ = "surface";
      program.comment_ = "\"\"";
      program.prog_size_ = "4757";
-     program.file_name_ = "HUAB";
+     program.file_name_ = "surface";
      program.version_ = "0";
      program.memory_size_ = "5089";
      program.pathpoints = baselink_points;
      program.velocity_ = "200";
      program.cnt_ = "CNT60";
-     program.Path_ = "/root/a.ls";
+     program.Path_ = QDir::homePath().toStdString() + "/crs_data/surface.ls";
+//         "$(env HOME)/crs_data/surface.ls";
 
 
 

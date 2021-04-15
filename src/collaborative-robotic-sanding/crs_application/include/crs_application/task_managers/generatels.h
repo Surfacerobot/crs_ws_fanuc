@@ -194,7 +194,7 @@ namespace fanuc_post_processor
         program.append("\n");
         write_pos();
         program.append("\n");
-        program.append("/END");
+        program.append("/END.");
     }
 
     void generate_LS::write() {

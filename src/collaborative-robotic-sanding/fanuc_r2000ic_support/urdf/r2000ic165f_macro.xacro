@@ -191,7 +191,7 @@
 
 
     <!-- joints: main serial chain -->
-    <joint name="${prefix}joint_1" type="revolute">
+    <joint name="${prefix}joint_1" type="fixed">
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <parent link="${prefix}base_link"/>
       <child link="${prefix}link_1"/>
@@ -281,7 +281,7 @@
       <child link="${prefix}tool0" />
     </joint>
     <joint name="${prefix}flange-ef" type="fixed">
-          <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-90)} 0" />
+          <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-180)} 0" />
           <parent link="${prefix}tool0" />
           <child link="${prefix}ef" />
         </joint>

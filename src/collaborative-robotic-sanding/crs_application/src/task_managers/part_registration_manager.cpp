@@ -412,7 +412,8 @@ common::ActionResult PartRegistrationManager::applyTransform()
     return false;
   }
 
-  cropped_raster_strips = crs_motion_planning::removeEdgeWaypoints(original_rasters, config_->waypoint_edge_buffer);
+  //2021-4-19 xiaopeng cancel edgepoints; if need ,
+  cropped_raster_strips = original_rasters;//crs_motion_planning::removeEdgeWaypoints(original_rasters, config_->waypoint_edge_buffer);
   std::vector<geometry_msgs::msg::PoseArray> transformed_waypoints =
       crs_motion_planning::transformWaypoints(cropped_raster_strips, transform);
   std::vector<geometry_msgs::msg::PoseArray> singularity_filtered =

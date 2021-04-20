@@ -653,6 +653,7 @@ private:
         return;
       }
     }
+    //2021-4-20 xiaopeng cancel .
 
     // cropping
     for (auto& cfg : crop_boxes_)

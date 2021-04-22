@@ -653,6 +653,7 @@ private:
         return;
       }
     }
+    //2021-4-20 xiaopeng cancel .
 
     // cropping
     for (auto& cfg : crop_boxes_)
@@ -712,6 +713,7 @@ private:
                 angles(0),
                 angles(1),
                 angles(2));
+
 
     response->transform = tf2::eigenToTransform(transform * part_seed_transform_);  // applying seed
     response->transform.header.stamp = this->now();

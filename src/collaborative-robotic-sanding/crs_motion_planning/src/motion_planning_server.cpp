@@ -77,6 +77,7 @@ public:
     , tf_listener_(tf_buffer_)
   {
     namespace fs = boost::filesystem;
+    std::cout << "=========================1111111111111111111111111111111111xxxxxxxxxxxx" << std::endl;
 
     // ROS parameters
     std::string process_planner_service = this->get_parameter(param_names::PROCESS_MOTION_PLANNING_SERVICE).as_string();

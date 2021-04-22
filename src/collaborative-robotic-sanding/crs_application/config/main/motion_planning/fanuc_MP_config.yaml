@@ -5,7 +5,7 @@ general:
   default_to_ompl: true
   simplify_start_end_freespace: true
   manipulator: "manipulator"
-  world_frame: "base_link"
+  world_frame: "world"
   robot_base_frame: "base_link"
   tool0_frame: "tool0"
   required_tool_vel: true

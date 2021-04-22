@@ -232,6 +232,8 @@ common::ActionResult PartRegistrationManager::setInput(const datatypes::ScanAcqu
 
 common::ActionResult PartRegistrationManager::computeTransform()
 {
+  //2021-4-20 xiaopeng no invoke scan service
+/*
   auto remove_part_request = std::make_shared<std_srvs::srv::Trigger::Request>();
   auto remove_result_future = remove_part_tesseract_client_->async_send_request(remove_part_request);
   RCLCPP_INFO(node_->get_logger(), "REMOVED PART");
@@ -268,7 +270,7 @@ common::ActionResult PartRegistrationManager::computeTransform()
   part_transform_.child_frame_id = PART_FRAME_ID;
   part_transform_.header.frame_id = config_->target_frame_id;
   RCLCPP_INFO_STREAM(node_->get_logger(), MANAGER_NAME << " Saved transform");
-
+*/
   return true;
 }
 
@@ -413,7 +415,7 @@ common::ActionResult PartRegistrationManager::applyTransform()
   }
 
   //2021-4-19 xiaopeng cancel edgepoints; if need ,
-  cropped_raster_strips = original_rasters;//crs_motion_planning::removeEdgeWaypoints(original_rasters, config_->waypoint_edge_buffer);
+  cropped_raster_strips =original_rasters;// crs_motion_planning::removeEdgeWaypoints(original_rasters, config_->waypoint_edge_buffer);
   std::vector<geometry_msgs::msg::PoseArray> transformed_waypoints =
       crs_motion_planning::transformWaypoints(cropped_raster_strips, transform);
   std::vector<geometry_msgs::msg::PoseArray> singularity_filtered =

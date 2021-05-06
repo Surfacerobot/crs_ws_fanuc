@@ -169,6 +169,10 @@ EnvironmentMonitor::EnvironmentMonitor(const std::string& name, rclcpp::Node::Sh
   std::ifstream srdf_in(srdf_path);
   srdf_xml_string << srdf_in.rdbuf();
 
+  //2021-4-25 xiaopeng
+//  RCLCPP_INFO(node_->get_logger(), urdf_xml_string.str());
+
+
   tesseract_ = std::make_shared<tesseract::Tesseract>();
   tesseract_scene_graph::ResourceLocator::Ptr locator = std::make_shared<tesseract_rosutils::ROSResourceLocator>();
   if (!tesseract_->init(urdf_xml_string.str(), srdf_xml_string.str(), locator))

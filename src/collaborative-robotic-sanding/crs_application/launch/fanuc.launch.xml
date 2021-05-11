@@ -55,6 +55,8 @@
 <!--    <node name="/robot_state_publisher" exec="robot_state_publisher" pkg="robot_state_publisher"-->
 <!--    args="$(find-pkg-share fanuc_r2000ic_support)/urdf/r2000ic165f.urdf" />-->
 
+<!--xiaopeng 2021-5-8 xiaopeng if use camera , uncomment this-->
+
     <group if="$(var use_camera)">
       <node pkg="realsense_node" exec="realsense_node" name="realsense_node" prefix="xterm -e"
             output="log" unless="$(var sim_robot)"/>

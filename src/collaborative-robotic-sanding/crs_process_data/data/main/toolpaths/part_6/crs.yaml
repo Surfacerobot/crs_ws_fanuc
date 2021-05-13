@@ -10,7 +10,7 @@ crs:
       offset_pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       retreat_dist: 0.025
       approach_dist: 0.025
-      tool_frame: ef
+      tool_frame: tcp
       target_force: 15
     media_change:
       change_time: 120.0
@@ -35,7 +35,7 @@ crs:
     ur_tool_change_script: simpleMove.urp
     execute_tool_change: false
   part_registration:
-    simulation_pose: [-0.55, 0.0, 0.98, 0.0, 0.0, -2.8]
+    simulation_pose: [0, 0, 1.58, 0, 0, 1.57]
     seed_pose: [0, 0, 1.58, 0, 0, 1.57]
     target_frame_id: world
     part_file: ""

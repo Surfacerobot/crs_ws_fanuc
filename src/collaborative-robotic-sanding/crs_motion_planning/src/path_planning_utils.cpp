@@ -30,7 +30,7 @@ bool loadPathPlanningConfig(const std::string& yaml_fp, pathPlanningConfig& moti
                                    Eigen::AngleAxisd(xyzrpy[3], Eigen::Vector3d::UnitX()) *
                                    Eigen::AngleAxisd(xyzrpy[4], Eigen::Vector3d::UnitY()) *
                                    Eigen::AngleAxisd(xyzrpy[5], Eigen::Vector3d::UnitZ());
-    descartes_config.allow_collisions = false;
+    descartes_config.allow_collisions = true;
     descartes_config.joint_min_vals = descartes_yaml["joint_min_vals"].as<std::vector<double>>();
 
     // TRAJOPT SURFACE CONFIG

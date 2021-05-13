@@ -285,8 +285,8 @@
           <parent link="${prefix}tool0" />
           <child link="${prefix}ef" />
         </joint>
-<link name="${prefix}tcp" />
-<joint name="${prefix}tcp_ef" type="fixed">
+    <link name="${prefix}tcp" />
+    <joint name="${prefix}tcp_ef" type="fixed">
        <origin xyz="-0.204433413 -7.32E-04 0.333181177" rpy="5.53832e-13 -0.785398 0"/>
       <parent link="${prefix}ef" />
       <child link="${prefix}tcp" />

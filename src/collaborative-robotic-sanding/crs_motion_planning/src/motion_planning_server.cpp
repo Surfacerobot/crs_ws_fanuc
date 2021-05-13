@@ -314,6 +314,7 @@ private:
       path_plan_results.reset();
     }
     // Populate response
+    // HERE ARE THE TRAJECTORIES
     response->plans = returned_plans;
 
     if (success)

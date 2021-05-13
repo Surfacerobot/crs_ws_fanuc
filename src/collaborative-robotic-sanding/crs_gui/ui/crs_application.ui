@@ -63,7 +63,7 @@
              </size>
             </property>
             <property name="layoutDirection">
-             <enum>Qt::LeftToRight</enum>
+             <enum>Qt::RightToLeft</enum>
             </property>
             <property name="text">
              <string/>
@@ -72,13 +72,13 @@
              <enum>Qt::AutoText</enum>
             </property>
             <property name="pixmap">
-             <pixmap>SURFACE_LOGO-01.png</pixmap>
+             <pixmap>../../../../../crs_data/SURFACE_LOGO-01.png</pixmap>
             </property>
             <property name="scaledContents">
              <bool>true</bool>
             </property>
             <property name="alignment">
-             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+             <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
             </property>
             <property name="wordWrap">
              <bool>true</bool>

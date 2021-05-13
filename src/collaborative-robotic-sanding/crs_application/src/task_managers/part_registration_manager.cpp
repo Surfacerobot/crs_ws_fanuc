@@ -130,6 +130,10 @@ common::ActionResult PartRegistrationManager::configure(const config::PartRegist
   part_transform_.child_frame_id = PART_FRAME_ID;
   part_transform_.header.frame_id = config_->target_frame_id;
 
+  part_pose_.transform = common::toTransformMsg(tvals);
+  part_pose_.child_frame_id = PART_FRAME_ID;
+  part_pose_.header.frame_id = config_->target_frame_id;
+
   // optionally load part into simulator if its running
   std::copy(config_->simulation_pose.begin(), config_->simulation_pose.end(), tvals.begin());
   obj_spawner_->remove(PART_FRAME_ID);
@@ -198,7 +202,9 @@ common::ActionResult PartRegistrationManager::showPreview()
   // creating markers
   msg::Marker part_marker =
       crs_motion_planning::meshToMarker(config_->part_file, MARKER_NS_PART, config_->target_frame_id);
+  //xiaopeng 2021-5-13 change part pose
   part_marker.pose = tf2::toMsg(tf2::transformToEigen(part_transform_.transform));
+  //part_marker.pose = tf2::toMsg(tf2::transformToEigen(part_pose_.transform));
 
   msg::MarkerArray markers =
       crs_motion_planning::convertToDottedLineMarker(result_.rasters, config_->target_frame_id, MARKER_NS_TOOLPATH);

@@ -276,6 +276,12 @@
     <parent link="tool0"/>
     <child link="ef"/>
   </joint>
+  <link name="tcp"/>
+  <joint name="tcp_ef" type="fixed">
+    <origin rpy="5.53832e-13 -0.785398 0" xyz="-0.204433413 -7.32E-04 0.333181177"/>
+    <parent link="ef"/>
+    <child link="tcp"/>
+  </joint>
   <link name="gazebo_camera_link">
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -299,7 +305,7 @@
     </inertial>
   </link>
   <joint name="gazebo_camera_joint" type="fixed">
-    <origin rpy="0 -1.57 0" xyz="0.0 0.0 0.0"/>
+    <origin rpy="1.57 -1.57 0" xyz="0.0 0.0 0.0"/>
     <parent link="camera_link_optical"/>
     <child link="gazebo_camera_link"/>
   </joint>

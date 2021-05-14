@@ -10,10 +10,10 @@ crs:
       offset_pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       retreat_dist: 0.025
       approach_dist: 0.025
-      tool_frame: ef
+      tool_frame: tcp
       target_force: 15
     media_change:
-      change_time: 120.0
+      change_time: 1200.0
       joint_names: [joint_1, joint_2, joint_3, joint_4, joint_5, joint_6]
       joint_position: [-0.02467, -1.7719, -1.8680, -0.6212, 0.90265, -2.2430]
     preview:
@@ -35,8 +35,8 @@ crs:
     ur_tool_change_script: simpleMove.urp
     execute_tool_change: false
   part_registration:
-    simulation_pose: [-0.55, 0.0, 0.98, 0.0, 0.0, -2.8]
-    seed_pose: [0, 0, 1.5, 0, 0, 1.57]
+    simulation_pose: [0, 0, 1.58, 0, 0, 1.57]
+    seed_pose: [0, 0, 1.58, 0, 0, 1.57]
     target_frame_id: world
     part_file: ""
     toolpath_file: ""

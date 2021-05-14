@@ -34,7 +34,7 @@
 //static const std::string DEFAULT_SRDF_PATH = "urdf/ur10e_robot.srdf";
 
 static const std::string RESOURCES_PACKAGE_NAME = "fanuc_r2000ic_support";
-static const std::string DEFAULT_URDF_PATH = "urdf/r2000ic165f";
+static const std::string DEFAULT_URDF_PATH = "urdf/r2000ic165f.urdf";
 static const std::string DEFAULT_SRDF_PATH = "urdf/fanuc_r2000ic165f.srdf";
 
 
@@ -314,6 +314,7 @@ private:
       path_plan_results.reset();
     }
     // Populate response
+    // HERE ARE THE TRAJECTORIES
     response->plans = returned_plans;
 
     if (success)

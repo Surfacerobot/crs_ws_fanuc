@@ -49,12 +49,13 @@
 		<node pkg="crs_application" exec="crs_application_node" name="crs_main" output="screen">
 			<param name="state_machine_file" value="$(var state_machine_file)"/>
 		</node>		
-
+  <!--xiaopeng 2021-5-8 xiaopeng if use camera , uncomment this-->
+  <!--
     <group if="$(var use_camera)">
       <node pkg="realsense_node" exec="realsense_node" name="realsense_node" prefix="xterm -e"
             output="log" unless="$(var sim_robot)"/>
     </group>
-				
+   -->
 		<!-- ros2 component standalone crs_perception crs_perception::LocalizeToPart  -->
 		<!--<let name="node_ns" value="/$(var group_ns)"/>
 	    <executable cmd="ros2 component standalone crs_perception crs_perception::LocalizeToPart - -node-namespace $(var node_ns)" 

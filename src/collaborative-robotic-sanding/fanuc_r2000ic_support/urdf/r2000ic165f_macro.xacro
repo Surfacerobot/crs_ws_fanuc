@@ -285,6 +285,13 @@
           <parent link="${prefix}tool0" />
           <child link="${prefix}ef" />
         </joint>
+    <link name="${prefix}tcp" />
+    <joint name="${prefix}tcp_ef" type="fixed">
+       <origin xyz="-0.204433413 -7.32E-04 0.333181177" rpy="5.53832e-13 -0.785398 0"/>
+      <parent link="${prefix}ef" />
+      <child link="${prefix}tcp" />
+    </joint>
+
 
     <link name="${prefix}gazebo_camera_link" >
 
@@ -311,7 +318,7 @@
 
     </link>
     <joint name="${prefix}gazebo_camera_joint" type="fixed">
-        <origin xyz="0.0 0.0 0.0" rpy="0 -1.57 0"/>
+        <origin xyz="0.0 0.0 0.0" rpy="1.57 -1.57 0"/>
         <parent link="${prefix}camera_link_optical"/>
         <child link="${prefix}gazebo_camera_link"/>
     </joint>

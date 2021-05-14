@@ -75,7 +75,7 @@ def launch_setup(context, *args, **kwargs):
         package='crs_motion_planning',
         node_name='motion_planning_server',
         #node_namespace = [launch.substitutions.LaunchConfiguration('global_ns')],
-        prefix= 'xterm -e',
+#        prefix= 'xterm -e',
         output='screen',
         parameters=[{
         'motion_planning_config': motion_planning_cfg,

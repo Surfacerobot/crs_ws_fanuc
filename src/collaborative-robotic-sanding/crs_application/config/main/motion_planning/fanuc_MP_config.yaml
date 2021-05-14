@@ -21,7 +21,7 @@ general:
   combine_strips: true
   global_descartes: true
 descartes:
-  axial_step: 0.75
+  axial_step: 0.9
   collision_safety_margin: 0.00
   additional_tool_offset: [0.0, 0.0, 0.004, 0.0, 0.0, 0.0]
   joint_min_vals: [-0.1, -0.1, -0.4, -0.1, 0.1, -0.1]

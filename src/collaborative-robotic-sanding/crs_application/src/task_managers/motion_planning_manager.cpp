@@ -40,7 +40,7 @@
 #include "crs_application/task_managers/motion_planning_manager.h"
 
 static const double WAIT_SERVICE_DURATION = 2.0;           // secs
-static const double WAIT_MOTION_PLANNING_PERIOD = 1200.0;  // secs
+static const double WAIT_MOTION_PLANNING_PERIOD = 1800.0;  // secs
 static const double WAIT_JOINT_STATE_TIMEOUT = 2.0;
 static const double MAX_JOINT_TOLERANCE = (M_PI / 180.0) * 1.0;
 static const double MIN_PREVIEW_STEP_TIME = 0.05;  // secs
@@ -321,7 +321,9 @@ common::ActionResult MotionPlanningManager::planProcessPaths()
   }
 
   // saving process plans
-  RCLCPP_INFO(node_->get_logger(), "Successfully planned all process toolpaths");
+  RCLCPP_INFO(node_->get_logger(), "Sucnfo:    RRTConnect: Created 1 states (1 start + 0 goal)
+              [crs_motion_planning_motion_planning_server-6] Info:    RRTConnect: Created 1 states (1 start + 0 goal)
+cessfully planned all process toolpaths");
   result_.process_plans = result_future.get()->plans;
 
   // verifying plans

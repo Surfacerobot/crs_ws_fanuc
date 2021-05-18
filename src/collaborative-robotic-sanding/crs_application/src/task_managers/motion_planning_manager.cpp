@@ -321,9 +321,7 @@ common::ActionResult MotionPlanningManager::planProcessPaths()
   }
 
   // saving process plans
-  RCLCPP_INFO(node_->get_logger(), "Sucnfo:    RRTConnect: Created 1 states (1 start + 0 goal)
-              [crs_motion_planning_motion_planning_server-6] Info:    RRTConnect: Created 1 states (1 start + 0 goal)
-cessfully planned all process toolpaths");
+  RCLCPP_INFO(node_->get_logger(), "Successfully planned all process toolpaths");
   result_.process_plans = result_future.get()->plans;
 
   // verifying plans

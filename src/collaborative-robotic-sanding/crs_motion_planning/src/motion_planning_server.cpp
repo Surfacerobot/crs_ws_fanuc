@@ -27,6 +27,9 @@
 
 #include <geometry_msgs/msg/pose.hpp>
 
+#include <crs_motion_planning/generatecartesian.h>
+#include <QtCore/qdir.h>
+
 //#include <QString>
 //xiaopeng 2021-3-5
 //static const std::string RESOURCES_PACKAGE_NAME = "crs_support";
@@ -312,6 +315,8 @@ private:
 
       returned_plans.push_back(resulting_process);
       path_plan_results.reset();
+      //xiaopeng 2021-5-31
+      generatelsfile(resulting_process);
     }
     // Populate response
     // HERE ARE THE TRAJECTORIES
@@ -329,6 +334,102 @@ private:
     }
     motion_planner_config.reset();
   }
+
+  //xiaopeng 2021-5-31 generate cartesiantra
+  void generatelsfile(crs_msgs::msg::ProcessMotionPlan lp)
+  {
+
+    std::vector<geometry_msgs::msg::PoseArray> original_rasters;
+    geometry_msgs::msg::PoseArray curr_pose_array;
+    for(auto lcp:lp.force_controlled_process_motions[0].points)
+    {
+        geometry_msgs::msg::PoseStamped current_pose;
+        current_pose.pose = lcp.pose;
+        current_pose.header.frame_id=lp.force_controlled_process_motions[0].header.frame_id;
+        curr_pose_array.poses.push_back(current_pose.pose);
+    }
+    original_rasters.push_back(curr_pose_array);
+    //2021-5-31 generate ls file.
+    fanuc_post_processor::generate_LS program;
+    program.program_name_ = "surface_cartesian";
+    program.comment_ = "\"\"";
+    program.prog_size_ = "4757";
+    program.file_name_ = "surface_cartesian";
+    program.version_ = "0";
+    program.memory_size_ = "5089";
+    program.pathpoints = original_rasters;
+    program.velocity_ = "200";
+    program.cnt_ = "CNT60";
+    program.Path_ = QDir::homePath().toStdString() + "/crs_data/surface_cartesian.ls";
+//         "$(env HOME)/crs_data/surface.ls";
+
+
+
+    program.save();
+
+  }
+
+  void generateCartesianTrajectory_baselink(std::vector<geometry_msgs::msg::PoseArray> original_rasters, std::vector<geometry_msgs::msg::PoseArray>& baselink_points)
+ {
+    //xiaopeng 2021-3-24 generate path point based on base_link
+ //   std::vector<geometry_msgs::msg::PoseArray> baselink_points;
+    geometry_msgs::msg::TransformStamped transformbaselink;
+    try
+    {
+      baselink_points.reserve(original_rasters.size());
+      transformbaselink = tf_buffer_.lookupTransform(
+          original_rasters[0].header.frame_id, "base_link", tf2::TimePointZero, tf2::Duration(5));
+
+      for (auto& poses : original_rasters)
+          {
+        baselink_points.push_back(poses);
+      }
+      for (auto& poses : baselink_points)
+      {
+        for (auto& pose : poses.poses)
+        {
+        geometry_msgs::msg::PoseStamped target_pose_from_cam;
+             target_pose_from_cam.header = original_rasters[0].header;
+             target_pose_from_cam.pose = pose;
+        geometry_msgs::msg::PoseStamped target_pose_from_req = tf_buffer_.transform(
+                  target_pose_from_cam, "base");
+        pose = target_pose_from_req.pose;
+
+
+        }
+
+      }
+      //2021-4-1 generate ls file.
+      fanuc_post_processor::generate_LS program;
+      program.program_name_ = "surface";
+      program.comment_ = "\"\"";
+      program.prog_size_ = "4757";
+      program.file_name_ = "surface";
+      program.version_ = "0";
+      program.memory_size_ = "5089";
+      program.pathpoints = baselink_points;
+      program.velocity_ = "200";
+      program.cnt_ = "CNT60";
+      program.Path_ = QDir::homePath().toStdString() + "/crs_data/surface.ls";
+ //         "$(env HOME)/crs_data/surface.ls";
+
+
+
+      program.save();
+
+
+
+    }
+    catch (tf2::TransformException ex)
+    {
+      std::string error_msg =
+          "Failed to get transform from '" + original_rasters[0].header.frame_id + "' to '" + "base_link" + "' frame";
+
+    }
+
+ }
+
+
 
   void planFreespace(std::shared_ptr<crs_msgs::srv::CallFreespaceMotion::Request> request,
                      std::shared_ptr<crs_msgs::srv::CallFreespaceMotion::Response> response)

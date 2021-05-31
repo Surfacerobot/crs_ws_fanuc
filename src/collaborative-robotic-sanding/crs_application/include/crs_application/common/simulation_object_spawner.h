@@ -54,7 +54,8 @@ public:
   bool spawn(const std::string& obj_name,
              const std::string& reference_frame_id,
              const std::string& mesh_path,
-             const std::array<double, 6>& pose);
+             const std::array<double, 6>& pose,
+             geometry_msgs::msg::Pose lp);
   bool remove(const std::string& obj_name);
 
 protected:

@@ -136,8 +136,8 @@ common::ActionResult PartRegistrationManager::configure(const config::PartRegist
 
   // optionally load part into simulator if its running
   std::copy(config_->simulation_pose.begin(), config_->simulation_pose.end(), tvals.begin());
-  obj_spawner_->remove(PART_FRAME_ID);
-  obj_spawner_->spawn(PART_FRAME_ID, config_->target_frame_id, config_->part_file, tvals);
+//  obj_spawner_->remove(PART_FRAME_ID);
+//  obj_spawner_->spawn(PART_FRAME_ID, config_->target_frame_id, config_->part_file, tvals);
 
   // preparing the request
   auto load_part_request = std::make_shared<crs_msgs::srv::LoadPart::Request>();
@@ -188,6 +188,8 @@ common::ActionResult PartRegistrationManager::showPreview()
   using namespace std::chrono_literals;
   using namespace visualization_msgs;
 
+  obj_spawner_->remove(PART_FRAME_ID);
+
   common::ActionResult res;
   if (result_.rasters.empty())
   {
@@ -211,6 +213,15 @@ common::ActionResult PartRegistrationManager::showPreview()
   markers.markers.push_back(part_marker);
 //  msg::MarkerArray markers ;
 //  markers.markers.push_back(part_marker);
+
+  //xiaopeng 2021-5-28 add gazebo object
+    // optionally load part into simulator if its running
+    std::array<double, 6> tvals;
+    std::copy(config_->simulation_pose.begin(), config_->simulation_pose.end(), tvals.begin());
+
+    obj_spawner_->spawn(PART_FRAME_ID, config_->target_frame_id, config_->part_file, tvals,part_marker.pose);
+
+
 
   // publishing now
   preview_markers_pub_->publish(markers);

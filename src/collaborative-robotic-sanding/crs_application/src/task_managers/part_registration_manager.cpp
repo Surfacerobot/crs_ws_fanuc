@@ -44,6 +44,8 @@
 
 #include "crs_application/task_managers/generatels.h"
 
+#include <QtCore>
+
 static const double WAIT_SERVICE_DURATION = 50.0;           // secs
 static const double WAIT_SERVICE_COMPLETION_TIMEOUT = 5.0;  // secs
 
@@ -128,6 +130,10 @@ common::ActionResult PartRegistrationManager::configure(const config::PartRegist
   part_transform_.child_frame_id = PART_FRAME_ID;
   part_transform_.header.frame_id = config_->target_frame_id;
 
+  part_pose_.transform = common::toTransformMsg(tvals);
+  part_pose_.child_frame_id = PART_FRAME_ID;
+  part_pose_.header.frame_id = config_->target_frame_id;
+
   // optionally load part into simulator if its running
   std::copy(config_->simulation_pose.begin(), config_->simulation_pose.end(), tvals.begin());
   obj_spawner_->remove(PART_FRAME_ID);
@@ -196,7 +202,9 @@ common::ActionResult PartRegistrationManager::showPreview()
   // creating markers
   msg::Marker part_marker =
       crs_motion_planning::meshToMarker(config_->part_file, MARKER_NS_PART, config_->target_frame_id);
+  //xiaopeng 2021-5-13 change part pose
   part_marker.pose = tf2::toMsg(tf2::transformToEigen(part_transform_.transform));
+  //part_marker.pose = tf2::toMsg(tf2::transformToEigen(part_pose_.transform));
 
   msg::MarkerArray markers =
       crs_motion_planning::convertToDottedLineMarker(result_.rasters, config_->target_frame_id, MARKER_NS_TOOLPATH);
@@ -230,6 +238,8 @@ common::ActionResult PartRegistrationManager::setInput(const datatypes::ScanAcqu
 
 common::ActionResult PartRegistrationManager::computeTransform()
 {
+  //2021-4-20 xiaopeng no invoke scan service
+
   auto remove_part_request = std::make_shared<std_srvs::srv::Trigger::Request>();
   auto remove_result_future = remove_part_tesseract_client_->async_send_request(remove_part_request);
   RCLCPP_INFO(node_->get_logger(), "REMOVED PART");
@@ -305,16 +315,17 @@ common::ActionResult PartRegistrationManager::computeTransform()
      }
      //2021-4-1 generate ls file.
      fanuc_post_processor::generate_LS program;
-     program.program_name_ = "HUAB";
+     program.program_name_ = "surface";
      program.comment_ = "\"\"";
      program.prog_size_ = "4757";
-     program.file_name_ = "HUAB";
+     program.file_name_ = "surface";
      program.version_ = "0";
      program.memory_size_ = "5089";
      program.pathpoints = baselink_points;
      program.velocity_ = "200";
      program.cnt_ = "CNT60";
-     program.Path_ = "/root/a.ls";
+     program.Path_ = QDir::homePath().toStdString() + "/crs_data/surface.ls";
+//         "$(env HOME)/crs_data/surface.ls";
 
 
 
@@ -409,7 +420,10 @@ common::ActionResult PartRegistrationManager::applyTransform()
     return false;
   }
 
-  cropped_raster_strips = crs_motion_planning::removeEdgeWaypoints(original_rasters, config_->waypoint_edge_buffer);
+  //2021-4-19 xiaopeng cancel edgepoints; if need ,
+  cropped_raster_strips =crs_motion_planning::removeEdgeWaypoints(original_rasters, config_->waypoint_edge_buffer);
+
+//  cropped_raster_strips =original_rasters;// crs_motion_planning::removeEdgeWaypoints(original_rasters, config_->waypoint_edge_buffer);
   std::vector<geometry_msgs::msg::PoseArray> transformed_waypoints =
       crs_motion_planning::transformWaypoints(cropped_raster_strips, transform);
   std::vector<geometry_msgs::msg::PoseArray> singularity_filtered =

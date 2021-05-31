@@ -180,7 +180,9 @@ namespace fanuc_post_processor
         line_cnt = line_cnt - pos_.size() + 2;
         for(int i = 0; i < pos_.size(); i++){
 
-            if(in_the_index(i)){
+          if(i == 0){
+            program.append("\t"+std::to_string(i+line_cnt+1)+":J"+" P["+std::to_string(i+1)+"] "+"100% "+cnt_+" \t;\n");
+          }else if(in_the_index(i)){
                 program.append("\t"+std::to_string(i+line_cnt+1)+":J"+" P["+std::to_string(i+1)+"] "+"100% "+cnt_+" \t;\n");
             } else{
                 program.append("\t"+std::to_string(i+line_cnt+1)+":L"+" P["+std::to_string(i+1)+"] "+velocity_+"mm/sec "+cnt_+" \t;\n");
@@ -194,7 +196,7 @@ namespace fanuc_post_processor
         program.append("\n");
         write_pos();
         program.append("\n");
-        program.append("/END");
+        program.append("/END.");
     }
 
     void generate_LS::write() {
@@ -237,7 +239,7 @@ namespace fanuc_post_processor
         left_command();
         POS_Part();
         write();
-        display();
+//        display();
 
         return true;
     }

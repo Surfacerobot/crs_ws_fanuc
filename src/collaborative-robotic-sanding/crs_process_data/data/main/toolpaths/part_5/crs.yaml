@@ -20,9 +20,9 @@ crs:
       time_scaling: 4.0
   scan_acquisition:
     scan_poses:
-      - pose: [-1.483, -0.229, 1.735, 2.797, 1.17, -2.43]
-      - pose: [-1.527, -0.239, 1.731, 2.74, 0.66, -2.79]
-      - pose: [-1.698, 0.357, 1.445, 2.955, 0.904, -1.36]
+      - pose: [-0.683, -0.229, 1.735, 2.797, 0.7, -2.43]
+      - pose: [-0.827, -0.239, 2.231, -2.8, 0.8, -2.79]
+      - pose: [-0.98, 0.357, 1.445, 2.955, 0.904, -1.36]
     tool_frame: camera_link_optical
     skip_on_failure: true
   process_execution:
@@ -35,9 +35,8 @@ crs:
     ur_tool_change_script: simpleMove.urp
     execute_tool_change: false
   part_registration:
-    simulation_pose: [-0.55, 0.0, 0.98, 0.0, 0.0, -2.8]
-    seed_pose: [-0.55, 0.0, 0.98, 0.0, 0.0, -2.8]
-    #seed_pose: [-0.75, 0.0, 1.1, 0.0, 0.0, -2.8]
+    simulation_pose: [-0.55, 0.0, 1, 0.0, 0.0, -2.8]
+    seed_pose: [-0.55, 0, 1, 0, 0, -2.800007777777778]
     target_frame_id: world
     part_file: ""
     toolpath_file: ""

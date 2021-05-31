@@ -21,7 +21,9 @@
 #include <QString>
 #include <memory>
 #include <string>
-
+#include <yaml-cpp/yaml.h>
+#include <yaml-cpp/node/node.h>
+#include <yaml-cpp/emitter.h>
 class QListWidgetItem;
 
 namespace Ui
@@ -39,6 +41,9 @@ public:
                       std::string database_directory = std::string(std::getenv("HOME")) + "/.local/share/"
                                                                                           "offline_generated_paths");
   ~PartSelectionWidget();
+
+  void loadconfig(std::string current_part);
+
 Q_SIGNALS:
   /** @brief Signal eitted when Load Selected Part is clicked with name of the part selected*/
   void partSelected(QString, QString);
@@ -54,12 +59,15 @@ protected Q_SLOTS:
   void onPartSelectionChanged(QListWidgetItem* current, QListWidgetItem* previous);
   /** @brief Gets part name of selection and triggers partSelected and partSelectedPath signals*/
   void onPartSelected();
+  void saveConfig();
 
 private:
   std::unique_ptr<Ui::PartSelection> ui_;
 
   /** @brief Directory where the part directories are located */
   std::string database_directory_;
+  std::string config_file_;
+  YAML::Node config;
 };
 
 }  // namespace crs_gui

@@ -21,7 +21,7 @@
   <depend>gazebo_msgs</depend>
   <depend>region_detection_msgs</depend>
   <depend>fanuc_r2000ic_support</depend>
-  <depend>fanuc_r2000ic_moveit_config</depend>
+
   <exec_depend>launch_xml</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>

@@ -89,6 +89,8 @@ protected:
   datatypes::ProcessToolpathData result_;
   geometry_msgs::msg::TransformStamped part_transform_;
 
+  //xiaopeng 2021-5-13 add part position
+  geometry_msgs::msg::TransformStamped part_pose_;
   // parameters
   std::shared_ptr<config::PartRegistrationConfig> config_;
 

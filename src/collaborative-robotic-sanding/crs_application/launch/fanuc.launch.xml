@@ -55,6 +55,8 @@
 <!--    <node name="/robot_state_publisher" exec="robot_state_publisher" pkg="robot_state_publisher"-->
 <!--    args="$(find-pkg-share fanuc_r2000ic_support)/urdf/r2000ic165f.urdf" />-->
 
+<!--xiaopeng 2021-5-8 xiaopeng if use camera , uncomment this-->
+
     <group if="$(var use_camera)">
       <node pkg="realsense_node" exec="realsense_node" name="realsense_node" prefix="xterm -e"
             output="log" unless="$(var sim_robot)"/>
@@ -78,8 +80,10 @@
                 <let name="rviz_config" value="$(find-pkg-share crs_application)/resources/crs_fanuc.rviz"/>
                 <node pkg="rviz2" exec="rviz2"  launch-prefix="xterm -e" args="-d $(var rviz_config) --ros-args --log-level INFO"
                         output="screen">
+
                         <param name="default_config_file" value="$(find-pkg-share crs_application)/config/crs.yaml"/>
                         <param name="database_dir" value="$(var database_dir)"/>
+
                  </node>
 
 

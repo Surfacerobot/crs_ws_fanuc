@@ -653,6 +653,7 @@ private:
         return;
       }
     }
+    //2021-4-20 xiaopeng cancel .
 
     // cropping
     for (auto& cfg : crop_boxes_)
@@ -702,7 +703,7 @@ private:
     RCLCPP_INFO_EXPRESSION(this->get_logger(), response->success, "ICP converged");
     RCLCPP_ERROR_EXPRESSION(this->get_logger(), !response->success, "ICP failed to converge");
 
-    // printing transform
+    // printing tranpsform
     Eigen::Vector3d angles = transform.linear().eulerAngles(0, 1, 2);
     RCLCPP_INFO(this->get_logger(),
                 "Transform : p(%f, %f, %f), r(%f, %f, %f)",
@@ -713,7 +714,9 @@ private:
                 angles(1),
                 angles(2));
 
+//xiao peng 2021-5-18 set part position
     response->transform = tf2::eigenToTransform(transform * part_seed_transform_);  // applying seed
+//    response->transform = tf2::eigenToTransform(part_seed_transform_);  //no applying seed
     response->transform.header.stamp = this->now();
     response->transform.header.frame_id = request->frame;
     response->transform.child_frame_id = part_frame_;

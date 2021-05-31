@@ -29,8 +29,8 @@ def launch_setup(context, *args, **kwargs):
     gzworld = launch.substitutions.LaunchConfiguration('gazebo_world').perform(context)
     urdf_preview_path = launch.substitutions.LaunchConfiguration('urdf_preview_path').perform(context)
     
-    urdf = os.path.join(get_package_share_directory('fanuc_r2000ic_support'), 'urdf', 'r2000ic165f')
-    
+    urdf = os.path.join(get_package_share_directory('fanuc_r2000ic_support'), 'urdf', 'r2000ic165f.urdf')
+    print(urdf)
     # create urdfs from xacro file
     cmd2 = 'xacro %s prefix:=preview/ > %s'%(xacro, urdf_preview_path)
     cmd3 = 'xacro %s > %s'%(xacro, urdf)        
@@ -75,7 +75,7 @@ def launch_setup(context, *args, **kwargs):
         package='crs_motion_planning',
         node_name='motion_planning_server',
         #node_namespace = [launch.substitutions.LaunchConfiguration('global_ns')],
-        prefix= 'xterm -e',
+#        prefix= 'xterm -e',
         output='screen',
         parameters=[{
         'motion_planning_config': motion_planning_cfg,
@@ -185,7 +185,7 @@ def generate_launch_description():
         launch.actions.DeclareLaunchArgument('gazebo_world',
             default_value = [os.path.join(get_package_share_directory('crs_support'), 'worlds', 'crs.world')]),
         launch.actions.DeclareLaunchArgument('urdf_preview_path', 
-             default_value = [os.path.join(get_package_share_directory('crs_support'), 'urdf', 'crs_preview.urdf')],
+             default_value = [os.path.join(get_package_share_directory('fanuc_r2000ic_support'), 'urdf', 'r2000ic165f.urdf')],
              description = 'The path where the launch file will generate the urdf for preview purposes'),
         OpaqueFunction(function = launch_setup)
         ])

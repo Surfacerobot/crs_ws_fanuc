@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
-  <xacro:include filename="$(find fanuc_resources)/urdf/common_materials.xacro"/>
+  <xacro:include filename="$(find fanuc_resources)/urdf/common_materials.xacro"  />
 
   <xacro:macro name="fanuc_r2000ic165f" params="prefix">
     <!-- links: main serial chain -->
@@ -28,7 +28,7 @@
 
       <inertial>
                <mass value="10.0" />
-               <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
+               <origin rpy="0.002688 0.004043 0.006103" xyz="-0.064613 -0.005314 0.100271" />
                <inertia ixx="0.002695" ixy="0.000023" ixz="0.000157" iyy="0.004043" iyz="0.000023" izz="0.006096" />
       </inertial>
 
@@ -48,11 +48,13 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_1.stl"/>
         </geometry>
       </collision>
+
       <inertial>
                 <mass value="5.0" />
-                <origin rpy="0 0 0" xyz="0.010863 0.053239 0.523328" />
+                <origin rpy="0.011358 0.019634 0.020073" xyz="0.010863 0.053239 0.523328" />
                 <inertia ixx="0.012932" ixy="0.003309" ixz=" -0.000331" iyy="0.018366" iyz="-0.000071" izz="0.019767" />
       </inertial>
+
     </link>
     <link name="${prefix}link_2">
       <visual>
@@ -68,11 +70,13 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_2.stl"/>
         </geometry>
       </collision>
+
       <inertial>
                 <mass value="4.0" />
-                <origin rpy="0 0 0" xyz="-0.001481 0.204359 0.436864" />
+                <origin rpy="0.001934 0.014381 0.015249" xyz="-0.001481 0.204359 0.436864" />
                 <inertia ixx="0.014390" ixy="0.000091" ixz="-0.000323" iyy="0.015120" iyz="-0.001213" izz="0.002053" />
       </inertial>
+
     </link>
     <link name="${prefix}link_3">
       <visual>
@@ -88,9 +92,10 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_3.stl"/>
         </geometry>
       </collision>
+
       <inertial>
                <mass value="4.0" />
-               <origin rpy="0 0 0" xyz="0.059293 0.012994 0.109078" />
+               <origin rpy="0.000964 0.001451 0.001518" xyz="0.059293 0.012994 0.109078" />
                <inertia ixx="0.001451" ixy="0.000017" ixz="-0.000177" iyy="0.001441" iyz="0.000072" izz="0.001041" />
       </inertial>
 
@@ -109,9 +114,10 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_4.stl"/>
         </geometry>
       </collision>
+
       <inertial>
                <mass value="5.0" />
-               <origin rpy="0 0 0" xyz="0.711733 -0.002537 -0.000643" />
+               <origin rpy="0.000333 0.004282 0.004287" xyz="0.711733 -0.002537 -0.000643" />
                <inertia ixx="0.000333" ixy="0.000044" ixz="0.000006" iyy="0.004287" iyz="-0.000000" izz="0.004282" />
       </inertial>
 
@@ -130,9 +136,10 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_5.stl"/>
         </geometry>
       </collision>
+
       <inertial>
                 <mass value="8.0" />
-                <origin rpy="0 0 0" xyz="0.042035 -0.024095 -0.001620" />
+                <origin rpy="0.000078 0.000103 0.000118" xyz="0.042035 -0.024095 -0.001620" />
                 <inertia ixx="0.000088" ixy="-0.000012" ixz="0.000000" iyy="0.000094" iyz="0.000000" izz="0.000118" />
       </inertial>
 
@@ -151,9 +158,10 @@
           <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/link_6.stl"/>
         </geometry>
       </collision>
+
       <inertial>
                 <mass value="5.0" />
-                <origin rpy="0 0 0" xyz="-0.018677 -0.000000 -0.000002" />
+                <origin rpy="0.000001 0.000001 0.000002" xyz="-0.018677 -0.000000 -0.000002" />
                 <inertia ixx="0.000002" ixy="0.000000" ixz="-0.000000" iyy="0.000001" iyz="0.000000" izz="0.000001" />
       </inertial>
 
@@ -172,11 +180,13 @@
               <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/ef.stl"/>
             </geometry>
           </collision>
+
           <inertial>
                        <mass value="3.0" />
-                       <origin rpy="0 0 0" xyz="0.0 0.0 0.0" />
+                       <origin rpy="0.000082 0.000185 0.000195" xyz="0.0 0.0 0.0" />
                        <inertia ixx="0.000127" ixy="0.000000" ixz="0.000052" iyy="0.000194" iyz="0.000003" izz="0.000141" />
            </inertial>
+
         </link>
 
 
@@ -267,24 +277,56 @@
     <link name="${prefix}tool0" />
     <joint name="${prefix}flange-tool0" type="fixed">
       <origin xyz="0 0 0" rpy="0 ${radians(90)} 0" />
-      <parent link="${prefix}flange" />
+      <parent link="${prefix}link_6" />
       <child link="${prefix}tool0" />
     </joint>
     <joint name="${prefix}flange-ef" type="fixed">
-          <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-90)} 0" />
+          <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-180)} 0" />
           <parent link="${prefix}tool0" />
           <child link="${prefix}ef" />
         </joint>
+    <link name="${prefix}tcp" />
+    <joint name="${prefix}tcp_ef" type="fixed">
+       <origin xyz="-0.204433413 -7.32E-04 0.333181177" rpy="5.53832e-13 -0.785398 0"/>
+      <parent link="${prefix}ef" />
+      <child link="${prefix}tcp" />
+    </joint>
 
-    <link name="${prefix}gazebo_camera_link" />
+
+    <link name="${prefix}gazebo_camera_link" >
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+         <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <xacro:material_fanuc_yellow />
+    </visual>
+
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+
+    </link>
     <joint name="${prefix}gazebo_camera_joint" type="fixed">
-        <origin xyz="0.0 0.0 0.0" rpy="1.57 -1.57 0.0"/>
+        <origin xyz="0.0 0.0 0.0" rpy="1.57 -1.57 0"/>
         <parent link="${prefix}camera_link_optical"/>
         <child link="${prefix}gazebo_camera_link"/>
     </joint>
-    <link name="${prefix}camera_link_optical" />
+    <link name="${prefix}camera_link_optical">
+
+    </link>
     <joint name="${prefix}camera_optical_joint" type="fixed">
-        <origin xyz="-0.021 0.0797 0.06525" rpy="-0.7854 0 0"/>
+        <origin xyz="0.1 0 0.2" rpy="0 0 0"/>
         <parent link="${prefix}ef"/>
         <child link="${prefix}camera_link_optical"/>
     </joint>
@@ -295,7 +337,7 @@
         <child link="${prefix}camera_link"/>
     </joint>
 
-    <transmission name="joint_1">
+    <transmission name="trans_joint_1">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="${prefix}joint_1">
             <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
@@ -306,7 +348,7 @@
         </actuator>
     </transmission>
 
-<transmission name="joint_2">
+<transmission name="trans_joint_2">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="${prefix}joint_2">
         <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
@@ -317,7 +359,7 @@
     </actuator>
 </transmission>
 
-<transmission name="joint_3">
+<transmission name="trans_joint_3">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="${prefix}joint_3">
         <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
@@ -328,7 +370,7 @@
     </actuator>
 </transmission>
 
-<transmission name="joint_4">
+<transmission name="trans_joint_4">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="${prefix}joint_4">
         <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
@@ -339,7 +381,7 @@
     </actuator>
 </transmission>
 
-<transmission name="joint_5">
+<transmission name="trans_joint_5">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="${prefix}joint_5">
         <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
@@ -350,7 +392,7 @@
     </actuator>
 </transmission>
 
-<transmission name="joint_6">
+<transmission name="trans_joint_6">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="${prefix}joint_6">
         <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
@@ -387,42 +429,58 @@
     <gazebo reference="${prefix}ef">
         <selfCollide>true</selfCollide>
     </gazebo>
-    <gazebo reference="${prefix}joint_1">
-        <selfCollide>true</selfCollide>
-    </gazebo>
-    <gazebo reference="${prefix}joint_2">
-        <selfCollide>true</selfCollide>
-    </gazebo>
-    <gazebo reference="${prefix}joint_3">
-        <selfCollide>true</selfCollide>
-    </gazebo>
-    <gazebo reference="${prefix}joint_4">
-        <selfCollide>true</selfCollide>
-    </gazebo>
-    <gazebo reference="${prefix}joint_5">
-        <selfCollide>true</selfCollide>
-    </gazebo>
-    <gazebo reference="${prefix}joint_6">
-        <selfCollide>true</selfCollide>
-    </gazebo>
-    <gazebo reference="${prefix}flange-ef">
-        <selfCollide>true</selfCollide>
-    </gazebo>
+
     <gazebo reference="${prefix}tool0">
         <selfCollide>true</selfCollide>
     </gazebo>
 
-    <gazebo reference="${prefix}base">
-        <selfCollide>true</selfCollide>
-    </gazebo>
+
     <gazebo reference="${prefix}flange">
         <selfCollide>true</selfCollide>
     </gazebo>
-    <gazebo reference="tool0">
-        <selfCollide>true</selfCollide>
-    </gazebo>
 
-<gazebo reference="gazebo_camera_link">
+
+
+<!-- camera
+ <gazebo reference="camera_link">
+   <sensor type="camera" name="camera1">
+     <update_rate>30.0</update_rate>
+     <camera name="head">
+       <horizontal_fov>1.3962634</horizontal_fov>
+       <image>
+         <width>800</width>
+         <height>800</height>
+         <format>R8G8B8</format>
+       </image>
+       <clip>
+         <near>0.02</near>
+         <far>300</far>
+       </clip>
+       <noise>
+         <type>gaussian</type>
+
+         <mean>0.0</mean>
+         <stddev>0.007</stddev>
+       </noise>
+     </camera>
+     <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+       <alwaysOn>true</alwaysOn>
+       <updateRate>0.0</updateRate>
+       <cameraName>rrbot/camera1</cameraName>
+       <imageTopicName>image_raw</imageTopicName>
+       <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+       <frameName>camera_link</frameName>
+       <hackBaseline>0.07</hackBaseline>
+       <distortionK1>0.0</distortionK1>
+       <distortionK2>0.0</distortionK2>
+       <distortionK3>0.0</distortionK3>
+       <distortionT1>0.0</distortionT1>
+       <distortionT2>0.0</distortionT2>
+     </plugin>
+   </sensor>
+ </gazebo>
+-->
+<gazebo reference="${prefix}gazebo_camera_link">
         <sensor type="depth" name="sensor_name">
           <!-- Set always_on only sensor, not on plugin -->
           <always_on>1</always_on>
@@ -470,6 +528,7 @@
     </gazebo>
 
     <gazebo>
+
         <plugin name='gazebo_ros_joint_state_publisher' filename='libgazebo_ros_joint_state_publisher.so'>
           <ros>
               <namespace>/test</namespace>
@@ -484,8 +543,8 @@
           <joint_name>${prefix}joint_5</joint_name>
           <joint_name>${prefix}joint_6</joint_name>
 
-
         </plugin>
+
         <plugin name='crs_gazebo_plugins_joint_pose_trajectory' filename='libcrs_gazebo_plugins_joint_pose_trajectory.so'>
             <ros>
               <namespace>sim</namespace>

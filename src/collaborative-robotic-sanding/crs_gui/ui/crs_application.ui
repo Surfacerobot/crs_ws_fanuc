@@ -30,8 +30,8 @@
      </property>
      <property name="maximumSize">
       <size>
-       <width>160</width>
-       <height>40</height>
+       <width>360</width>
+       <height>90</height>
       </size>
      </property>
      <property name="layoutDirection">

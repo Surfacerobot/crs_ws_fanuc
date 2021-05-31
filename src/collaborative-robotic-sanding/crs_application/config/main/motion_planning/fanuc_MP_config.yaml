@@ -60,7 +60,7 @@ ompl:
   longest_valid_segment_fraction: 0.05
   longest_valid_segment_length: 0.5
   retry_failure: true
-  retry_distance: 0.002
+  retry_distance: 0.2
   retry_at_zero: true
 trajopt_freespace:
   smooth_velocities: true

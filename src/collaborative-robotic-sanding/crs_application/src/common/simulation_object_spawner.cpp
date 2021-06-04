@@ -63,7 +63,7 @@ static std::string createObjectURDF(const std::string& object_name,
   )";
 
   std::string joint_xml = boost::str(boost::format(joint_xml_template) % object_name % pose_vals[0] % pose_vals[1] %
-                                     pose_vals[2] % pose_vals[3] % pose_vals[4] % pose_vals[5]);
+                                     pose_vals[2] % pose_vals[4] % pose_vals[3] % pose_vals[5]);
 
   std::string robot_xml_template = R"(
     <robot name="%s">
@@ -116,7 +116,8 @@ SimulationObjectSpawner::~SimulationObjectSpawner() {}
 bool SimulationObjectSpawner::spawn(const std::string& obj_name,
                                     const std::string& reference_frame_id,
                                     const std::string& mesh_path,
-                                    const std::array<double, 6>& pose)
+                                    const std::array<double, 6>& pose,
+                                    geometry_msgs::msg::Pose lp)
 {
   using namespace std::chrono_literals;
 
@@ -125,7 +126,9 @@ bool SimulationObjectSpawner::spawn(const std::string& obj_name,
   {
     gazebo_msgs::srv::SpawnEntity::Request::SharedPtr spawn_req =
         std::make_shared<gazebo_msgs::srv::SpawnEntity::Request>();
+    //xiaopeng 2021-5-28 add gazebo postion
     spawn_req->initial_pose = tf2::toMsg(Eigen::Isometry3d::Identity());
+//    spawn_req->initial_pose = lp;
     spawn_req->xml = createObjectURDF(obj_name, mesh_path, pose);
     spawn_req->name = obj_name;
     spawn_req->reference_frame = reference_frame_id;

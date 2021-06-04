@@ -194,6 +194,13 @@ void PartSelectionWidget::saveConfig()
     root_node[SEED_POSE][4] = (ui_->l_p->text().toDouble()) / 180 * 3.14;
     root_node[SEED_POSE][5] = (ui_->l_r->text().toDouble()) / 180 * 3.14;
 
+    root_node[SIMULATION_POSE][0] = ui_->l_x->text().toDouble();
+    root_node[SIMULATION_POSE][1] = ui_->l_y->text().toDouble();
+    root_node[SIMULATION_POSE][2] = ui_->l_z->text().toDouble();
+    root_node[SIMULATION_POSE][3] = (ui_->l_w->text().toDouble()) / 180 * 3.14;
+    root_node[SIMULATION_POSE][4] = (ui_->l_p->text().toDouble()) / 180 * 3.14;
+    root_node[SIMULATION_POSE][5] = (ui_->l_r->text().toDouble()) / 180 * 3.14;
+
     std::ofstream config_out(config_file_);
     config_out << config;
     config_out.close();

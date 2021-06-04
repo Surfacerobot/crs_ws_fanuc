@@ -130,9 +130,15 @@ void StateMachineInterfaceWidget::onSMQuery()
 {
   // Specify service request to get all user actions in current state
   auto request = std::make_shared<crs_msgs::srv::GetAvailableActions::Request>();
+<<<<<<< HEAD
   //xiaopeng 2021-5-31 skip register
  // request->search_pattern = request->PATTERN_USER_ACTIONS;
 request->search_pattern ="";
+=======
+//  request->search_pattern = request->PATTERN_USER_ACTIONS;
+  //xiaopeng 2021-5-27 skip reg
+  request->search_pattern = "";
+>>>>>>> 4e4b1872751454887de2af5b9dc9f4650cc95f75
   // Wait if service is not available
   if (!get_available_actions_client_->wait_for_service(std::chrono::duration<double>(WAIT_FOR_SERVICE_PERIOD)))
   {

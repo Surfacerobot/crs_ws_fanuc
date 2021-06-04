@@ -337,6 +337,9 @@
         <child link="${prefix}camera_link"/>
     </joint>
 
+
+
+
     <transmission name="trans_joint_1">
         <type>transmission_interface/SimpleTransmission</type>
         <joint name="${prefix}joint_1">

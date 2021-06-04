@@ -81,10 +81,17 @@ namespace fanuc_post_processor
         for(int i = 0; i < pos_.size(); i++){
             Eigen::Quaterniond quaternion4(pos_[i][6],pos_[i][3],pos_[i][4],pos_[i][5]);
             Eigen::Vector3d eulerAngle = quaternion4.matrix().eulerAngles(2,1,0); // zyx
+<<<<<<< HEAD
             double angle_W = eulerAngle[2]/M_PI*180 ;
             double angle_P = eulerAngle[1]/M_PI*180;
 //            double angle_R = eulerAngle[0]/M_PI*180 > 0 ? (180 - eulerAngle[0]/M_PI*180) : -(180 + eulerAngle[0]/M_PI*180) ;
             double angle_R =  eulerAngle[0]/M_PI*180 ;
+=======
+            double angle_W = eulerAngle[2]/M_PI*180;
+            double angle_P = eulerAngle[1]/M_PI*180;
+            double angle_R = eulerAngle[0]/M_PI*180;
+
+>>>>>>> 4e4b1872751454887de2af5b9dc9f4650cc95f75
             WPR.push_back({angle_W,angle_P,angle_R});
         }
     }

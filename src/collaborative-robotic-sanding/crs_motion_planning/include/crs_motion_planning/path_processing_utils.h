@@ -187,8 +187,8 @@ struct cartesianTrajectoryConfig
   std::string manipulator = "manipulator";
 
   std::string base_frame = "base_link";
-  std::string tool_frame = "tool0";
-  std::string tcp_frame = "sander_center_link";
+  std::string tool_frame = "ef";
+  std::string tcp_frame = "tcp";
 
   double target_force = 20;
   double target_speed = 0.05;

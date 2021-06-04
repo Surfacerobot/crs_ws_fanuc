@@ -281,8 +281,8 @@
       <child link="${prefix}tool0" />
     </joint>
     <joint name="${prefix}flange-ef" type="fixed">
-          <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-180)} 0" />
-          <parent link="${prefix}tool0" />
+          <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-90)} 0" />
+          <parent link="${prefix}link_6" />
           <child link="${prefix}ef" />
         </joint>
     <link name="${prefix}tcp" />

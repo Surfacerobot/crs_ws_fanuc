@@ -272,8 +272,8 @@
     <child link="tool0"/>
   </joint>
   <joint name="flange-ef" type="fixed">
-    <origin rpy="3.141592653589793 -3.141592653589793 0" xyz="0 0 0"/>
-    <parent link="tool0"/>
+    <origin rpy="3.141592653589793 -1.5707963267948966 0" xyz="0 0 0"/>
+    <parent link="link_6"/>
     <child link="ef"/>
   </joint>
   <link name="tcp"/>

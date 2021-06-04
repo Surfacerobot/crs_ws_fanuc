@@ -778,9 +778,13 @@ void crs_motion_planning::findCartPoseArrayFromTraj(const trajectory_msgs::msg::
     }
     Eigen::Isometry3d eig_pose;
     kin->calcFwdKin(eig_pose, joint_positions);
-    Eigen::Isometry3d world_to_base_link = Eigen::Isometry3d::Identity();
-    eig_pose = world_to_base_link * eig_pose * Eigen::Quaterniond(-0.5, 0.5, -0.5, 0.5) *
+   // Eigen::Isometry3d world_to_base_link = Eigen::Isometry3d::Identity();
+   /* eig_pose = world_to_base_link * eig_pose * Eigen::Quaterniond(-0.5, 0.5, -0.5, 0.5) *
+               tool0_to_sander; */ // Fwd kin switches to x forward instead of z
+
+    eig_pose = eig_pose *
                tool0_to_sander;  // Fwd kin switches to x forward instead of z
+
     geometry_msgs::msg::Pose curr_cart_pose = tf2::toMsg(eig_pose);
     cartesian_poses.poses.push_back(curr_cart_pose);
   }

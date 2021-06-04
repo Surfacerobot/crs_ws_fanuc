@@ -40,7 +40,7 @@ crs:
     target_frame_id: world
     part_file: ""
     toolpath_file: ""
-    toolpath_edge_buffer: 0.05
+    toolpath_edge_buffer: 0.02
   part_rework:
     scan_poses:
       - pose: [0.0, -0.50, 1.7, 0.0, -2.35619, 1.57]

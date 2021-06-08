@@ -78,12 +78,30 @@ namespace fanuc_post_processor
 
 
     void generate_LS::read_pos() {
+      bool lx,ly,lx2,ly2;
         for(int i = 0; i < pos_.size(); i++){
             Eigen::Quaterniond quaternion4(pos_[i][6],pos_[i][3],pos_[i][4],pos_[i][5]);
             Eigen::Vector3d eulerAngle = quaternion4.matrix().eulerAngles(2,1,0); // zyx
             double angle_W = eulerAngle[2]/M_PI*180;
             double angle_P = eulerAngle[1]/M_PI*180;
             double angle_R = eulerAngle[0]/M_PI*180;
+
+            if (i ==0)
+            {
+              lx= angle_W >= 0 ? true:false;
+              ly= angle_P >= 0 ? true:false;
+            }
+              else {
+              ly2 = angle_P >= 0 ? true:false;
+              if (ly != ly2)
+              {
+                angle_W = -angle_W;
+                angle_P = -angle_P;
+                angle_R = angle_R >=0 ? (180 - angle_R): -(180+angle_R);
+              }
+            }
+
+
 
             WPR.push_back({angle_W,angle_P,angle_R});
         }
@@ -182,9 +200,9 @@ namespace fanuc_post_processor
 
           if(i == 0){
             program.append("\t"+std::to_string(i+line_cnt+1)+":J"+" P["+std::to_string(i+1)+"] "+"100% "+cnt_+" \t;\n");
-          }else if(in_the_index(i)){
+          }else /*if(in_the_index(i)){
                 program.append("\t"+std::to_string(i+line_cnt+1)+":J"+" P["+std::to_string(i+1)+"] "+"100% "+cnt_+" \t;\n");
-            } else{
+            } else*/{
                 program.append("\t"+std::to_string(i+line_cnt+1)+":L"+" P["+std::to_string(i+1)+"] "+velocity_+"mm/sec "+cnt_+" \t;\n");
             }
         }

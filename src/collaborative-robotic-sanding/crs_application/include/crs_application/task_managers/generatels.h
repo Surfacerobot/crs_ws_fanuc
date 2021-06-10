@@ -86,20 +86,20 @@ namespace fanuc_post_processor
             double angle_P = eulerAngle[1]/M_PI*180;
             double angle_R = eulerAngle[0]/M_PI*180;
 
-            if (i ==0)
-            {
-              lx= angle_W >= 0 ? true:false;
-              ly= angle_P >= 0 ? true:false;
-            }
-              else {
-              ly2 = angle_P >= 0 ? true:false;
-              if (ly != ly2)
-              {
-                angle_W = -angle_W;
-                angle_P = -angle_P;
-                angle_R = angle_R >=0 ? (180 - angle_R): -(180+angle_R);
-              }
-            }
+//            if (i ==0)
+//            {
+//              lx= angle_W >= 0 ? true:false;
+//              ly= angle_P >= 0 ? true:false;
+//            }
+//              else {
+//              ly2 = angle_P >= 0 ? true:false;
+//              if (ly != ly2)
+//              {
+//                angle_W = -angle_W;
+//                angle_P = -angle_P;
+//                angle_R = angle_R >=0 ? (180 - angle_R): -(180+angle_R);
+//              }
+//            }
 
 
 

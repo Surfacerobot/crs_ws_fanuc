@@ -170,14 +170,16 @@
           <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-              <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/visual/ef.stl"/>
+            <!--scale="0.001 0.001 0.001"-->
+              <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/visual/ef.stl" />
+
             </geometry>
             <xacro:material_fanuc_yellow />
           </visual>
           <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-              <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/ef.stl"/>
+              <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/ef.stl" />
             </geometry>
           </collision>
 
@@ -281,7 +283,9 @@
       <child link="${prefix}tool0" />
     </joint>
     <joint name="${prefix}flange-ef" type="fixed">
-          <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-90)} 0" />
+<!--    <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-90)} 0" />-->
+     <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-90)} 0" />
+<!--         <origin xyz="-0.02 0.25 -0.3" rpy="${radians(157)} ${radians(-80)} ${radians(12)}" />-->
           <parent link="${prefix}link_6" />
           <child link="${prefix}ef" />
         </joint>

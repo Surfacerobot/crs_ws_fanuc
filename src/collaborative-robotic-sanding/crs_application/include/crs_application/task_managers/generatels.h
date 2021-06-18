@@ -199,11 +199,11 @@ namespace fanuc_post_processor
         for(int i = 0; i < pos_.size(); i++){
 
           if(i == 0){
-            program.append("\t"+std::to_string(i+line_cnt+1)+":J"+" P["+std::to_string(i+1)+"] "+"100% "+cnt_+" \t;\n");
+            program.append("\t"+std::to_string(i+line_cnt+1)+":J"+" P["+std::to_string(i+1)+"] "+"100% "+cnt_+ " Tool_Offset,PR[15]" +" \t;\n");
           }else /*if(in_the_index(i)){
                 program.append("\t"+std::to_string(i+line_cnt+1)+":J"+" P["+std::to_string(i+1)+"] "+"100% "+cnt_+" \t;\n");
             } else*/{
-                program.append("\t"+std::to_string(i+line_cnt+1)+":L"+" P["+std::to_string(i+1)+"] "+velocity_+"mm/sec "+cnt_+" \t;\n");
+                program.append("\t"+std::to_string(i+line_cnt+1)+":L"+" P["+std::to_string(i+1)+"] "+velocity_+"mm/sec "+cnt_+ " Tool_Offset,PR[15]" +" \t;\n");
             }
         }
         line_cnt += pos_.size();

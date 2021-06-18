@@ -401,7 +401,7 @@ private:
     program.velocity_ = "200";
     program.cnt_ = "CNT60";
 
-    program.Path_ = QDir::homePath().toStdString() + "/crs_data/surfaceorigin.ls";
+    program.Path_ = std::string(std::getenv("HOME")) + "/crs_data/surfaceorigin.ls";
 
 //         "$(env HOME)/crs_data/surface.ls";
 
@@ -438,7 +438,7 @@ private:
     program.pathpoints = original_rasters;
     program.velocity_ = "200";
     program.cnt_ = "CNT60";
-    program.Path_ = QDir::homePath().toStdString() + "/crs_data/surfaceorigin.ls";
+    program.Path_ = std::string(std::getenv("HOME")) + "/crs_data/surfaceorigin.ls";
 //         "$(env HOME)/crs_data/surface.ls";
 
 
@@ -498,7 +498,7 @@ private:
       program.velocity_ = "200";
       program.cnt_ = "CNT60";
 
-      program.Path_ = QDir::homePath().toStdString() + "/crs_data/"+lfilename+".ls";
+      program.Path_ = std::string(std::getenv("HOME")) + "/crs_data/"+lfilename+".ls";
 
  //         "$(env HOME)/crs_data/surface.ls";
 

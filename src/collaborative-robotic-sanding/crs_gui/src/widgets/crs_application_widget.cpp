@@ -81,7 +81,7 @@ CRSApplicationWidget::CRSApplicationWidget(rclcpp::Node::SharedPtr node, QWidget
   namespace fs = boost::filesystem;
   ui_->setupUi(this);
 //  QImage *image= new QImage("../../ui/SURFACE_LOGO-01.png");:/new/prefix1/collaborative-robotic-sanding/crs_gui/ui/SURFACE_LOGO-01.png /root/crs_ws_fanuc/src/collaborative-robotic-sanding/crs_gui/ui/SURFACE_LOGO-01.png
-  std::string ls = QDir::homePath().toStdString() + "/crs_data/SURFACE_LOGO-01.png";
+  std::string ls = std::string(std::getenv("HOME")) + "/crs_data/SURFACE_LOGO-01.png";//QDir::homePath().toStdString()
   ui_->label->setPixmap(QPixmap(QString::fromStdString( ls)));
 
 

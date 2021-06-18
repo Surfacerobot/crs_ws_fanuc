@@ -335,7 +335,7 @@ common::ActionResult PartRegistrationManager::computeTransform()
      program.pathpoints = baselink_points;
      program.velocity_ = "200";
      program.cnt_ = "CNT60";
-     program.Path_ = QDir::homePath().toStdString() + "/crs_data/surface.ls";
+     program.Path_ = std::string(std::getenv("HOME")) + "/crs_data/surface.ls";
 //         "$(env HOME)/crs_data/surface.ls";
 
 

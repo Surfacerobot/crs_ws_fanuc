@@ -115,7 +115,7 @@ namespace fanuc_post_processor
             program.append("\n");
             program.append("   GP1:");
             program.append("\n");
-            program.append("\tUF : 0, UT : 1,\t\tCONFIG : 'N U T, 0, 0, 0',");
+            program.append("\tUF : 0, UT : 1,\t\tCONFIG : 'F U T, 0, 0, 0',");
             program.append("\n");
             program.append("\tX =\t");
             program.append(std::to_string(pos_[i][0]));

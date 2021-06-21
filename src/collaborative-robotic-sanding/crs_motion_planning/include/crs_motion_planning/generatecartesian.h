@@ -99,7 +99,7 @@ namespace fanuc_post_processor
             program.append("\n");
             program.append("   GP1:");
             program.append("\n");
-            program.append("\tUF : 0, UT : 1,\t\tCONFIG : 'N U T, 0, 0, 0',");
+            program.append("\tUF : 0, UT : 1,\t\tCONFIG : 'F U T, 0, 0, 0',");
             program.append("\n");
             program.append("\tX =\t");
             program.append(std::to_string(pos_[i][0]));
@@ -183,9 +183,9 @@ namespace fanuc_post_processor
         for(int i = 0; i < pos_.size(); i++){
 
           if(i == 0){
-            program.append("\t"+std::to_string(i+line_cnt+1)+":J"+" P["+std::to_string(i+1)+"] "+"100% "+cnt_+ " \t;\n");//" Tool_Offset,PR[15]" +
+            program.append("\t"+std::to_string(i+line_cnt+1)+":J"+" P["+std::to_string(i+1)+"] "+"100% "+cnt_+" Tool_Offset,PR[15]" + " \t;\n");//
           }else {
-                program.append("\t"+std::to_string(i+line_cnt+1)+":L"+" P["+std::to_string(i+1)+"] "+velocity_+"mm/sec "+cnt_+" \t;\n");// " Tool_Offset,PR[15]" +
+                program.append("\t"+std::to_string(i+line_cnt+1)+":L"+" P["+std::to_string(i+1)+"] "+velocity_+"mm/sec "+cnt_+" Tool_Offset,PR[15]" +" \t;\n");//
             }
         }
         line_cnt += pos_.size();

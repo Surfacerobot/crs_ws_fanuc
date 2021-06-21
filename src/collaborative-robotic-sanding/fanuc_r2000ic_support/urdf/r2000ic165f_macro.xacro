@@ -294,6 +294,8 @@
     <!--  <origin xyz="-0.204433413 -7.32E-04 0.333181177" rpy="5.53832e-13 -0.785398 0"/>-->
 
       <origin xyz="-0.2303 0.1296 0.3799" rpy="${radians(23.9)} ${radians(-38.2)} ${radians(-65.3)}" />
+<!--      <origin xyz="-0.2488 0.1457 0.3941" rpy="${radians(141.6)} ${radians(-23.5)} ${radians(32.3)}" />-->
+      <origin xyz="-0.2488 0.1457 0.3941" rpy="${radians(23.9)} ${radians(-38.2)} ${radians(-65.3)}" />
       <parent link="${prefix}ef" />
       <child link="${prefix}tcp" />
     </joint>

@@ -398,7 +398,7 @@ private:
     program.version_ = "0";
     program.memory_size_ = "5089";
     program.pathpoints = original_rasters;
-    program.velocity_ = "200";
+    program.velocity_ = "R[10]";
     program.cnt_ = "CNT60";
 
     program.Path_ = std::string(std::getenv("HOME")) + "/crs_data/surfaceorigin.ls";
@@ -436,7 +436,7 @@ private:
     program.version_ = "0";
     program.memory_size_ = "5089";
     program.pathpoints = original_rasters;
-    program.velocity_ = "200";
+    program.velocity_ = "R[10]";
     program.cnt_ = "CNT60";
     program.Path_ = std::string(std::getenv("HOME")) + "/crs_data/surfaceorigin.ls";
 //         "$(env HOME)/crs_data/surface.ls";
@@ -495,7 +495,7 @@ private:
       program.version_ = "0";
       program.memory_size_ = "5089";
       program.pathpoints = baselink_points;
-      program.velocity_ = "200";
+      program.velocity_ = "R[10]";
       program.cnt_ = "CNT60";
 
       program.Path_ = std::string(std::getenv("HOME")) + "/crs_data/"+lfilename+".ls";

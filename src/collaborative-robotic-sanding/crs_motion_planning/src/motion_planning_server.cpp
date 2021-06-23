@@ -404,7 +404,7 @@ private:
     program.cnt_ = "CNT60";
 
     program.Path_ = std::string(std::getenv("HOME")) + "/crs_data/surfaceorigin.ls";
-    program.Path2_=std::string(std::getenv("HOME")) + "/crs_data/surjoints.ls";
+//    program.Path2_=std::string(std::getenv("HOME")) + "/crs_data/surjoints.ls";
 
 //         "$(env HOME)/crs_data/surface.ls";
 

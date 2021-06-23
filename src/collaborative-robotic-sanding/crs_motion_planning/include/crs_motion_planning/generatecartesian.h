@@ -214,6 +214,20 @@ namespace fanuc_post_processor
         program.append("\n");
         program.append("\t2:  UTOOL_NUM=1 ;");
         program.append("\n");
+
+        program.append("\t2:  R[10]=200 ;");
+        program.append("\t2:  PR[15,1]=0 ;");
+        program.append("\n");
+        program.append("\t2:  PR[15,2]=0 ;");
+        program.append("\n");
+        program.append("\t2:  PR[15,3]=0 ;");
+        program.append("\n");
+        program.append("\t2:  PR[15,4]=0 ;");
+        program.append("\n");
+        program.append("\t2:  PR[15,5]=0 ;");
+        program.append("\n");
+        program.append("\t2:  PR[15,6]=0 ;");
+        program.append("\n");
     }
 
     bool generate_LS::in_the_index(int i) {

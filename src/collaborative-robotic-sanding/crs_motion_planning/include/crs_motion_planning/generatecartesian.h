@@ -25,6 +25,7 @@ namespace fanuc_post_processor
     public:
         using ProgramText = std::string;
         ProgramText program;
+        ProgramText program2;
         std::string program_name_;
         std::string comment_;
         std::string prog_size_;
@@ -38,6 +39,9 @@ namespace fanuc_post_processor
         std::string velocity_;
         std::string cnt_;
         std::string Path_;
+        std::string Path2_;
+
+        std::vector<trajectory_msgs::msg::JointTrajectory> ltrajopt_trajectories;
 
         std::string PATH;
         std::vector<std::array<double,7>> pos_;
@@ -62,6 +66,7 @@ namespace fanuc_post_processor
         void display();
         void write();
         bool save();
+         void write_joint();
 
     };
 
@@ -124,6 +129,46 @@ namespace fanuc_post_processor
             program.append("};");
             program.append("\n");
         }
+    }
+
+    void generate_LS::write_joint(){
+        for(int i = 0; i < ltrajopt_trajectories[0].points.size(); i++){
+            program2.append("P[");
+            program2.append(std::to_string(i+1));
+            program2.append("]{");
+            program2.append("\n");
+            program2.append("   GP1:");
+            program2.append("\n");
+            program2.append("\tUF : 0, UT : 1,\t\tCONFIG : 'F U T, 0, 0, 0',");
+            program2.append("\n");
+            program2.append("\tjoint1 =\t");
+            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
+
+            program2.append("\tmm,\tjoint2 =\t");
+            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
+
+            program2.append("\tmm,\tjoint3 =\t");
+            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
+
+            program2.append("\tmm,");
+            program2.append("\n");
+
+            program2.append("\tjoint4 =\t");
+            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
+            program2.append("\tdeg,\tjoint5 =\t");
+            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
+            program2.append("\tdeg,\tjoint6 =\t");
+            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
+            program2.append("\tdeg");
+            program2.append("\n");
+            program2.append("};");
+            program2.append("\n");
+        }
+        std::ofstream output_file;
+        output_file.open(Path2_);
+        if(output_file.fail()) std::cout<<"cannot open file !!!"<<std::endl;
+        output_file<<program2;
+        output_file.close();
     }
 
     void generate_LS::First_Part() {
@@ -214,6 +259,8 @@ namespace fanuc_post_processor
 
     bool generate_LS::save() {
         std::vector<std::array<double,7>> pos;
+
+        write_joint();
 
         for (geometry_msgs::msg::PoseArray poses : pathpoints)
         {

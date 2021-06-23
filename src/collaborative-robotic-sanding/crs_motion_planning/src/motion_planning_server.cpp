@@ -317,7 +317,7 @@ private:
 
       //xiaopeng 2021-5-31
       //generatelsfile2(path_plan_results->solved_rasters);
-      generatelsfile(resulting_process);
+      generatelsfile(resulting_process,trajopt_trajectories);
 
       std::vector<geometry_msgs::msg::PoseArray> original_rasters , baselink_points;
       original_rasters.push_back(path_plan_results->reachable_waypoints);
@@ -326,7 +326,7 @@ private:
 
       path_plan_results.reset();
       //xiaopeng 2021-5-31
-      generatelsfile(resulting_process);
+      generatelsfile(resulting_process,trajopt_trajectories);
     }
     // Populate response
     // HERE ARE THE TRAJECTORIES
@@ -346,7 +346,7 @@ private:
   }
 
   //xiaopeng 2021-5-31 generate cartesiantra
-  void generatelsfile(crs_msgs::msg::ProcessMotionPlan lp)
+  void generatelsfile(crs_msgs::msg::ProcessMotionPlan lp,std::vector<trajectory_msgs::msg::JointTrajectory> trajopt_jonts)
   {
 
 
@@ -395,13 +395,16 @@ private:
     program.prog_size_ = "4757";
     program.file_name_ = "surface";
 
+
     program.version_ = "0";
     program.memory_size_ = "5089";
     program.pathpoints = original_rasters;
+    program.ltrajopt_trajectories=trajopt_jonts;
     program.velocity_ = "R[10]";
     program.cnt_ = "CNT60";
 
     program.Path_ = std::string(std::getenv("HOME")) + "/crs_data/surfaceorigin.ls";
+    program.Path2_=std::string(std::getenv("HOME")) + "/crs_data/surjoints.ls";
 
 //         "$(env HOME)/crs_data/surface.ls";
 

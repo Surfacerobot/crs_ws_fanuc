@@ -216,6 +216,7 @@ namespace fanuc_post_processor
         program.append("\n");
 
         program.append("\t2:  R[10]=200 ;");
+        program.append("\n");
         program.append("\t2:  PR[15,1]=0 ;");
         program.append("\n");
         program.append("\t2:  PR[15,2]=0 ;");

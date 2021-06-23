@@ -145,20 +145,20 @@ namespace fanuc_post_processor
             program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
 
             program2.append("\tmm,\tjoint2 =\t");
-            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
+            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[1]));
 
             program2.append("\tmm,\tjoint3 =\t");
-            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
+            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[2]));
 
             program2.append("\tmm,");
             program2.append("\n");
 
             program2.append("\tjoint4 =\t");
-            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
+            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[3]));
             program2.append("\tdeg,\tjoint5 =\t");
-            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
+            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[4]));
             program2.append("\tdeg,\tjoint6 =\t");
-            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[0]));
+            program2.append(std::to_string(ltrajopt_trajectories[0].points[i].positions[5]));
             program2.append("\tdeg");
             program2.append("\n");
             program2.append("};");

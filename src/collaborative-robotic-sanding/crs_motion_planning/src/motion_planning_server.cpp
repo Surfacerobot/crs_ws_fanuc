@@ -326,7 +326,7 @@ private:
 
       path_plan_results.reset();
       //xiaopeng 2021-5-31
-      generatelsfile(resulting_process,trajopt_trajectories);
+      generatelsfile(resulting_process,resulting_process.process_motions);
     }
     // Populate response
     // HERE ARE THE TRAJECTORIES

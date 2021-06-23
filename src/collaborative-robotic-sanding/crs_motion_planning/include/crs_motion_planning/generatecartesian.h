@@ -260,7 +260,7 @@ namespace fanuc_post_processor
     bool generate_LS::save() {
         std::vector<std::array<double,7>> pos;
 
-        write_joint();
+//        write_joint();
 
         for (geometry_msgs::msg::PoseArray poses : pathpoints)
         {

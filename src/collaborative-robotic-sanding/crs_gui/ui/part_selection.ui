@@ -118,7 +118,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>w(度):</string>
+       <string>p(度):</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_6">
@@ -131,7 +131,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>p(度):</string>
+       <string>w度):</string>
       </property>
      </widget>
      <widget class="QPushButton" name="partupdatebutton">

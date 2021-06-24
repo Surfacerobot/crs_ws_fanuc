@@ -35,8 +35,8 @@ crs:
     ur_tool_change_script: simpleMove.urp
     execute_tool_change: false
   part_registration:
-    simulation_pose: [-0.665786, 0.1215, 1.192, 0, -0.001744444444444445, 1.57]
-    seed_pose: [-0.665786, 0.1215, 1.192, 0, -0.001744444444444445, 1.57]
+    simulation_pose: [-0.665786, 0.1215, 1.192, -0.001744444444444445, 0, -1.57]
+    seed_pose: [-0.665786, 0.1215, 1.192, -0.001744444444444445, 0, -1.57]
     target_frame_id: world
     part_file: ""
     toolpath_file: ""

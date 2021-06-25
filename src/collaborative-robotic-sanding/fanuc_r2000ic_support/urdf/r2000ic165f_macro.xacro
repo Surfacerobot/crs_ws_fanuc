@@ -192,6 +192,88 @@
         </link>
 
 
+<link name="turntable">
+    <visual>
+      <geometry>
+        <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/visual/Turntable_visual.stl" />
+      </geometry>
+        <xacro:material_fanuc_gray40 />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/Turntable_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="workbench">
+    <visual>
+      <geometry>
+        <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/visual/workbench_no_tools_visual.stl" />
+      </geometry>
+        <xacro:material_fanuc_white/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/workbench_no_tools_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="toolholder">
+    <visual>
+      <geometry>
+        <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/visual/Tool_holder_visual.stl" />
+      </geometry>
+      <xacro:material_fanuc_white/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/Tool_holder_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+
+  <link name="safetyfence">
+    <visual>
+      <geometry>
+        <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/visual/Safety_fence_visual.stl" />
+      </geometry>
+      <xacro:material_fanuc_00FF73 />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://fanuc_r2000ic_support/meshes/r2000ic165f/collision/Safety_fence_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+
+    <joint name="world_to_workbench" type="fixed">
+      <parent link="world"/>
+      <child link="workbench"/>
+      <origin xyz="-1.2 1.67 0" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="world_to_toolholder" type="fixed">
+      <parent link="world"/>
+      <child link="toolholder"/>
+      <origin xyz="-1.2 -1.581 0" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="world_to_safetyfence" type="fixed">
+      <parent link="world"/>
+      <child link="safetyfence"/>
+      <origin xyz="-1.3 0.277 0" rpy="0 0 0"/>
+    </joint>
+
+
+    <joint name="world_to_turntable" type="fixed">
+      <parent link="world"/>
+      <child link="turntable"/>
+      <origin xyz="-0.5 0 0" rpy="0 0 0"/>
+    </joint>
+
     <!-- joints: main serial chain -->
     <joint name="${prefix}joint_1" type="revolute">
       <origin xyz="0 0 0" rpy="0 0 0"/>
